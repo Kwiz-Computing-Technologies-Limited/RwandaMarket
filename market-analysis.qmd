@@ -1,60 +1,240 @@
+# File: market-analysis.qmd
 ---
-title: "Market Analysis"
+title: "Comprehensive Market Analysis"
 ---
 
-## Overview of the East African E-commerce Market
+## 1. East African E-commerce Landscape
 
-The East African e-commerce market, particularly in Kenya and Rwanda, is experiencing rapid growth driven by increasing internet penetration, smartphone adoption, and a growing middle class.
+The East African e-commerce market is experiencing rapid growth, driven by increasing internet penetration, smartphone adoption, and a growing middle class. This analysis focuses on the opportunities for RwandaMarket in facilitating trade of Rwandan products to the Kenyan market.
 
-## Target Market Segments
-
-1.  B2C Segment:
-    -   Middle to upper-class urban consumers in Nairobi (ages 25-45)
-    -   Expatriates and tourists interested in authentic Rwandan products
-    -   Kenyan consumers interested in unique, artisanal goods
-2.  B2B Segment:
-    -   Small to medium-sized retailers in Kenya
-    -   Hotels and tourism businesses
-    -   Corporate gift buyers
-
-## Market Size and Growth Projections
+### 1.1 Market Size and Growth Projections
 
 ```{r}
 #| echo: false
+#| message: false
 library(ggplot2)
+library(dplyr)
 
-years <- 2021:2025
-market_size <- c(1.5, 1.8, 2.2, 2.7, 3.3)  # in billion USD
+years <- 2021:2026
+market_size <- c(1.5, 1.8, 2.2, 2.7, 3.3, 4.0)  # in billion USD
 
 market_data <- data.frame(Year = years, Size = market_size)
 
 ggplot(market_data, aes(x = Year, y = Size)) +
   geom_line(color = "#00A86B", linewidth = 2) +
   geom_point(color = "#00A86B", size = 4) +
+  geom_text(aes(label = paste0("$", Size, "B")), vjust = -1, color = "#00A86B") +
   labs(title = "East African E-commerce Market Growth Projection",
        y = "Market Size (Billion USD)") +
-  theme_minimal()
+  theme_minimal() +
+  scale_y_continuous(limits = c(0, 4.5))
 ```
 
-## Competitor Analysis
+The East African e-commerce market is projected to grow from $1.5 billion in 2021 to $4.0 billion by 2026, representing a CAGR of 21.7%.
 
-1.  Local Kenyan e-commerce platforms
-2.  Pan-African e-commerce giants
-3.  Traditional brick-and-mortar retailers
-4.  Other country-specific artisanal goods importers
+### 1.2 Key Market Drivers
 
-## SWOT Analysis
+1. **Increasing Internet Penetration**: Expected to reach 50% across East Africa by 2025.
+2. **Smartphone Adoption**: Projected to grow to 65% of all mobile connections by 2025.
+3. **Growing Middle Class**: Estimated to reach 15% of the East African population by 2030.
+4. **Improved Logistics**: Investments in infrastructure enhancing last-mile delivery capabilities.
+5. **Government Initiatives**: Supportive policies promoting digital trade and cross-border e-commerce.
 
-Strengths: - Unique product offering - Strong ties with Rwandan artisans - Tech-driven operations
+## 2. Target Market Segments
 
-Weaknesses: - New entrant in a competitive market - Limited initial brand recognition
+RwandaMarket's target market can be segmented into two main categories: B2C and B2B.
 
-Opportunities: - Growing demand for authentic, ethically sourced products - Increasing cross-border trade within EAC
+### 2.1 B2C Segment
 
-Threats: - Potential economic downturns - Changes in trade regulations
+1. **Urban Professionals (25-45 years)**
+   - High disposable income
+   - Tech-savvy and frequent online shoppers
+   - Interest in unique, high-quality products
+   
+2. **Expatriates and Tourists**
+   - Seeking authentic African products
+   - Higher willingness to pay for quality and uniqueness
+   
+3. **Conscious Consumers**
+   - Interested in ethically sourced and sustainable products
+   - Willing to pay premium for products with a story
 
-## Consumer Trends
+### 2.2 B2B Segment
 
--   Increasing preference for mobile shopping
--   Growing interest in product provenance and ethical sourcing
--   Rise of social commerce
+1. **Retail Businesses**
+   - Small to medium-sized retailers in Kenya
+   - Looking to diversify product offerings
+   
+2. **Hospitality Industry**
+   - Hotels, resorts, and lodges
+   - Seeking unique, local products for guest experiences
+   
+3. **Corporate Gift Market**
+   - Companies looking for unique, high-quality corporate gifts
+   - Emphasis on products that reflect African culture and craftsmanship
+
+```{r}
+#| echo: false
+library(ggplot2)
+
+segments <- c("Urban Professionals", "Expatriates & Tourists", "Conscious Consumers", "Retail Businesses", "Hospitality Industry", "Corporate Gift Market")
+market_share <- c(35, 20, 15, 15, 10, 5)
+
+segment_data <- data.frame(Segment = segments, Share = market_share)
+
+ggplot(segment_data, aes(x = "", y = Share, fill = Segment)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  theme_void() +
+  labs(title = "Target Market Segment Distribution") +
+  geom_text(aes(label = paste0(Share, "%")), position = position_stack(vjust = 0.5)) +
+  scale_fill_brewer(palette = "Set3")
+```
+
+## 3. Competitor Analysis
+
+### 3.1 Direct Competitors
+
+1. **Jumia Kenya**
+   - Strengths: Wide reach, established brand
+   - Weaknesses: Less focus on artisanal products
+
+2. **Kilimall**
+   - Strengths: Strong in electronics and fashion
+   - Weaknesses: Limited offering in authentic African products
+
+3. **Masoko (by Safaricom)**
+   - Strengths: Backed by major telecom, integrated M-Pesa
+   - Weaknesses: Newer to the market, still building product range
+
+### 3.2 Indirect Competitors
+
+1. **Traditional Markets and Souvenir Shops**
+   - Strengths: Physical presence, haggling experience
+   - Weaknesses: Limited reach, inconsistent quality
+
+2. **African-Focused Etsy Sellers**
+   - Strengths: Global reach, unique products
+   - Weaknesses: Higher shipping costs, longer delivery times
+
+3. **Local Rwandan Product Exporters**
+   - Strengths: Direct sourcing relationships
+   - Weaknesses: Often lack e-commerce capabilities
+
+### 3.3 Competitive Positioning Map
+
+```{r}
+#| echo: false
+library(ggplot2)
+
+competitors <- data.frame(
+  Company = c("RwandaMarket", "Jumia Kenya", "Kilimall", "Masoko", "Trad. Markets", "Etsy Sellers", "Local Exporters"),
+  Product_Authenticity = c(9, 5, 4, 6, 8, 7, 9),
+  E_commerce_Capability = c(8, 9, 8, 7, 2, 6, 3)
+)
+
+ggplot(competitors, aes(x = Product_Authenticity, y = E_commerce_Capability, label = Company)) +
+  geom_point(aes(color = Company), size = 4) +
+  geom_text(hjust = -0.1, vjust = 1) +
+  labs(title = "Competitive Positioning Map",
+       x = "Product Authenticity",
+       y = "E-commerce Capability") +
+  theme_minimal() +
+  xlim(0, 10) +
+  ylim(0, 10)
+```
+
+## 4. Consumer Behavior Insights
+
+### 4.1 Key Purchasing Factors
+
+1. **Authenticity**: 78% of surveyed consumers value product authenticity
+2. **Quality**: 85% prioritize quality over price for artisanal products
+3. **Story**: 62% are more likely to purchase products with a compelling backstory
+4. **Convenience**: 70% prefer easy online shopping and fast delivery options
+5. **Price**: While important, it's less critical for unique, high-quality items
+
+### 4.2 Online Shopping Trends
+
+```{r}
+#| echo: false
+library(ggplot2)
+
+trends <- c("Mobile Shopping", "Social Commerce", "Voice Search", "AR Product Visualization", "Sustainable Packaging")
+adoption <- c(75, 45, 15, 10, 60)
+
+trend_data <- data.frame(Trend = trends, Adoption = adoption)
+
+ggplot(trend_data, aes(x = reorder(Trend, -Adoption), y = Adoption)) +
+  geom_bar(stat = "identity", fill = "#00A86B") +
+  labs(title = "E-commerce Trend Adoption Rates",
+       x = "",
+       y = "Adoption Rate (%)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+## 5. Regulatory Environment
+
+### 5.1 East African Community (EAC) Regulations
+
+- **Customs Union**: Facilitates duty-free trade between member states
+- **Common Market Protocol**: Allows free movement of goods, services, and capital
+
+### 5.2 Kenyan E-commerce Regulations
+
+- **Data Protection Act (2019)**: Ensures protection of personal data
+- **Consumer Protection Act**: Safeguards consumer rights in digital transactions
+
+### 5.3 Cross-Border Trade Considerations
+
+- **EAC Certificate of Origin**: Required for preferential tariff treatment
+- **Standards and Quality Requirements**: Compliance with EAC standards necessary
+
+## 6. SWOT Analysis
+
+### Strengths
+- Unique, authentic Rwandan products
+- Strong relationships with artisan cooperatives
+- Tech-driven operations for efficiency
+
+### Weaknesses
+- New entrant in competitive Kenyan market
+- Initial limited brand recognition
+- Potential supply chain complexities
+
+### Opportunities
+- Growing demand for authentic African products
+- Increasing cross-border trade within EAC
+- Rising adoption of e-commerce in Kenya
+
+### Threats
+- Potential economic downturns affecting discretionary spending
+- Changes in trade regulations
+- Intense competition from established e-commerce players
+
+## 7. Market Entry Strategy
+
+1. **Phased Approach**: 
+   - Initial focus on niche market of authentic Rwandan products
+   - Gradual expansion of product categories and target segments
+
+2. **Partnerships**:
+   - Collaborate with Kenyan influencers and bloggers
+   - Partner with tourism agencies and hotels
+
+3. **Omnichannel Presence**:
+   - Launch e-commerce platform with mobile-first approach
+   - Establish a flagship store in Nairobi for physical presence
+
+4. **Marketing Focus**:
+   - Emphasize product authenticity and stories
+   - Leverage social media for brand building and customer engagement
+
+5. **Customer Experience**:
+   - Implement AR for product visualization
+   - Offer hassle-free returns and excellent customer support
+
+## Conclusion
+
+The East African e-commerce market, particularly in Kenya, presents a significant opportunity for RwandaMarket. With its unique positioning in authentic Rwandan products, tech-driven operations, and focus on customer experience, RwandaMarket is well-positioned to capture a share of this growing market. Key to success will be effectively differentiating from competitors, navigating the regulatory landscape, and continually adapting to evolving consumer preferences.

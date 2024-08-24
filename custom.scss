@@ -1,0 +1,20 @@
+# File: custom.scss
+
+/*-- scss:defaults --*/
+
+$primary: #7C4700 !default;
+$secondary: #00A86B !default;
+
+/*-- scss:rules --*/
+
+.navbar {
+  background-color: $primary;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: darken(white, 10%) !important;
+}

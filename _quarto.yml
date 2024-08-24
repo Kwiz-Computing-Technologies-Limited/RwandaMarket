@@ -1,4 +1,3 @@
-# File: _quarto.yml
 
 project:
   type: website
@@ -7,70 +6,35 @@ project:
 website:
   title: "RwandaMarket"
   navbar:
-    logo: "images/rwandamarket-logo.png"
+    logo: ""
     background: primary
     search: true
     left:
-      - text: "Home"
-        file: index.qmd
+      - href: index.qmd
+        text: Home
       - text: "Business Plan"
-        menu:
-          - executive-summary.qmd
-          - company-description.qmd
-          - market-analysis.qmd
-          - products-services.qmd
-          - marketing-strategy.qmd
-          - operations-plan.qmd
-          - management-team.qmd
-          - financial-plan.qmd
+        href: business-plan.qmd
       - text: "Operations"
-        menu:
-          - b2c-offerings.qmd
-          - b2b-solutions.qmd
-          - trade-regulations.qmd
-          - consular-services.qmd
+        href: operations.qmd
       - text: "Optimization"
-        menu:
-          - optimization-documentation.qmd
-          - supply-chain-optimization.qmd
-          - customer-experience-optimization.qmd
-          - business-operations-optimization.qmd
+        href: optimization.qmd
       - text: "Trade Benefits"
-        menu:
-          - free-trade-benefits.qmd
-          - product-origin-declaration.qmd
-          - tariff-savings-tracking.qmd
-          - non-tariff-barrier-reporting.qmd
+        href: trade-benefits.qmd
       - text: "Growth & Impact"
-        menu:
-          - future-growth.qmd
-          - our-impact.qmd
-      - text: "Documentation"
-        menu:
-          - documentation-requirements.qmd
-          - rapid-rollout.qmd
-      - contact.qmd
-
-  sidebar:
-    style: "docked"
-    search: true
-    contents:
-      - section: "Quick Links"
-        contents:
-          - text: "Product Catalog"
-            href: b2c-offerings.qmd
-          - text: "B2B Services"
-            href: b2b-solutions.qmd
-          - text: "Trade Regulations"
-            href: trade-regulations.qmd
-          - text: "Contact Us"
-            href: contact.qmd
+        href: growth-and-impact.qmd
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-execute:
-  freeze: auto
+    include-in-header:
+      text: |
+        <style>
+        .toc-title {
+          color: #FFF !important;
+        }
+        </style>
+    

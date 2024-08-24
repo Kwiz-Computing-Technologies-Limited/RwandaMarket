@@ -1,0 +1,21 @@
+---
+title: "Trade Benefits"
+---
+
+## Free Trade Benefits {#free-trade-benefits}
+
+{{< include free-trade-benefits.qmd >}}
+
+## Product Origin Declaration {#product-origin-declaration}
+
+{{< include product-origin-declaration.qmd >}}
+
+## Tariff Savings Tracking {#tariff-savings-tracking}
+
+{{< include tariff-savings-tracking.qmd >}}
+
+## Non-Tariff Barrier Reporting {#non-tariff-barrier-reporting}
+
+{{< include non-tariff-barrier-reporting.qmd >}}
+
+

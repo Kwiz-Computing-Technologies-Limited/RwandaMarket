@@ -1,0 +1,35 @@
+---
+title: "Business Plan"
+---
+
+## Executive Summary
+
+{{< include executive-summary.qmd >}}
+
+## Company Description
+
+{{< include company-description.qmd >}}
+
+## Market Analysis
+
+{{< include market-analysis.qmd >}}
+
+## Products and Services
+
+{{< include products-services.qmd >}}
+
+## Marketing Strategy
+
+{{< include marketing-strategy.qmd >}}
+
+## Operations Plan
+
+{{< include operations-plan.qmd >}}
+
+## Management Team
+
+{{< include management-team.qmd >}}
+
+## Financial Plan
+
+{{< include financial-plan.qmd >}}

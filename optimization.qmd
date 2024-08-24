@@ -1,0 +1,17 @@
+---
+title: "Optimization"
+---
+
+## Supply Chain Optimization {#supply-chain-optimization}
+
+{{< include supply-chain-optimization.qmd >}}
+
+## Customer Experience Optimization {#customer-experience-optimization}
+
+{{< include customer-experience-optimization.qmd >}}
+
+## Business Operations Optimization {#business-operations-optimization}
+
+{{< include business-operations-optimization.qmd >}}
+
+

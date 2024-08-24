@@ -1,0 +1,21 @@
+---
+title: "Operations"
+---
+
+## B2C Offerings {#b2c-offerings}
+
+{{< include b2c-offerings.qmd >}}
+
+## B2B Solutions {#b2b-solutions}
+
+{{< include b2b-solutions.qmd >}}
+
+## Trade Regulations {#trade-regulations}
+
+{{< include trade-regulations.qmd >}}
+
+## Consular Services {#consular-services}
+
+{{< include consular-services.qmd >}}
+
+

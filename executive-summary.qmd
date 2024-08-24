@@ -4,7 +4,7 @@ title: "Executive Summary"
 
 RwandaMarket is an innovative e-commerce platform and physical store network that brings premium Rwandan products to the Nairobi market while offering cutting-edge B2B solutions for cross-border trade.
 
-## Key Points
+### Key Points
 
 -   **Target Market**: Middle to upper-class Nairobi residents, expatriates, tourists, and businesses engaged in East African trade
 -   **Unique Value Proposition**: Authentic Rwandan products combined with advanced technology for seamless shopping and trade facilitation

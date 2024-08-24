@@ -4,7 +4,7 @@ title: "Financial Plan"
 
 RwandaMarket's financial plan outlines our projected revenue, expenses, and capital requirements to achieve our business objectives.
 
-## Startup Costs
+### Startup Costs
 
 Total estimated startup costs: $1,200,000
 
@@ -17,7 +17,7 @@ Breakdown:
 6. Legal and Administrative: $50,000
 7. Contingency Fund: $50,000
 
-## Revenue Projections
+### Revenue Projections
 
 ```{r}
 #| echo: false
@@ -42,7 +42,7 @@ ggplot(revenue_data, aes(x = Year)) +
   scale_y_continuous(labels = scales::comma)
 ```
 
-## Projected Profit and Loss Statement
+### Projected Profit and Loss Statement
 
 [PLACEHOLDER: Detailed P&L Statement]
 
@@ -52,17 +52,17 @@ Key Points:
 - Marketing expenses: 20% of revenue (Year 1), decreasing to 15% by Year 3
 - R&D investment: 10% of revenue, consistent across years
 
-## Cash Flow Forecast
+### Cash Flow Forecast
 
 [PLACEHOLDER: Monthly cash flow forecast for the first two years]
 
-## Break-even Analysis
+### Break-even Analysis
 
 - Fixed Costs (monthly): $60,000
 - Average Gross Margin: 40%
 - Break-even Point: $150,000 monthly revenue
 
-## Funding Requirements and Sources
+### Funding Requirements and Sources
 
 Total funding required: $1,500,000
 
@@ -75,7 +75,7 @@ Use of Funds:
 1. Startup Costs: $1,200,000
 2. Working Capital: $300,000
 
-## Financial Risks and Mitigation Strategies
+### Financial Risks and Mitigation Strategies
 
 1. Currency Fluctuations
    - Mitigation: Use of forward contracts and maintaining reserves in both KES and RWF

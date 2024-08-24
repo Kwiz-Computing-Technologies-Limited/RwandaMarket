@@ -7,85 +7,104 @@ To ensure the quickest route to market for RwandaMarket, we've developed a strea
 ## Phase 1: Launch Preparation (Months 1-3)
 
 ### 1. Business Setup
-- Register the company in Kenya
-- Secure necessary licenses and permits
-- Set up bank accounts and payment systems
+
+-   Register the company in Kenya
+-   Secure necessary licenses and permits
+-   Set up bank accounts and payment systems
 
 ### 2. Core Product Selection
-- Identify top 3-5 product categories for initial launch
-- Focus on high-margin, easily transportable items (e.g., coffee, jewelry, small handicrafts)
+
+-   Identify top 3-5 product categories for initial launch
+-   Focus on high-margin, easily transportable items (e.g., coffee, jewelry, small handicrafts)
 
 ### 3. Supplier Partnerships
-- Establish relationships with 5-10 key Rwandan artisan cooperatives
-- Negotiate terms and set up supply chain logistics
+
+-   Establish relationships with 5-10 key Rwandan artisan cooperatives
+-   Negotiate terms and set up supply chain logistics
 
 ### 4. E-commerce Platform Development
-- Develop a minimal viable product (MVP) e-commerce website
-- Integrate essential features: product listings, shopping cart, payment gateway
+
+-   Develop a minimal viable product (MVP) e-commerce website
+-   Integrate essential features: product listings, shopping cart, payment gateway
 
 ### 5. Marketing Preparation
-- Develop brand identity and marketing materials
-- Set up social media accounts
-- Prepare launch marketing campaign
+
+-   Develop brand identity and marketing materials
+-   Set up social media accounts
+-   Prepare launch marketing campaign
 
 ## Phase 2: Soft Launch (Month 4)
 
 ### 1. Website Go-Live
-- Launch MVP e-commerce platform
-- Implement basic analytics tracking
+
+-   Launch MVP e-commerce platform
+-   Implement basic analytics tracking
 
 ### 2. Initial Inventory Procurement
-- Order initial stock for top 3-5 product categories
+
+-   Order initial stock for top 3-5 product categories
 
 ### 3. Marketing Kickoff
-- Begin social media marketing
-- Launch targeted online advertising campaigns
-- Reach out to influencers for product reviews
+
+-   Begin social media marketing
+-   Launch targeted online advertising campaigns
+-   Reach out to influencers for product reviews
 
 ### 4. Customer Service Setup
-- Establish customer service protocols
-- Set up email and phone support
+
+-   Establish customer service protocols
+-   Set up email and phone support
 
 ## Phase 3: Market Validation and Optimization (Months 5-6)
 
 ### 1. Data Collection and Analysis
-- Gather and analyze customer feedback
-- Review sales data and identify top-performing products
+
+-   Gather and analyze customer feedback
+-   Review sales data and identify top-performing products
 
 ### 2. Supply Chain Optimization
-- Streamline logistics based on initial sales patterns
-- Expand supplier network for high-demand products
+
+-   Streamline logistics based on initial sales patterns
+-   Expand supplier network for high-demand products
 
 ### 3. Marketing Refinement
-- Adjust marketing strategies based on initial response
-- Increase investment in high-performing channels
+
+-   Adjust marketing strategies based on initial response
+-   Increase investment in high-performing channels
 
 ### 4. B2B Pilot
-- Identify 2-3 B2B clients for pilot trade facilitation services
-- Develop and test basic B2B offerings
+
+-   Identify 2-3 B2B clients for pilot trade facilitation services
+-   Develop and test basic B2B offerings
 
 ## Phase 4: Expansion and Feature Enhancement (Months 7-12)
 
 ### 1. Product Line Expansion
-- Introduce 3-5 new product categories based on market demand
-- Develop exclusive RwandaMarket branded products
+
+-   Introduce 3-5 new product categories based on market demand
+-   Develop exclusive RwandaMarket branded products
 
 ### 2. Technology Enhancement
-- Implement advanced features: personalized recommendations, improved search functionality
-- Develop mobile app MVP
+
+-   Implement advanced features: personalized recommendations, improved search functionality
+-   Develop mobile app MVP
 
 ### 3. Physical Presence
-- Open a small showroom/store in Nairobi for product display and customer experience
+
+-   Open a small showroom/store in Nairobi for product display and customer experience
 
 ### 4. B2B Service Launch
-- Officially launch B2B trade facilitation services
-- Implement basic version of blockchain-based authentication system
+
+-   Officially launch B2B trade facilitation services
+-   Implement basic version of blockchain-based authentication system
 
 ### 5. Regional Expansion Preparation
-- Begin market research and partnership development in Uganda and Tanzania
+
+-   Begin market research and partnership development in Uganda and Tanzania
 
 ```{r}
 #| echo: false
+#| message: false
 library(ggplot2)
 library(dplyr)
 
@@ -102,7 +121,7 @@ timeline_data <- data.frame(
 
 # Create the timeline plot
 ggplot(timeline_data, aes(x = Start, xend = End, y = Activity, yend = Activity, color = Phase)) +
-  geom_segment(size = 6) +
+  geom_segment(linewidth = 6) +
   scale_x_continuous(breaks = seq(0, 12, 1), labels = paste("Month", seq(0, 12, 1))) +
   labs(title = "RwandaMarket Rapid Rollout Timeline", x = "", y = "") +
   theme_minimal() +
@@ -117,23 +136,22 @@ ggplot(timeline_data, aes(x = Start, xend = End, y = Activity, yend = Activity, 
 
 To ensure we're on track for a successful rapid rollout, we'll focus on the following key metrics:
 
-1. Time to Market: Launch MVP within 4 months
-2. Customer Acquisition: Achieve 1,000 customers by end of Month 6
-3. Revenue: Generate $100,000 in revenue by end of Month 6
-4. Product Diversity: Offer products from at least 10 different artisan cooperatives by end of Month 6
-5. B2B Traction: Secure 5 B2B clients for trade facilitation services by end of Month 12
+1.  Time to Market: Launch MVP within 4 months
+2.  Customer Acquisition: Achieve 1,000 customers by end of Month 6
+3.  Revenue: Generate \$100,000 in revenue by end of Month 6
+4.  Product Diversity: Offer products from at least 10 different artisan cooperatives by end of Month 6
+5.  B2B Traction: Secure 5 B2B clients for trade facilitation services by end of Month 12
 
 ## Risk Mitigation Strategies
 
-1. **Supply Chain Disruptions**: Maintain relationships with multiple suppliers for each product category
-2. **Technology Issues**: Partner with a reliable local tech firm for on-call support
-3. **Regulatory Challenges**: Engage with a legal consultant specializing in East African trade
-4. **Cash Flow Management**: Secure a line of credit to manage potential cash flow gaps
-5. **Market Acceptance**: Conduct ongoing customer surveys and quickly adapt to feedback
+1.  **Supply Chain Disruptions**: Maintain relationships with multiple suppliers for each product category
+2.  **Technology Issues**: Partner with a reliable local tech firm for on-call support
+3.  **Regulatory Challenges**: Engage with a legal consultant specializing in East African trade
+4.  **Cash Flow Management**: Secure a line of credit to manage potential cash flow gaps
+5.  **Market Acceptance**: Conduct ongoing customer surveys and quickly adapt to feedback
 
 ## Conclusion
 
 This rapid rollout framework prioritizes speed to market while building a strong foundation for future growth. By focusing on core products, MVP technology, and key partnerships in the initial phases, RwandaMarket can quickly establish its presence in the Kenyan market. The phased approach allows for continuous learning and adaptation, ensuring that resources are allocated efficiently and the business model is validated before larger investments are made.
 
 As we progress through each phase, we'll continuously evaluate our performance against the key success metrics and adjust our strategies as needed. This agile approach will allow us to respond quickly to market feedback and opportunities, positioning RwandaMarket for sustainable long-term success in the East African e-commerce and trade facilitation space.
-

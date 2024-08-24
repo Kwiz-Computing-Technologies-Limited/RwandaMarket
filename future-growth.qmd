@@ -8,20 +8,18 @@ RwandaMarket is committed to sustainable growth and innovation. Our strategic pl
 
 ### Geographic Expansion
 
-1. **Short-term (1-2 years)**:
-   - Establish physical presence in other major Kenyan cities (Mombasa, Kisumu)
-   - Launch e-commerce operations in Uganda and Tanzania
-   - Expand our artisan network in Rwanda to include more rural cooperatives
-
-2. **Medium-term (3-5 years)**:
-   - Enter markets in Ethiopia and Burundi
-   - Establish regional distribution centers to optimize logistics
-   - Explore partnerships with major African e-commerce platforms for cross-listing products
-
-3. **Long-term (5+ years)**:
-   - Expand operations to West and Southern African markets
-   - Consider strategic acquisitions of complementary businesses
-   - Establish RwandaMarket as a pan-African brand for authentic, ethically sourced products
+1.  **Short-term (1-2 years)**:
+    -   Establish physical presence in other major Kenyan cities (Mombasa, Kisumu)
+    -   Launch e-commerce operations in Uganda and Tanzania
+    -   Expand our artisan network in Rwanda to include more rural cooperatives
+2.  **Medium-term (3-5 years)**:
+    -   Enter markets in Ethiopia and Burundi
+    -   Establish regional distribution centers to optimize logistics
+    -   Explore partnerships with major African e-commerce platforms for cross-listing products
+3.  **Long-term (5+ years)**:
+    -   Expand operations to West and Southern African markets
+    -   Consider strategic acquisitions of complementary businesses
+    -   Establish RwandaMarket as a pan-African brand for authentic, ethically sourced products
 
 ```{r}
 #| echo: false
@@ -36,8 +34,8 @@ expansion_data <- data.frame(
 
 # Create a line graph of expansion
 ggplot(expansion_data, aes(x = Year)) +
-  geom_line(aes(y = Countries, color = "Countries"), size = 1.5) +
-  geom_line(aes(y = Cities, color = "Cities"), size = 1.5) +
+  geom_line(aes(y = Countries, color = "Countries"), linewidth = 1.5) +
+  geom_line(aes(y = Cities, color = "Cities"), linewidth = 1.5) +
   scale_color_manual(values = c("Countries" = "#7C4700", "Cities" = "#00A86B")) +
   theme_minimal() +
   labs(title = "Projected Geographic Expansion",
@@ -47,28 +45,25 @@ ggplot(expansion_data, aes(x = Year)) +
 
 ### Product Line Expansion
 
-- Introduce RwandaMarket-branded products, starting with coffee and tea blends
-- Expand into new categories such as gourmet foods, wellness products, and home fragrances
-- Collaborate with renowned African designers for exclusive, limited-edition collections
-- Develop a line of sustainable, eco-friendly packaging and home goods
+-   Introduce RwandaMarket-branded products, starting with coffee and tea blends
+-   Expand into new categories such as gourmet foods, wellness products, and home fragrances
+-   Collaborate with renowned African designers for exclusive, limited-edition collections
+-   Develop a line of sustainable, eco-friendly packaging and home goods
 
 ## Technology Development Roadmap
 
-1. **Enhanced AI-driven Personalization** (Year 1-2):
-   - Implement advanced recommendation engines using machine learning
-   - Develop predictive analytics for inventory management and demand forecasting
-
-2. **Blockchain Integration** (Year 2-3):
-   - Expand our blockchain-based authentication system to cover all product categories
-   - Implement smart contracts for more efficient and transparent transactions with suppliers
-
-3. **Augmented Reality (AR) Shopping Experience** (Year 3-4):
-   - Develop AR features for mobile app to allow customers to visualize products in their space
-   - Create virtual showrooms for B2B clients to explore product collections
-
-4. **Advanced Supply Chain Optimization** (Year 4-5):
-   - Implement IoT sensors for real-time tracking and quality control throughout the supply chain
-   - Develop AI-powered route optimization for last-mile delivery
+1.  **Enhanced AI-driven Personalization** (Year 1-2):
+    -   Implement advanced recommendation engines using machine learning
+    -   Develop predictive analytics for inventory management and demand forecasting
+2.  **Blockchain Integration** (Year 2-3):
+    -   Expand our blockchain-based authentication system to cover all product categories
+    -   Implement smart contracts for more efficient and transparent transactions with suppliers
+3.  **Augmented Reality (AR) Shopping Experience** (Year 3-4):
+    -   Develop AR features for mobile app to allow customers to visualize products in their space
+    -   Create virtual showrooms for B2B clients to explore product collections
+4.  **Advanced Supply Chain Optimization** (Year 4-5):
+    -   Implement IoT sensors for real-time tracking and quality control throughout the supply chain
+    -   Develop AI-powered route optimization for last-mile delivery
 
 ```{r}
 #| echo: false
@@ -92,31 +87,28 @@ ggplot(tech_data, aes(x = "", y = Investment_Percentage, fill = Category)) +
 
 ## Strategic Initiatives
 
-1. **Sustainability Focus**:
-   - Achieve carbon neutrality in our operations by 2028
-   - Implement a circular economy model for packaging and returns
-   - Launch a sustainability certification program for our artisan partners
-
-2. **Education and Skill Development**:
-   - Establish a RwandaMarket Academy to provide e-commerce and digital skills training to artisans
-   - Partner with universities in Kenya and Rwanda to offer internships and research opportunities
-
-3. **Financial Inclusion**:
-   - Develop a microfinance program for our artisan network
-   - Explore partnerships with mobile money providers to enhance financial services for our suppliers and customers
-
-4. **Community Impact**:
-   - Launch a "RwandaMarket Foundation" to support education and healthcare initiatives in artisan communities
-   - Implement a profit-sharing model with key artisan cooperatives
+1.  **Sustainability Focus**:
+    -   Achieve carbon neutrality in our operations by 2028
+    -   Implement a circular economy model for packaging and returns
+    -   Launch a sustainability certification program for our artisan partners
+2.  **Education and Skill Development**:
+    -   Establish a RwandaMarket Academy to provide e-commerce and digital skills training to artisans
+    -   Partner with universities in Kenya and Rwanda to offer internships and research opportunities
+3.  **Financial Inclusion**:
+    -   Develop a microfinance program for our artisan network
+    -   Explore partnerships with mobile money providers to enhance financial services for our suppliers and customers
+4.  **Community Impact**:
+    -   Launch a "RwandaMarket Foundation" to support education and healthcare initiatives in artisan communities
+    -   Implement a profit-sharing model with key artisan cooperatives
 
 ## Key Performance Indicators (KPIs)
 
 To track our growth and impact, we will focus on the following KPIs:
 
-1. Revenue growth (target: 50% year-over-year)
-2. Number of artisans supported (target: 25% annual increase)
-3. Carbon footprint reduction (target: 10% annual reduction)
-4. Customer satisfaction score (target: maintain above 4.5/5)
-5. B2B solution adoption rate (target: 30% annual growth)
+1.  Revenue growth (target: 50% year-over-year)
+2.  Number of artisans supported (target: 25% annual increase)
+3.  Carbon footprint reduction (target: 10% annual reduction)
+4.  Customer satisfaction score (target: maintain above 4.5/5)
+5.  B2B solution adoption rate (target: 30% annual growth)
 
 RwandaMarket is poised for significant growth in the coming years. By focusing on geographic expansion, product diversification, technological innovation, and impactful community initiatives, we aim to become a leading force in African e-commerce and cross-border trade facilitation.

@@ -4,11 +4,7 @@ title: "Tariff Savings Tracking"
 
 ## Importance of Tracking Tariff Savings
 
-Monitoring tariff savings is essential for:
-1. Quantifying the financial benefits of free trade agreements
-2. Informing pricing strategies
-3. Identifying the most profitable trade routes and product categories
-4. Supporting decision-making in sourcing and market expansion
+Monitoring tariff savings is essential for: 1. Quantifying the financial benefits of free trade agreements 2. Informing pricing strategies 3. Identifying the most profitable trade routes and product categories 4. Supporting decision-making in sourcing and market expansion
 
 ## Tariff Savings Calculator and Tracker
 
@@ -69,10 +65,6 @@ ggplot(savings_data, aes(x = reorder(Product, -Savings), y = Savings)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-Regular analysis of your tariff savings can reveal:
-- Most beneficial product categories for cross-border trade
-- Opportunities for expanding into new markets within the EAC
-- Potential for price adjustments to increase competitiveness
+Regular analysis of your tariff savings can reveal: - Most beneficial product categories for cross-border trade - Opportunities for expanding into new markets within the EAC - Potential for price adjustments to increase competitiveness
 
-For detailed reports and analysis of your tariff savings, please contact our finance team at finance@rwandamarket.com.
-
+For detailed reports and analysis of your tariff savings, please contact our finance team at finance\@rwandamarket.com.

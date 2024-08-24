@@ -8,26 +8,26 @@ At RwandaMarket, we believe in creating positive change through our business act
 
 ### Empowering Artisans
 
-- Direct partnerships with [PLACEHOLDER: Number] Rwandan artisan cooperatives
-- Fair compensation and sustainable income for artisans
-- Skills development and training programs
+-   Direct partnerships with \[PLACEHOLDER: Number\] Rwandan artisan cooperatives
+-   Fair compensation and sustainable income for artisans
+-   Skills development and training programs
 
 ### Preserving Cultural Heritage
 
-- Promotion of traditional Rwandan crafts and techniques
-- Cultural exchange initiatives between Rwanda and Kenya
+-   Promotion of traditional Rwandan crafts and techniques
+-   Cultural exchange initiatives between Rwanda and Kenya
 
 ## Economic Impact
 
 ### Job Creation
 
-- [PLACEHOLDER: Number] jobs created in Rwanda (artisans and logistics)
-- [PLACEHOLDER: Number] jobs created in Kenya (retail and operations)
+-   \[PLACEHOLDER: Number\] jobs created in Rwanda (artisans and logistics)
+-   \[PLACEHOLDER: Number\] jobs created in Kenya (retail and operations)
 
 ### Boosting Cross-Border Trade
 
-- Facilitating increased trade volume between Rwanda and Kenya
-- Supporting small and medium enterprises in navigating international markets
+-   Facilitating increased trade volume between Rwanda and Kenya
+-   Supporting small and medium enterprises in navigating international markets
 
 ```{r}
 #| echo: false
@@ -43,9 +43,9 @@ impact_data <- data.frame(
 
 # Create a line graph of impact metrics
 ggplot(impact_data, aes(x = Year)) +
-  geom_line(aes(y = Artisans_Supported, color = "Artisans Supported"), size = 1.5) +
-  geom_line(aes(y = Jobs_Created, color = "Jobs Created"), size = 1.5) +
-  geom_line(aes(y = Trade_Volume_Million * 50, color = "Trade Volume"), size = 1.5) +
+  geom_line(aes(y = Artisans_Supported, color = "Artisans Supported"), linewidth = 1.5) +
+  geom_line(aes(y = Jobs_Created, color = "Jobs Created"), linewidth = 1.5) +
+  geom_line(aes(y = Trade_Volume_Million * 50, color = "Trade Volume"), linewidth = 1.5) +
   scale_y_continuous(
     name = "Number of People",
     sec.axis = sec_axis(~./50, name = "Trade Volume (Million $)")
@@ -60,23 +60,23 @@ ggplot(impact_data, aes(x = Year)) +
 
 ### Sustainable Sourcing
 
-- Promotion of eco-friendly production methods
-- Use of renewable materials in product packaging
+-   Promotion of eco-friendly production methods
+-   Use of renewable materials in product packaging
 
 ### Carbon Footprint Reduction
 
-- Optimization of logistics to reduce transportation emissions
-- Investment in carbon offset projects in East Africa
+-   Optimization of logistics to reduce transportation emissions
+-   Investment in carbon offset projects in East Africa
 
 ## Community Initiatives
 
-- Educational scholarships for artisans' children
-- Health and wellness programs in partner communities
+-   Educational scholarships for artisans' children
+-   Health and wellness programs in partner communities
 
 ## Future Impact Goals
 
-1. Expand artisan network to [PLACEHOLDER: Number] cooperatives by 2028
-2. Achieve carbon neutrality in our operations by 2030
-3. Establish a vocational training center for traditional crafts in Rwanda
+1.  Expand artisan network to \[PLACEHOLDER: Number\] cooperatives by 2028
+2.  Achieve carbon neutrality in our operations by 2030
+3.  Establish a vocational training center for traditional crafts in Rwanda
 
 RwandaMarket is committed to growing our business responsibly, ensuring that our success translates into positive outcomes for the communities we serve.

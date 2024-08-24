@@ -10,8 +10,8 @@ To become the premier platform for cross-border trade in East Africa, known for 
 
 ## What We Offer
 
-- **For Consumers**: Authentic Rwandan products, from artisanal crafts to gourmet coffee
-- **For Businesses**: Cutting-edge solutions for cross-border trade and market insights
+-   **For Consumers**: Authentic Rwandan products, from artisanal crafts to gourmet coffee
+-   **For Businesses**: Cutting-edge solutions for cross-border trade and market insights
 
 ```{r}
 #| echo: false
@@ -39,9 +39,9 @@ ggplot(offering_long, aes(x = Category, y = Percentage, fill = Market)) +
 
 ## Key Highlights
 
-- Unique blend of cultural authenticity and technological innovation
-- Comprehensive understanding of East African trade regulations
-- Strong partnerships with Rwandan artisans and Kenyan businesses
-- Data-driven approach to market analysis and business operations
+-   Unique blend of cultural authenticity and technological innovation
+-   Comprehensive understanding of East African trade regulations
+-   Strong partnerships with Rwandan artisans and Kenyan businesses
+-   Data-driven approach to market analysis and business operations
 
 Explore our detailed business plan and operational strategies through the navigation menu above.

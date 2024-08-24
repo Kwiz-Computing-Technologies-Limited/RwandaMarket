@@ -4,12 +4,7 @@ title: "Non-Tariff Barrier Reporting"
 
 ## Understanding Non-Tariff Barriers (NTBs)
 
-Non-Tariff Barriers are obstacles to trade that are not in the form of a tariff. They can include:
-- Complex customs procedures
-- Technical regulations and standards
-- Sanitary and phytosanitary measures
-- Licensing requirements
-- Quotas
+Non-Tariff Barriers are obstacles to trade that are not in the form of a tariff. They can include: - Complex customs procedures - Technical regulations and standards - Sanitary and phytosanitary measures - Licensing requirements - Quotas
 
 Reporting and addressing NTBs is crucial for smooth cross-border trade operations.
 
@@ -19,6 +14,7 @@ If you encounter a non-tariff barrier, please report it using the form below:
 
 ```{r}
 #| echo: false
+#| warning: false
 library(shiny)
 
 ui <- fluidPage(
@@ -42,7 +38,8 @@ server <- function(input, output, session) {
   })
 }
 
-shinyApp(ui, server)
+# shinyApp(ui, server)
+ui
 ```
 
 ## NTB Analysis and Resolution
@@ -66,18 +63,12 @@ ggplot(ntb_data, aes(x = reorder(Barrier_Type, -Frequency), y = Frequency)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-Our team regularly analyzes reported NTBs to:
-1. Identify patterns and recurring issues
-2. Develop strategies for overcoming common barriers
-3. Engage with relevant authorities to address systemic problems
-4. Provide guidance to our partners on navigating complex regulations
+Our team regularly analyzes reported NTBs to: 1. Identify patterns and recurring issues 2. Develop strategies for overcoming common barriers 3. Engage with relevant authorities to address systemic problems 4. Provide guidance to our partners on navigating complex regulations
 
 ## Resources for Addressing NTBs
 
-- [EAC Trade Helpdesk](https://www.eac.int/trade)
-- [World Trade Organization - Trade Facilitation Agreement Facility](https://www.tfafacility.org/)
-- RwandaMarket's Guide to Navigating EAC Trade Regulations (download link)
+-   [EAC Trade Helpdesk](https://www.eac.int/trade)
+-   [World Trade Organization - Trade Facilitation Agreement Facility](https://www.tfafacility.org/)
+-   RwandaMarket's Guide to Navigating EAC Trade Regulations (download link)
 
-For assistance with specific NTBs, please contact our trade facilitation team at trade.support@rwandamarket.com.
-
-
+For assistance with specific NTBs, please contact our trade facilitation team at trade.support\@rwandamarket.com.

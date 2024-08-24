@@ -10,6 +10,7 @@ To fully leverage the benefits of free trade agreements, particularly within the
 
 ```{r}
 #| echo: false
+#| warning: false
 library(shiny)
 
 product_origin_form <- fluidPage(
@@ -201,20 +202,18 @@ cat("- Explore opportunities to increase trade of", top_saving_product,
 
 This system for documenting and analyzing free trade benefits will allow RwandaMarket to:
 
-1. Ensure compliance with Rules of Origin requirements for preferential tariff treatment.
-2. Track and quantify the financial benefits of utilizing free trade agreements.
-3. Identify and address non-tariff barriers that may be hindering trade.
-4. Optimize product sourcing and trade routes based on potential tariff savings.
-5. Provide data-driven insights for business strategy and government advocacy efforts.
+1.  Ensure compliance with Rules of Origin requirements for preferential tariff treatment.
+2.  Track and quantify the financial benefits of utilizing free trade agreements.
+3.  Identify and address non-tariff barriers that may be hindering trade.
+4.  Optimize product sourcing and trade routes based on potential tariff savings.
+5.  Provide data-driven insights for business strategy and government advocacy efforts.
 
 To fully implement this system:
 
-1. Integrate these forms into the RwandaMarket website or internal systems.
-2. Set up automated data collection where possible (e.g., integrating with customs databases).
-3. Develop a dashboard to visualize key metrics related to free trade benefits.
-4. Implement regular reporting and analysis cycles to inform business decisions.
-5. Establish a process for acting on insights, such as addressing compliance issues or lobbying for resolution of persistent non-tariff barriers.
+1.  Integrate these forms into the RwandaMarket website or internal systems.
+2.  Set up automated data collection where possible (e.g., integrating with customs databases).
+3.  Develop a dashboard to visualize key metrics related to free trade benefits.
+4.  Implement regular reporting and analysis cycles to inform business decisions.
+5.  Establish a process for acting on insights, such as addressing compliance issues or lobbying for resolution of persistent non-tariff barriers.
 
 This comprehensive approach to tracking and analyzing free trade benefits will enable RwandaMarket to maximize the advantages of trade agreements, reduce costs, and streamline cross-border operations.
-
-

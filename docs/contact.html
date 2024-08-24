@@ -59,9 +59,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/jquery-3.6.0/jquery.min.js"></script>
+<link href="site_libs/selectize-0.15.2/css/selectize.bootstrap3.css" rel="stylesheet">
+<script src="site_libs/selectize-0.15.2/js/selectize.min.js"></script>
+<script src="site_libs/selectize-0.15.2/accessibility/js/selectize-plugin-a11y.min.js"></script>
 <link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
 <script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
 <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
 <link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
@@ -367,11 +370,33 @@ Sunday: Closed</p>
 <section id="contact-form" class="level2">
 <h2 class="anchored" data-anchor-id="contact-form">Contact Form</h2>
 <div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'shiny' was built under R version 4.3.3</code></pre>
+<div class="cell-output-display no-overflow-x">
+<div class="container-fluid">
+<div class="form-group shiny-input-container">
+<label class="control-label" id="name-label" for="name">Name:</label>
+<input id="name" type="text" class="shiny-input-text form-control" value="">
 </div>
-<div class="cell-output-display">
-<p></p><div style="width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;" class="muted well">Shiny applications not supported in static R Markdown documents</div><p></p>
+<div class="form-group shiny-input-container">
+<label class="control-label" id="email-label" for="email">Email:</label>
+<input id="email" type="text" class="shiny-input-text form-control" value="">
+</div>
+<div class="form-group shiny-input-container">
+<label class="control-label" id="subject-label" for="subject">Subject:</label>
+<div>
+<select id="subject" class="shiny-input-select"><option value="General Inquiry" selected="">General Inquiry</option>
+<option value="Product Question">Product Question</option>
+<option value="B2B Opportunities">B2B Opportunities</option>
+<option value="Feedback">Feedback</option>
+<option value="Other">Other</option></select>
+<script type="application/json" data-for="subject" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
+</div>
+</div>
+<div class="form-group shiny-input-container">
+<label class="control-label" id="message-label" for="message">Message:</label>
+<textarea id="message" class="shiny-input-textarea form-control"></textarea>
+</div>
+<button id="submit" type="button" class="btn btn-default action-button">Submit</button>
+</div>
 </div>
 </div>
 </section>
@@ -380,8 +405,8 @@ Sunday: Closed</p>
 <p>Stay updated with our latest products, offers, and company news by following us on social media:</p>
 <ul>
 <li>Facebook: <a href="https://www.facebook.com">/RwandaMarket</a></li>
-<li>Instagram: <a href="https://www.instagram.com"><span class="citation" data-cites="RwandaMarket">@RwandaMarket</span></a></li>
-<li>Twitter: <a href="https://www.twitter.com"><span class="citation" data-cites="RwandaMarket_KE">@RwandaMarket_KE</span></a></li>
+<li>Instagram: <a href="https://www.instagram.com">@RwandaMarket</a></li>
+<li>Twitter: <a href="https://www.twitter.com">@RwandaMarket_KE</a></li>
 <li>LinkedIn: <a href="https://www.linkedin.com">RwandaMarket Ltd.</a></li>
 </ul>
 </section>
@@ -391,8 +416,8 @@ Sunday: Closed</p>
 <p>[PLACEHOLDER: Store Address]</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-3f9dac8045ce545b7814" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-3f9dac8045ce545b7814">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[-1.2921,36.8219,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"RwandaMarket Flagship Store",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[-1.2921,36.8219],13,[]],"limits":{"lat":[-1.2921,-1.2921],"lng":[36.8219,36.8219]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-0eba908ee6505706b895" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-0eba908ee6505706b895">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[-1.2921,36.8219,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"RwandaMarket Flagship Store",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[-1.2921,36.8219],13,[]],"limits":{"lat":[-1.2921,-1.2921],"lng":[36.8219,36.8219]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>

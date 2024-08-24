@@ -6,11 +6,11 @@ RwandaMarket is an innovative e-commerce platform and physical store network tha
 
 ## Key Points
 
-- **Target Market**: Middle to upper-class Nairobi residents, expatriates, tourists, and businesses engaged in East African trade
-- **Unique Value Proposition**: Authentic Rwandan products combined with advanced technology for seamless shopping and trade facilitation
-- **Revenue Streams**: B2C product sales, B2B services including trade facilitation and market intelligence
-- **Technology Focus**: R-based analytics for personalization, inventory management, and market insights
-- **Funding Requirement**: $1.5 million for startup costs and initial operations
+-   **Target Market**: Middle to upper-class Nairobi residents, expatriates, tourists, and businesses engaged in East African trade
+-   **Unique Value Proposition**: Authentic Rwandan products combined with advanced technology for seamless shopping and trade facilitation
+-   **Revenue Streams**: B2C product sales, B2B services including trade facilitation and market intelligence
+-   **Technology Focus**: R-based analytics for personalization, inventory management, and market insights
+-   **Funding Requirement**: \$1.5 million for startup costs and initial operations
 
 ```{r}
 #| echo: false
@@ -26,9 +26,9 @@ financial_data <- data.frame(
 
 # Create a line graph of financial projections
 ggplot(financial_data, aes(x = Year)) +
-  geom_line(aes(y = Revenue, color = "Revenue"), size = 1.5) +
-  geom_line(aes(y = Expenses, color = "Expenses"), size = 1.5) +
-  geom_line(aes(y = Profit, color = "Profit"), size = 1.5) +
+  geom_line(aes(y = Revenue, color = "Revenue"), linewidth = 1.5) +
+  geom_line(aes(y = Expenses, color = "Expenses"), linewidth = 1.5) +
+  geom_line(aes(y = Profit, color = "Profit"), linewidth = 1.5) +
   scale_color_manual(values = c("Revenue" = "#00A86B", "Expenses" = "#7C4700", "Profit" = "#FFA500")) +
   theme_minimal() +
   labs(title = "Financial Projections",

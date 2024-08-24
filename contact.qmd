@@ -6,27 +6,28 @@ We value open communication with our customers, partners, and stakeholders. Whet
 
 ## Contact Information
 
-- **General Inquiries**: info@rwandamarket.com
-- **Customer Support**: support@rwandamarket.com
-- **B2B Solutions**: b2b@rwandamarket.com
-- **Careers**: careers@rwandamarket.com
-- **Press and Media**: media@rwandamarket.com
+-   **General Inquiries**: info\@rwandamarket.com
+-   **Customer Support**: support\@rwandamarket.com
+-   **B2B Solutions**: b2b\@rwandamarket.com
+-   **Careers**: careers\@rwandamarket.com
+-   **Press and Media**: media\@rwandamarket.com
 
-**Phone**: +254 20 [PLACEHOLDER: Phone number]
+**Phone**: +254 20 \[PLACEHOLDER: Phone number\]
 
-**Physical Address**:  
-RwandaMarket Ltd.  
-[PLACEHOLDER: Street Address]  
+**Physical Address**:\
+RwandaMarket Ltd.\
+\[PLACEHOLDER: Street Address\]\
 Nairobi, Kenya
 
-**Operating Hours**:  
-Monday - Friday: 9:00 AM - 6:00 PM (EAT)  
-Saturday: 10:00 AM - 4:00 PM (EAT)  
+**Operating Hours**:\
+Monday - Friday: 9:00 AM - 6:00 PM (EAT)\
+Saturday: 10:00 AM - 4:00 PM (EAT)\
 Sunday: Closed
 
 ## Contact Form
 
 ```{r echo=FALSE}
+#| warning: false
 library(shiny)
 
 ui <- fluidPage(
@@ -45,23 +46,24 @@ server <- function(input, output) {
   })
 }
 
-shinyApp(ui, server)
+# shinyApp(ui, server)
+ui
 ```
 
 ## Connect With Us
 
 Stay updated with our latest products, offers, and company news by following us on social media:
 
-- Facebook: [/RwandaMarket](https://www.facebook.com)
-- Instagram: [@RwandaMarket](https://www.instagram.com)
-- Twitter: [@RwandaMarket_KE](https://www.twitter.com)
-- LinkedIn: [RwandaMarket Ltd.](https://www.linkedin.com)
+-   Facebook: [/RwandaMarket](https://www.facebook.com)
+-   Instagram: [\@RwandaMarket](https://www.instagram.com)
+-   Twitter: [\@RwandaMarket_KE](https://www.twitter.com)
+-   LinkedIn: [RwandaMarket Ltd.](https://www.linkedin.com)
 
 ## Visit Our Store
 
 Experience our products firsthand at our flagship store in Nairobi:
 
-[PLACEHOLDER: Store Address]
+\[PLACEHOLDER: Store Address\]
 
 ```{r echo=FALSE}
 library(leaflet)
@@ -77,5 +79,3 @@ leaflet() %>%
 Your feedback is crucial in helping us improve our services. If you have any suggestions or concerns, please don't hesitate to reach out. We appreciate your input and are committed to continuously enhancing your experience with RwandaMarket.
 
 Thank you for your interest in RwandaMarket. We look forward to hearing from you and serving your needs for authentic Rwandan products and innovative B2B solutions.
-
-

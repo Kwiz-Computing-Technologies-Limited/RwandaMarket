@@ -20,6 +20,7 @@ Use the form below to declare the origin of your products:
 
 ```{r}
 #| echo: false
+#| warning: false
 library(shiny)
 
 ui <- fluidPage(
@@ -41,7 +42,8 @@ server <- function(input, output, session) {
   })
 }
 
-shinyApp(ui, server)
+# shinyApp(ui, server)
+ui
 ```
 
 ## Important Notes

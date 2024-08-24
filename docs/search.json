@@ -1,115 +1,143 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "RwandaMarket: Bridging Rwanda and Kenya through Innovation",
+    "objectID": "product-origin-declaration.html",
+    "href": "product-origin-declaration.html",
+    "title": "Product Origin Declaration",
     "section": "",
-    "text": "Welcome to the comprehensive overview of RwandaMarket, a pioneering venture that connects the rich cultural heritage of Rwanda with the vibrant Kenyan market through innovative retail and B2B solutions."
+    "text": "The Product Origin Declaration is a crucial document for leveraging free trade benefits within the East African Community (EAC). It certifies that goods meet the EAC Rules of Origin criteria, allowing them to qualify for preferential tariff treatment."
   },
   {
-    "objectID": "index.html#our-vision",
-    "href": "index.html#our-vision",
-    "title": "RwandaMarket: Bridging Rwanda and Kenya through Innovation",
-    "section": "Our Vision",
-    "text": "Our Vision\nTo become the premier platform for cross-border trade in East Africa, known for quality products, technological innovation, and positive social impact."
-  },
-  {
-    "objectID": "index.html#what-we-offer",
-    "href": "index.html#what-we-offer",
-    "title": "RwandaMarket: Bridging Rwanda and Kenya through Innovation",
-    "section": "What We Offer",
-    "text": "What We Offer\n\nFor Consumers: Authentic Rwandan products, from artisanal crafts to gourmet coffee\nFor Businesses: Cutting-edge solutions for cross-border trade and market insights"
-  },
-  {
-    "objectID": "index.html#key-highlights",
-    "href": "index.html#key-highlights",
-    "title": "RwandaMarket: Bridging Rwanda and Kenya through Innovation",
-    "section": "Key Highlights",
-    "text": "Key Highlights\n\nUnique blend of cultural authenticity and technological innovation\nComprehensive understanding of East African trade regulations\nStrong partnerships with Rwandan artisans and Kenyan businesses\nData-driven approach to market analysis and business operations\n\nExplore our detailed business plan and operational strategies through the navigation menu above."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
+    "objectID": "product-origin-declaration.html#overview",
+    "href": "product-origin-declaration.html#overview",
+    "title": "Product Origin Declaration",
     "section": "",
-    "text": "References"
+    "text": "The Product Origin Declaration is a crucial document for leveraging free trade benefits within the East African Community (EAC). It certifies that goods meet the EAC Rules of Origin criteria, allowing them to qualify for preferential tariff treatment."
   },
   {
-    "objectID": "executive-summary.html",
-    "href": "executive-summary.html",
-    "title": "Executive Summary",
+    "objectID": "product-origin-declaration.html#eac-rules-of-origin-criteria",
+    "href": "product-origin-declaration.html#eac-rules-of-origin-criteria",
+    "title": "Product Origin Declaration",
+    "section": "EAC Rules of Origin Criteria",
+    "text": "EAC Rules of Origin Criteria\nTo qualify for preferential treatment, products must meet one of the following criteria:\n\nWholly obtained or produced in the EAC\nSufficiently worked or processed within the EAC (typically 35% local value addition)\nCumulation of origin within the EAC"
+  },
+  {
+    "objectID": "product-origin-declaration.html#declaration-form",
+    "href": "product-origin-declaration.html#declaration-form",
+    "title": "Product Origin Declaration",
+    "section": "Declaration Form",
+    "text": "Declaration Form\nUse the form below to declare the origin of your products:\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\nShiny applications not supported in static R Markdown documents"
+  },
+  {
+    "objectID": "product-origin-declaration.html#important-notes",
+    "href": "product-origin-declaration.html#important-notes",
+    "title": "Product Origin Declaration",
+    "section": "Important Notes",
+    "text": "Important Notes\n\nEnsure all information provided is accurate and can be verified.\nSupporting documents may include invoices, production records, or supplier declarations.\nFalse declarations may result in penalties and loss of preferential treatment."
+  },
+  {
+    "objectID": "product-origin-declaration.html#benefits-of-accurate-origin-declaration",
+    "href": "product-origin-declaration.html#benefits-of-accurate-origin-declaration",
+    "title": "Product Origin Declaration",
+    "section": "Benefits of Accurate Origin Declaration",
+    "text": "Benefits of Accurate Origin Declaration\n\nEligibility for reduced or zero tariffs within the EAC\nEnhanced competitiveness in the regional market\nCompliance with trade regulations\nFacilitation of smooth customs clearance\n\nFor any questions regarding product origin declaration, please contact our trade compliance team at trade.compliance@rwandamarket.com."
+  },
+  {
+    "objectID": "tariff-savings-tracking.html",
+    "href": "tariff-savings-tracking.html",
+    "title": "Tariff Savings Tracking",
     "section": "",
-    "text": "RwandaMarket is an innovative e-commerce platform and physical store network that brings premium Rwandan products to the Nairobi market while offering cutting-edge B2B solutions for cross-border trade."
+    "text": "Monitoring tariff savings is essential for: 1. Quantifying the financial benefits of free trade agreements 2. Informing pricing strategies 3. Identifying the most profitable trade routes and product categories 4. Supporting decision-making in sourcing and market expansion"
   },
   {
-    "objectID": "executive-summary.html#key-points",
-    "href": "executive-summary.html#key-points",
-    "title": "Executive Summary",
-    "section": "Key Points",
-    "text": "Key Points\n\nTarget Market: Middle to upper-class Nairobi residents, expatriates, tourists, and businesses engaged in East African trade\nUnique Value Proposition: Authentic Rwandan products combined with advanced technology for seamless shopping and trade facilitation\nRevenue Streams: B2C product sales, B2B services including trade facilitation and market intelligence\nTechnology Focus: R-based analytics for personalization, inventory management, and market insights\nFunding Requirement: $1.5 million for startup costs and initial operations\n\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead."
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Introduction",
+    "objectID": "tariff-savings-tracking.html#importance-of-tracking-tariff-savings",
+    "href": "tariff-savings-tracking.html#importance-of-tracking-tariff-savings",
+    "title": "Tariff Savings Tracking",
     "section": "",
-    "text": "Introduction\nThis is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2"
+    "text": "Monitoring tariff savings is essential for: 1. Quantifying the financial benefits of free trade agreements 2. Informing pricing strategies 3. Identifying the most profitable trade routes and product categories 4. Supporting decision-making in sourcing and market expansion"
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "Summary",
+    "objectID": "tariff-savings-tracking.html#tariff-savings-calculator-and-tracker",
+    "href": "tariff-savings-tracking.html#tariff-savings-calculator-and-tracker",
+    "title": "Tariff Savings Tracking",
+    "section": "Tariff Savings Calculator and Tracker",
+    "text": "Tariff Savings Calculator and Tracker\nUse the form below to calculate and track your tariff savings:\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\nShiny applications not supported in static R Markdown documents"
+  },
+  {
+    "objectID": "tariff-savings-tracking.html#analyzing-your-tariff-savings",
+    "href": "tariff-savings-tracking.html#analyzing-your-tariff-savings",
+    "title": "Tariff Savings Tracking",
+    "section": "Analyzing Your Tariff Savings",
+    "text": "Analyzing Your Tariff Savings\n\n\n\n\n\nRegular analysis of your tariff savings can reveal: - Most beneficial product categories for cross-border trade - Opportunities for expanding into new markets within the EAC - Potential for price adjustments to increase competitiveness\nFor detailed reports and analysis of your tariff savings, please contact our finance team at finance@rwandamarket.com."
+  },
+  {
+    "objectID": "consular-services.html",
+    "href": "consular-services.html",
+    "title": "Consular Services",
     "section": "",
-    "text": "Summary\nIn summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+    "text": "The Rwandan Consulate in Kenya provides valuable services that support RwandaMarket’s operations. Understanding and leveraging these services is crucial for our business success."
   },
   {
-    "objectID": "company-description.html",
-    "href": "company-description.html",
-    "title": "Company Description",
+    "objectID": "consular-services.html#key-consular-services",
+    "href": "consular-services.html#key-consular-services",
+    "title": "Consular Services",
+    "section": "Key Consular Services",
+    "text": "Key Consular Services\n\n1. Document Authentication\n\nVerification of Certificates of Origin\nLegalization of commercial documents\n\n\n\n2. Trade Facilitation\n\nInformation on Rwandan trade policies and regulations\nAssistance with trade dispute resolution\n\n\n\n3. Business Networking\n\nFacilitation of business-to-business connections\nInformation on trade fairs and business events in Rwanda\n\n\n\n4. Visa Services\n\nProcessing of business visas for travel to Rwanda\nInformation on work permits for Rwandan nationals in Kenya"
+  },
+  {
+    "objectID": "consular-services.html#how-rwandamarket-leverages-consular-services",
+    "href": "consular-services.html#how-rwandamarket-leverages-consular-services",
+    "title": "Consular Services",
+    "section": "How RwandaMarket Leverages Consular Services",
+    "text": "How RwandaMarket Leverages Consular Services\n\nRegular consultation for updates on trade policies\nParticipation in consulate-organized business networking events\nAssistance in verifying the credentials of potential Rwandan suppliers\nSupport in resolving any cross-border business disputes"
+  },
+  {
+    "objectID": "consular-services.html#contact-information",
+    "href": "consular-services.html#contact-information",
+    "title": "Consular Services",
+    "section": "Contact Information",
+    "text": "Contact Information\nRwandan Consulate in Nairobi, Kenya: - Address: [PLACEHOLDER: Consulate Address] - Phone: [PLACEHOLDER: Consulate Phone Number] - Email: [PLACEHOLDER: Consulate Email] - Website: [PLACEHOLDER: Consulate Website]\nBusiness Hours: [PLACEHOLDER: Business Hours]\nRwandaMarket maintains a strong relationship with the Rwandan Consulate to ensure smooth operations and compliance with all relevant regulations."
+  },
+  {
+    "objectID": "trade-regulations.html",
+    "href": "trade-regulations.html",
+    "title": "Trade Regulations",
     "section": "",
-    "text": "To bridge cultures and empower artisans by bringing the best of Rwanda to Nairobi, powered by cutting-edge data science and technology."
+    "text": "Understanding the trade regulations governing commerce between Rwanda and Kenya is crucial for successful cross-border operations. RwandaMarket is committed to ensuring full compliance with all relevant laws and treaties."
   },
   {
-    "objectID": "company-description.html#mission-statement",
-    "href": "company-description.html#mission-statement",
-    "title": "Company Description",
-    "section": "",
-    "text": "To bridge cultures and empower artisans by bringing the best of Rwanda to Nairobi, powered by cutting-edge data science and technology."
+    "objectID": "trade-regulations.html#key-trade-agreements",
+    "href": "trade-regulations.html#key-trade-agreements",
+    "title": "Trade Regulations",
+    "section": "Key Trade Agreements",
+    "text": "Key Trade Agreements\n\n1. East African Community (EAC) Customs Union\nThe EAC Customs Union, which includes both Rwanda and Kenya, provides for:\n\nDuty-free movement of goods within the EAC\nCommon External Tariff (CET) for goods imported from outside the EAC\nHarmonized customs procedures\n\n\n\n2. African Continental Free Trade Area (AfCFTA)\nBoth Rwanda and Kenya are signatories to the AfCFTA, which aims to create a single continental market for goods and services."
   },
   {
-    "objectID": "company-description.html#vision-statement",
-    "href": "company-description.html#vision-statement",
-    "title": "Company Description",
-    "section": "Vision Statement",
-    "text": "Vision Statement\nTo become the premier platform for cross-border trade in East Africa, known for quality products, technological innovation, and positive social impact."
+    "objectID": "trade-regulations.html#importexport-procedures",
+    "href": "trade-regulations.html#importexport-procedures",
+    "title": "Trade Regulations",
+    "section": "Import/Export Procedures",
+    "text": "Import/Export Procedures\n\nDocumentation Required\n\nCommercial Invoice\nPacking List\nCertificate of Origin\nBill of Lading/Airway Bill\nImport Declaration Form (IDF)\nPre-Export Verification of Conformity (PVoC)\n\n\n\nCustoms Clearance Process\n[PLACEHOLDER: Step-by-step guide to the customs clearance process]"
   },
   {
-    "objectID": "company-description.html#company-history-and-background",
-    "href": "company-description.html#company-history-and-background",
-    "title": "Company Description",
-    "section": "Company History and Background",
-    "text": "Company History and Background\nRwandaMarket was founded in 2024 by a team of entrepreneurs passionate about East African trade and technological innovation. The idea was born from recognizing the untapped potential of connecting Rwandan artisans with the growing Kenyan market, all while leveraging cutting-edge data science to optimize operations."
+    "objectID": "trade-regulations.html#product-specific-regulations",
+    "href": "trade-regulations.html#product-specific-regulations",
+    "title": "Trade Regulations",
+    "section": "Product-Specific Regulations",
+    "text": "Product-Specific Regulations\n\nCoffee and Tea\n\nPhytosanitary certificates required\nQuality standards set by the East African Standards Committee\n\n\n\nHandicrafts\n\nCultural property export permits may be required for certain items\nCITES permits for products made from protected species\n\n\n\nTextiles\n\nRules of origin documentation to qualify for duty-free status under EAC\nCompliance with textile labeling requirements"
   },
   {
-    "objectID": "company-description.html#legal-structure-and-ownership",
-    "href": "company-description.html#legal-structure-and-ownership",
-    "title": "Company Description",
-    "section": "Legal Structure and Ownership",
-    "text": "Legal Structure and Ownership\n[PLACEHOLDER: Legal structure details to be finalized]\nRwandaMarket is structured as a [PLACEHOLDER: legal entity type] registered in Kenya. The company’s ownership is distributed as follows:"
+    "objectID": "trade-regulations.html#tariffs-and-taxes",
+    "href": "trade-regulations.html#tariffs-and-taxes",
+    "title": "Trade Regulations",
+    "section": "Tariffs and Taxes",
+    "text": "Tariffs and Taxes\n\nValue Added Tax (VAT): 16% in Kenya\nImport Duty: Varies by product category (many products duty-free under EAC)\nExcise Duty: Applicable to certain luxury goods"
   },
   {
-    "objectID": "company-description.html#location-and-facilities",
-    "href": "company-description.html#location-and-facilities",
-    "title": "Company Description",
-    "section": "Location and Facilities",
-    "text": "Location and Facilities\n\nHeadquarters\nOur main office is located in the heart of Nairobi’s business district:\n[PLACEHOLDER: Exact address]\nThis central location allows us to easily connect with our customers, partners, and the broader business community.\n\n\nFlagship Store\nOur physical retail presence is anchored by our flagship store:\n[PLACEHOLDER: Store address]\nThis store showcases our full range of Rwandan products and serves as a cultural hub for events and workshops.\n\n\nWarehouse and Distribution Center\nTo ensure efficient order fulfillment and inventory management, we operate a state-of-the-art warehouse:\n[PLACEHOLDER: Warehouse address]\nThis facility is equipped with advanced inventory tracking systems and optimized for quick order processing and shipping."
-  },
-  {
-    "objectID": "company-description.html#core-values",
-    "href": "company-description.html#core-values",
-    "title": "Company Description",
-    "section": "Core Values",
-    "text": "Core Values\n\nCultural Appreciation: We celebrate and promote Rwandan culture and craftsmanship.\nTechnological Innovation: We leverage cutting-edge technology to enhance all aspects of our business.\nEthical Trade: We ensure fair compensation and sustainable practices throughout our supply chain.\nCustomer-Centricity: We prioritize customer satisfaction in both our B2C and B2B operations.\nContinuous Learning: We constantly seek to improve and adapt to changing market conditions.\n\nRwandaMarket stands at the intersection of tradition and innovation, bringing the best of Rwanda to Kenya while setting new standards for cross-border e-commerce in East Africa."
+    "objectID": "trade-regulations.html#compliance-strategies",
+    "href": "trade-regulations.html#compliance-strategies",
+    "title": "Trade Regulations",
+    "section": "Compliance Strategies",
+    "text": "Compliance Strategies\n\nRegular training for staff on current regulations\nPartnerships with customs brokers in both Rwanda and Kenya\nUse of digital tools for automated compliance checks\nProactive engagement with regulatory bodies\n\nRwandaMarket is committed to navigating these regulations efficiently to ensure smooth cross-border trade for our B2C and B2B operations."
   },
   {
     "objectID": "products-services.html",
@@ -145,97 +173,6 @@
     "title": "Products and Services",
     "section": "Product Sourcing and Quality Control",
     "text": "Product Sourcing and Quality Control\n\nSourcing Process\n\nDirect partnerships with Rwandan cooperatives and artisans\nRegular sourcing trips to Rwanda\nStringent supplier vetting process\n\n\n\nQuality Control Measures\n\nInitial quality check at source in Rwanda\nSecondary inspection upon arrival at our Nairobi warehouse\nRandom batch testing for consistency\nCustomer feedback integration for continuous improvement\n\n\n\n\n\n\nOur comprehensive range of products and services, coupled with our commitment to quality and authenticity, positions RwandaMarket as a unique player in the East African market."
-  },
-  {
-    "objectID": "marketing-strategy.html",
-    "href": "marketing-strategy.html",
-    "title": "Marketing Strategy",
-    "section": "",
-    "text": "RwandaMarket’s marketing strategy is designed to establish our brand as the premier destination for authentic Rwandan products in Nairobi, while also positioning us as a leader in cross-border trade facilitation."
-  },
-  {
-    "objectID": "marketing-strategy.html#branding-strategy",
-    "href": "marketing-strategy.html#branding-strategy",
-    "title": "Marketing Strategy",
-    "section": "Branding Strategy",
-    "text": "Branding Strategy\n\nBrand Personality\n\nAuthentic\nInnovative\nCulturally rich\nTechnologically advanced\n\n\n\nVisual Identity\n\nColors: Warm earth tones reminiscent of Rwandan landscapes\nLogo: A stylized fusion of a traditional Rwandan basket and a digital circuit board\nTypography: A blend of classic and modern fonts to represent our bridge between tradition and innovation"
-  },
-  {
-    "objectID": "marketing-strategy.html#digital-marketing-plan",
-    "href": "marketing-strategy.html#digital-marketing-plan",
-    "title": "Marketing Strategy",
-    "section": "Digital Marketing Plan",
-    "text": "Digital Marketing Plan\n\n1. Search Engine Optimization (SEO)\n\nKeyword optimization for both B2C products and B2B services\nLocal SEO targeting Nairobi and surrounding areas\nRegular blog content on Rwandan culture, products, and trade insights\n\n\n\n2. Social Media Marketing\n\nPlatform focus: Instagram, Facebook, Twitter, LinkedIn\nContent strategy: Product showcases, artisan stories, trade tips, cultural insights\nPaid social media advertising campaigns\n\n\n\n3. Content Marketing\n\nBlog posts on Rwandan culture, artisan profiles, and trade insights\nVideo content: Product demonstrations, artisan interviews, trade facilitation process explanations\nDownloadable guides on East African trade regulations and market entry strategies\n\n\n\n4. Email Marketing\n\nSegmented email lists for B2C and B2B customers\nPersonalized product recommendations based on browsing and purchase history\nRegular newsletters with new product announcements, trade insights, and special offers"
-  },
-  {
-    "objectID": "marketing-strategy.html#offline-marketing-initiatives",
-    "href": "marketing-strategy.html#offline-marketing-initiatives",
-    "title": "Marketing Strategy",
-    "section": "Offline Marketing Initiatives",
-    "text": "Offline Marketing Initiatives\n\n1. Pop-up Stores and Events\n\nTemporary installations in high-traffic areas of Nairobi\nParticipation in local cultural events and festivals\n\n\n\n2. Partnerships\n\nCollaborations with Kenyan influencers and tastemakers\nPartnerships with hotels and tourism agencies to reach expatriates and tourists\n\n\n\n3. Print Advertising\n\nTargeted ads in local lifestyle magazines and business publications\nOutdoor advertising in strategic Nairobi locations\n\n\n\n4. Trade Shows and Exhibitions\n\nParticipation in East African trade fairs\nHosting of Rwandan cultural showcase events"
-  },
-  {
-    "objectID": "marketing-strategy.html#customer-acquisition-strategies",
-    "href": "marketing-strategy.html#customer-acquisition-strategies",
-    "title": "Marketing Strategy",
-    "section": "Customer Acquisition Strategies",
-    "text": "Customer Acquisition Strategies\n\nReferral program with rewards for both referrer and new customer\nLimited-time discounts for first-time purchases\nFree workshops and events to attract potential customers\nTargeted advertising to expat communities and tourist groups"
-  },
-  {
-    "objectID": "marketing-strategy.html#customer-retention-strategies",
-    "href": "marketing-strategy.html#customer-retention-strategies",
-    "title": "Marketing Strategy",
-    "section": "Customer Retention Strategies",
-    "text": "Customer Retention Strategies\n\nLoyalty program with points system and exclusive benefits\nPersonalized shopping experiences based on purchase history\nRegular customer appreciation events\nExclusive early access to new products for loyal customers"
-  },
-  {
-    "objectID": "marketing-strategy.html#b2b-marketing-strategies",
-    "href": "marketing-strategy.html#b2b-marketing-strategies",
-    "title": "Marketing Strategy",
-    "section": "B2B Marketing Strategies",
-    "text": "B2B Marketing Strategies\n\nThought leadership content on East African trade and market trends\nWebinars and workshops on cross-border trade optimization\nCase studies showcasing successful B2B engagements\nNetworking events for businesses interested in East African trade\n\n\n\n\n\n\nThis comprehensive marketing strategy is designed to build brand awareness, drive customer acquisition, and foster long-term loyalty for both our B2C and B2B offerings. By leveraging a mix of digital and traditional marketing channels, we aim to establish RwandaMarket as the go-to platform for Rwandan products and East African trade facilitation."
-  },
-  {
-    "objectID": "operations-plan.html",
-    "href": "operations-plan.html",
-    "title": "Operations Plan",
-    "section": "",
-    "text": "The RwandaMarket operations plan outlines our key processes and systems that enable us to efficiently source products from Rwanda, manage inventory, fulfill orders, and provide B2B services."
-  },
-  {
-    "objectID": "operations-plan.html#supply-chain-management",
-    "href": "operations-plan.html#supply-chain-management",
-    "title": "Operations Plan",
-    "section": "Supply Chain Management",
-    "text": "Supply Chain Management\n\n1. Sourcing\n\nDirect partnerships with Rwandan artisans and cooperatives\nRegular sourcing trips to Rwanda (quarterly)\nQuality control checks at source\n\n\n\n2. Transportation\n\nAir freight for perishables and high-value items\nSea freight for bulk, non-perishable goods\nCustoms clearance process with dedicated partners\n\n\n\n3. Warehousing\n\nCentral warehouse located in [PLACEHOLDER: Specific area in Nairobi]\nClimate-controlled storage for sensitive products\nRFID-based inventory tracking system"
-  },
-  {
-    "objectID": "operations-plan.html#inventory-control-systems",
-    "href": "operations-plan.html#inventory-control-systems",
-    "title": "Operations Plan",
-    "section": "Inventory Control Systems",
-    "text": "Inventory Control Systems\n\nR-based predictive analytics for demand forecasting\nAutomated reorder points based on sales velocity and lead times\nReal-time inventory updates across e-commerce and physical store"
-  },
-  {
-    "objectID": "operations-plan.html#order-fulfillment-process",
-    "href": "operations-plan.html#order-fulfillment-process",
-    "title": "Operations Plan",
-    "section": "Order Fulfillment Process",
-    "text": "Order Fulfillment Process\n\nOrder received (e-commerce platform or in-store)\nOrder verification and payment processing\nInventory allocation\nPicking and packing\nQuality check\nShipping/delivery arrangement\nOrder tracking information sent to customer\nDelivery confirmation and feedback request"
-  },
-  {
-    "objectID": "operations-plan.html#customer-service-protocols",
-    "href": "operations-plan.html#customer-service-protocols",
-    "title": "Operations Plan",
-    "section": "Customer Service Protocols",
-    "text": "Customer Service Protocols\n\nOmnichannel support: Phone, email, chat, and social media\n24/7 chatbot for basic inquiries and order tracking\nEscalation process for complex issues\nRegular team training on product knowledge and customer service skills"
-  },
-  {
-    "objectID": "operations-plan.html#technology-infrastructure",
-    "href": "operations-plan.html#technology-infrastructure",
-    "title": "Operations Plan",
-    "section": "Technology Infrastructure",
-    "text": "Technology Infrastructure\n\nE-commerce Platform\n\nCustom-built using R Shiny for frontend and Plumber for API\nIntegrated with inventory management and CRM systems\nMobile-responsive design\n\n\n\nData Analytics\n\nR-based analytics engine for business intelligence\nReal-time dashboards for key performance indicators\nMachine learning models for demand forecasting and customer segmentation\n\n\n\nSecurity Measures\n\nEnd-to-end encryption for all transactions\nRegular security audits and penetration testing\nCompliance with data protection regulations in Kenya and Rwanda\n\n\n\n\n\n\nThis operations plan ensures that RwandaMarket can efficiently manage its supply chain, inventory, order fulfillment, and customer service, all supported by a robust technology infrastructure."
   },
   {
     "objectID": "management-team.html",
@@ -329,214 +266,18 @@
     "text": "Financial Risks and Mitigation Strategies\n\nCurrency Fluctuations\n\nMitigation: Use of forward contracts and maintaining reserves in both KES and RWF\n\nSeasonal Sales Variations\n\nMitigation: Diversified product range and B2B services to smooth revenue\n\nInventory Obsolescence\n\nMitigation: Data-driven inventory management and limited edition product strategies\n\nCash Flow Management\n\nMitigation: Conservative cash flow projections and maintaining a cash reserve\n\n\n\n\n\n\n\nThis financial plan demonstrates RwandaMarket’s path to profitability and long-term financial sustainability. Our diverse revenue streams, coupled with strategic cost management and funding, position us for strong growth in the East African market."
   },
   {
-    "objectID": "b2c-offerings.html",
-    "href": "b2c-offerings.html",
-    "title": "B2C Offerings",
+    "objectID": "free-trade-benefits.html",
+    "href": "free-trade-benefits.html",
+    "title": "Free Trade Benefits Documentation and Analysis",
     "section": "",
-    "text": "Discover the rich cultural heritage of Rwanda through our carefully curated selection of authentic products. Each item in our collection tells a unique story of Rwandan craftsmanship and tradition."
+    "text": "To fully leverage the benefits of free trade agreements, particularly within the East African Community (EAC), RwandaMarket will implement a comprehensive system for tracking, documenting, and analyzing our use of these benefits."
   },
   {
-    "objectID": "b2c-offerings.html#product-categories",
-    "href": "b2c-offerings.html#product-categories",
-    "title": "B2C Offerings",
-    "section": "Product Categories",
-    "text": "Product Categories\n\n1. Coffee and Tea\nExperience the rich flavors of Rwanda’s highlands with our premium coffee and tea selection.\n\nSingle-origin coffee beans from renowned Rwandan cooperatives\nSpecialty tea blends, including black, green, and herbal varieties\nHandcrafted coffee and tea accessories\n\n\n\n2. Handicrafts\nAdd a touch of Rwandan artistry to your home with our exquisite handicrafts.\n\nTraditional Agaseke peace baskets\nIntricately carved wooden sculptures\nHand-woven textiles and tapestries\n\n\n\n3. Jewelry\nAdorn yourself with unique pieces that showcase Rwandan design and craftsmanship.\n\nHandcrafted necklaces, bracelets, and earrings\nPieces featuring local materials like cow horn and volcanic stone\nModern interpretations of traditional Rwandan jewelry designs\n\n\n\n4. Home Decor\nTransform your living space with authentic Rwandan decor items.\n\nImigongo art pieces (traditional cow dung paintings)\nHandmade ceramics and pottery\nWoven grass mats and wall hangings\n\n\n\n5. Fashion and Textiles\nEmbrace Rwandan style with our collection of clothing and textiles.\n\nModern clothing featuring traditional Rwandan patterns\nHand-dyed fabrics and scarves\nBespoke tailoring services using authentic Rwandan textiles"
-  },
-  {
-    "objectID": "b2c-offerings.html#featured-artisans",
-    "href": "b2c-offerings.html#featured-artisans",
-    "title": "B2C Offerings",
-    "section": "Featured Artisans",
-    "text": "Featured Artisans\nWe work directly with talented Rwandan artisans to bring you authentic, high-quality products. Meet some of our featured artisans:\n\n[PLACEHOLDER: Artisan Name] - Master Weaver\n[PLACEHOLDER: Artisan Name] - Coffee Roaster\n[PLACEHOLDER: Artisan Name] - Jewelry Designer"
-  },
-  {
-    "objectID": "b2c-offerings.html#customer-testimonials",
-    "href": "b2c-offerings.html#customer-testimonials",
-    "title": "B2C Offerings",
-    "section": "Customer Testimonials",
-    "text": "Customer Testimonials\n“The quality of the Rwandan coffee I purchased is outstanding. It’s now a staple in my morning routine!” - [PLACEHOLDER: Customer Name]\n“I love the unique Agaseke basket I bought. It’s a beautiful piece of art and a great conversation starter.” - [PLACEHOLDER: Customer Name]\nExplore our collection and bring a piece of Rwanda into your home today!"
-  },
-  {
-    "objectID": "b2b-solutions.html",
-    "href": "b2b-solutions.html",
-    "title": "B2B Solutions",
-    "section": "",
-    "text": "RwandaMarket offers innovative B2B solutions designed to facilitate and optimize cross-border trade between Rwanda and Kenya. Our services leverage cutting-edge technology and deep market insights to provide value to businesses of all sizes."
-  },
-  {
-    "objectID": "b2b-solutions.html#our-b2b-services",
-    "href": "b2b-solutions.html#our-b2b-services",
-    "title": "B2B Solutions",
-    "section": "Our B2B Services",
-    "text": "Our B2B Services\n\n1. Cross-Border Trade Facilitation\nStreamline your import/export processes with our comprehensive trade facilitation services.\n\nCustoms documentation assistance\nLogistics optimization\nRegulatory compliance guidance\nTrade finance solutions\n\n\n\n2. Market Intelligence\nMake informed decisions with our data-driven market insights.\n\nConsumer trend analysis\nCompetitive landscape mapping\nMarket entry strategy consulting\nDemand forecasting\n\n\n\n3. Supply Chain Analytics\nOptimize your operations with our advanced analytics solutions.\n\nInventory optimization\nRoute planning and optimization\nSupplier performance analysis\nRisk assessment and mitigation strategies\n\n\n\n4. Blockchain-Enabled Product Authentication\nEnsure the authenticity and traceability of your products.\n\nEnd-to-end supply chain tracking\nCounterfeit protection\nConsumer trust building\nEthical sourcing verification"
-  },
-  {
-    "objectID": "b2b-solutions.html#case-studies",
-    "href": "b2b-solutions.html#case-studies",
-    "title": "B2B Solutions",
-    "section": "Case Studies",
-    "text": "Case Studies\n\nCase Study 1: Optimizing Coffee Exports\n[PLACEHOLDER: Brief description of how we helped a Rwandan coffee cooperative increase their exports to Kenya]\n\n\nCase Study 2: Market Entry Strategy\n[PLACEHOLDER: Description of how we assisted a Kenyan company in successfully entering the Rwandan market]"
-  },
-  {
-    "objectID": "b2b-solutions.html#pricing-models",
-    "href": "b2b-solutions.html#pricing-models",
-    "title": "B2B Solutions",
-    "section": "Pricing Models",
-    "text": "Pricing Models\nWe offer flexible pricing models to suit businesses of all sizes:\n\nSubscription-based services\nPay-per-use model\nCustom packages for enterprise clients\n\n[PLACEHOLDER: More detailed pricing information]"
-  },
-  {
-    "objectID": "b2b-solutions.html#why-choose-rwandamarket-for-b2b-solutions",
-    "href": "b2b-solutions.html#why-choose-rwandamarket-for-b2b-solutions",
-    "title": "B2B Solutions",
-    "section": "Why Choose RwandaMarket for B2B Solutions?",
-    "text": "Why Choose RwandaMarket for B2B Solutions?\n\nDeep understanding of both Rwandan and Kenyan markets\nCutting-edge technology integration, including R-based analytics and blockchain\nComprehensive suite of services covering all aspects of cross-border trade\nProven track record of success with diverse clients\n\nContact our B2B team today to learn how we can help optimize your East African trade operations."
-  },
-  {
-    "objectID": "trade-regulations.html",
-    "href": "trade-regulations.html",
-    "title": "Trade Regulations",
-    "section": "",
-    "text": "Understanding the trade regulations governing commerce between Rwanda and Kenya is crucial for successful cross-border operations. RwandaMarket is committed to ensuring full compliance with all relevant laws and treaties."
-  },
-  {
-    "objectID": "trade-regulations.html#key-trade-agreements",
-    "href": "trade-regulations.html#key-trade-agreements",
-    "title": "Trade Regulations",
-    "section": "Key Trade Agreements",
-    "text": "Key Trade Agreements\n\n1. East African Community (EAC) Customs Union\nThe EAC Customs Union, which includes both Rwanda and Kenya, provides for:\n\nDuty-free movement of goods within the EAC\nCommon External Tariff (CET) for goods imported from outside the EAC\nHarmonized customs procedures\n\n\n\n2. African Continental Free Trade Area (AfCFTA)\nBoth Rwanda and Kenya are signatories to the AfCFTA, which aims to create a single continental market for goods and services."
-  },
-  {
-    "objectID": "trade-regulations.html#importexport-procedures",
-    "href": "trade-regulations.html#importexport-procedures",
-    "title": "Trade Regulations",
-    "section": "Import/Export Procedures",
-    "text": "Import/Export Procedures\n\nDocumentation Required\n\nCommercial Invoice\nPacking List\nCertificate of Origin\nBill of Lading/Airway Bill\nImport Declaration Form (IDF)\nPre-Export Verification of Conformity (PVoC)\n\n\n\nCustoms Clearance Process\n[PLACEHOLDER: Step-by-step guide to the customs clearance process]"
-  },
-  {
-    "objectID": "trade-regulations.html#product-specific-regulations",
-    "href": "trade-regulations.html#product-specific-regulations",
-    "title": "Trade Regulations",
-    "section": "Product-Specific Regulations",
-    "text": "Product-Specific Regulations\n\nCoffee and Tea\n\nPhytosanitary certificates required\nQuality standards set by the East African Standards Committee\n\n\n\nHandicrafts\n\nCultural property export permits may be required for certain items\nCITES permits for products made from protected species\n\n\n\nTextiles\n\nRules of origin documentation to qualify for duty-free status under EAC\nCompliance with textile labeling requirements"
-  },
-  {
-    "objectID": "trade-regulations.html#tariffs-and-taxes",
-    "href": "trade-regulations.html#tariffs-and-taxes",
-    "title": "Trade Regulations",
-    "section": "Tariffs and Taxes",
-    "text": "Tariffs and Taxes\n\nValue Added Tax (VAT): 16% in Kenya\nImport Duty: Varies by product category (many products duty-free under EAC)\nExcise Duty: Applicable to certain luxury goods"
-  },
-  {
-    "objectID": "trade-regulations.html#compliance-strategies",
-    "href": "trade-regulations.html#compliance-strategies",
-    "title": "Trade Regulations",
-    "section": "Compliance Strategies",
-    "text": "Compliance Strategies\n\nRegular training for staff on current regulations\nPartnerships with customs brokers in both Rwanda and Kenya\nUse of digital tools for automated compliance checks\nProactive engagement with regulatory bodies\n\nRwandaMarket is committed to navigating these regulations efficiently to ensure smooth cross-border trade for our B2C and B2B operations."
-  },
-  {
-    "objectID": "consular-services.html",
-    "href": "consular-services.html",
-    "title": "Consular Services",
-    "section": "",
-    "text": "The Rwandan Consulate in Kenya provides valuable services that support RwandaMarket’s operations. Understanding and leveraging these services is crucial for our business success."
-  },
-  {
-    "objectID": "consular-services.html#key-consular-services",
-    "href": "consular-services.html#key-consular-services",
-    "title": "Consular Services",
-    "section": "Key Consular Services",
-    "text": "Key Consular Services\n\n1. Document Authentication\n\nVerification of Certificates of Origin\nLegalization of commercial documents\n\n\n\n2. Trade Facilitation\n\nInformation on Rwandan trade policies and regulations\nAssistance with trade dispute resolution\n\n\n\n3. Business Networking\n\nFacilitation of business-to-business connections\nInformation on trade fairs and business events in Rwanda\n\n\n\n4. Visa Services\n\nProcessing of business visas for travel to Rwanda\nInformation on work permits for Rwandan nationals in Kenya"
-  },
-  {
-    "objectID": "consular-services.html#how-rwandamarket-leverages-consular-services",
-    "href": "consular-services.html#how-rwandamarket-leverages-consular-services",
-    "title": "Consular Services",
-    "section": "How RwandaMarket Leverages Consular Services",
-    "text": "How RwandaMarket Leverages Consular Services\n\nRegular consultation for updates on trade policies\nParticipation in consulate-organized business networking events\nAssistance in verifying the credentials of potential Rwandan suppliers\nSupport in resolving any cross-border business disputes"
-  },
-  {
-    "objectID": "consular-services.html#contact-information",
-    "href": "consular-services.html#contact-information",
-    "title": "Consular Services",
-    "section": "Contact Information",
-    "text": "Contact Information\nRwandan Consulate in Nairobi, Kenya: - Address: [PLACEHOLDER: Consulate Address] - Phone: [PLACEHOLDER: Consulate Phone Number] - Email: [PLACEHOLDER: Consulate Email] - Website: [PLACEHOLDER: Consulate Website]\nBusiness Hours: [PLACEHOLDER: Business Hours]\nRwandaMarket maintains a strong relationship with the Rwandan Consulate to ensure smooth operations and compliance with all relevant regulations."
-  },
-  {
-    "objectID": "our-impact.html",
-    "href": "our-impact.html",
-    "title": "Our Impact",
-    "section": "",
-    "text": "At RwandaMarket, we believe in creating positive change through our business activities. Our impact spans social, economic, and environmental dimensions, benefiting communities in both Rwanda and Kenya."
-  },
-  {
-    "objectID": "our-impact.html#social-impact",
-    "href": "our-impact.html#social-impact",
-    "title": "Our Impact",
-    "section": "Social Impact",
-    "text": "Social Impact\n\nEmpowering Artisans\n\nDirect partnerships with [PLACEHOLDER: Number] Rwandan artisan cooperatives\nFair compensation and sustainable income for artisans\nSkills development and training programs\n\n\n\nPreserving Cultural Heritage\n\nPromotion of traditional Rwandan crafts and techniques\nCultural exchange initiatives between Rwanda and Kenya"
-  },
-  {
-    "objectID": "our-impact.html#economic-impact",
-    "href": "our-impact.html#economic-impact",
-    "title": "Our Impact",
-    "section": "Economic Impact",
-    "text": "Economic Impact\n\nJob Creation\n\n[PLACEHOLDER: Number] jobs created in Rwanda (artisans and logistics)\n[PLACEHOLDER: Number] jobs created in Kenya (retail and operations)\n\n\n\nBoosting Cross-Border Trade\n\nFacilitating increased trade volume between Rwanda and Kenya\nSupporting small and medium enterprises in navigating international markets\n\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead."
-  },
-  {
-    "objectID": "our-impact.html#environmental-impact",
-    "href": "our-impact.html#environmental-impact",
-    "title": "Our Impact",
-    "section": "Environmental Impact",
-    "text": "Environmental Impact\n\nSustainable Sourcing\n\nPromotion of eco-friendly production methods\nUse of renewable materials in product packaging\n\n\n\nCarbon Footprint Reduction\n\nOptimization of logistics to reduce transportation emissions\nInvestment in carbon offset projects in East Africa"
-  },
-  {
-    "objectID": "our-impact.html#community-initiatives",
-    "href": "our-impact.html#community-initiatives",
-    "title": "Our Impact",
-    "section": "Community Initiatives",
-    "text": "Community Initiatives\n\nEducational scholarships for artisans’ children\nHealth and wellness programs in partner communities"
-  },
-  {
-    "objectID": "our-impact.html#future-impact-goals",
-    "href": "our-impact.html#future-impact-goals",
-    "title": "Our Impact",
-    "section": "Future Impact Goals",
-    "text": "Future Impact Goals\n\nExpand artisan network to [PLACEHOLDER: Number] cooperatives by 2028\nAchieve carbon neutrality in our operations by 2030\nEstablish a vocational training center for traditional crafts in Rwanda\n\nRwandaMarket is committed to growing our business responsibly, ensuring that our success translates into positive outcomes for the communities we serve."
-  },
-  {
-    "objectID": "future-growth.html",
-    "href": "future-growth.html",
-    "title": "Future Growth",
-    "section": "",
-    "text": "RwandaMarket is committed to sustainable growth and innovation. Our strategic plan outlines ambitious yet achievable goals to expand our reach, enhance our technological capabilities, and deepen our impact in East Africa and beyond."
-  },
-  {
-    "objectID": "future-growth.html#expansion-plans",
-    "href": "future-growth.html#expansion-plans",
-    "title": "Future Growth",
-    "section": "Expansion Plans",
-    "text": "Expansion Plans\n\nGeographic Expansion\n\nShort-term (1-2 years):\n\nEstablish physical presence in other major Kenyan cities (Mombasa, Kisumu)\nLaunch e-commerce operations in Uganda and Tanzania\nExpand our artisan network in Rwanda to include more rural cooperatives\n\nMedium-term (3-5 years):\n\nEnter markets in Ethiopia and Burundi\nEstablish regional distribution centers to optimize logistics\nExplore partnerships with major African e-commerce platforms for cross-listing products\n\nLong-term (5+ years):\n\nExpand operations to West and Southern African markets\nConsider strategic acquisitions of complementary businesses\nEstablish RwandaMarket as a pan-African brand for authentic, ethically sourced products\n\n\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n\n\n\n\n\nProduct Line Expansion\n\nIntroduce RwandaMarket-branded products, starting with coffee and tea blends\nExpand into new categories such as gourmet foods, wellness products, and home fragrances\nCollaborate with renowned African designers for exclusive, limited-edition collections\nDevelop a line of sustainable, eco-friendly packaging and home goods"
-  },
-  {
-    "objectID": "future-growth.html#technology-development-roadmap",
-    "href": "future-growth.html#technology-development-roadmap",
-    "title": "Future Growth",
-    "section": "Technology Development Roadmap",
-    "text": "Technology Development Roadmap\n\nEnhanced AI-driven Personalization (Year 1-2):\n\nImplement advanced recommendation engines using machine learning\nDevelop predictive analytics for inventory management and demand forecasting\n\nBlockchain Integration (Year 2-3):\n\nExpand our blockchain-based authentication system to cover all product categories\nImplement smart contracts for more efficient and transparent transactions with suppliers\n\nAugmented Reality (AR) Shopping Experience (Year 3-4):\n\nDevelop AR features for mobile app to allow customers to visualize products in their space\nCreate virtual showrooms for B2B clients to explore product collections\n\nAdvanced Supply Chain Optimization (Year 4-5):\n\nImplement IoT sensors for real-time tracking and quality control throughout the supply chain\nDevelop AI-powered route optimization for last-mile delivery"
-  },
-  {
-    "objectID": "future-growth.html#strategic-initiatives",
-    "href": "future-growth.html#strategic-initiatives",
-    "title": "Future Growth",
-    "section": "Strategic Initiatives",
-    "text": "Strategic Initiatives\n\nSustainability Focus:\n\nAchieve carbon neutrality in our operations by 2028\nImplement a circular economy model for packaging and returns\nLaunch a sustainability certification program for our artisan partners\n\nEducation and Skill Development:\n\nEstablish a RwandaMarket Academy to provide e-commerce and digital skills training to artisans\nPartner with universities in Kenya and Rwanda to offer internships and research opportunities\n\nFinancial Inclusion:\n\nDevelop a microfinance program for our artisan network\nExplore partnerships with mobile money providers to enhance financial services for our suppliers and customers\n\nCommunity Impact:\n\nLaunch a “RwandaMarket Foundation” to support education and healthcare initiatives in artisan communities\nImplement a profit-sharing model with key artisan cooperatives"
-  },
-  {
-    "objectID": "future-growth.html#key-performance-indicators-kpis",
-    "href": "future-growth.html#key-performance-indicators-kpis",
-    "title": "Future Growth",
-    "section": "Key Performance Indicators (KPIs)",
-    "text": "Key Performance Indicators (KPIs)\nTo track our growth and impact, we will focus on the following KPIs:\n\nRevenue growth (target: 50% year-over-year)\nNumber of artisans supported (target: 25% annual increase)\nCarbon footprint reduction (target: 10% annual reduction)\nCustomer satisfaction score (target: maintain above 4.5/5)\nB2B solution adoption rate (target: 30% annual growth)\n\nRwandaMarket is poised for significant growth in the coming years. By focusing on geographic expansion, product diversification, technological innovation, and impactful community initiatives, we aim to become a leading force in African e-commerce and cross-border trade facilitation."
+    "objectID": "free-trade-benefits.html#free-trade-benefit-forms",
+    "href": "free-trade-benefits.html#free-trade-benefit-forms",
+    "title": "Free Trade Benefits Documentation and Analysis",
+    "section": "Free Trade Benefit Forms",
+    "text": "Free Trade Benefit Forms\n\n1. Product Origin Declaration Form\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\n\nProduct Origin Declaration Form\n\n\nProduct Name\n\n\n\nHS Code\n\n\n\nCountry of Origin\n\nRwanda\nKenya\nUganda\nTanzania\nBurundi\nSouth Sudan\n\n\n\n\nPercentage of Local Content\n\n\n\nBrief Description of Manufacturing Process\n\n\n\n\n\n\nMeets EAC Rules of Origin Criteria\n\n\n\n\nUpload Supporting Documents\n\n\n\nBrowse...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2. Tariff Savings Tracking Form\n\n\n\nTariff Savings Tracking Form\n\n\nProduct Name\n\n\n\nHS Code\n\n\n\nOrigin Country\n\nRwanda\nKenya\nUganda\nTanzania\nBurundi\nSouth Sudan\n\n\n\n\nDestination Country\n\nRwanda\nKenya\nUganda\nTanzania\nBurundi\nSouth Sudan\n\n\n\n\nShipment Value (USD)\n\n\n\nStandard Tariff Rate (%)\n\n\n\nPreferential Tariff Rate under EAC (%)\n\n\n\nCertificate of Origin Number\n\n\n\n\n\n\n\n\n3. Non-Tariff Barrier Reporting Form\n\n\n\nNon-Tariff Barrier Reporting Form\n\n\nType of Non-Tariff Barrier\n\nCustoms Procedures\nTechnical Regulations\nSanitary Measures\nLicensing Requirements\nOther\n\n\n\n\nCountry Where Barrier was Encountered\n\nRwanda\nKenya\nUganda\nTanzania\nBurundi\nSouth Sudan\n\n\n\n\nDate Encountered\n\n\n\nDetailed Description of the Barrier\n\n\n\nEstimated Cost Impact (USD)\n\n\n\nDescription of Resolution Efforts\n\n\n\nCurrent Status\n\nUnresolved\nIn Progress\nResolved\n\n\n\n\n\n\n\nNow, let’s update our MongoDB setup script to include collections for these new forms:\nNow, let’s create an R script to analyze the free trade benefits data:\nThis system for documenting and analyzing free trade benefits will allow RwandaMarket to:\n\nEnsure compliance with Rules of Origin requirements for preferential tariff treatment.\nTrack and quantify the financial benefits of utilizing free trade agreements.\nIdentify and address non-tariff barriers that may be hindering trade.\nOptimize product sourcing and trade routes based on potential tariff savings.\nProvide data-driven insights for business strategy and government advocacy efforts.\n\nTo fully implement this system:\n\nIntegrate these forms into the RwandaMarket website or internal systems.\nSet up automated data collection where possible (e.g., integrating with customs databases).\nDevelop a dashboard to visualize key metrics related to free trade benefits.\nImplement regular reporting and analysis cycles to inform business decisions.\nEstablish a process for acting on insights, such as addressing compliance issues or lobbying for resolution of persistent non-tariff barriers.\n\nThis comprehensive approach to tracking and analyzing free trade benefits will enable RwandaMarket to maximize the advantages of trade agreements, reduce costs, and streamline cross-border operations."
   },
   {
     "objectID": "rapid-rollout.html",
@@ -595,116 +336,123 @@
     "text": "Conclusion\nThis rapid rollout framework prioritizes speed to market while building a strong foundation for future growth. By focusing on core products, MVP technology, and key partnerships in the initial phases, RwandaMarket can quickly establish its presence in the Kenyan market. The phased approach allows for continuous learning and adaptation, ensuring that resources are allocated efficiently and the business model is validated before larger investments are made.\nAs we progress through each phase, we’ll continuously evaluate our performance against the key success metrics and adjust our strategies as needed. This agile approach will allow us to respond quickly to market feedback and opportunities, positioning RwandaMarket for sustainable long-term success in the East African e-commerce and trade facilitation space."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Us",
+    "objectID": "company-description.html",
+    "href": "company-description.html",
+    "title": "Company Description",
     "section": "",
-    "text": "We value open communication with our customers, partners, and stakeholders. Whether you have a question about our products, want to explore B2B opportunities, or are interested in joining our team, we’re here to help."
+    "text": "To bridge cultures and empower artisans by bringing the best of Rwanda to Nairobi, powered by cutting-edge data science and technology."
   },
   {
-    "objectID": "contact.html#contact-information",
-    "href": "contact.html#contact-information",
-    "title": "Contact Us",
-    "section": "Contact Information",
-    "text": "Contact Information\n\nGeneral Inquiries: info@rwandamarket.com\nCustomer Support: support@rwandamarket.com\nB2B Solutions: b2b@rwandamarket.com\nCareers: careers@rwandamarket.com\nPress and Media: media@rwandamarket.com\n\nPhone: +254 20 [PLACEHOLDER: Phone number]\nPhysical Address:\nRwandaMarket Ltd.\n[PLACEHOLDER: Street Address]\nNairobi, Kenya\nOperating Hours:\nMonday - Friday: 9:00 AM - 6:00 PM (EAT)\nSaturday: 10:00 AM - 4:00 PM (EAT)\nSunday: Closed"
-  },
-  {
-    "objectID": "contact.html#contact-form",
-    "href": "contact.html#contact-form",
-    "title": "Contact Us",
-    "section": "Contact Form",
-    "text": "Contact Form\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\nShiny applications not supported in static R Markdown documents"
-  },
-  {
-    "objectID": "contact.html#connect-with-us",
-    "href": "contact.html#connect-with-us",
-    "title": "Contact Us",
-    "section": "Connect With Us",
-    "text": "Connect With Us\nStay updated with our latest products, offers, and company news by following us on social media:\n\nFacebook: /RwandaMarket\nInstagram: @RwandaMarket\nTwitter: @RwandaMarket_KE\nLinkedIn: RwandaMarket Ltd."
-  },
-  {
-    "objectID": "contact.html#visit-our-store",
-    "href": "contact.html#visit-our-store",
-    "title": "Contact Us",
-    "section": "Visit Our Store",
-    "text": "Visit Our Store\nExperience our products firsthand at our flagship store in Nairobi:\n[PLACEHOLDER: Store Address]"
-  },
-  {
-    "objectID": "contact.html#feedback",
-    "href": "contact.html#feedback",
-    "title": "Contact Us",
-    "section": "Feedback",
-    "text": "Feedback\nYour feedback is crucial in helping us improve our services. If you have any suggestions or concerns, please don’t hesitate to reach out. We appreciate your input and are committed to continuously enhancing your experience with RwandaMarket.\nThank you for your interest in RwandaMarket. We look forward to hearing from you and serving your needs for authentic Rwandan products and innovative B2B solutions."
-  },
-  {
-    "objectID": "free-trade-benefits.html",
-    "href": "free-trade-benefits.html",
-    "title": "Free Trade Benefits Documentation and Analysis",
+    "objectID": "company-description.html#mission-statement",
+    "href": "company-description.html#mission-statement",
+    "title": "Company Description",
     "section": "",
-    "text": "To fully leverage the benefits of free trade agreements, particularly within the East African Community (EAC), RwandaMarket will implement a comprehensive system for tracking, documenting, and analyzing our use of these benefits."
+    "text": "To bridge cultures and empower artisans by bringing the best of Rwanda to Nairobi, powered by cutting-edge data science and technology."
   },
   {
-    "objectID": "free-trade-benefits.html#free-trade-benefit-forms",
-    "href": "free-trade-benefits.html#free-trade-benefit-forms",
-    "title": "Free Trade Benefits Documentation and Analysis",
-    "section": "Free Trade Benefit Forms",
-    "text": "Free Trade Benefit Forms\n\n1. Product Origin Declaration Form\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\n\nProduct Origin Declaration Form\n\n\nProduct Name\n\n\n\nHS Code\n\n\n\nCountry of Origin\n\nRwanda\nKenya\nUganda\nTanzania\nBurundi\nSouth Sudan\n\n\n\n\nPercentage of Local Content\n\n\n\nBrief Description of Manufacturing Process\n\n\n\n\n\n\nMeets EAC Rules of Origin Criteria\n\n\n\n\nUpload Supporting Documents\n\n\n\nBrowse...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2. Tariff Savings Tracking Form\n\n\n\nTariff Savings Tracking Form\n\n\nProduct Name\n\n\n\nHS Code\n\n\n\nOrigin Country\n\nRwanda\nKenya\nUganda\nTanzania\nBurundi\nSouth Sudan\n\n\n\n\nDestination Country\n\nRwanda\nKenya\nUganda\nTanzania\nBurundi\nSouth Sudan\n\n\n\n\nShipment Value (USD)\n\n\n\nStandard Tariff Rate (%)\n\n\n\nPreferential Tariff Rate under EAC (%)\n\n\n\nCertificate of Origin Number\n\n\n\n\n\n\n\n\n3. Non-Tariff Barrier Reporting Form\n\n\n\nNon-Tariff Barrier Reporting Form\n\n\nType of Non-Tariff Barrier\n\nCustoms Procedures\nTechnical Regulations\nSanitary Measures\nLicensing Requirements\nOther\n\n\n\n\nCountry Where Barrier was Encountered\n\nRwanda\nKenya\nUganda\nTanzania\nBurundi\nSouth Sudan\n\n\n\n\nDate Encountered\n\n\n\nDetailed Description of the Barrier\n\n\n\nEstimated Cost Impact (USD)\n\n\n\nDescription of Resolution Efforts\n\n\n\nCurrent Status\n\nUnresolved\nIn Progress\nResolved\n\n\n\n\n\n\n\nNow, let’s update our MongoDB setup script to include collections for these new forms:\nNow, let’s create an R script to analyze the free trade benefits data:\nThis system for documenting and analyzing free trade benefits will allow RwandaMarket to:\n\nEnsure compliance with Rules of Origin requirements for preferential tariff treatment.\nTrack and quantify the financial benefits of utilizing free trade agreements.\nIdentify and address non-tariff barriers that may be hindering trade.\nOptimize product sourcing and trade routes based on potential tariff savings.\nProvide data-driven insights for business strategy and government advocacy efforts.\n\nTo fully implement this system:\n\nIntegrate these forms into the RwandaMarket website or internal systems.\nSet up automated data collection where possible (e.g., integrating with customs databases).\nDevelop a dashboard to visualize key metrics related to free trade benefits.\nImplement regular reporting and analysis cycles to inform business decisions.\nEstablish a process for acting on insights, such as addressing compliance issues or lobbying for resolution of persistent non-tariff barriers.\n\nThis comprehensive approach to tracking and analyzing free trade benefits will enable RwandaMarket to maximize the advantages of trade agreements, reduce costs, and streamline cross-border operations."
+    "objectID": "company-description.html#vision-statement",
+    "href": "company-description.html#vision-statement",
+    "title": "Company Description",
+    "section": "Vision Statement",
+    "text": "Vision Statement\nTo become the premier platform for cross-border trade in East Africa, known for quality products, technological innovation, and positive social impact."
   },
   {
-    "objectID": "optimization-documentation.html",
-    "href": "optimization-documentation.html",
-    "title": "Optimization Documentation and Data Collection",
+    "objectID": "company-description.html#company-history-and-background",
+    "href": "company-description.html#company-history-and-background",
+    "title": "Company Description",
+    "section": "Company History and Background",
+    "text": "Company History and Background\nRwandaMarket was founded in 2024 by a team of entrepreneurs passionate about East African trade and technological innovation. The idea was born from recognizing the untapped potential of connecting Rwandan artisans with the growing Kenyan market, all while leveraging cutting-edge data science to optimize operations."
+  },
+  {
+    "objectID": "company-description.html#legal-structure-and-ownership",
+    "href": "company-description.html#legal-structure-and-ownership",
+    "title": "Company Description",
+    "section": "Legal Structure and Ownership",
+    "text": "Legal Structure and Ownership\n[PLACEHOLDER: Legal structure details to be finalized]\nRwandaMarket is structured as a [PLACEHOLDER: legal entity type] registered in Kenya. The company’s ownership is distributed as follows:"
+  },
+  {
+    "objectID": "company-description.html#location-and-facilities",
+    "href": "company-description.html#location-and-facilities",
+    "title": "Company Description",
+    "section": "Location and Facilities",
+    "text": "Location and Facilities\n\nHeadquarters\nOur main office is located in the heart of Nairobi’s business district:\n[PLACEHOLDER: Exact address]\nThis central location allows us to easily connect with our customers, partners, and the broader business community.\n\n\nFlagship Store\nOur physical retail presence is anchored by our flagship store:\n[PLACEHOLDER: Store address]\nThis store showcases our full range of Rwandan products and serves as a cultural hub for events and workshops.\n\n\nWarehouse and Distribution Center\nTo ensure efficient order fulfillment and inventory management, we operate a state-of-the-art warehouse:\n[PLACEHOLDER: Warehouse address]\nThis facility is equipped with advanced inventory tracking systems and optimized for quick order processing and shipping."
+  },
+  {
+    "objectID": "company-description.html#core-values",
+    "href": "company-description.html#core-values",
+    "title": "Company Description",
+    "section": "Core Values",
+    "text": "Core Values\n\nCultural Appreciation: We celebrate and promote Rwandan culture and craftsmanship.\nTechnological Innovation: We leverage cutting-edge technology to enhance all aspects of our business.\nEthical Trade: We ensure fair compensation and sustainable practices throughout our supply chain.\nCustomer-Centricity: We prioritize customer satisfaction in both our B2C and B2B operations.\nContinuous Learning: We constantly seek to improve and adapt to changing market conditions.\n\nRwandaMarket stands at the intersection of tradition and innovation, bringing the best of Rwanda to Kenya while setting new standards for cross-border e-commerce in East Africa."
+  },
+  {
+    "objectID": "b2c-offerings.html",
+    "href": "b2c-offerings.html",
+    "title": "B2C Offerings",
     "section": "",
-    "text": "To fully optimize RwandaMarket’s operations, we will collect and analyze data across various aspects of our business. This additional documentation and data collection will enable us to make data-driven decisions and continuously improve our processes."
+    "text": "Discover the rich cultural heritage of Rwanda through our carefully curated selection of authentic products. Each item in our collection tells a unique story of Rwandan craftsmanship and tradition."
   },
   {
-    "objectID": "optimization-documentation.html#supply-chain-optimization",
-    "href": "optimization-documentation.html#supply-chain-optimization",
-    "title": "Optimization Documentation and Data Collection",
-    "section": "Supply Chain Optimization",
-    "text": "Supply Chain Optimization\n\nSupplier Performance Tracking Form\n\nSupplier Name\nOrder Fulfillment Rate\nOn-Time Delivery Rate\nProduct Quality Rating\nCommunication Responsiveness\nPrice Competitiveness\n\nLogistics Performance Form\n\nShipping Method\nOrigin and Destination\nTransit Time\nShipping Cost\nDamage Rate\nCustomer Satisfaction with Delivery\n\nInventory Turnover Tracking\n\nProduct SKU\nInitial Stock Level\nSales Volume\nRestocking Frequency\nStorage Costs"
+    "objectID": "b2c-offerings.html#product-categories",
+    "href": "b2c-offerings.html#product-categories",
+    "title": "B2C Offerings",
+    "section": "Product Categories",
+    "text": "Product Categories\n\n1. Coffee and Tea\nExperience the rich flavors of Rwanda’s highlands with our premium coffee and tea selection.\n\nSingle-origin coffee beans from renowned Rwandan cooperatives\nSpecialty tea blends, including black, green, and herbal varieties\nHandcrafted coffee and tea accessories\n\n\n\n2. Handicrafts\nAdd a touch of Rwandan artistry to your home with our exquisite handicrafts.\n\nTraditional Agaseke peace baskets\nIntricately carved wooden sculptures\nHand-woven textiles and tapestries\n\n\n\n3. Jewelry\nAdorn yourself with unique pieces that showcase Rwandan design and craftsmanship.\n\nHandcrafted necklaces, bracelets, and earrings\nPieces featuring local materials like cow horn and volcanic stone\nModern interpretations of traditional Rwandan jewelry designs\n\n\n\n4. Home Decor\nTransform your living space with authentic Rwandan decor items.\n\nImigongo art pieces (traditional cow dung paintings)\nHandmade ceramics and pottery\nWoven grass mats and wall hangings\n\n\n\n5. Fashion and Textiles\nEmbrace Rwandan style with our collection of clothing and textiles.\n\nModern clothing featuring traditional Rwandan patterns\nHand-dyed fabrics and scarves\nBespoke tailoring services using authentic Rwandan textiles"
   },
   {
-    "objectID": "optimization-documentation.html#customer-experience-optimization",
-    "href": "optimization-documentation.html#customer-experience-optimization",
-    "title": "Optimization Documentation and Data Collection",
-    "section": "Customer Experience Optimization",
-    "text": "Customer Experience Optimization\n\nCustomer Feedback Form\n\nOverall Satisfaction Rating\nProduct Quality Rating\nDelivery Experience Rating\nCustomer Service Rating\nWebsite Usability Rating\nOpen-ended Feedback\n\nWebsite Analytics Integration\n\nPage Views\nTime on Site\nBounce Rate\nConversion Rate\nCart Abandonment Rate\nSearch Terms Used\n\nCustomer Support Ticket Tracking\n\nTicket Category\nResolution Time\nCustomer Satisfaction with Resolution\nRecurring Issues Identification"
+    "objectID": "b2c-offerings.html#featured-artisans",
+    "href": "b2c-offerings.html#featured-artisans",
+    "title": "B2C Offerings",
+    "section": "Featured Artisans",
+    "text": "Featured Artisans\nWe work directly with talented Rwandan artisans to bring you authentic, high-quality products. Meet some of our featured artisans:\n\n[PLACEHOLDER: Artisan Name] - Master Weaver\n[PLACEHOLDER: Artisan Name] - Coffee Roaster\n[PLACEHOLDER: Artisan Name] - Jewelry Designer"
   },
   {
-    "objectID": "optimization-documentation.html#business-operations-optimization",
-    "href": "optimization-documentation.html#business-operations-optimization",
-    "title": "Optimization Documentation and Data Collection",
-    "section": "Business Operations Optimization",
-    "text": "Business Operations Optimization\n\nEmployee Productivity Tracking\n\nEmployee ID\nDepartment\nTasks Completed\nTime Spent on Tasks\nQuality of Work Rating\n\nFinancial Performance Metrics\n\nRevenue by Product Category\nGross Margin by Product\nCustomer Acquisition Cost\nCustomer Lifetime Value\nOperating Expenses Breakdown\n\nMarketing Campaign Effectiveness\n\nCampaign ID\nChannel (e.g., Social Media, Email, PPC)\nReach\nEngagement Rate\nConversion Rate\nReturn on Ad Spend (ROAS)"
+    "objectID": "b2c-offerings.html#customer-testimonials",
+    "href": "b2c-offerings.html#customer-testimonials",
+    "title": "B2C Offerings",
+    "section": "Customer Testimonials",
+    "text": "Customer Testimonials\n“The quality of the Rwandan coffee I purchased is outstanding. It’s now a staple in my morning routine!” - [PLACEHOLDER: Customer Name]\n“I love the unique Agaseke basket I bought. It’s a beautiful piece of art and a great conversation starter.” - [PLACEHOLDER: Customer Name]\nExplore our collection and bring a piece of Rwanda into your home today!"
   },
   {
-    "objectID": "optimization-documentation.html#b2b-services-optimization",
-    "href": "optimization-documentation.html#b2b-services-optimization",
-    "title": "Optimization Documentation and Data Collection",
-    "section": "B2B Services Optimization",
-    "text": "B2B Services Optimization\n\nTrade Facilitation Service Feedback\n\nService Type\nCompletion Time\nCost Effectiveness Rating\nProblem Resolution Efficiency\nOverall Satisfaction\n\nCross-Border Trade Analytics\n\nTrade Volume by Country\nMost Popular Product Categories\nAverage Customs Clearance Time\nDuty and Tax Payments\nTrade Compliance Issues Encountered\n\n\nNow, let’s create a sample form for Supplier Performance Tracking and update our database schema to accommodate these new data points:\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\n\nSupplier Performance Tracking Form\n\n\nSupplier Name\n\n\n\nOrder Fulfillment Rate (%)\n\n\n\nOn-Time Delivery Rate (%)\n\n\n\nProduct Quality Rating\n\n\n\nCommunication Responsiveness\n\n\n\nPrice Competitiveness\n\n\n\n\n\n\nNow, let’s update our MongoDB setup script to include collections for these new data points:\nTo leverage this data for optimization, we can create R scripts that perform analysis and generate insights. Here’s an example of how we might analyze supplier performance:\nThis expanded documentation and data collection system allows RwandaMarket to:\n\nTrack and analyze supplier performance to optimize the supply chain\nMonitor logistics performance to improve delivery times and reduce costs\nOptimize inventory levels based on turnover rates\nImprove customer experience through detailed feedback analysis\nEnhance website performance using analytics data\nStreamline customer support processes\nMonitor and improve employee productivity\nTrack financial performance at a granular level\nMeasure and optimize marketing campaign effectiveness\nContinuously improve B2B services based on feedback and analytics\n\nTo fully implement this optimization system:\n\nCreate individual forms in Quarto for each data collection point\nSet up automated data collection where possible (e.g., website analytics)\nDevelop a dashboard in R Shiny to visualize key performance indicators\nCreate scheduled R scripts to perform regular analysis and generate reports\nImplement a system for alerts when metrics fall below certain thresholds\nRegularly review and adjust optimization strategies based on the insights generated\n\nThis comprehensive approach to data collection and analysis will enable RwandaMarket to continuously optimize its operations, improving efficiency, customer satisfaction, and overall business performance."
-  },
-  {
-    "objectID": "documentation-requirements.html",
-    "href": "documentation-requirements.html",
-    "title": "Documentation Requirements",
+    "objectID": "supply-chain-optimization.html",
+    "href": "supply-chain-optimization.html",
+    "title": "Supply Chain Optimization",
     "section": "",
-    "text": "To facilitate our business operations, we require the following documentation from our partners, suppliers, and customers:"
+    "text": "RwandaMarket’s supply chain spans from artisan workshops in Rwanda to customers in Kenya, involving multiple touchpoints and stakeholders."
   },
   {
-    "objectID": "documentation-requirements.html#b2c-documentation",
-    "href": "documentation-requirements.html#b2c-documentation",
-    "title": "Documentation Requirements",
-    "section": "B2C Documentation",
-    "text": "B2C Documentation\n\nCustomer Registration Form\n\nFull Name\nEmail Address\nPhone Number\nShipping Address\nPreferred Payment Method\n\nProduct Review Form\n\nProduct Name\nRating (1-5 stars)\nWritten Review\nImages (optional)"
+    "objectID": "supply-chain-optimization.html#current-supply-chain-overview",
+    "href": "supply-chain-optimization.html#current-supply-chain-overview",
+    "title": "Supply Chain Optimization",
+    "section": "",
+    "text": "RwandaMarket’s supply chain spans from artisan workshops in Rwanda to customers in Kenya, involving multiple touchpoints and stakeholders."
   },
   {
-    "objectID": "documentation-requirements.html#b2b-documentation",
-    "href": "documentation-requirements.html#b2b-documentation",
-    "title": "Documentation Requirements",
-    "section": "B2B Documentation",
-    "text": "B2B Documentation\n\nBusiness Partner Registration Form\n\nCompany Name\nBusiness Registration Number\nContact Person Name\nContact Email\nContact Phone\nBusiness Address\nType of Partnership (Supplier, Distributor, etc.)\n\nSupplier Information Form\n\nCompany Name\nProduct Categories Supplied\nProduction Capacity\nQuality Certifications\nBank Account Details for Payments\n\nExport Documentation Form\n\nProduct Details\nCountry of Origin\nHS Code\nCertificate of Origin\nPhytosanitary Certificate (for agricultural products)\nValue of Goods\n\nImport Documentation Form\n\nImporter Details\nProduct Details\nCustoms Declaration\nImport Permit Number\nBill of Lading / Airway Bill Number\n\nTrade Facilitation Service Request Form\n\nService Type (Customs Clearance, Logistics, etc.)\nShipment Details\nRequired Documentation Checklist\n\n\nNow, let’s create the forms to collect this information. We’ll use the shiny library to create interactive forms that can be embedded in our Quarto website.\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\n\nCustomer Registration Form\n\n\nFull Name\n\n\n\nEmail Address\n\n\n\nPhone Number\n\n\n\nShipping Address\n\n\n\nPreferred Payment Method\n\nCredit Card\nM-Pesa\nBank Transfer\n\n\n\n\n\nBusiness Partner Registration Form\n\n\nCompany Name\n\n\n\nBusiness Registration Number\n\n\n\nContact Person Name\n\n\n\nContact Email\n\n\n\nContact Phone\n\n\n\nBusiness Address\n\n\n\nType of Partnership\n\nSupplier\nDistributor\nLogistics Partner\nOther\n\n\n\n\n\n\n\nNow, let’s set up a MongoDB database on AWS and create a script to interact with it. We’ll use the paws library to interact with AWS and the mongolite library to interact with MongoDB.\nThis script does the following:\n\nSets up AWS credentials and initializes the DocumentDB client.\nCreates a DocumentDB cluster (which is MongoDB-compatible).\nWaits for the cluster to be available and retrieves its endpoint.\nConnects to the MongoDB database using the mongolite library.\nCreates collections for customers, business partners, products, and orders.\nDemonstrates how to insert a record and query the database.\n\nTo use this in production:\n\nReplace YOUR_AWS_ACCESS_KEY_ID, YOUR_AWS_SECRET_ACCESS_KEY, YOUR_SECURE_PASSWORD, YOUR_SUBNET_GROUP, and YOUR_SECURITY_GROUP_ID with your actual AWS and network configuration details.\nEnsure that your AWS security group allows incoming connections on port 27017 from your application servers.\nImplement proper security measures, such as storing credentials securely and not in the code.\nSet up error handling and connection pooling for robustness.\nImplement functions to handle form submissions and database operations for each type of document we’re collecting.\n\nTo integrate this with the Quarto website:\n\nCreate API endpoints (e.g., using Plumber in R) that accept form submissions and interact with the database.\nModify the Shiny forms to submit to these API endpoints.\nImplement proper validation and error handling on both client and server sides.\n\nThis setup provides a scalable and flexible system for collecting and storing the various documents required for RwandaMarket’s operations. The use of MongoDB allows for easy storage of complex, nested documents, which is particularly useful for things like product catalogs and order information."
+    "objectID": "supply-chain-optimization.html#key-optimization-areas",
+    "href": "supply-chain-optimization.html#key-optimization-areas",
+    "title": "Supply Chain Optimization",
+    "section": "Key Optimization Areas",
+    "text": "Key Optimization Areas\n\nSourcing and Procurement\nInventory Management\nWarehousing\nTransportation and Logistics\nLast-Mile Delivery"
+  },
+  {
+    "objectID": "supply-chain-optimization.html#data-driven-optimization-strategies",
+    "href": "supply-chain-optimization.html#data-driven-optimization-strategies",
+    "title": "Supply Chain Optimization",
+    "section": "Data-Driven Optimization Strategies",
+    "text": "Data-Driven Optimization Strategies\n\nDemand Forecasting\nUsing historical sales data and machine learning algorithms to predict future demand.\n\n\n\n\n\n\n\nInventory Optimization\nImplementing a Just-in-Time (JIT) inventory system to reduce holding costs while ensuring product availability.\n\n\nRoute Optimization\nUsing algorithms to determine the most efficient delivery routes, reducing transportation costs and delivery times."
+  },
+  {
+    "objectID": "supply-chain-optimization.html#performance-metrics",
+    "href": "supply-chain-optimization.html#performance-metrics",
+    "title": "Supply Chain Optimization",
+    "section": "Performance Metrics",
+    "text": "Performance Metrics\n\nOrder Fulfillment Rate\nInventory Turnover Ratio\nOn-Time Delivery Rate\nSupply Chain Cycle Time"
+  },
+  {
+    "objectID": "supply-chain-optimization.html#technology-integration",
+    "href": "supply-chain-optimization.html#technology-integration",
+    "title": "Supply Chain Optimization",
+    "section": "Technology Integration",
+    "text": "Technology Integration\n\nIoT devices for real-time tracking\nBlockchain for supply chain transparency\nAI for predictive analytics"
   },
   {
     "objectID": "market-analysis.html",
@@ -756,46 +504,179 @@
     "text": "Consumer Trends\n\nIncreasing preference for mobile shopping\nGrowing interest in product provenance and ethical sourcing\nRise of social commerce"
   },
   {
-    "objectID": "supply-chain-optimization.html",
-    "href": "supply-chain-optimization.html",
-    "title": "Supply Chain Optimization",
+    "objectID": "non-tariff-barrier-reporting.html",
+    "href": "non-tariff-barrier-reporting.html",
+    "title": "Non-Tariff Barrier Reporting",
     "section": "",
-    "text": "RwandaMarket’s supply chain spans from artisan workshops in Rwanda to customers in Kenya, involving multiple touchpoints and stakeholders."
+    "text": "Non-Tariff Barriers are obstacles to trade that are not in the form of a tariff. They can include: - Complex customs procedures - Technical regulations and standards - Sanitary and phytosanitary measures - Licensing requirements - Quotas\nReporting and addressing NTBs is crucial for smooth cross-border trade operations."
   },
   {
-    "objectID": "supply-chain-optimization.html#current-supply-chain-overview",
-    "href": "supply-chain-optimization.html#current-supply-chain-overview",
-    "title": "Supply Chain Optimization",
+    "objectID": "non-tariff-barrier-reporting.html#understanding-non-tariff-barriers-ntbs",
+    "href": "non-tariff-barrier-reporting.html#understanding-non-tariff-barriers-ntbs",
+    "title": "Non-Tariff Barrier Reporting",
     "section": "",
-    "text": "RwandaMarket’s supply chain spans from artisan workshops in Rwanda to customers in Kenya, involving multiple touchpoints and stakeholders."
+    "text": "Non-Tariff Barriers are obstacles to trade that are not in the form of a tariff. They can include: - Complex customs procedures - Technical regulations and standards - Sanitary and phytosanitary measures - Licensing requirements - Quotas\nReporting and addressing NTBs is crucial for smooth cross-border trade operations."
   },
   {
-    "objectID": "supply-chain-optimization.html#key-optimization-areas",
-    "href": "supply-chain-optimization.html#key-optimization-areas",
-    "title": "Supply Chain Optimization",
-    "section": "Key Optimization Areas",
-    "text": "Key Optimization Areas\n\nSourcing and Procurement\nInventory Management\nWarehousing\nTransportation and Logistics\nLast-Mile Delivery"
+    "objectID": "non-tariff-barrier-reporting.html#ntb-reporting-form",
+    "href": "non-tariff-barrier-reporting.html#ntb-reporting-form",
+    "title": "Non-Tariff Barrier Reporting",
+    "section": "NTB Reporting Form",
+    "text": "NTB Reporting Form\nIf you encounter a non-tariff barrier, please report it using the form below:\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\nShiny applications not supported in static R Markdown documents"
   },
   {
-    "objectID": "supply-chain-optimization.html#data-driven-optimization-strategies",
-    "href": "supply-chain-optimization.html#data-driven-optimization-strategies",
-    "title": "Supply Chain Optimization",
-    "section": "Data-Driven Optimization Strategies",
-    "text": "Data-Driven Optimization Strategies\n\nDemand Forecasting\nUsing historical sales data and machine learning algorithms to predict future demand.\n\n\n\n\n\n\n\nInventory Optimization\nImplementing a Just-in-Time (JIT) inventory system to reduce holding costs while ensuring product availability.\n\n\nRoute Optimization\nUsing algorithms to determine the most efficient delivery routes, reducing transportation costs and delivery times."
+    "objectID": "non-tariff-barrier-reporting.html#ntb-analysis-and-resolution",
+    "href": "non-tariff-barrier-reporting.html#ntb-analysis-and-resolution",
+    "title": "Non-Tariff Barrier Reporting",
+    "section": "NTB Analysis and Resolution",
+    "text": "NTB Analysis and Resolution\n\n\n\n\n\nOur team regularly analyzes reported NTBs to: 1. Identify patterns and recurring issues 2. Develop strategies for overcoming common barriers 3. Engage with relevant authorities to address systemic problems 4. Provide guidance to our partners on navigating complex regulations"
   },
   {
-    "objectID": "supply-chain-optimization.html#performance-metrics",
-    "href": "supply-chain-optimization.html#performance-metrics",
-    "title": "Supply Chain Optimization",
-    "section": "Performance Metrics",
-    "text": "Performance Metrics\n\nOrder Fulfillment Rate\nInventory Turnover Ratio\nOn-Time Delivery Rate\nSupply Chain Cycle Time"
+    "objectID": "non-tariff-barrier-reporting.html#resources-for-addressing-ntbs",
+    "href": "non-tariff-barrier-reporting.html#resources-for-addressing-ntbs",
+    "title": "Non-Tariff Barrier Reporting",
+    "section": "Resources for Addressing NTBs",
+    "text": "Resources for Addressing NTBs\n\nEAC Trade Helpdesk\nWorld Trade Organization - Trade Facilitation Agreement Facility\nRwandaMarket’s Guide to Navigating EAC Trade Regulations (download link)\n\nFor assistance with specific NTBs, please contact our trade facilitation team at trade.support@rwandamarket.com."
   },
   {
-    "objectID": "supply-chain-optimization.html#technology-integration",
-    "href": "supply-chain-optimization.html#technology-integration",
-    "title": "Supply Chain Optimization",
-    "section": "Technology Integration",
-    "text": "Technology Integration\n\nIoT devices for real-time tracking\nBlockchain for supply chain transparency\nAI for predictive analytics"
+    "objectID": "future-growth.html",
+    "href": "future-growth.html",
+    "title": "Future Growth",
+    "section": "",
+    "text": "RwandaMarket is committed to sustainable growth and innovation. Our strategic plan outlines ambitious yet achievable goals to expand our reach, enhance our technological capabilities, and deepen our impact in East Africa and beyond."
+  },
+  {
+    "objectID": "future-growth.html#expansion-plans",
+    "href": "future-growth.html#expansion-plans",
+    "title": "Future Growth",
+    "section": "Expansion Plans",
+    "text": "Expansion Plans\n\nGeographic Expansion\n\nShort-term (1-2 years):\n\nEstablish physical presence in other major Kenyan cities (Mombasa, Kisumu)\nLaunch e-commerce operations in Uganda and Tanzania\nExpand our artisan network in Rwanda to include more rural cooperatives\n\nMedium-term (3-5 years):\n\nEnter markets in Ethiopia and Burundi\nEstablish regional distribution centers to optimize logistics\nExplore partnerships with major African e-commerce platforms for cross-listing products\n\nLong-term (5+ years):\n\nExpand operations to West and Southern African markets\nConsider strategic acquisitions of complementary businesses\nEstablish RwandaMarket as a pan-African brand for authentic, ethically sourced products\n\n\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n\n\n\n\n\nProduct Line Expansion\n\nIntroduce RwandaMarket-branded products, starting with coffee and tea blends\nExpand into new categories such as gourmet foods, wellness products, and home fragrances\nCollaborate with renowned African designers for exclusive, limited-edition collections\nDevelop a line of sustainable, eco-friendly packaging and home goods"
+  },
+  {
+    "objectID": "future-growth.html#technology-development-roadmap",
+    "href": "future-growth.html#technology-development-roadmap",
+    "title": "Future Growth",
+    "section": "Technology Development Roadmap",
+    "text": "Technology Development Roadmap\n\nEnhanced AI-driven Personalization (Year 1-2):\n\nImplement advanced recommendation engines using machine learning\nDevelop predictive analytics for inventory management and demand forecasting\n\nBlockchain Integration (Year 2-3):\n\nExpand our blockchain-based authentication system to cover all product categories\nImplement smart contracts for more efficient and transparent transactions with suppliers\n\nAugmented Reality (AR) Shopping Experience (Year 3-4):\n\nDevelop AR features for mobile app to allow customers to visualize products in their space\nCreate virtual showrooms for B2B clients to explore product collections\n\nAdvanced Supply Chain Optimization (Year 4-5):\n\nImplement IoT sensors for real-time tracking and quality control throughout the supply chain\nDevelop AI-powered route optimization for last-mile delivery"
+  },
+  {
+    "objectID": "future-growth.html#strategic-initiatives",
+    "href": "future-growth.html#strategic-initiatives",
+    "title": "Future Growth",
+    "section": "Strategic Initiatives",
+    "text": "Strategic Initiatives\n\nSustainability Focus:\n\nAchieve carbon neutrality in our operations by 2028\nImplement a circular economy model for packaging and returns\nLaunch a sustainability certification program for our artisan partners\n\nEducation and Skill Development:\n\nEstablish a RwandaMarket Academy to provide e-commerce and digital skills training to artisans\nPartner with universities in Kenya and Rwanda to offer internships and research opportunities\n\nFinancial Inclusion:\n\nDevelop a microfinance program for our artisan network\nExplore partnerships with mobile money providers to enhance financial services for our suppliers and customers\n\nCommunity Impact:\n\nLaunch a “RwandaMarket Foundation” to support education and healthcare initiatives in artisan communities\nImplement a profit-sharing model with key artisan cooperatives"
+  },
+  {
+    "objectID": "future-growth.html#key-performance-indicators-kpis",
+    "href": "future-growth.html#key-performance-indicators-kpis",
+    "title": "Future Growth",
+    "section": "Key Performance Indicators (KPIs)",
+    "text": "Key Performance Indicators (KPIs)\nTo track our growth and impact, we will focus on the following KPIs:\n\nRevenue growth (target: 50% year-over-year)\nNumber of artisans supported (target: 25% annual increase)\nCarbon footprint reduction (target: 10% annual reduction)\nCustomer satisfaction score (target: maintain above 4.5/5)\nB2B solution adoption rate (target: 30% annual growth)\n\nRwandaMarket is poised for significant growth in the coming years. By focusing on geographic expansion, product diversification, technological innovation, and impactful community initiatives, we aim to become a leading force in African e-commerce and cross-border trade facilitation."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "We value open communication with our customers, partners, and stakeholders. Whether you have a question about our products, want to explore B2B opportunities, or are interested in joining our team, we’re here to help."
+  },
+  {
+    "objectID": "contact.html#contact-information",
+    "href": "contact.html#contact-information",
+    "title": "Contact Us",
+    "section": "Contact Information",
+    "text": "Contact Information\n\nGeneral Inquiries: info@rwandamarket.com\nCustomer Support: support@rwandamarket.com\nB2B Solutions: b2b@rwandamarket.com\nCareers: careers@rwandamarket.com\nPress and Media: media@rwandamarket.com\n\nPhone: +254 20 [PLACEHOLDER: Phone number]\nPhysical Address:\nRwandaMarket Ltd.\n[PLACEHOLDER: Street Address]\nNairobi, Kenya\nOperating Hours:\nMonday - Friday: 9:00 AM - 6:00 PM (EAT)\nSaturday: 10:00 AM - 4:00 PM (EAT)\nSunday: Closed"
+  },
+  {
+    "objectID": "contact.html#contact-form",
+    "href": "contact.html#contact-form",
+    "title": "Contact Us",
+    "section": "Contact Form",
+    "text": "Contact Form\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\nShiny applications not supported in static R Markdown documents"
+  },
+  {
+    "objectID": "contact.html#connect-with-us",
+    "href": "contact.html#connect-with-us",
+    "title": "Contact Us",
+    "section": "Connect With Us",
+    "text": "Connect With Us\nStay updated with our latest products, offers, and company news by following us on social media:\n\nFacebook: /RwandaMarket\nInstagram: @RwandaMarket\nTwitter: @RwandaMarket_KE\nLinkedIn: RwandaMarket Ltd."
+  },
+  {
+    "objectID": "contact.html#visit-our-store",
+    "href": "contact.html#visit-our-store",
+    "title": "Contact Us",
+    "section": "Visit Our Store",
+    "text": "Visit Our Store\nExperience our products firsthand at our flagship store in Nairobi:\n[PLACEHOLDER: Store Address]"
+  },
+  {
+    "objectID": "contact.html#feedback",
+    "href": "contact.html#feedback",
+    "title": "Contact Us",
+    "section": "Feedback",
+    "text": "Feedback\nYour feedback is crucial in helping us improve our services. If you have any suggestions or concerns, please don’t hesitate to reach out. We appreciate your input and are committed to continuously enhancing your experience with RwandaMarket.\nThank you for your interest in RwandaMarket. We look forward to hearing from you and serving your needs for authentic Rwandan products and innovative B2B solutions."
+  },
+  {
+    "objectID": "optimization-documentation.html",
+    "href": "optimization-documentation.html",
+    "title": "Optimization Documentation and Data Collection",
+    "section": "",
+    "text": "To fully optimize RwandaMarket’s operations, we will collect and analyze data across various aspects of our business. This additional documentation and data collection will enable us to make data-driven decisions and continuously improve our processes."
+  },
+  {
+    "objectID": "optimization-documentation.html#supply-chain-optimization",
+    "href": "optimization-documentation.html#supply-chain-optimization",
+    "title": "Optimization Documentation and Data Collection",
+    "section": "Supply Chain Optimization",
+    "text": "Supply Chain Optimization\n\nSupplier Performance Tracking Form\n\nSupplier Name\nOrder Fulfillment Rate\nOn-Time Delivery Rate\nProduct Quality Rating\nCommunication Responsiveness\nPrice Competitiveness\n\nLogistics Performance Form\n\nShipping Method\nOrigin and Destination\nTransit Time\nShipping Cost\nDamage Rate\nCustomer Satisfaction with Delivery\n\nInventory Turnover Tracking\n\nProduct SKU\nInitial Stock Level\nSales Volume\nRestocking Frequency\nStorage Costs"
+  },
+  {
+    "objectID": "optimization-documentation.html#customer-experience-optimization",
+    "href": "optimization-documentation.html#customer-experience-optimization",
+    "title": "Optimization Documentation and Data Collection",
+    "section": "Customer Experience Optimization",
+    "text": "Customer Experience Optimization\n\nCustomer Feedback Form\n\nOverall Satisfaction Rating\nProduct Quality Rating\nDelivery Experience Rating\nCustomer Service Rating\nWebsite Usability Rating\nOpen-ended Feedback\n\nWebsite Analytics Integration\n\nPage Views\nTime on Site\nBounce Rate\nConversion Rate\nCart Abandonment Rate\nSearch Terms Used\n\nCustomer Support Ticket Tracking\n\nTicket Category\nResolution Time\nCustomer Satisfaction with Resolution\nRecurring Issues Identification"
+  },
+  {
+    "objectID": "optimization-documentation.html#business-operations-optimization",
+    "href": "optimization-documentation.html#business-operations-optimization",
+    "title": "Optimization Documentation and Data Collection",
+    "section": "Business Operations Optimization",
+    "text": "Business Operations Optimization\n\nEmployee Productivity Tracking\n\nEmployee ID\nDepartment\nTasks Completed\nTime Spent on Tasks\nQuality of Work Rating\n\nFinancial Performance Metrics\n\nRevenue by Product Category\nGross Margin by Product\nCustomer Acquisition Cost\nCustomer Lifetime Value\nOperating Expenses Breakdown\n\nMarketing Campaign Effectiveness\n\nCampaign ID\nChannel (e.g., Social Media, Email, PPC)\nReach\nEngagement Rate\nConversion Rate\nReturn on Ad Spend (ROAS)"
+  },
+  {
+    "objectID": "optimization-documentation.html#b2b-services-optimization",
+    "href": "optimization-documentation.html#b2b-services-optimization",
+    "title": "Optimization Documentation and Data Collection",
+    "section": "B2B Services Optimization",
+    "text": "B2B Services Optimization\n\nTrade Facilitation Service Feedback\n\nService Type\nCompletion Time\nCost Effectiveness Rating\nProblem Resolution Efficiency\nOverall Satisfaction\n\nCross-Border Trade Analytics\n\nTrade Volume by Country\nMost Popular Product Categories\nAverage Customs Clearance Time\nDuty and Tax Payments\nTrade Compliance Issues Encountered\n\n\nNow, let’s create a sample form for Supplier Performance Tracking and update our database schema to accommodate these new data points:\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\n\nSupplier Performance Tracking Form\n\n\nSupplier Name\n\n\n\nOrder Fulfillment Rate (%)\n\n\n\nOn-Time Delivery Rate (%)\n\n\n\nProduct Quality Rating\n\n\n\nCommunication Responsiveness\n\n\n\nPrice Competitiveness\n\n\n\n\n\n\nNow, let’s update our MongoDB setup script to include collections for these new data points:\nTo leverage this data for optimization, we can create R scripts that perform analysis and generate insights. Here’s an example of how we might analyze supplier performance:\nThis expanded documentation and data collection system allows RwandaMarket to:\n\nTrack and analyze supplier performance to optimize the supply chain\nMonitor logistics performance to improve delivery times and reduce costs\nOptimize inventory levels based on turnover rates\nImprove customer experience through detailed feedback analysis\nEnhance website performance using analytics data\nStreamline customer support processes\nMonitor and improve employee productivity\nTrack financial performance at a granular level\nMeasure and optimize marketing campaign effectiveness\nContinuously improve B2B services based on feedback and analytics\n\nTo fully implement this optimization system:\n\nCreate individual forms in Quarto for each data collection point\nSet up automated data collection where possible (e.g., website analytics)\nDevelop a dashboard in R Shiny to visualize key performance indicators\nCreate scheduled R scripts to perform regular analysis and generate reports\nImplement a system for alerts when metrics fall below certain thresholds\nRegularly review and adjust optimization strategies based on the insights generated\n\nThis comprehensive approach to data collection and analysis will enable RwandaMarket to continuously optimize its operations, improving efficiency, customer satisfaction, and overall business performance."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "RwandaMarket: Bridging Rwanda and Kenya through Innovation",
+    "section": "",
+    "text": "Welcome to the comprehensive overview of RwandaMarket, a pioneering venture that connects the rich cultural heritage of Rwanda with the vibrant Kenyan market through innovative retail and B2B solutions."
+  },
+  {
+    "objectID": "index.html#our-vision",
+    "href": "index.html#our-vision",
+    "title": "RwandaMarket: Bridging Rwanda and Kenya through Innovation",
+    "section": "Our Vision",
+    "text": "Our Vision\nTo become the premier platform for cross-border trade in East Africa, known for quality products, technological innovation, and positive social impact."
+  },
+  {
+    "objectID": "index.html#what-we-offer",
+    "href": "index.html#what-we-offer",
+    "title": "RwandaMarket: Bridging Rwanda and Kenya through Innovation",
+    "section": "What We Offer",
+    "text": "What We Offer\n\nFor Consumers: Authentic Rwandan products, from artisanal crafts to gourmet coffee\nFor Businesses: Cutting-edge solutions for cross-border trade and market insights"
+  },
+  {
+    "objectID": "index.html#key-highlights",
+    "href": "index.html#key-highlights",
+    "title": "RwandaMarket: Bridging Rwanda and Kenya through Innovation",
+    "section": "Key Highlights",
+    "text": "Key Highlights\n\nUnique blend of cultural authenticity and technological innovation\nComprehensive understanding of East African trade regulations\nStrong partnerships with Rwandan artisans and Kenyan businesses\nData-driven approach to market analysis and business operations\n\nExplore our detailed business plan and operational strategies through the navigation menu above."
   },
   {
     "objectID": "customer-experience-optimization.html",
@@ -852,6 +733,209 @@
     "title": "Customer Experience Optimization",
     "section": "Performance Metrics",
     "text": "Performance Metrics\n\nNet Promoter Score (NPS)\nCustomer Satisfaction (CSAT)\nCustomer Effort Score (CES)\nCustomer Lifetime Value (CLV)"
+  },
+  {
+    "objectID": "executive-summary.html",
+    "href": "executive-summary.html",
+    "title": "Executive Summary",
+    "section": "",
+    "text": "RwandaMarket is an innovative e-commerce platform and physical store network that brings premium Rwandan products to the Nairobi market while offering cutting-edge B2B solutions for cross-border trade."
+  },
+  {
+    "objectID": "executive-summary.html#key-points",
+    "href": "executive-summary.html#key-points",
+    "title": "Executive Summary",
+    "section": "Key Points",
+    "text": "Key Points\n\nTarget Market: Middle to upper-class Nairobi residents, expatriates, tourists, and businesses engaged in East African trade\nUnique Value Proposition: Authentic Rwandan products combined with advanced technology for seamless shopping and trade facilitation\nRevenue Streams: B2C product sales, B2B services including trade facilitation and market intelligence\nTechnology Focus: R-based analytics for personalization, inventory management, and market insights\nFunding Requirement: $1.5 million for startup costs and initial operations\n\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead."
+  },
+  {
+    "objectID": "b2b-solutions.html",
+    "href": "b2b-solutions.html",
+    "title": "B2B Solutions",
+    "section": "",
+    "text": "RwandaMarket offers innovative B2B solutions designed to facilitate and optimize cross-border trade between Rwanda and Kenya. Our services leverage cutting-edge technology and deep market insights to provide value to businesses of all sizes."
+  },
+  {
+    "objectID": "b2b-solutions.html#our-b2b-services",
+    "href": "b2b-solutions.html#our-b2b-services",
+    "title": "B2B Solutions",
+    "section": "Our B2B Services",
+    "text": "Our B2B Services\n\n1. Cross-Border Trade Facilitation\nStreamline your import/export processes with our comprehensive trade facilitation services.\n\nCustoms documentation assistance\nLogistics optimization\nRegulatory compliance guidance\nTrade finance solutions\n\n\n\n2. Market Intelligence\nMake informed decisions with our data-driven market insights.\n\nConsumer trend analysis\nCompetitive landscape mapping\nMarket entry strategy consulting\nDemand forecasting\n\n\n\n3. Supply Chain Analytics\nOptimize your operations with our advanced analytics solutions.\n\nInventory optimization\nRoute planning and optimization\nSupplier performance analysis\nRisk assessment and mitigation strategies\n\n\n\n4. Blockchain-Enabled Product Authentication\nEnsure the authenticity and traceability of your products.\n\nEnd-to-end supply chain tracking\nCounterfeit protection\nConsumer trust building\nEthical sourcing verification"
+  },
+  {
+    "objectID": "b2b-solutions.html#case-studies",
+    "href": "b2b-solutions.html#case-studies",
+    "title": "B2B Solutions",
+    "section": "Case Studies",
+    "text": "Case Studies\n\nCase Study 1: Optimizing Coffee Exports\n[PLACEHOLDER: Brief description of how we helped a Rwandan coffee cooperative increase their exports to Kenya]\n\n\nCase Study 2: Market Entry Strategy\n[PLACEHOLDER: Description of how we assisted a Kenyan company in successfully entering the Rwandan market]"
+  },
+  {
+    "objectID": "b2b-solutions.html#pricing-models",
+    "href": "b2b-solutions.html#pricing-models",
+    "title": "B2B Solutions",
+    "section": "Pricing Models",
+    "text": "Pricing Models\nWe offer flexible pricing models to suit businesses of all sizes:\n\nSubscription-based services\nPay-per-use model\nCustom packages for enterprise clients\n\n[PLACEHOLDER: More detailed pricing information]"
+  },
+  {
+    "objectID": "b2b-solutions.html#why-choose-rwandamarket-for-b2b-solutions",
+    "href": "b2b-solutions.html#why-choose-rwandamarket-for-b2b-solutions",
+    "title": "B2B Solutions",
+    "section": "Why Choose RwandaMarket for B2B Solutions?",
+    "text": "Why Choose RwandaMarket for B2B Solutions?\n\nDeep understanding of both Rwandan and Kenyan markets\nCutting-edge technology integration, including R-based analytics and blockchain\nComprehensive suite of services covering all aspects of cross-border trade\nProven track record of success with diverse clients\n\nContact our B2B team today to learn how we can help optimize your East African trade operations."
+  },
+  {
+    "objectID": "our-impact.html",
+    "href": "our-impact.html",
+    "title": "Our Impact",
+    "section": "",
+    "text": "At RwandaMarket, we believe in creating positive change through our business activities. Our impact spans social, economic, and environmental dimensions, benefiting communities in both Rwanda and Kenya."
+  },
+  {
+    "objectID": "our-impact.html#social-impact",
+    "href": "our-impact.html#social-impact",
+    "title": "Our Impact",
+    "section": "Social Impact",
+    "text": "Social Impact\n\nEmpowering Artisans\n\nDirect partnerships with [PLACEHOLDER: Number] Rwandan artisan cooperatives\nFair compensation and sustainable income for artisans\nSkills development and training programs\n\n\n\nPreserving Cultural Heritage\n\nPromotion of traditional Rwandan crafts and techniques\nCultural exchange initiatives between Rwanda and Kenya"
+  },
+  {
+    "objectID": "our-impact.html#economic-impact",
+    "href": "our-impact.html#economic-impact",
+    "title": "Our Impact",
+    "section": "Economic Impact",
+    "text": "Economic Impact\n\nJob Creation\n\n[PLACEHOLDER: Number] jobs created in Rwanda (artisans and logistics)\n[PLACEHOLDER: Number] jobs created in Kenya (retail and operations)\n\n\n\nBoosting Cross-Border Trade\n\nFacilitating increased trade volume between Rwanda and Kenya\nSupporting small and medium enterprises in navigating international markets\n\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead."
+  },
+  {
+    "objectID": "our-impact.html#environmental-impact",
+    "href": "our-impact.html#environmental-impact",
+    "title": "Our Impact",
+    "section": "Environmental Impact",
+    "text": "Environmental Impact\n\nSustainable Sourcing\n\nPromotion of eco-friendly production methods\nUse of renewable materials in product packaging\n\n\n\nCarbon Footprint Reduction\n\nOptimization of logistics to reduce transportation emissions\nInvestment in carbon offset projects in East Africa"
+  },
+  {
+    "objectID": "our-impact.html#community-initiatives",
+    "href": "our-impact.html#community-initiatives",
+    "title": "Our Impact",
+    "section": "Community Initiatives",
+    "text": "Community Initiatives\n\nEducational scholarships for artisans’ children\nHealth and wellness programs in partner communities"
+  },
+  {
+    "objectID": "our-impact.html#future-impact-goals",
+    "href": "our-impact.html#future-impact-goals",
+    "title": "Our Impact",
+    "section": "Future Impact Goals",
+    "text": "Future Impact Goals\n\nExpand artisan network to [PLACEHOLDER: Number] cooperatives by 2028\nAchieve carbon neutrality in our operations by 2030\nEstablish a vocational training center for traditional crafts in Rwanda\n\nRwandaMarket is committed to growing our business responsibly, ensuring that our success translates into positive outcomes for the communities we serve."
+  },
+  {
+    "objectID": "marketing-strategy.html",
+    "href": "marketing-strategy.html",
+    "title": "Marketing Strategy",
+    "section": "",
+    "text": "RwandaMarket’s marketing strategy is designed to establish our brand as the premier destination for authentic Rwandan products in Nairobi, while also positioning us as a leader in cross-border trade facilitation."
+  },
+  {
+    "objectID": "marketing-strategy.html#branding-strategy",
+    "href": "marketing-strategy.html#branding-strategy",
+    "title": "Marketing Strategy",
+    "section": "Branding Strategy",
+    "text": "Branding Strategy\n\nBrand Personality\n\nAuthentic\nInnovative\nCulturally rich\nTechnologically advanced\n\n\n\nVisual Identity\n\nColors: Warm earth tones reminiscent of Rwandan landscapes\nLogo: A stylized fusion of a traditional Rwandan basket and a digital circuit board\nTypography: A blend of classic and modern fonts to represent our bridge between tradition and innovation"
+  },
+  {
+    "objectID": "marketing-strategy.html#digital-marketing-plan",
+    "href": "marketing-strategy.html#digital-marketing-plan",
+    "title": "Marketing Strategy",
+    "section": "Digital Marketing Plan",
+    "text": "Digital Marketing Plan\n\n1. Search Engine Optimization (SEO)\n\nKeyword optimization for both B2C products and B2B services\nLocal SEO targeting Nairobi and surrounding areas\nRegular blog content on Rwandan culture, products, and trade insights\n\n\n\n2. Social Media Marketing\n\nPlatform focus: Instagram, Facebook, Twitter, LinkedIn\nContent strategy: Product showcases, artisan stories, trade tips, cultural insights\nPaid social media advertising campaigns\n\n\n\n3. Content Marketing\n\nBlog posts on Rwandan culture, artisan profiles, and trade insights\nVideo content: Product demonstrations, artisan interviews, trade facilitation process explanations\nDownloadable guides on East African trade regulations and market entry strategies\n\n\n\n4. Email Marketing\n\nSegmented email lists for B2C and B2B customers\nPersonalized product recommendations based on browsing and purchase history\nRegular newsletters with new product announcements, trade insights, and special offers"
+  },
+  {
+    "objectID": "marketing-strategy.html#offline-marketing-initiatives",
+    "href": "marketing-strategy.html#offline-marketing-initiatives",
+    "title": "Marketing Strategy",
+    "section": "Offline Marketing Initiatives",
+    "text": "Offline Marketing Initiatives\n\n1. Pop-up Stores and Events\n\nTemporary installations in high-traffic areas of Nairobi\nParticipation in local cultural events and festivals\n\n\n\n2. Partnerships\n\nCollaborations with Kenyan influencers and tastemakers\nPartnerships with hotels and tourism agencies to reach expatriates and tourists\n\n\n\n3. Print Advertising\n\nTargeted ads in local lifestyle magazines and business publications\nOutdoor advertising in strategic Nairobi locations\n\n\n\n4. Trade Shows and Exhibitions\n\nParticipation in East African trade fairs\nHosting of Rwandan cultural showcase events"
+  },
+  {
+    "objectID": "marketing-strategy.html#customer-acquisition-strategies",
+    "href": "marketing-strategy.html#customer-acquisition-strategies",
+    "title": "Marketing Strategy",
+    "section": "Customer Acquisition Strategies",
+    "text": "Customer Acquisition Strategies\n\nReferral program with rewards for both referrer and new customer\nLimited-time discounts for first-time purchases\nFree workshops and events to attract potential customers\nTargeted advertising to expat communities and tourist groups"
+  },
+  {
+    "objectID": "marketing-strategy.html#customer-retention-strategies",
+    "href": "marketing-strategy.html#customer-retention-strategies",
+    "title": "Marketing Strategy",
+    "section": "Customer Retention Strategies",
+    "text": "Customer Retention Strategies\n\nLoyalty program with points system and exclusive benefits\nPersonalized shopping experiences based on purchase history\nRegular customer appreciation events\nExclusive early access to new products for loyal customers"
+  },
+  {
+    "objectID": "marketing-strategy.html#b2b-marketing-strategies",
+    "href": "marketing-strategy.html#b2b-marketing-strategies",
+    "title": "Marketing Strategy",
+    "section": "B2B Marketing Strategies",
+    "text": "B2B Marketing Strategies\n\nThought leadership content on East African trade and market trends\nWebinars and workshops on cross-border trade optimization\nCase studies showcasing successful B2B engagements\nNetworking events for businesses interested in East African trade\n\n\n\n\n\n\nThis comprehensive marketing strategy is designed to build brand awareness, drive customer acquisition, and foster long-term loyalty for both our B2C and B2B offerings. By leveraging a mix of digital and traditional marketing channels, we aim to establish RwandaMarket as the go-to platform for Rwandan products and East African trade facilitation."
+  },
+  {
+    "objectID": "documentation-requirements.html",
+    "href": "documentation-requirements.html",
+    "title": "Documentation Requirements",
+    "section": "",
+    "text": "To facilitate our business operations, we require the following documentation from our partners, suppliers, and customers:"
+  },
+  {
+    "objectID": "documentation-requirements.html#b2c-documentation",
+    "href": "documentation-requirements.html#b2c-documentation",
+    "title": "Documentation Requirements",
+    "section": "B2C Documentation",
+    "text": "B2C Documentation\n\nCustomer Registration Form\n\nFull Name\nEmail Address\nPhone Number\nShipping Address\nPreferred Payment Method\n\nProduct Review Form\n\nProduct Name\nRating (1-5 stars)\nWritten Review\nImages (optional)"
+  },
+  {
+    "objectID": "documentation-requirements.html#b2b-documentation",
+    "href": "documentation-requirements.html#b2b-documentation",
+    "title": "Documentation Requirements",
+    "section": "B2B Documentation",
+    "text": "B2B Documentation\n\nBusiness Partner Registration Form\n\nCompany Name\nBusiness Registration Number\nContact Person Name\nContact Email\nContact Phone\nBusiness Address\nType of Partnership (Supplier, Distributor, etc.)\n\nSupplier Information Form\n\nCompany Name\nProduct Categories Supplied\nProduction Capacity\nQuality Certifications\nBank Account Details for Payments\n\nExport Documentation Form\n\nProduct Details\nCountry of Origin\nHS Code\nCertificate of Origin\nPhytosanitary Certificate (for agricultural products)\nValue of Goods\n\nImport Documentation Form\n\nImporter Details\nProduct Details\nCustoms Declaration\nImport Permit Number\nBill of Lading / Airway Bill Number\n\nTrade Facilitation Service Request Form\n\nService Type (Customs Clearance, Logistics, etc.)\nShipment Details\nRequired Documentation Checklist\n\n\nNow, let’s create the forms to collect this information. We’ll use the shiny library to create interactive forms that can be embedded in our Quarto website.\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\n\nCustomer Registration Form\n\n\nFull Name\n\n\n\nEmail Address\n\n\n\nPhone Number\n\n\n\nShipping Address\n\n\n\nPreferred Payment Method\n\nCredit Card\nM-Pesa\nBank Transfer\n\n\n\n\n\nBusiness Partner Registration Form\n\n\nCompany Name\n\n\n\nBusiness Registration Number\n\n\n\nContact Person Name\n\n\n\nContact Email\n\n\n\nContact Phone\n\n\n\nBusiness Address\n\n\n\nType of Partnership\n\nSupplier\nDistributor\nLogistics Partner\nOther\n\n\n\n\n\n\n\nNow, let’s set up a MongoDB database on AWS and create a script to interact with it. We’ll use the paws library to interact with AWS and the mongolite library to interact with MongoDB.\nThis script does the following:\n\nSets up AWS credentials and initializes the DocumentDB client.\nCreates a DocumentDB cluster (which is MongoDB-compatible).\nWaits for the cluster to be available and retrieves its endpoint.\nConnects to the MongoDB database using the mongolite library.\nCreates collections for customers, business partners, products, and orders.\nDemonstrates how to insert a record and query the database.\n\nTo use this in production:\n\nReplace YOUR_AWS_ACCESS_KEY_ID, YOUR_AWS_SECRET_ACCESS_KEY, YOUR_SECURE_PASSWORD, YOUR_SUBNET_GROUP, and YOUR_SECURITY_GROUP_ID with your actual AWS and network configuration details.\nEnsure that your AWS security group allows incoming connections on port 27017 from your application servers.\nImplement proper security measures, such as storing credentials securely and not in the code.\nSet up error handling and connection pooling for robustness.\nImplement functions to handle form submissions and database operations for each type of document we’re collecting.\n\nTo integrate this with the Quarto website:\n\nCreate API endpoints (e.g., using Plumber in R) that accept form submissions and interact with the database.\nModify the Shiny forms to submit to these API endpoints.\nImplement proper validation and error handling on both client and server sides.\n\nThis setup provides a scalable and flexible system for collecting and storing the various documents required for RwandaMarket’s operations. The use of MongoDB allows for easy storage of complex, nested documents, which is particularly useful for things like product catalogs and order information."
+  },
+  {
+    "objectID": "operations-plan.html",
+    "href": "operations-plan.html",
+    "title": "Operations Plan",
+    "section": "",
+    "text": "The RwandaMarket operations plan outlines our key processes and systems that enable us to efficiently source products from Rwanda, manage inventory, fulfill orders, and provide B2B services."
+  },
+  {
+    "objectID": "operations-plan.html#supply-chain-management",
+    "href": "operations-plan.html#supply-chain-management",
+    "title": "Operations Plan",
+    "section": "Supply Chain Management",
+    "text": "Supply Chain Management\n\n1. Sourcing\n\nDirect partnerships with Rwandan artisans and cooperatives\nRegular sourcing trips to Rwanda (quarterly)\nQuality control checks at source\n\n\n\n2. Transportation\n\nAir freight for perishables and high-value items\nSea freight for bulk, non-perishable goods\nCustoms clearance process with dedicated partners\n\n\n\n3. Warehousing\n\nCentral warehouse located in [PLACEHOLDER: Specific area in Nairobi]\nClimate-controlled storage for sensitive products\nRFID-based inventory tracking system"
+  },
+  {
+    "objectID": "operations-plan.html#inventory-control-systems",
+    "href": "operations-plan.html#inventory-control-systems",
+    "title": "Operations Plan",
+    "section": "Inventory Control Systems",
+    "text": "Inventory Control Systems\n\nR-based predictive analytics for demand forecasting\nAutomated reorder points based on sales velocity and lead times\nReal-time inventory updates across e-commerce and physical store"
+  },
+  {
+    "objectID": "operations-plan.html#order-fulfillment-process",
+    "href": "operations-plan.html#order-fulfillment-process",
+    "title": "Operations Plan",
+    "section": "Order Fulfillment Process",
+    "text": "Order Fulfillment Process\n\nOrder received (e-commerce platform or in-store)\nOrder verification and payment processing\nInventory allocation\nPicking and packing\nQuality check\nShipping/delivery arrangement\nOrder tracking information sent to customer\nDelivery confirmation and feedback request"
+  },
+  {
+    "objectID": "operations-plan.html#customer-service-protocols",
+    "href": "operations-plan.html#customer-service-protocols",
+    "title": "Operations Plan",
+    "section": "Customer Service Protocols",
+    "text": "Customer Service Protocols\n\nOmnichannel support: Phone, email, chat, and social media\n24/7 chatbot for basic inquiries and order tracking\nEscalation process for complex issues\nRegular team training on product knowledge and customer service skills"
+  },
+  {
+    "objectID": "operations-plan.html#technology-infrastructure",
+    "href": "operations-plan.html#technology-infrastructure",
+    "title": "Operations Plan",
+    "section": "Technology Infrastructure",
+    "text": "Technology Infrastructure\n\nE-commerce Platform\n\nCustom-built using R Shiny for frontend and Plumber for API\nIntegrated with inventory management and CRM systems\nMobile-responsive design\n\n\n\nData Analytics\n\nR-based analytics engine for business intelligence\nReal-time dashboards for key performance indicators\nMachine learning models for demand forecasting and customer segmentation\n\n\n\nSecurity Measures\n\nEnd-to-end encryption for all transactions\nRegular security audits and penetration testing\nCompliance with data protection regulations in Kenya and Rwanda\n\n\n\n\n\n\nThis operations plan ensures that RwandaMarket can efficiently manage its supply chain, inventory, order fulfillment, and customer service, all supported by a robust technology infrastructure."
   },
   {
     "objectID": "business-operations-optimization.html",
@@ -915,131 +999,5 @@
     "title": "Business Operations Optimization",
     "section": "Continuous Improvement Framework",
     "text": "Continuous Improvement Framework\nImplementing a framework for ongoing optimization and adaptation to changing business needs."
-  },
-  {
-    "objectID": "product-origin-declaration.html",
-    "href": "product-origin-declaration.html",
-    "title": "Product Origin Declaration",
-    "section": "",
-    "text": "The Product Origin Declaration is a crucial document for leveraging free trade benefits within the East African Community (EAC). It certifies that goods meet the EAC Rules of Origin criteria, allowing them to qualify for preferential tariff treatment."
-  },
-  {
-    "objectID": "product-origin-declaration.html#overview",
-    "href": "product-origin-declaration.html#overview",
-    "title": "Product Origin Declaration",
-    "section": "",
-    "text": "The Product Origin Declaration is a crucial document for leveraging free trade benefits within the East African Community (EAC). It certifies that goods meet the EAC Rules of Origin criteria, allowing them to qualify for preferential tariff treatment."
-  },
-  {
-    "objectID": "product-origin-declaration.html#eac-rules-of-origin-criteria",
-    "href": "product-origin-declaration.html#eac-rules-of-origin-criteria",
-    "title": "Product Origin Declaration",
-    "section": "EAC Rules of Origin Criteria",
-    "text": "EAC Rules of Origin Criteria\nTo qualify for preferential treatment, products must meet one of the following criteria:\n\nWholly obtained or produced in the EAC\nSufficiently worked or processed within the EAC (typically 35% local value addition)\nCumulation of origin within the EAC"
-  },
-  {
-    "objectID": "product-origin-declaration.html#declaration-form",
-    "href": "product-origin-declaration.html#declaration-form",
-    "title": "Product Origin Declaration",
-    "section": "Declaration Form",
-    "text": "Declaration Form\nUse the form below to declare the origin of your products:\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\nShiny applications not supported in static R Markdown documents"
-  },
-  {
-    "objectID": "product-origin-declaration.html#important-notes",
-    "href": "product-origin-declaration.html#important-notes",
-    "title": "Product Origin Declaration",
-    "section": "Important Notes",
-    "text": "Important Notes\n\nEnsure all information provided is accurate and can be verified.\nSupporting documents may include invoices, production records, or supplier declarations.\nFalse declarations may result in penalties and loss of preferential treatment."
-  },
-  {
-    "objectID": "product-origin-declaration.html#benefits-of-accurate-origin-declaration",
-    "href": "product-origin-declaration.html#benefits-of-accurate-origin-declaration",
-    "title": "Product Origin Declaration",
-    "section": "Benefits of Accurate Origin Declaration",
-    "text": "Benefits of Accurate Origin Declaration\n\nEligibility for reduced or zero tariffs within the EAC\nEnhanced competitiveness in the regional market\nCompliance with trade regulations\nFacilitation of smooth customs clearance\n\nFor any questions regarding product origin declaration, please contact our trade compliance team at trade.compliance@rwandamarket.com."
-  },
-  {
-    "objectID": "product-origin-declaration.html#importance-of-tracking-tariff-savings",
-    "href": "product-origin-declaration.html#importance-of-tracking-tariff-savings",
-    "title": "Tariff Savings Tracking",
-    "section": "Importance of Tracking Tariff Savings",
-    "text": "Importance of Tracking Tariff Savings\nMonitoring tariff savings is essential for: 1. Quantifying the financial benefits of free trade agreements 2. Informing pricing strategies 3. Identifying the most profitable trade routes and product categories 4. Supporting decision-making in sourcing and market expansion"
-  },
-  {
-    "objectID": "product-origin-declaration.html#tariff-savings-calculator-and-tracker",
-    "href": "product-origin-declaration.html#tariff-savings-calculator-and-tracker",
-    "title": "Tariff Savings Tracking",
-    "section": "Tariff Savings Calculator and Tracker",
-    "text": "Tariff Savings Calculator and Tracker\nUse the form below to calculate and track your tariff savings:\n\n\nShiny applications not supported in static R Markdown documents"
-  },
-  {
-    "objectID": "product-origin-declaration.html#analyzing-your-tariff-savings",
-    "href": "product-origin-declaration.html#analyzing-your-tariff-savings",
-    "title": "Tariff Savings Tracking",
-    "section": "Analyzing Your Tariff Savings",
-    "text": "Analyzing Your Tariff Savings\n\n\n\n\n\nRegular analysis of your tariff savings can reveal: - Most beneficial product categories for cross-border trade - Opportunities for expanding into new markets within the EAC - Potential for price adjustments to increase competitiveness\nFor detailed reports and analysis of your tariff savings, please contact our finance team at finance@rwandamarket.com."
-  },
-  {
-    "objectID": "non-tariff-barrier-reporting.html",
-    "href": "non-tariff-barrier-reporting.html",
-    "title": "Non-Tariff Barrier Reporting",
-    "section": "",
-    "text": "Non-Tariff Barriers are obstacles to trade that are not in the form of a tariff. They can include: - Complex customs procedures - Technical regulations and standards - Sanitary and phytosanitary measures - Licensing requirements - Quotas\nReporting and addressing NTBs is crucial for smooth cross-border trade operations."
-  },
-  {
-    "objectID": "non-tariff-barrier-reporting.html#understanding-non-tariff-barriers-ntbs",
-    "href": "non-tariff-barrier-reporting.html#understanding-non-tariff-barriers-ntbs",
-    "title": "Non-Tariff Barrier Reporting",
-    "section": "",
-    "text": "Non-Tariff Barriers are obstacles to trade that are not in the form of a tariff. They can include: - Complex customs procedures - Technical regulations and standards - Sanitary and phytosanitary measures - Licensing requirements - Quotas\nReporting and addressing NTBs is crucial for smooth cross-border trade operations."
-  },
-  {
-    "objectID": "non-tariff-barrier-reporting.html#ntb-reporting-form",
-    "href": "non-tariff-barrier-reporting.html#ntb-reporting-form",
-    "title": "Non-Tariff Barrier Reporting",
-    "section": "NTB Reporting Form",
-    "text": "NTB Reporting Form\nIf you encounter a non-tariff barrier, please report it using the form below:\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\nShiny applications not supported in static R Markdown documents"
-  },
-  {
-    "objectID": "non-tariff-barrier-reporting.html#ntb-analysis-and-resolution",
-    "href": "non-tariff-barrier-reporting.html#ntb-analysis-and-resolution",
-    "title": "Non-Tariff Barrier Reporting",
-    "section": "NTB Analysis and Resolution",
-    "text": "NTB Analysis and Resolution\n\n\n\n\n\nOur team regularly analyzes reported NTBs to: 1. Identify patterns and recurring issues 2. Develop strategies for overcoming common barriers 3. Engage with relevant authorities to address systemic problems 4. Provide guidance to our partners on navigating complex regulations"
-  },
-  {
-    "objectID": "non-tariff-barrier-reporting.html#resources-for-addressing-ntbs",
-    "href": "non-tariff-barrier-reporting.html#resources-for-addressing-ntbs",
-    "title": "Non-Tariff Barrier Reporting",
-    "section": "Resources for Addressing NTBs",
-    "text": "Resources for Addressing NTBs\n\nEAC Trade Helpdesk\nWorld Trade Organization - Trade Facilitation Agreement Facility\nRwandaMarket’s Guide to Navigating EAC Trade Regulations (download link)\n\nFor assistance with specific NTBs, please contact our trade facilitation team at trade.support@rwandamarket.com."
-  },
-  {
-    "objectID": "tariff-savings-tracking.html",
-    "href": "tariff-savings-tracking.html",
-    "title": "Tariff Savings Tracking",
-    "section": "",
-    "text": "Monitoring tariff savings is essential for: 1. Quantifying the financial benefits of free trade agreements 2. Informing pricing strategies 3. Identifying the most profitable trade routes and product categories 4. Supporting decision-making in sourcing and market expansion"
-  },
-  {
-    "objectID": "tariff-savings-tracking.html#importance-of-tracking-tariff-savings",
-    "href": "tariff-savings-tracking.html#importance-of-tracking-tariff-savings",
-    "title": "Tariff Savings Tracking",
-    "section": "",
-    "text": "Monitoring tariff savings is essential for: 1. Quantifying the financial benefits of free trade agreements 2. Informing pricing strategies 3. Identifying the most profitable trade routes and product categories 4. Supporting decision-making in sourcing and market expansion"
-  },
-  {
-    "objectID": "tariff-savings-tracking.html#tariff-savings-calculator-and-tracker",
-    "href": "tariff-savings-tracking.html#tariff-savings-calculator-and-tracker",
-    "title": "Tariff Savings Tracking",
-    "section": "Tariff Savings Calculator and Tracker",
-    "text": "Tariff Savings Calculator and Tracker\nUse the form below to calculate and track your tariff savings:\n\n\nWarning: package 'shiny' was built under R version 4.3.3\n\n\nShiny applications not supported in static R Markdown documents"
-  },
-  {
-    "objectID": "tariff-savings-tracking.html#analyzing-your-tariff-savings",
-    "href": "tariff-savings-tracking.html#analyzing-your-tariff-savings",
-    "title": "Tariff Savings Tracking",
-    "section": "Analyzing Your Tariff Savings",
-    "text": "Analyzing Your Tariff Savings\n\n\n\n\n\nRegular analysis of your tariff savings can reveal: - Most beneficial product categories for cross-border trade - Opportunities for expanding into new markets within the EAC - Potential for price adjustments to increase competitiveness\nFor detailed reports and analysis of your tariff savings, please contact our finance team at finance@rwandamarket.com."
   }
 ]

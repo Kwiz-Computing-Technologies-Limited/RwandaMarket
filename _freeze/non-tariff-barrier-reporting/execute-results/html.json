@@ -1,0 +1,16 @@
+{
+  "hash": "36f54fa4b15c1f5d9ff4f063d6201c47",
+  "result": {
+    "markdown": "---\ntitle: \"Non-Tariff Barrier Reporting\"\n---\n\n\n## Understanding Non-Tariff Barriers (NTBs)\n\nNon-Tariff Barriers are obstacles to trade that are not in the form of a tariff. They can include:\n- Complex customs procedures\n- Technical regulations and standards\n- Sanitary and phytosanitary measures\n- Licensing requirements\n- Quotas\n\nReporting and addressing NTBs is crucial for smooth cross-border trade operations.\n\n## NTB Reporting Form\n\nIf you encounter a non-tariff barrier, please report it using the form below:\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stderr}\n```\nWarning: package 'shiny' was built under R version 4.3.3\n```\n:::\n\n::: {.cell-output-display}\n`<div style=\"width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;\" class=\"muted well\">Shiny applications not supported in static R Markdown documents</div>`{=html}\n:::\n:::\n\n\n## NTB Analysis and Resolution\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](non-tariff-barrier-reporting_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\nOur team regularly analyzes reported NTBs to:\n1. Identify patterns and recurring issues\n2. Develop strategies for overcoming common barriers\n3. Engage with relevant authorities to address systemic problems\n4. Provide guidance to our partners on navigating complex regulations\n\n## Resources for Addressing NTBs\n\n- [EAC Trade Helpdesk](https://www.eac.int/trade)\n- [World Trade Organization - Trade Facilitation Agreement Facility](https://www.tfafacility.org/)\n- RwandaMarket's Guide to Navigating EAC Trade Regulations (download link)\n\nFor assistance with specific NTBs, please contact our trade facilitation team at trade.support@rwandamarket.com.\n\n\n",
+    "supporting": [
+      "non-tariff-barrier-reporting_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

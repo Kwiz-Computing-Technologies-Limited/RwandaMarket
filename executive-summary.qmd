@@ -1,0 +1,38 @@
+---
+title: "Executive Summary"
+---
+
+RwandaMarket is an innovative e-commerce platform and physical store network that brings premium Rwandan products to the Nairobi market while offering cutting-edge B2B solutions for cross-border trade.
+
+## Key Points
+
+- **Target Market**: Middle to upper-class Nairobi residents, expatriates, tourists, and businesses engaged in East African trade
+- **Unique Value Proposition**: Authentic Rwandan products combined with advanced technology for seamless shopping and trade facilitation
+- **Revenue Streams**: B2C product sales, B2B services including trade facilitation and market intelligence
+- **Technology Focus**: R-based analytics for personalization, inventory management, and market insights
+- **Funding Requirement**: $1.5 million for startup costs and initial operations
+
+```{r}
+#| echo: false
+library(ggplot2)
+
+# Sample data for financial projections
+financial_data <- data.frame(
+  Year = c(1, 2, 3),
+  Revenue = c(800000, 1600000, 2500000),
+  Expenses = c(1000000, 1400000, 1800000),
+  Profit = c(-200000, 200000, 700000)
+)
+
+# Create a line graph of financial projections
+ggplot(financial_data, aes(x = Year)) +
+  geom_line(aes(y = Revenue, color = "Revenue"), size = 1.5) +
+  geom_line(aes(y = Expenses, color = "Expenses"), size = 1.5) +
+  geom_line(aes(y = Profit, color = "Profit"), size = 1.5) +
+  scale_color_manual(values = c("Revenue" = "#00A86B", "Expenses" = "#7C4700", "Profit" = "#FFA500")) +
+  theme_minimal() +
+  labs(title = "Financial Projections",
+       y = "Amount ($)",
+       color = "Metric") +
+  scale_x_continuous(breaks = c(1, 2, 3))
+```

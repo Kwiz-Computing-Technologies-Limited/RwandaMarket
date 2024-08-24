@@ -1,0 +1,83 @@
+---
+title: "B2C Offerings"
+---
+
+Discover the rich cultural heritage of Rwanda through our carefully curated selection of authentic products. Each item in our collection tells a unique story of Rwandan craftsmanship and tradition.
+
+## Product Categories
+
+### 1. Coffee and Tea
+
+Experience the rich flavors of Rwanda's highlands with our premium coffee and tea selection.
+
+- Single-origin coffee beans from renowned Rwandan cooperatives
+- Specialty tea blends, including black, green, and herbal varieties
+- Handcrafted coffee and tea accessories
+
+### 2. Handicrafts
+
+Add a touch of Rwandan artistry to your home with our exquisite handicrafts.
+
+- Traditional Agaseke peace baskets
+- Intricately carved wooden sculptures
+- Hand-woven textiles and tapestries
+
+### 3. Jewelry
+
+Adorn yourself with unique pieces that showcase Rwandan design and craftsmanship.
+
+- Handcrafted necklaces, bracelets, and earrings
+- Pieces featuring local materials like cow horn and volcanic stone
+- Modern interpretations of traditional Rwandan jewelry designs
+
+### 4. Home Decor
+
+Transform your living space with authentic Rwandan decor items.
+
+- Imigongo art pieces (traditional cow dung paintings)
+- Handmade ceramics and pottery
+- Woven grass mats and wall hangings
+
+### 5. Fashion and Textiles
+
+Embrace Rwandan style with our collection of clothing and textiles.
+
+- Modern clothing featuring traditional Rwandan patterns
+- Hand-dyed fabrics and scarves
+- Bespoke tailoring services using authentic Rwandan textiles
+
+```{r}
+#| echo: false
+library(ggplot2)
+
+# Product category data
+category_data <- data.frame(
+  Category = c("Coffee & Tea", "Handicrafts", "Jewelry", "Home Decor", "Fashion"),
+  Sales_Percentage = c(30, 25, 15, 20, 10)
+)
+
+# Create a pie chart of product categories
+ggplot(category_data, aes(x = "", y = Sales_Percentage, fill = Category)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  theme_void() +
+  labs(title = "B2C Product Category Distribution") +
+  scale_fill_brewer(palette = "Set3") +
+  geom_text(aes(label = paste0(Sales_Percentage, "%")), position = position_stack(vjust = 0.5))
+```
+
+## Featured Artisans
+
+We work directly with talented Rwandan artisans to bring you authentic, high-quality products. Meet some of our featured artisans:
+
+1. [PLACEHOLDER: Artisan Name] - Master Weaver
+2. [PLACEHOLDER: Artisan Name] - Coffee Roaster
+3. [PLACEHOLDER: Artisan Name] - Jewelry Designer
+
+## Customer Testimonials
+
+"The quality of the Rwandan coffee I purchased is outstanding. It's now a staple in my morning routine!" - [PLACEHOLDER: Customer Name]
+
+"I love the unique Agaseke basket I bought. It's a beautiful piece of art and a great conversation starter." - [PLACEHOLDER: Customer Name]
+
+Explore our collection and bring a piece of Rwanda into your home today!

@@ -1,0 +1,92 @@
+---
+title: "B2B Solutions"
+---
+
+RwandaMarket offers innovative B2B solutions designed to facilitate and optimize cross-border trade between Rwanda and Kenya. Our services leverage cutting-edge technology and deep market insights to provide value to businesses of all sizes.
+
+## Our B2B Services
+
+### 1. Cross-Border Trade Facilitation
+
+Streamline your import/export processes with our comprehensive trade facilitation services.
+
+-   Customs documentation assistance
+-   Logistics optimization
+-   Regulatory compliance guidance
+-   Trade finance solutions
+
+### 2. Market Intelligence
+
+Make informed decisions with our data-driven market insights.
+
+-   Consumer trend analysis
+-   Competitive landscape mapping
+-   Market entry strategy consulting
+-   Demand forecasting
+
+### 3. Supply Chain Analytics
+
+Optimize your operations with our advanced analytics solutions.
+
+-   Inventory optimization
+-   Route planning and optimization
+-   Supplier performance analysis
+-   Risk assessment and mitigation strategies
+
+### 4. Blockchain-Enabled Product Authentication
+
+Ensure the authenticity and traceability of your products.
+
+-   End-to-end supply chain tracking
+-   Counterfeit protection
+-   Consumer trust building
+-   Ethical sourcing verification
+
+```{r}
+#| echo: false
+library(ggplot2)
+
+# B2B service adoption data
+service_data <- data.frame(
+  Service = c("Trade Facilitation", "Market Intelligence", "Supply Chain Analytics", "Product Authentication"),
+  Adoption_Rate = c(40, 30, 20, 10)
+)
+
+# Create a horizontal bar chart of B2B service adoption
+ggplot(service_data, aes(x = Adoption_Rate, y = reorder(Service, Adoption_Rate))) +
+  geom_bar(stat = "identity", fill = "#00A86B") +
+  theme_minimal() +
+  labs(title = "B2B Service Adoption Rates",
+       x = "Adoption Rate (%)",
+       y = "") +
+  geom_text(aes(label = paste0(Adoption_Rate, "%")), hjust = -0.1)
+```
+
+## Case Studies
+
+### Case Study 1: Optimizing Coffee Exports
+
+\[PLACEHOLDER: Brief description of how we helped a Rwandan coffee cooperative increase their exports to Kenya\]
+
+### Case Study 2: Market Entry Strategy
+
+\[PLACEHOLDER: Description of how we assisted a Kenyan company in successfully entering the Rwandan market\]
+
+## Pricing Models
+
+We offer flexible pricing models to suit businesses of all sizes:
+
+1.  Subscription-based services
+2.  Pay-per-use model
+3.  Custom packages for enterprise clients
+
+\[PLACEHOLDER: More detailed pricing information\]
+
+## Why Choose RwandaMarket for B2B Solutions?
+
+1.  Deep understanding of both Rwandan and Kenyan markets
+2.  Cutting-edge technology integration, including R-based analytics and blockchain
+3.  Comprehensive suite of services covering all aspects of cross-border trade
+4.  Proven track record of success with diverse clients
+
+Contact our B2B team today to learn how we can help optimize your East African trade operations.

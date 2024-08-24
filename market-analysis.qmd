@@ -1,0 +1,70 @@
+---
+title: "Market Analysis"
+---
+
+## Overview of the East African E-commerce Market
+
+The East African e-commerce market, particularly in Kenya and Rwanda, is experiencing rapid growth driven by increasing internet penetration, smartphone adoption, and a growing middle class.
+
+## Target Market Segments
+
+1. B2C Segment:
+   - Middle to upper-class urban consumers in Nairobi (ages 25-45)
+   - Expatriates and tourists interested in authentic Rwandan products
+   - Kenyan consumers interested in unique, artisanal goods
+
+2. B2B Segment:
+   - Small to medium-sized retailers in Kenya
+   - Hotels and tourism businesses
+   - Corporate gift buyers
+
+## Market Size and Growth Projections
+
+```{r}
+#| echo: false
+library(ggplot2)
+
+years <- 2021:2025
+market_size <- c(1.5, 1.8, 2.2, 2.7, 3.3)  # in billion USD
+
+market_data <- data.frame(Year = years, Size = market_size)
+
+ggplot(market_data, aes(x = Year, y = Size)) +
+  geom_line(color = "#00A86B", size = 2) +
+  geom_point(color = "#00A86B", size = 4) +
+  labs(title = "East African E-commerce Market Growth Projection",
+       y = "Market Size (Billion USD)") +
+  theme_minimal()
+```
+
+## Competitor Analysis
+
+1. Local Kenyan e-commerce platforms
+2. Pan-African e-commerce giants
+3. Traditional brick-and-mortar retailers
+4. Other country-specific artisanal goods importers
+
+## SWOT Analysis
+
+Strengths:
+- Unique product offering
+- Strong ties with Rwandan artisans
+- Tech-driven operations
+
+Weaknesses:
+- New entrant in a competitive market
+- Limited initial brand recognition
+
+Opportunities:
+- Growing demand for authentic, ethically sourced products
+- Increasing cross-border trade within EAC
+
+Threats:
+- Potential economic downturns
+- Changes in trade regulations
+
+## Consumer Trends
+
+- Increasing preference for mobile shopping
+- Growing interest in product provenance and ethical sourcing
+- Rise of social commerce

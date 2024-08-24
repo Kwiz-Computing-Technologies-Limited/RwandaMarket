@@ -1,0 +1,16 @@
+{
+  "hash": "6c561f35b45ed35cd9243b08f2e6ae84",
+  "result": {
+    "markdown": "---\ntitle: \"Executive Summary\"\n---\n\n\nRwandaMarket is an innovative e-commerce platform and physical store network that brings premium Rwandan products to the Nairobi market while offering cutting-edge B2B solutions for cross-border trade.\n\n## Key Points\n\n- **Target Market**: Middle to upper-class Nairobi residents, expatriates, tourists, and businesses engaged in East African trade\n- **Unique Value Proposition**: Authentic Rwandan products combined with advanced technology for seamless shopping and trade facilitation\n- **Revenue Streams**: B2C product sales, B2B services including trade facilitation and market intelligence\n- **Technology Focus**: R-based analytics for personalization, inventory management, and market insights\n- **Funding Requirement**: $1.5 million for startup costs and initial operations\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stderr}\n```\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n```\n:::\n\n::: {.cell-output-display}\n![](executive-summary_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "executive-summary_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

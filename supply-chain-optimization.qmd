@@ -1,0 +1,62 @@
+---
+title: "Supply Chain Optimization"
+---
+
+## Current Supply Chain Overview
+
+RwandaMarket's supply chain spans from artisan workshops in Rwanda to customers in Kenya, involving multiple touchpoints and stakeholders.
+
+## Key Optimization Areas
+
+1. Sourcing and Procurement
+2. Inventory Management
+3. Warehousing
+4. Transportation and Logistics
+5. Last-Mile Delivery
+
+## Data-Driven Optimization Strategies
+
+### Demand Forecasting
+
+Using historical sales data and machine learning algorithms to predict future demand.
+
+```{r}
+#| echo: false
+library(ggplot2)
+
+set.seed(123)
+dates <- seq(as.Date("2023-01-01"), as.Date("2023-12-31"), by = "day")
+sales <- cumsum(rnorm(365, mean = 5, sd = 2))
+forecast <- sales + rnorm(365, mean = 0, sd = 10)
+
+sales_data <- data.frame(Date = dates, Sales = sales, Forecast = forecast)
+
+ggplot(sales_data, aes(x = Date)) +
+  geom_line(aes(y = Sales, color = "Actual Sales")) +
+  geom_line(aes(y = Forecast, color = "Forecast"), linetype = "dashed") +
+  labs(title = "Sales Forecast vs Actual Sales",
+       y = "Sales Volume") +
+  scale_color_manual(values = c("Actual Sales" = "#00A86B", "Forecast" = "#FFA500")) +
+  theme_minimal()
+```
+
+### Inventory Optimization
+
+Implementing a Just-in-Time (JIT) inventory system to reduce holding costs while ensuring product availability.
+
+### Route Optimization
+
+Using algorithms to determine the most efficient delivery routes, reducing transportation costs and delivery times.
+
+## Performance Metrics
+
+- Order Fulfillment Rate
+- Inventory Turnover Ratio
+- On-Time Delivery Rate
+- Supply Chain Cycle Time
+
+## Technology Integration
+
+- IoT devices for real-time tracking
+- Blockchain for supply chain transparency
+- AI for predictive analytics

@@ -1,0 +1,16 @@
+{
+  "hash": "e949fb3c40588ca271b40dc35f907cb1",
+  "result": {
+    "markdown": "---\ntitle: \"Trade Regulations\"\n---\n\n\nUnderstanding the trade regulations governing commerce between Rwanda and Kenya is crucial for successful cross-border operations. RwandaMarket is committed to ensuring full compliance with all relevant laws and treaties.\n\n## Key Trade Agreements\n\n### 1. East African Community (EAC) Customs Union\n\nThe EAC Customs Union, which includes both Rwanda and Kenya, provides for:\n\n-   Duty-free movement of goods within the EAC\n-   Common External Tariff (CET) for goods imported from outside the EAC\n-   Harmonized customs procedures\n\n### 2. African Continental Free Trade Area (AfCFTA)\n\nBoth Rwanda and Kenya are signatories to the AfCFTA, which aims to create a single continental market for goods and services.\n\n## Import/Export Procedures\n\n### Documentation Required\n\n1.  Commercial Invoice\n2.  Packing List\n3.  Certificate of Origin\n4.  Bill of Lading/Airway Bill\n5.  Import Declaration Form (IDF)\n6.  Pre-Export Verification of Conformity (PVoC)\n\n### Customs Clearance Process\n\n\\[PLACEHOLDER: Step-by-step guide to the customs clearance process\\]\n\n## Product-Specific Regulations\n\n### Coffee and Tea\n\n-   Phytosanitary certificates required\n-   Quality standards set by the East African Standards Committee\n\n### Handicrafts\n\n-   Cultural property export permits may be required for certain items\n-   CITES permits for products made from protected species\n\n### Textiles\n\n-   Rules of origin documentation to qualify for duty-free status under EAC\n-   Compliance with textile labeling requirements\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](trade-regulations_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n## Tariffs and Taxes\n\n-   Value Added Tax (VAT): 16% in Kenya\n-   Import Duty: Varies by product category (many products duty-free under EAC)\n-   Excise Duty: Applicable to certain luxury goods\n\n## Compliance Strategies\n\n1.  Regular training for staff on current regulations\n2.  Partnerships with customs brokers in both Rwanda and Kenya\n3.  Use of digital tools for automated compliance checks\n4.  Proactive engagement with regulatory bodies\n\nRwandaMarket is committed to navigating these regulations efficiently to ensure smooth cross-border trade for our B2C and B2B operations.\n",
+    "supporting": [
+      "trade-regulations_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

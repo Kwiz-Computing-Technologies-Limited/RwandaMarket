@@ -1,0 +1,60 @@
+---
+title: "Product Origin Declaration"
+---
+
+## Overview
+
+The Product Origin Declaration is a crucial document for leveraging free trade benefits within the East African Community (EAC). It certifies that goods meet the EAC Rules of Origin criteria, allowing them to qualify for preferential tariff treatment.
+
+## EAC Rules of Origin Criteria
+
+To qualify for preferential treatment, products must meet one of the following criteria:
+
+1. Wholly obtained or produced in the EAC
+2. Sufficiently worked or processed within the EAC (typically 35% local value addition)
+3. Cumulation of origin within the EAC
+
+## Declaration Form
+
+Use the form below to declare the origin of your products:
+
+```{r}
+#| echo: false
+library(shiny)
+
+ui <- fluidPage(
+  textInput("product_name", "Product Name"),
+  textInput("hs_code", "HS Code"),
+  selectInput("country_of_origin", "Country of Origin", 
+              choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
+  numericInput("local_content_percentage", "Percentage of Local Content", value = 0, min = 0, max = 100),
+  textAreaInput("manufacturing_process", "Brief Description of Manufacturing Process"),
+  checkboxInput("meets_origin_criteria", "Meets EAC Rules of Origin Criteria"),
+  fileInput("supporting_documents", "Upload Supporting Documents", multiple = TRUE),
+  actionButton("submit", "Submit Declaration")
+)
+
+server <- function(input, output, session) {
+  observeEvent(input$submit, {
+    # In a real application, this would process and store the form data
+    showNotification("Declaration submitted successfully", type = "message")
+  })
+}
+
+shinyApp(ui, server)
+```
+
+## Important Notes
+
+- Ensure all information provided is accurate and can be verified.
+- Supporting documents may include invoices, production records, or supplier declarations.
+- False declarations may result in penalties and loss of preferential treatment.
+
+## Benefits of Accurate Origin Declaration
+
+1. Eligibility for reduced or zero tariffs within the EAC
+2. Enhanced competitiveness in the regional market
+3. Compliance with trade regulations
+4. Facilitation of smooth customs clearance
+
+For any questions regarding product origin declaration, please contact our trade compliance team at trade.compliance@rwandamarket.com.

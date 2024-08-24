@@ -1,0 +1,67 @@
+/* Custom styles for RwandaMarket comprehensive website */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #7C4700;
+}
+
+.navbar {
+  background-color: #7C4700;
+}
+
+.navbar-brand, .nav-link {
+  color: #FFF !important;
+}
+
+.btn-primary {
+  background-color: #7C4700;
+  border-color: #7C4700;
+}
+
+.btn-primary:hover {
+  background-color: #5A3300;
+  border-color: #5A3300;
+}
+
+.btn-secondary {
+  background-color: #00A86B;
+  border-color: #00A86B;
+}
+
+.btn-secondary:hover {
+  background-color: #008C59;
+  border-color: #008C59;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.section-b2c {
+  background-color: #FFF8E7;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.section-b2b {
+  background-color: #E7FFF4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.chart-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+

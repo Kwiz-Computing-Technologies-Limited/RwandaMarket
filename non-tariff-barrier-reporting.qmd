@@ -1,0 +1,83 @@
+---
+title: "Non-Tariff Barrier Reporting"
+---
+
+## Understanding Non-Tariff Barriers (NTBs)
+
+Non-Tariff Barriers are obstacles to trade that are not in the form of a tariff. They can include:
+- Complex customs procedures
+- Technical regulations and standards
+- Sanitary and phytosanitary measures
+- Licensing requirements
+- Quotas
+
+Reporting and addressing NTBs is crucial for smooth cross-border trade operations.
+
+## NTB Reporting Form
+
+If you encounter a non-tariff barrier, please report it using the form below:
+
+```{r}
+#| echo: false
+library(shiny)
+
+ui <- fluidPage(
+  selectInput("barrier_type", "Type of Non-Tariff Barrier", 
+              choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
+  selectInput("country", "Country Where Barrier was Encountered", 
+              choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
+  dateInput("date_encountered", "Date Encountered"),
+  textAreaInput("barrier_description", "Detailed Description of the Barrier"),
+  numericInput("estimated_cost", "Estimated Cost Impact (USD)", value = 0),
+  textAreaInput("resolution_efforts", "Description of Resolution Efforts"),
+  selectInput("status", "Current Status", 
+              choices = c("Unresolved", "In Progress", "Resolved")),
+  actionButton("submit", "Submit Report")
+)
+
+server <- function(input, output, session) {
+  observeEvent(input$submit, {
+    # In a real application, this would process and store the form data
+    showNotification("NTB report submitted successfully", type = "message")
+  })
+}
+
+shinyApp(ui, server)
+```
+
+## NTB Analysis and Resolution
+
+```{r}
+#| echo: false
+library(ggplot2)
+
+# Sample data for illustration
+ntb_data <- data.frame(
+  Barrier_Type = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other"),
+  Frequency = c(40, 25, 15, 12, 8)
+)
+
+ggplot(ntb_data, aes(x = reorder(Barrier_Type, -Frequency), y = Frequency)) +
+  geom_bar(stat = "identity", fill = "#FFA500") +
+  labs(title = "Frequency of Non-Tariff Barriers by Type",
+       x = "Barrier Type",
+       y = "Frequency") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+Our team regularly analyzes reported NTBs to:
+1. Identify patterns and recurring issues
+2. Develop strategies for overcoming common barriers
+3. Engage with relevant authorities to address systemic problems
+4. Provide guidance to our partners on navigating complex regulations
+
+## Resources for Addressing NTBs
+
+- [EAC Trade Helpdesk](https://www.eac.int/trade)
+- [World Trade Organization - Trade Facilitation Agreement Facility](https://www.tfafacility.org/)
+- RwandaMarket's Guide to Navigating EAC Trade Regulations (download link)
+
+For assistance with specific NTBs, please contact our trade facilitation team at trade.support@rwandamarket.com.
+
+

@@ -1,0 +1,47 @@
+---
+title: "RwandaMarket: Bridging Rwanda and Kenya through Innovation"
+---
+
+Welcome to the comprehensive overview of RwandaMarket, a pioneering venture that connects the rich cultural heritage of Rwanda with the vibrant Kenyan market through innovative retail and B2B solutions.
+
+## Our Vision
+
+To become the premier platform for cross-border trade in East Africa, known for quality products, technological innovation, and positive social impact.
+
+## What We Offer
+
+- **For Consumers**: Authentic Rwandan products, from artisanal crafts to gourmet coffee
+- **For Businesses**: Cutting-edge solutions for cross-border trade and market insights
+
+```{r}
+#| echo: false
+library(ggplot2)
+
+# Data for B2C and B2B offering comparison
+offering_data <- data.frame(
+  Category = c("Products", "Services", "Technology", "Market Reach"),
+  B2C = c(40, 20, 15, 25),
+  B2B = c(20, 35, 30, 15)
+)
+
+# Reshape data for plotting
+offering_long <- tidyr::pivot_longer(offering_data, cols = c(B2C, B2B), names_to = "Market", values_to = "Percentage")
+
+# Create a grouped bar chart
+ggplot(offering_long, aes(x = Category, y = Percentage, fill = Market)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  theme_minimal() +
+  labs(title = "RwandaMarket: B2C and B2B Offerings",
+       x = "", y = "Focus Percentage") +
+  scale_fill_manual(values = c("#7C4700", "#00A86B")) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+## Key Highlights
+
+- Unique blend of cultural authenticity and technological innovation
+- Comprehensive understanding of East African trade regulations
+- Strong partnerships with Rwandan artisans and Kenyan businesses
+- Data-driven approach to market analysis and business operations
+
+Explore our detailed business plan and operational strategies through the navigation menu above.

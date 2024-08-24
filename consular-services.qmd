@@ -1,0 +1,66 @@
+---
+title: "Consular Services"
+---
+
+The Rwandan Consulate in Kenya provides valuable services that support RwandaMarket's operations. Understanding and leveraging these services is crucial for our business success.
+
+## Key Consular Services
+
+### 1. Document Authentication
+
+- Verification of Certificates of Origin
+- Legalization of commercial documents
+
+### 2. Trade Facilitation
+
+- Information on Rwandan trade policies and regulations
+- Assistance with trade dispute resolution
+
+### 3. Business Networking
+
+- Facilitation of business-to-business connections
+- Information on trade fairs and business events in Rwanda
+
+### 4. Visa Services
+
+- Processing of business visas for travel to Rwanda
+- Information on work permits for Rwandan nationals in Kenya
+
+## How RwandaMarket Leverages Consular Services
+
+1. Regular consultation for updates on trade policies
+2. Participation in consulate-organized business networking events
+3. Assistance in verifying the credentials of potential Rwandan suppliers
+4. Support in resolving any cross-border business disputes
+
+```{r}
+#| echo: false
+library(ggplot2)
+
+# Consular services utilization data
+consular_data <- data.frame(
+  Service = c("Document Authentication", "Trade Facilitation", "Business Networking", "Visa Services"),
+  Utilization = c(35, 30, 25, 10)
+)
+
+# Create a pie chart of consular services utilization
+ggplot(consular_data, aes(x = "", y = Utilization, fill = Service)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  theme_void() +
+  labs(title = "Utilization of Consular Services") +
+  scale_fill_brewer(palette = "Set3") +
+  geom_text(aes(label = paste0(Utilization, "%")), position = position_stack(vjust = 0.5))
+```
+
+## Contact Information
+
+Rwandan Consulate in Nairobi, Kenya:
+- Address: [PLACEHOLDER: Consulate Address]
+- Phone: [PLACEHOLDER: Consulate Phone Number]
+- Email: [PLACEHOLDER: Consulate Email]
+- Website: [PLACEHOLDER: Consulate Website]
+
+Business Hours: [PLACEHOLDER: Business Hours]
+
+RwandaMarket maintains a strong relationship with the Rwandan Consulate to ensure smooth operations and compliance with all relevant regulations.

@@ -1,0 +1,203 @@
+---
+title: "Documentation Requirements"
+---
+
+To facilitate our business operations, we require the following documentation from our partners, suppliers, and customers:
+
+## B2C Documentation
+
+1. Customer Registration Form
+   - Full Name
+   - Email Address
+   - Phone Number
+   - Shipping Address
+   - Preferred Payment Method
+
+2. Product Review Form
+   - Product Name
+   - Rating (1-5 stars)
+   - Written Review
+   - Images (optional)
+
+## B2B Documentation
+
+1. Business Partner Registration Form
+   - Company Name
+   - Business Registration Number
+   - Contact Person Name
+   - Contact Email
+   - Contact Phone
+   - Business Address
+   - Type of Partnership (Supplier, Distributor, etc.)
+
+2. Supplier Information Form
+   - Company Name
+   - Product Categories Supplied
+   - Production Capacity
+   - Quality Certifications
+   - Bank Account Details for Payments
+
+3. Export Documentation Form
+   - Product Details
+   - Country of Origin
+   - HS Code
+   - Certificate of Origin
+   - Phytosanitary Certificate (for agricultural products)
+   - Value of Goods
+
+4. Import Documentation Form
+   - Importer Details
+   - Product Details
+   - Customs Declaration
+   - Import Permit Number
+   - Bill of Lading / Airway Bill Number
+
+5. Trade Facilitation Service Request Form
+   - Service Type (Customs Clearance, Logistics, etc.)
+   - Shipment Details
+   - Required Documentation Checklist
+
+Now, let's create the forms to collect this information. We'll use the `shiny` library to create interactive forms that can be embedded in our Quarto website.
+
+```{r}
+#| echo: false
+library(shiny)
+
+# Customer Registration Form
+customer_registration_form <- fluidPage(
+  textInput("full_name", "Full Name"),
+  textInput("email", "Email Address"),
+  textInput("phone", "Phone Number"),
+  textAreaInput("shipping_address", "Shipping Address"),
+  selectInput("payment_method", "Preferred Payment Method",
+              choices = c("Credit Card", "M-Pesa", "Bank Transfer"))
+)
+
+# Business Partner Registration Form
+business_partner_form <- fluidPage(
+  textInput("company_name", "Company Name"),
+  textInput("business_reg_num", "Business Registration Number"),
+  textInput("contact_person", "Contact Person Name"),
+  textInput("contact_email", "Contact Email"),
+  textInput("contact_phone", "Contact Phone"),
+  textAreaInput("business_address", "Business Address"),
+  selectInput("partnership_type", "Type of Partnership",
+              choices = c("Supplier", "Distributor", "Logistics Partner", "Other"))
+)
+
+# Display the forms (in a real application, these would be on separate pages)
+fluidPage(
+  h2("Customer Registration Form"),
+  customer_registration_form,
+  hr(),
+  h2("Business Partner Registration Form"),
+  business_partner_form
+)
+```
+
+Now, let's set up a MongoDB database on AWS and create a script to interact with it. We'll use the `paws` library to interact with AWS and the `mongolite` library to interact with MongoDB.
+
+```{r}
+#| eval: false
+#| echo: false
+library(paws)
+library(mongolite)
+
+# AWS setup
+aws_access_key_id <- "YOUR_AWS_ACCESS_KEY_ID"
+aws_secret_access_key <- "YOUR_AWS_SECRET_ACCESS_KEY"
+region <- "us-east-1"  # or your preferred region
+
+# Initialize AWS DocumentDB (MongoDB-compatible) client
+docdb <- paws::docdb(
+  config = list(
+    credentials = list(
+      creds = list(
+        access_key_id = aws_access_key_id,
+        secret_access_key = aws_secret_access_key
+      )
+    ),
+    region = region
+  )
+)
+
+# Create a DocumentDB cluster
+cluster_response <- docdb$create_db_cluster(
+  DBClusterIdentifier = "rwandamarket-cluster",
+  Engine = "docdb",
+  MasterUsername = "admin",
+  MasterUserPassword = "YOUR_SECURE_PASSWORD",
+  DBSubnetGroupName = "YOUR_SUBNET_GROUP",
+  VpcSecurityGroupIds = c("YOUR_SECURITY_GROUP_ID")
+)
+
+# Wait for the cluster to be available
+waiter <- docdb$get_waiter("db_cluster_available")
+waiter$wait(DBClusterIdentifier = "rwandamarket-cluster")
+
+# Get cluster endpoint
+cluster_info <- docdb$describe_db_clusters(DBClusterIdentifier = "rwandamarket-cluster")
+endpoint <- cluster_info$DBClusters[[1]]$Endpoint
+
+# Connect to MongoDB using mongolite
+connection_string <- sprintf(
+  "mongodb://%s:%s@%s:27017/rwandamarket?ssl=true&replicaSet=rs0&readPreference=secondaryPreferred",
+  "admin",
+  "YOUR_SECURE_PASSWORD",
+  endpoint
+)
+
+# Create collections
+customers <- mongo(collection = "customers", db = "rwandamarket", url = connection_string)
+business_partners <- mongo(collection = "business_partners", db = "rwandamarket", url = connection_string)
+products <- mongo(collection = "products", db = "rwandamarket", url = connection_string)
+orders <- mongo(collection = "orders", db = "rwandamarket", url = connection_string)
+
+# Example: Insert a customer record
+customers$insert(
+  data.frame(
+    full_name = "John Doe",
+    email = "john.doe@example.com",
+    phone = "+254123456789",
+    shipping_address = "123 Nairobi St, Kenya",
+    payment_method = "M-Pesa"
+  )
+)
+
+# Example: Query customers
+result <- customers$find('{"payment_method": "M-Pesa"}')
+print(result)
+
+# Remember to close the connections when done
+customers$disconnect()
+business_partners$disconnect()
+products$disconnect()
+orders$disconnect()
+```
+
+This script does the following:
+
+1. Sets up AWS credentials and initializes the DocumentDB client.
+2. Creates a DocumentDB cluster (which is MongoDB-compatible).
+3. Waits for the cluster to be available and retrieves its endpoint.
+4. Connects to the MongoDB database using the `mongolite` library.
+5. Creates collections for customers, business partners, products, and orders.
+6. Demonstrates how to insert a record and query the database.
+
+To use this in production:
+
+1. Replace `YOUR_AWS_ACCESS_KEY_ID`, `YOUR_AWS_SECRET_ACCESS_KEY`, `YOUR_SECURE_PASSWORD`, `YOUR_SUBNET_GROUP`, and `YOUR_SECURITY_GROUP_ID` with your actual AWS and network configuration details.
+2. Ensure that your AWS security group allows incoming connections on port 27017 from your application servers.
+3. Implement proper security measures, such as storing credentials securely and not in the code.
+4. Set up error handling and connection pooling for robustness.
+5. Implement functions to handle form submissions and database operations for each type of document we're collecting.
+
+To integrate this with the Quarto website:
+
+1. Create API endpoints (e.g., using Plumber in R) that accept form submissions and interact with the database.
+2. Modify the Shiny forms to submit to these API endpoints.
+3. Implement proper validation and error handling on both client and server sides.
+
+This setup provides a scalable and flexible system for collecting and storing the various documents required for RwandaMarket's operations. The use of MongoDB allows for easy storage of complex, nested documents, which is particularly useful for things like product catalogs and order information.
+
+

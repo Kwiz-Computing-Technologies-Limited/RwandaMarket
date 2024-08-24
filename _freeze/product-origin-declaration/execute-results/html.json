@@ -1,0 +1,14 @@
+{
+  "hash": "4abcc6c01a285615b5ceac0703144a14",
+  "result": {
+    "markdown": "---\ntitle: \"Product Origin Declaration\"\n---\n\n\n## Overview\n\nThe Product Origin Declaration is a crucial document for leveraging free trade benefits within the East African Community (EAC). It certifies that goods meet the EAC Rules of Origin criteria, allowing them to qualify for preferential tariff treatment.\n\n## EAC Rules of Origin Criteria\n\nTo qualify for preferential treatment, products must meet one of the following criteria:\n\n1. Wholly obtained or produced in the EAC\n2. Sufficiently worked or processed within the EAC (typically 35% local value addition)\n3. Cumulation of origin within the EAC\n\n## Declaration Form\n\nUse the form below to declare the origin of your products:\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stderr}\n```\nWarning: package 'shiny' was built under R version 4.3.3\n```\n:::\n\n::: {.cell-output-display}\n`<div style=\"width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;\" class=\"muted well\">Shiny applications not supported in static R Markdown documents</div>`{=html}\n:::\n:::\n\n\n## Important Notes\n\n- Ensure all information provided is accurate and can be verified.\n- Supporting documents may include invoices, production records, or supplier declarations.\n- False declarations may result in penalties and loss of preferential treatment.\n\n## Benefits of Accurate Origin Declaration\n\n1. Eligibility for reduced or zero tariffs within the EAC\n2. Enhanced competitiveness in the regional market\n3. Compliance with trade regulations\n4. Facilitation of smooth customs clearance\n\nFor any questions regarding product origin declaration, please contact our trade compliance team at trade.compliance@rwandamarket.com.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

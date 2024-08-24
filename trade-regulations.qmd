@@ -1,0 +1,86 @@
+---
+title: "Trade Regulations"
+---
+
+Understanding the trade regulations governing commerce between Rwanda and Kenya is crucial for successful cross-border operations. RwandaMarket is committed to ensuring full compliance with all relevant laws and treaties.
+
+## Key Trade Agreements
+
+### 1. East African Community (EAC) Customs Union
+
+The EAC Customs Union, which includes both Rwanda and Kenya, provides for:
+
+-   Duty-free movement of goods within the EAC
+-   Common External Tariff (CET) for goods imported from outside the EAC
+-   Harmonized customs procedures
+
+### 2. African Continental Free Trade Area (AfCFTA)
+
+Both Rwanda and Kenya are signatories to the AfCFTA, which aims to create a single continental market for goods and services.
+
+## Import/Export Procedures
+
+### Documentation Required
+
+1.  Commercial Invoice
+2.  Packing List
+3.  Certificate of Origin
+4.  Bill of Lading/Airway Bill
+5.  Import Declaration Form (IDF)
+6.  Pre-Export Verification of Conformity (PVoC)
+
+### Customs Clearance Process
+
+\[PLACEHOLDER: Step-by-step guide to the customs clearance process\]
+
+## Product-Specific Regulations
+
+### Coffee and Tea
+
+-   Phytosanitary certificates required
+-   Quality standards set by the East African Standards Committee
+
+### Handicrafts
+
+-   Cultural property export permits may be required for certain items
+-   CITES permits for products made from protected species
+
+### Textiles
+
+-   Rules of origin documentation to qualify for duty-free status under EAC
+-   Compliance with textile labeling requirements
+
+```{r}
+#| echo: false
+library(ggplot2)
+
+# Regulation complexity data
+regulation_data <- data.frame(
+  Product_Category = c("Coffee & Tea", "Handicrafts", "Textiles", "Jewelry", "Art"),
+  Regulation_Complexity = c(8, 6, 7, 5, 9)
+)
+
+# Create a horizontal bar chart of regulation complexity
+ggplot(regulation_data, aes(x = Regulation_Complexity, y = reorder(Product_Category, Regulation_Complexity))) +
+  geom_bar(stat = "identity", fill = "#7C4700") +
+  theme_minimal() +
+  labs(title = "Regulation Complexity by Product Category",
+       x = "Complexity Score (1-10)",
+       y = "") +
+  geom_text(aes(label = Regulation_Complexity), hjust = -0.5)
+```
+
+## Tariffs and Taxes
+
+-   Value Added Tax (VAT): 16% in Kenya
+-   Import Duty: Varies by product category (many products duty-free under EAC)
+-   Excise Duty: Applicable to certain luxury goods
+
+## Compliance Strategies
+
+1.  Regular training for staff on current regulations
+2.  Partnerships with customs brokers in both Rwanda and Kenya
+3.  Use of digital tools for automated compliance checks
+4.  Proactive engagement with regulatory bodies
+
+RwandaMarket is committed to navigating these regulations efficiently to ensure smooth cross-border trade for our B2C and B2B operations.

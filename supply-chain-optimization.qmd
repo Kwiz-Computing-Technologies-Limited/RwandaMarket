@@ -1,8 +1,6 @@
 ---
-title: "Supply Chain Optimization"
+title: ""
 ---
-
-## Current Supply Chain Overview
 
 RwandaMarket's supply chain spans from artisan workshops in Rwanda to customers in Kenya, involving multiple touchpoints and stakeholders.
 

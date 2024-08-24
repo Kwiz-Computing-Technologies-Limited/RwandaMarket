@@ -1,5 +1,5 @@
 ---
-title: "Business Operations Optimization"
+title: ""
 ---
 
 ## Operational Efficiency Analysis

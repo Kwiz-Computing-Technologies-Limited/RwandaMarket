@@ -4,101 +4,101 @@ title: "Rapid Rollout Framework"
 
 To ensure the quickest route to market for RwandaMarket, we've developed a streamlined rollout framework. This plan focuses on launching core offerings rapidly while setting the foundation for future growth.
 
-## Phase 1: Launch Preparation (Months 1-3)
+#### Phase 1: Launch Preparation (Months 1-3)
 
-### 1. Business Setup
+##### 1. Business Setup
 
 -   Register the company in Kenya
 -   Secure necessary licenses and permits
 -   Set up bank accounts and payment systems
 
-### 2. Core Product Selection
+##### 2. Core Product Selection
 
 -   Identify top 3-5 product categories for initial launch
 -   Focus on high-margin, easily transportable items (e.g., coffee, jewelry, small handicrafts)
 
-### 3. Supplier Partnerships
+##### 3. Supplier Partnerships
 
 -   Establish relationships with 5-10 key Rwandan artisan cooperatives
 -   Negotiate terms and set up supply chain logistics
 
-### 4. E-commerce Platform Development
+##### 4. E-commerce Platform Development
 
 -   Develop a minimal viable product (MVP) e-commerce website
 -   Integrate essential features: product listings, shopping cart, payment gateway
 
-### 5. Marketing Preparation
+##### 5. Marketing Preparation
 
 -   Develop brand identity and marketing materials
 -   Set up social media accounts
 -   Prepare launch marketing campaign
 
-## Phase 2: Soft Launch (Month 4)
+#### Phase 2: Soft Launch (Month 4)
 
-### 1. Website Go-Live
+##### 1. Website Go-Live
 
 -   Launch MVP e-commerce platform
 -   Implement basic analytics tracking
 
-### 2. Initial Inventory Procurement
+##### 2. Initial Inventory Procurement
 
 -   Order initial stock for top 3-5 product categories
 
-### 3. Marketing Kickoff
+##### 3. Marketing Kickoff
 
 -   Begin social media marketing
 -   Launch targeted online advertising campaigns
 -   Reach out to influencers for product reviews
 
-### 4. Customer Service Setup
+##### 4. Customer Service Setup
 
 -   Establish customer service protocols
 -   Set up email and phone support
 
-## Phase 3: Market Validation and Optimization (Months 5-6)
+#### Phase 3: Market Validation and Optimization (Months 5-6)
 
-### 1. Data Collection and Analysis
+##### 1. Data Collection and Analysis
 
 -   Gather and analyze customer feedback
 -   Review sales data and identify top-performing products
 
-### 2. Supply Chain Optimization
+##### 2. Supply Chain Optimization
 
 -   Streamline logistics based on initial sales patterns
 -   Expand supplier network for high-demand products
 
-### 3. Marketing Refinement
+##### 3. Marketing Refinement
 
 -   Adjust marketing strategies based on initial response
 -   Increase investment in high-performing channels
 
-### 4. B2B Pilot
+##### 4. B2B Pilot
 
 -   Identify 2-3 B2B clients for pilot trade facilitation services
 -   Develop and test basic B2B offerings
 
-## Phase 4: Expansion and Feature Enhancement (Months 7-12)
+#### Phase 4: Expansion and Feature Enhancement (Months 7-12)
 
-### 1. Product Line Expansion
+##### 1. Product Line Expansion
 
 -   Introduce 3-5 new product categories based on market demand
 -   Develop exclusive RwandaMarket branded products
 
-### 2. Technology Enhancement
+##### 2. Technology Enhancement
 
 -   Implement advanced features: personalized recommendations, improved search functionality
 -   Develop mobile app MVP
 
-### 3. Physical Presence
+##### 3. Physical Presence
 
 -   Open a small showroom/store in Nairobi for product display and customer experience
 
-### 4. B2B Service Launch
+##### 4. B2B Service Launch
 
 -   Officially launch B2B trade facilitation services
 -   Implement basic version of blockchain-based authentication system
 
-### 5. Regional Expansion Preparation
+##### 5. Regional Expansion Preparation
 
 -   Begin market research and partnership development in Uganda and Tanzania
 
@@ -108,7 +108,7 @@ To ensure the quickest route to market for RwandaMarket, we've developed a strea
 library(ggplot2)
 library(dplyr)
 
-# Create a data frame for the timeline
+## Create a data frame for the timeline
 timeline_data <- data.frame(
   Phase = c(rep("Phase 1", 5), rep("Phase 2", 4), rep("Phase 3", 4), rep("Phase 4", 5)),
   Activity = c("Business Setup", "Core Product Selection", "Supplier Partnerships", "E-commerce Development", "Marketing Preparation",
@@ -119,7 +119,7 @@ timeline_data <- data.frame(
   End = c(3, 2, 3, 3, 3, 4, 4, 4, 4, 6, 6, 6, 6, 12, 12, 12, 12, 12)
 )
 
-# Create the timeline plot
+## Create the timeline plot
 ggplot(timeline_data, aes(x = Start, xend = End, y = Activity, yend = Activity, color = Phase)) +
   geom_segment(linewidth = 6) +
   scale_x_continuous(breaks = seq(0, 12, 1), labels = paste("Month", seq(0, 12, 1))) +
@@ -132,7 +132,7 @@ ggplot(timeline_data, aes(x = Start, xend = End, y = Activity, yend = Activity, 
   scale_color_brewer(palette = "Set2")
 ```
 
-## Key Success Metrics
+#### Key Success Metrics
 
 To ensure we're on track for a successful rapid rollout, we'll focus on the following key metrics:
 
@@ -142,7 +142,7 @@ To ensure we're on track for a successful rapid rollout, we'll focus on the foll
 4.  Product Diversity: Offer products from at least 10 different artisan cooperatives by end of Month 6
 5.  B2B Traction: Secure 5 B2B clients for trade facilitation services by end of Month 12
 
-## Risk Mitigation Strategies
+#### Risk Mitigation Strategies
 
 1.  **Supply Chain Disruptions**: Maintain relationships with multiple suppliers for each product category
 2.  **Technology Issues**: Partner with a reliable local tech firm for on-call support
@@ -150,7 +150,7 @@ To ensure we're on track for a successful rapid rollout, we'll focus on the foll
 4.  **Cash Flow Management**: Secure a line of credit to manage potential cash flow gaps
 5.  **Market Acceptance**: Conduct ongoing customer surveys and quickly adapt to feedback
 
-## Conclusion
+#### Conclusion
 
 This rapid rollout framework prioritizes speed to market while building a strong foundation for future growth. By focusing on core products, MVP technology, and key partnerships in the initial phases, RwandaMarket can quickly establish its presence in the Kenyan market. The phased approach allows for continuous learning and adaptation, ensuring that resources are allocated efficiently and the business model is validated before larger investments are made.
 

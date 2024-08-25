@@ -20,8 +20,8 @@ website:
         href: optimization.qmd
       - text: "Trade Benefits"
         href: trade-benefits.qmd
-      - text: "Growth & Impact"
-        href: growth-and-impact.qmd
+      - text: "Impact"
+        href: impact.qmd
       - href: contact.qmd
         text: Contact
 

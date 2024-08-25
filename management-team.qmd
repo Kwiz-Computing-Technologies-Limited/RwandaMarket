@@ -4,29 +4,29 @@ title: "Management Team"
 
 RwandaMarket's success is driven by our experienced and diverse management team, bringing together expertise in e-commerce, data science, African trade, and retail operations.
 
-## Key Team Members
+### Key Team Members
 
-### [PLACEHOLDER: CEO Name] - Chief Executive Officer
+#### [PLACEHOLDER: CEO Name] - Chief Executive Officer
 - 15+ years of experience in e-commerce and African markets
 - Previously founded and sold a successful online marketplace in East Africa
 - MBA from [PLACEHOLDER: University Name]
 
-### [PLACEHOLDER: CTO Name] - Chief Technology Officer
+#### [PLACEHOLDER: CTO Name] - Chief Technology Officer
 - Ph.D. in Computer Science with a focus on data analytics
 - 10+ years of experience in building scalable e-commerce platforms
 - Expert in R programming and machine learning applications in retail
 
-### [PLACEHOLDER: COO Name] - Chief Operating Officer
+#### [PLACEHOLDER: COO Name] - Chief Operating Officer
 - 20+ years of experience in retail operations and supply chain management
 - Previously led operations for a major retail chain in Kenya
 - Certified Supply Chain Professional (CSCP)
 
-### [PLACEHOLDER: CMO Name] - Chief Marketing Officer
+#### [PLACEHOLDER: CMO Name] - Chief Marketing Officer
 - 12+ years of experience in digital marketing and brand management
 - Specialized in marketing for luxury and artisanal products
 - Previously led marketing for a successful African fashion e-commerce platform
 
-### [PLACEHOLDER: CFO Name] - Chief Financial Officer
+#### [PLACEHOLDER: CFO Name] - Chief Financial Officer
 - Certified Public Accountant with 15+ years of experience
 - Expertise in financial planning for high-growth startups
 - Previously served as CFO for a cross-border trade facilitation company
@@ -35,13 +35,13 @@ RwandaMarket's success is driven by our experienced and diverse management team,
 #| echo: false
 library(ggplot2)
 
-# Management team data
+## Management team data
 team_data <- data.frame(
   Role = c("CEO", "CTO", "COO", "CMO", "CFO"),
   Experience = c(15, 10, 20, 12, 15)
 )
 
-# Create a horizontal bar chart of management team experience
+## Create a horizontal bar chart of management team experience
 ggplot(team_data, aes(x = Experience, y = reorder(Role, Experience))) +
   geom_bar(stat = "identity", fill = "#7C4700") +
   theme_minimal() +
@@ -51,7 +51,7 @@ ggplot(team_data, aes(x = Experience, y = reorder(Role, Experience))) +
   geom_text(aes(label = paste(Experience, "years")), hjust = -0.1)
 ```
 
-## Organizational Structure
+### Organizational Structure
 
 RwandaMarket operates with a flat organizational structure to promote quick decision-making and innovation.
 
@@ -60,27 +60,27 @@ RwandaMarket operates with a flat organizational structure to promote quick deci
 3. Team Leads
 4. Individual Contributors
 
-## Advisory Board
+### Advisory Board
 
 - [PLACEHOLDER: Advisor Name] - Former Minister of Trade, Rwanda
 - [PLACEHOLDER: Advisor Name] - E-commerce Industry Veteran
 - [PLACEHOLDER: Advisor Name] - Expert in African Artisanal Crafts
 - [PLACEHOLDER: Advisor Name] - Data Science and AI Specialist
 
-## Hiring Plans and Human Resources Strategy
+### Hiring Plans and Human Resources Strategy
 
-### Key Positions to be Filled
+#### Key Positions to be Filled
 1. Head of B2B Solutions
 2. Senior Data Scientist
 3. Supply Chain Manager
 4. Customer Experience Lead
 
-### Recruitment Strategy
+#### Recruitment Strategy
 - Leverage professional networks in Kenya and Rwanda
 - Partnerships with top universities for fresh talent
 - Emphasis on diversity and local talent development
 
-### Employee Development
+#### Employee Development
 - Continuous learning programs
 - Cross-functional project opportunities
 - Leadership development initiatives

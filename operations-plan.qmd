@@ -4,19 +4,19 @@ title: "Operations Plan"
 
 The RwandaMarket operations plan outlines our key processes and systems that enable us to efficiently source products from Rwanda, manage inventory, fulfill orders, and provide B2B services.
 
-## Supply Chain Management
+### Supply Chain Management
 
-### 1. Sourcing
+#### 1. Sourcing
 - Direct partnerships with Rwandan artisans and cooperatives
 - Regular sourcing trips to Rwanda (quarterly)
 - Quality control checks at source
 
-### 2. Transportation
+#### 2. Transportation
 - Air freight for perishables and high-value items
 - Sea freight for bulk, non-perishable goods
 - Customs clearance process with dedicated partners
 
-### 3. Warehousing
+#### 3. Warehousing
 - Central warehouse located in [PLACEHOLDER: Specific area in Nairobi]
 - Climate-controlled storage for sensitive products
 - RFID-based inventory tracking system
@@ -25,13 +25,13 @@ The RwandaMarket operations plan outlines our key processes and systems that ena
 #| echo: false
 library(ggplot2)
 
-# Supply chain process data
+## Supply chain process data
 supply_chain_data <- data.frame(
   Stage = c("Sourcing", "Quality Check", "Transportation", "Customs Clearance", "Warehousing", "Distribution"),
   Time = c(14, 2, 7, 3, 1, 2)
 )
 
-# Create a horizontal bar chart of supply chain process
+## Create a horizontal bar chart of supply chain process
 ggplot(supply_chain_data, aes(x = Time, y = reorder(Stage, -Time))) +
   geom_bar(stat = "identity", fill = "#00A86B") +
   theme_minimal() +
@@ -41,13 +41,13 @@ ggplot(supply_chain_data, aes(x = Time, y = reorder(Stage, -Time))) +
   geom_text(aes(label = paste(Time, "days")), hjust = -0.1)
 ```
 
-## Inventory Control Systems
+### Inventory Control Systems
 
 - R-based predictive analytics for demand forecasting
 - Automated reorder points based on sales velocity and lead times
 - Real-time inventory updates across e-commerce and physical store
 
-## Order Fulfillment Process
+### Order Fulfillment Process
 
 1. Order received (e-commerce platform or in-store)
 2. Order verification and payment processing
@@ -58,26 +58,26 @@ ggplot(supply_chain_data, aes(x = Time, y = reorder(Stage, -Time))) +
 7. Order tracking information sent to customer
 8. Delivery confirmation and feedback request
 
-## Customer Service Protocols
+### Customer Service Protocols
 
 - Omnichannel support: Phone, email, chat, and social media
 - 24/7 chatbot for basic inquiries and order tracking
 - Escalation process for complex issues
 - Regular team training on product knowledge and customer service skills
 
-## Technology Infrastructure
+### Technology Infrastructure
 
-### E-commerce Platform
+#### E-commerce Platform
 - Custom-built using R Shiny for frontend and Plumber for API
 - Integrated with inventory management and CRM systems
 - Mobile-responsive design
 
-### Data Analytics
+#### Data Analytics
 - R-based analytics engine for business intelligence
 - Real-time dashboards for key performance indicators
 - Machine learning models for demand forecasting and customer segmentation
 
-### Security Measures
+#### Security Measures
 - End-to-end encryption for all transactions
 - Regular security audits and penetration testing
 - Compliance with data protection regulations in Kenya and Rwanda
@@ -86,13 +86,13 @@ ggplot(supply_chain_data, aes(x = Time, y = reorder(Stage, -Time))) +
 #| echo: false
 library(ggplot2)
 
-# Technology stack data
+## Technology stack data
 tech_stack <- data.frame(
   Category = c("Frontend", "Backend", "Database", "Analytics", "Security", "Cloud Infrastructure"),
   Technology = c("R Shiny", "R Plumber", "MongoDB", "R (tidyverse, caret)", "SSL/TLS, AWS Security", "AWS")
 )
 
-# Create a table-like visualization
+## Create a table-like visualization
 ggplot(tech_stack, aes(x = 1, y = Category)) +
   geom_text(aes(label = Technology), hjust = 0, size = 3.5, position = position_nudge(x = 0.1)) +
   geom_text(aes(label = Category), hjust = 1, fontface = "bold", size = 3.5, position = position_nudge(x = -0.1)) +

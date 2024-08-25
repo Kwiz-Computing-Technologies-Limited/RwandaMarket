@@ -10,10 +10,6 @@ title: "Operations"
 
 {{< include b2b-solutions.qmd >}}
 
-## Trade Regulations {#trade-regulations}
-
-{{< include trade-regulations.qmd >}}
-
 ## Consular Services {#consular-services}
 
 {{< include consular-services.qmd >}}

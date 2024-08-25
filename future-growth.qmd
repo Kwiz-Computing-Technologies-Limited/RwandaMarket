@@ -1,12 +1,12 @@
 ---
-title: "Future Growth"
+title: ""
 ---
 
 RwandaMarket is committed to sustainable growth and innovation. Our strategic plan outlines ambitious yet achievable goals to expand our reach, enhance our technological capabilities, and deepen our impact in East Africa and beyond.
 
-## Expansion Plans
+#### Expansion Plans
 
-### Geographic Expansion
+##### Geographic Expansion
 
 1.  **Short-term (1-2 years)**:
     -   Establish physical presence in other major Kenyan cities (Mombasa, Kisumu)
@@ -43,14 +43,14 @@ ggplot(expansion_data, aes(x = Year)) +
        color = "Metric")
 ```
 
-### Product Line Expansion
+##### Product Line Expansion
 
 -   Introduce RwandaMarket-branded products, starting with coffee and tea blends
 -   Expand into new categories such as gourmet foods, wellness products, and home fragrances
 -   Collaborate with renowned African designers for exclusive, limited-edition collections
 -   Develop a line of sustainable, eco-friendly packaging and home goods
 
-## Technology Development Roadmap
+#### Technology Development Roadmap
 
 1.  **Enhanced AI-driven Personalization** (Year 1-2):
     -   Implement advanced recommendation engines using machine learning
@@ -85,7 +85,7 @@ ggplot(tech_data, aes(x = "", y = Investment_Percentage, fill = Category)) +
   geom_text(aes(label = paste0(Investment_Percentage, "%")), position = position_stack(vjust = 0.5))
 ```
 
-## Strategic Initiatives
+#### Strategic Initiatives
 
 1.  **Sustainability Focus**:
     -   Achieve carbon neutrality in our operations by 2028
@@ -101,7 +101,7 @@ ggplot(tech_data, aes(x = "", y = Investment_Percentage, fill = Category)) +
     -   Launch a "RwandaMarket Foundation" to support education and healthcare initiatives in artisan communities
     -   Implement a profit-sharing model with key artisan cooperatives
 
-## Key Performance Indicators (KPIs)
+#### Key Performance Indicators (KPIs)
 
 To track our growth and impact, we will focus on the following KPIs:
 

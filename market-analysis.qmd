@@ -354,9 +354,7 @@ Opportunities:
    - Implement AR for product visualization
    - Offer hassle-free returns and excellent customer support
 
-### Future Growth {#future-growth}
-
-{{< include rapid-rollout.qmd >}}
+### RwandaMarket Rollout and Growth Strategy {#future-growth}
 
 {{< include future-growth.qmd >}}
 

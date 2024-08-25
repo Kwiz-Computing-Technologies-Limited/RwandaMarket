@@ -173,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
 library(shiny)
 
 ui &lt;- fluidPage(
-  fluidRow(
+  bslib::card(
     textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
     selectInput("origin_country", "Origin Country", 

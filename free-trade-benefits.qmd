@@ -17,7 +17,8 @@ To fully leverage the benefits of free trade agreements, particularly within the
 #| warning: false
 library(shiny)
 
-product_origin_form <- fluidRow(
+ui <- fluidPage(
+bslib::card(
   textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
     selectInput("country_of_origin", "Country of Origin", 
@@ -26,12 +27,7 @@ product_origin_form <- fluidRow(
     textAreaInput("manufacturing_process", "Brief Description of Manufacturing Process"),
     checkboxInput("meets_origin_criteria", "Meets EAC Rules of Origin Criteria"),
     fileInput("supporting_documents", "Upload Supporting Documents", multiple = TRUE)
-)
-
-ui = fluidPage(
-  h2("Product Origin Declaration Form"),
-  product_origin_form
-)
+))
 
 server = function(ui, server) {
   
@@ -46,7 +42,8 @@ shinyApp(ui, server)
 #| standalone: TRUE
 #| echo: false
 
-tariff_savings_form <- fluidRow(
+ui <- fluidPage(
+bslib::card(
   textInput("product_name", "Product Name"),
   textInput("hs_code", "HS Code"),
   selectInput("origin_country", "Origin Country", 
@@ -57,12 +54,7 @@ tariff_savings_form <- fluidRow(
   numericInput("standard_tariff_rate", "Standard Tariff Rate (%)", value = 0),
   numericInput("preferential_tariff_rate", "Preferential Tariff Rate under EAC (%)", value = 0),
   textInput("certificate_of_origin_number", "Certificate of Origin Number")
-)
-
-ui = fluidPage(
-  h2("Tariff Savings Tracking Form"),
-  tariff_savings_form
-)
+))
 
 server = function(ui, server) {}
 
@@ -75,7 +67,8 @@ shinyApp(ui, server)
 #| echo: false
 #| standalone: TRUE
 
-non_tariff_barrier_form <- fluidRow(
+ui <- fluidPage(
+bslib::card(
   selectInput("barrier_type", "Type of Non-Tariff Barrier", 
               choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
   selectInput("country", "Country Where Barrier was Encountered", 
@@ -86,12 +79,7 @@ non_tariff_barrier_form <- fluidRow(
   textAreaInput("resolution_efforts", "Description of Resolution Efforts"),
   selectInput("status", "Current Status", 
               choices = c("Unresolved", "In Progress", "Resolved"))
-)
-
-ui = fluidPage(
-  h2("Non-Tariff Barrier Reporting Form"),
-  non_tariff_barrier_form
-)
+))
 
 server = function(ui, server) {}
 

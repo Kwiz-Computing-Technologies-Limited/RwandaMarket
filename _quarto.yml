@@ -1,4 +1,3 @@
-
 project:
   type: website
   output-dir: docs
@@ -21,7 +20,7 @@ website:
       - text: "Trade Benefits"
         href: trade-benefits.qmd
       - text: "Impact"
-        href: impact.qmd
+        href: our-impact.qmd
       - href: contact.qmd
         text: Contact
 

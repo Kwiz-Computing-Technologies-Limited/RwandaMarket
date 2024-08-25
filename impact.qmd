@@ -1,7 +1,0 @@
----
-title: "Impact"
----
-
-## Our Impact {#our-impact}
-
-{{< include our-impact.qmd >}}

@@ -13,7 +13,7 @@ The RwandaMarket operations plan outlines our key processes and systems that ena
 
 #### 2. Transportation
 - Air freight for perishables and high-value items
-- Sea freight for bulk, non-perishable goods
+- Road transport for bulk, non-perishable goods
 - Customs clearance process with dedicated partners
 
 #### 3. Warehousing

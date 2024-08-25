@@ -1,35 +1,62 @@
 ---
 title: "Contact Us"
+execute: 
+  echo: false
+filters: 
+  - shinylive
 ---
 
 We value open communication with our customers, partners, and stakeholders. Whether you have a question about our products, want to explore B2B opportunities, or are interested in joining our team, we're here to help.
 
 ## Contact Information
 
--   **General Inquiries**: info\@rwandamarket.com
--   **Customer Support**: support\@rwandamarket.com
--   **B2B Solutions**: b2b\@rwandamarket.com
--   **Careers**: careers\@rwandamarket.com
--   **Press and Media**: media\@rwandamarket.com
+- **General Inquiries**: info@rwandamarket.com
+- **Customer Support**: support@rwandamarket.com
+- **B2B Solutions**: b2b@rwandamarket.com
+- **Careers**: careers@rwandamarket.com
+- **Press and Media**: media@rwandamarket.com
 
-**Phone**: +254 20 \[PLACEHOLDER: Phone number\]
+**Phone**: +254 20 [PLACEHOLDER: Phone number]
 
-**Physical Address**:\
-RwandaMarket Ltd.\
-\[PLACEHOLDER: Street Address\]\
+**Physical Address**:  
+RwandaMarket Ltd.  
+[PLACEHOLDER: Street Address]  
 Nairobi, Kenya
 
-**Operating Hours**:\
-Monday - Friday: 9:00 AM - 6:00 PM (EAT)\
-Saturday: 10:00 AM - 4:00 PM (EAT)\
+**Operating Hours**:  
+Monday - Friday: 9:00 AM - 6:00 PM (EAT)  
+Saturday: 10:00 AM - 4:00 PM (EAT)  
 Sunday: Closed
 
 ## Contact Form
 
-```{r echo=FALSE}
-#| warning: false
+```{r}
+#| context: server
 library(shiny)
 
+server <- function(input, output, session) {
+  observeEvent(input$submit, {
+    # Here you would typically send an email or save to a database
+    # For this example, we'll just print to the console
+    message <- paste("New message from", input$name, "(", input$email, ")\n",
+                     "Subject:", input$subject, "\n",
+                     "Message:", input$message)
+    print(message)
+    
+    # Show a confirmation message to the user
+    showNotification("Your message has been sent. We'll get back to you soon!", type = "message")
+    
+    # Clear the form
+    updateTextInput(session, "name", value = "")
+    updateTextInput(session, "email", value = "")
+    updateSelectInput(session, "subject", selected = "General Inquiry")
+    updateTextAreaInput(session, "message", value = "")
+  })
+}
+```
+
+```{shinylive-r}
+#| standalone: TRUE
 ui <- fluidPage(
   textInput("name", "Name:"),
   textInput("email", "Email:"),
@@ -38,40 +65,39 @@ ui <- fluidPage(
   textAreaInput("message", "Message:"),
   actionButton("submit", "Submit")
 )
-
-server <- function(input, output) {
-  observeEvent(input$submit, {
-    # In a real application, this would send the form data to a server
-    print(paste("Form submitted by", input$name))
-  })
-}
-
-# shinyApp(ui, server)
-ui
 ```
+
 
 ## Connect With Us
 
 Stay updated with our latest products, offers, and company news by following us on social media:
 
--   Facebook: [/RwandaMarket](https://www.facebook.com)
--   Instagram: [\@RwandaMarket](https://www.instagram.com)
--   Twitter: [\@RwandaMarket_KE](https://www.twitter.com)
--   LinkedIn: [RwandaMarket Ltd.](https://www.linkedin.com)
+- Facebook: [/RwandaMarket](https://www.facebook.com)
+- Instagram: [@RwandaMarket](https://www.instagram.com)
+- Twitter: [@RwandaMarket_KE](https://www.twitter.com)
+- LinkedIn: [RwandaMarket Ltd.](https://www.linkedin.com)
 
 ## Visit Our Store
 
 Experience our products firsthand at our flagship store in Nairobi:
 
-\[PLACEHOLDER: Store Address\]
+[PLACEHOLDER: Store Address]
 
-```{r echo=FALSE}
+```{shinylive-r}
+#| standalone: TRUE
 library(leaflet)
+ui = fluidpage(
+  leafletOutput("map")
+)
 
-leaflet() %>%
-  addTiles() %>%
-  setView(lng = 36.8219, lat = -1.2921, zoom = 13) %>%
-  addMarkers(lng = 36.8219, lat = -1.2921, popup = "RwandaMarket Flagship Store")
+server = function(ui, server, session) {
+  output$map <- renderLeaflet({
+    leaflet() %>%
+      addTiles() %>%
+      setView(lng = 36.8219, lat = -1.2921, zoom = 13) %>%
+      addMarkers(lng = 36.8219, lat = -1.2921, popup = "RwandaMarket      Flagship Store")
+  })
+}
 ```
 
 ## Feedback

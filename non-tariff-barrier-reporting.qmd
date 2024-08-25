@@ -20,7 +20,7 @@ If you encounter a non-tariff barrier, please report it using the form below:
 #| standalone: true
 library(shiny)
 
-ui <- fluidPage(
+ui_nontariff <- fluidPage(
   bslib::card(
     selectInput("barrier_type", "Type of Non-Tariff Barrier", 
                 choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
@@ -36,14 +36,14 @@ ui <- fluidPage(
   )
 )
 
-server <- function(input, output, session) {
+server_nontariff <- function(input, output, session) {
   observeEvent(input$submit, {
     # In a real application, this would process and store the form data
     showNotification("NTB report submitted successfully", type = "message")
   })
 }
 
-shinyApp(ui, server)
+shinyApp(ui_nontariff, server_nontariff)
 ```
 
 ## NTB Analysis and Resolution

@@ -26,7 +26,7 @@ Use the form below to declare the origin of your products:
 #| standalone: TRUE
 library(shiny)
 
-ui <- fluidPage(
+ui_originform <- fluidPage(
   bslib::card(
     textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
@@ -40,14 +40,14 @@ ui <- fluidPage(
   )
 )
 
-server <- function(input, output, session) {
+server_originform <- function(input, output, session) {
   observeEvent(input$submit, {
     # In a real application, this would process and store the form data
     showNotification("Declaration submitted successfully", type = "message")
   })
 }
 
-shinyApp(ui, server)
+shinyApp(ui_originform, server_originform)
 ```
 
 ## Important Notes

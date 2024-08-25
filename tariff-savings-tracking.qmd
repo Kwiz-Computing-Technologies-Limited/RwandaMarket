@@ -18,7 +18,7 @@ Use the form below to calculate and track your tariff savings:
 #| standalone: true
 library(shiny)
 
-ui <- fluidPage(
+ui_tariff <- fluidPage(
   bslib::card(
     textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
@@ -35,7 +35,7 @@ ui <- fluidPage(
   )
 )
 
-server <- function(input, output, session) {
+server_tariff <- function(input, output, session) {
   observeEvent(input$calculate, {
     standard_duty = input$shipment_value * (input$standard_tariff_rate / 100)
     preferential_duty = input$shipment_value * (input$preferential_tariff_rate / 100)
@@ -47,7 +47,7 @@ server <- function(input, output, session) {
   })
 }
 
-shinyApp(ui, server)
+shinyApp(ui_tariff, server_tariff)
 ```
 
 ## Analyzing Your Tariff Savings

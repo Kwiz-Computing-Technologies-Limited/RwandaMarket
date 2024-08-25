@@ -186,9 +186,9 @@ ul.task-list li input[type="checkbox"] {
 <pre class="{shinylive-r}"><code>#| standalone: TRUE
 library(shiny)
 
-ui &lt;- fluidPage(
-bslib::card(
-  textInput("product_name", "Product Name"),
+fluidPage(
+  bslib::card(
+    textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
     selectInput("country_of_origin", "Country of Origin", 
                 choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
@@ -196,19 +196,13 @@ bslib::card(
     textAreaInput("manufacturing_process", "Brief Description of Manufacturing Process"),
     checkboxInput("meets_origin_criteria", "Meets EAC Rules of Origin Criteria"),
     fileInput("supporting_documents", "Upload Supporting Documents", multiple = TRUE)
-))
-
-server = function(ui, server) {
-  
-}
-
-shinyApp(ui, server)</code></pre>
+))</code></pre>
 </section>
 <section id="tariff-savings-tracking-form" class="level3">
 <h3 class="anchored" data-anchor-id="tariff-savings-tracking-form">2. Tariff Savings Tracking Form</h3>
 <pre class="{shinylive-r}"><code>#| standalone: TRUE
 
-ui &lt;- fluidPage(
+fluidPage(
 bslib::card(
   textInput("product_name", "Product Name"),
   textInput("hs_code", "HS Code"),
@@ -220,33 +214,26 @@ bslib::card(
   numericInput("standard_tariff_rate", "Standard Tariff Rate (%)", value = 0),
   numericInput("preferential_tariff_rate", "Preferential Tariff Rate under EAC (%)", value = 0),
   textInput("certificate_of_origin_number", "Certificate of Origin Number")
-))
-
-server = function(ui, server) {}
-
-shinyApp(ui, server)</code></pre>
+))</code></pre>
 </section>
 <section id="non-tariff-barrier-reporting-form" class="level3">
 <h3 class="anchored" data-anchor-id="non-tariff-barrier-reporting-form">3. Non-Tariff Barrier Reporting Form</h3>
 <pre class="{shinylive-r}"><code>#| standalone: TRUE
 
-ui &lt;- fluidPage(
-bslib::card(
-  selectInput("barrier_type", "Type of Non-Tariff Barrier", 
+fluidPage(
+  bslib::card(
+    selectInput("barrier_type", "Type of Non-Tariff Barrier", 
               choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
-  selectInput("country", "Country Where Barrier was Encountered", 
+    selectInput("country", "Country Where Barrier was Encountered", 
               choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
-  dateInput("date_encountered", "Date Encountered"),
-  textAreaInput("barrier_description", "Detailed Description of the Barrier"),
-  numericInput("estimated_cost", "Estimated Cost Impact (USD)", value = 0),
-  textAreaInput("resolution_efforts", "Description of Resolution Efforts"),
-  selectInput("status", "Current Status", 
-              choices = c("Unresolved", "In Progress", "Resolved"))
+    dateInput("date_encountered", "Date Encountered"),
+    textAreaInput("barrier_description", "Detailed Description of the Barrier"),
+    numericInput("estimated_cost", "Estimated Cost Impact (USD)", value = 0),
+    textAreaInput("resolution_efforts", "Description of Resolution Efforts"),
+    selectInput("status", "Current Status", 
+                choices = c("Unresolved", "In Progress", "Resolved"))
 ))
-
-server = function(ui, server) {}
-
-shinyApp(ui, server)</code></pre>
+</code></pre>
 <p>Now, let’s update our MongoDB setup script to include collections for these new forms:</p>
 <p>Now, let’s create an R script to analyze the free trade benefits data:</p>
 <p>This system for documenting and analyzing free trade benefits will allow RwandaMarket to:</p>
@@ -290,7 +277,7 @@ shinyApp(ui, server)</code></pre>
 <pre class="{shinylive-r}"><code>#| standalone: TRUE
 library(shiny)
 
-ui &lt;- fluidPage(
+ui_originform &lt;- fluidPage(
   bslib::card(
     textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
@@ -304,14 +291,14 @@ ui &lt;- fluidPage(
   )
 )
 
-server &lt;- function(input, output, session) {
+server_originform &lt;- function(input, output, session) {
   observeEvent(input$submit, {
     # In a real application, this would process and store the form data
     showNotification("Declaration submitted successfully", type = "message")
   })
 }
 
-shinyApp(ui, server)</code></pre>
+shinyApp(ui_originform, server_originform)</code></pre>
 </section>
 <section id="important-notes" class="level2">
 <h2 class="anchored" data-anchor-id="important-notes">Important Notes</h2>
@@ -344,7 +331,7 @@ shinyApp(ui, server)</code></pre>
 <pre class="{shinylive-r}"><code>#| standalone: true
 library(shiny)
 
-ui &lt;- fluidPage(
+ui_tariff &lt;- fluidPage(
   bslib::card(
     textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
@@ -361,7 +348,7 @@ ui &lt;- fluidPage(
   )
 )
 
-server &lt;- function(input, output, session) {
+server_tariff &lt;- function(input, output, session) {
   observeEvent(input$calculate, {
     standard_duty = input$shipment_value * (input$standard_tariff_rate / 100)
     preferential_duty = input$shipment_value * (input$preferential_tariff_rate / 100)
@@ -373,7 +360,7 @@ server &lt;- function(input, output, session) {
   })
 }
 
-shinyApp(ui, server)</code></pre>
+shinyApp(ui_tariff, server_tariff)</code></pre>
 </section>
 <section id="analyzing-your-tariff-savings" class="level2">
 <h2 class="anchored" data-anchor-id="analyzing-your-tariff-savings">Analyzing Your Tariff Savings</h2>
@@ -399,7 +386,7 @@ shinyApp(ui, server)</code></pre>
 <pre class="{shinylive-r}"><code>#| standalone: true
 library(shiny)
 
-ui &lt;- fluidPage(
+ui_nontariff &lt;- fluidPage(
   bslib::card(
     selectInput("barrier_type", "Type of Non-Tariff Barrier", 
                 choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
@@ -415,14 +402,14 @@ ui &lt;- fluidPage(
   )
 )
 
-server &lt;- function(input, output, session) {
+server_nontariff &lt;- function(input, output, session) {
   observeEvent(input$submit, {
     # In a real application, this would process and store the form data
     showNotification("NTB report submitted successfully", type = "message")
   })
 }
 
-shinyApp(ui, server)</code></pre>
+shinyApp(ui_nontariff, server_nontariff)</code></pre>
 </section>
 <section id="ntb-analysis-and-resolution" class="level2">
 <h2 class="anchored" data-anchor-id="ntb-analysis-and-resolution">NTB Analysis and Resolution</h2>

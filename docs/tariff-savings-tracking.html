@@ -171,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 <pre class="shinylive-r" data-engine="r"><code>#| standalone: true
 library(shiny)
 
-ui &lt;- fluidPage(
+ui_tariff &lt;- fluidPage(
   bslib::card(
     textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
@@ -188,7 +188,7 @@ ui &lt;- fluidPage(
   )
 )
 
-server &lt;- function(input, output, session) {
+server_tariff &lt;- function(input, output, session) {
   observeEvent(input$calculate, {
     standard_duty = input$shipment_value * (input$standard_tariff_rate / 100)
     preferential_duty = input$shipment_value * (input$preferential_tariff_rate / 100)
@@ -200,7 +200,7 @@ server &lt;- function(input, output, session) {
   })
 }
 
-shinyApp(ui, server)</code></pre>
+shinyApp(ui_tariff, server_tariff)</code></pre>
 </section>
 <section id="analyzing-your-tariff-savings" class="level2">
 <h2 class="anchored" data-anchor-id="analyzing-your-tariff-savings">Analyzing Your Tariff Savings</h2>

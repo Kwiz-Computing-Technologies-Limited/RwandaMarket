@@ -182,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 <pre class="shinylive-r" data-engine="r"><code>#| standalone: TRUE
 library(shiny)
 
-ui &lt;- fluidPage(
+ui_originform &lt;- fluidPage(
   bslib::card(
     textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
@@ -196,14 +196,14 @@ ui &lt;- fluidPage(
   )
 )
 
-server &lt;- function(input, output, session) {
+server_originform &lt;- function(input, output, session) {
   observeEvent(input$submit, {
     # In a real application, this would process and store the form data
     showNotification("Declaration submitted successfully", type = "message")
   })
 }
 
-shinyApp(ui, server)</code></pre>
+shinyApp(ui_originform, server_originform)</code></pre>
 </section>
 <section id="important-notes" class="level2">
 <h2 class="anchored" data-anchor-id="important-notes">Important Notes</h2>

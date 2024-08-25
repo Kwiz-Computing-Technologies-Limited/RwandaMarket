@@ -157,9 +157,9 @@ ul.task-list li input[type="checkbox"] {
 <pre class="shinylive-r" data-engine="r"><code>#| standalone: TRUE
 library(shiny)
 
-ui &lt;- fluidPage(
-bslib::card(
-  textInput("product_name", "Product Name"),
+fluidPage(
+  bslib::card(
+    textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
     selectInput("country_of_origin", "Country of Origin", 
                 choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
@@ -167,19 +167,13 @@ bslib::card(
     textAreaInput("manufacturing_process", "Brief Description of Manufacturing Process"),
     checkboxInput("meets_origin_criteria", "Meets EAC Rules of Origin Criteria"),
     fileInput("supporting_documents", "Upload Supporting Documents", multiple = TRUE)
-))
-
-server = function(ui, server) {
-  
-}
-
-shinyApp(ui, server)</code></pre>
+))</code></pre>
 </section>
 <section id="tariff-savings-tracking-form" class="level3">
 <h3 class="anchored" data-anchor-id="tariff-savings-tracking-form">2. Tariff Savings Tracking Form</h3>
 <pre class="shinylive-r" data-engine="r"><code>#| standalone: TRUE
 
-ui &lt;- fluidPage(
+fluidPage(
 bslib::card(
   textInput("product_name", "Product Name"),
   textInput("hs_code", "HS Code"),
@@ -191,33 +185,26 @@ bslib::card(
   numericInput("standard_tariff_rate", "Standard Tariff Rate (%)", value = 0),
   numericInput("preferential_tariff_rate", "Preferential Tariff Rate under EAC (%)", value = 0),
   textInput("certificate_of_origin_number", "Certificate of Origin Number")
-))
-
-server = function(ui, server) {}
-
-shinyApp(ui, server)</code></pre>
+))</code></pre>
 </section>
 <section id="non-tariff-barrier-reporting-form" class="level3">
 <h3 class="anchored" data-anchor-id="non-tariff-barrier-reporting-form">3. Non-Tariff Barrier Reporting Form</h3>
 <pre class="shinylive-r" data-engine="r"><code>#| standalone: TRUE
 
-ui &lt;- fluidPage(
-bslib::card(
-  selectInput("barrier_type", "Type of Non-Tariff Barrier", 
+fluidPage(
+  bslib::card(
+    selectInput("barrier_type", "Type of Non-Tariff Barrier", 
               choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
-  selectInput("country", "Country Where Barrier was Encountered", 
+    selectInput("country", "Country Where Barrier was Encountered", 
               choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
-  dateInput("date_encountered", "Date Encountered"),
-  textAreaInput("barrier_description", "Detailed Description of the Barrier"),
-  numericInput("estimated_cost", "Estimated Cost Impact (USD)", value = 0),
-  textAreaInput("resolution_efforts", "Description of Resolution Efforts"),
-  selectInput("status", "Current Status", 
-              choices = c("Unresolved", "In Progress", "Resolved"))
+    dateInput("date_encountered", "Date Encountered"),
+    textAreaInput("barrier_description", "Detailed Description of the Barrier"),
+    numericInput("estimated_cost", "Estimated Cost Impact (USD)", value = 0),
+    textAreaInput("resolution_efforts", "Description of Resolution Efforts"),
+    selectInput("status", "Current Status", 
+                choices = c("Unresolved", "In Progress", "Resolved"))
 ))
-
-server = function(ui, server) {}
-
-shinyApp(ui, server)</code></pre>
+</code></pre>
 <p>Now, let’s update our MongoDB setup script to include collections for these new forms:</p>
 <p>Now, let’s create an R script to analyze the free trade benefits data:</p>
 <p>This system for documenting and analyzing free trade benefits will allow RwandaMarket to:</p>

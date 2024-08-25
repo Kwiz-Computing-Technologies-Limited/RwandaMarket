@@ -17,7 +17,6 @@ Reporting and addressing NTBs is crucial for smooth cross-border trade operation
 If you encounter a non-tariff barrier, please report it using the form below:
 
 ```{shinylive-r}
-#| echo: false
 #| standalone: true
 library(shiny)
 
@@ -44,8 +43,7 @@ server <- function(input, output, session) {
   })
 }
 
-# shinyApp(ui, server)
-ui
+shinyApp(ui, server)
 ```
 
 ## NTB Analysis and Resolution

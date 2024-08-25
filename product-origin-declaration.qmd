@@ -23,7 +23,6 @@ To qualify for preferential treatment, products must meet one of the following c
 Use the form below to declare the origin of your products:
 
 ```{shinylive-r}
-#| echo: false
 #| standalone: TRUE
 library(shiny)
 

@@ -184,7 +184,6 @@ ul.task-list li input[type="checkbox"] {
 <section id="product-origin-declaration-form" class="level3">
 <h3 class="anchored" data-anchor-id="product-origin-declaration-form">1. Product Origin Declaration Form</h3>
 <pre class="{shinylive-r}"><code>#| standalone: TRUE
-#| warning: false
 library(shiny)
 
 ui &lt;- fluidPage(
@@ -208,7 +207,6 @@ shinyApp(ui, server)</code></pre>
 <section id="tariff-savings-tracking-form" class="level3">
 <h3 class="anchored" data-anchor-id="tariff-savings-tracking-form">2. Tariff Savings Tracking Form</h3>
 <pre class="{shinylive-r}"><code>#| standalone: TRUE
-#| echo: false
 
 ui &lt;- fluidPage(
 bslib::card(
@@ -230,8 +228,7 @@ shinyApp(ui, server)</code></pre>
 </section>
 <section id="non-tariff-barrier-reporting-form" class="level3">
 <h3 class="anchored" data-anchor-id="non-tariff-barrier-reporting-form">3. Non-Tariff Barrier Reporting Form</h3>
-<pre class="{shinylive-r}"><code>#| echo: false
-#| standalone: TRUE
+<pre class="{shinylive-r}"><code>#| standalone: TRUE
 
 ui &lt;- fluidPage(
 bslib::card(
@@ -290,8 +287,7 @@ shinyApp(ui, server)</code></pre>
 <section id="declaration-form" class="level2">
 <h2 class="anchored" data-anchor-id="declaration-form">Declaration Form</h2>
 <p>Use the form below to declare the origin of your products:</p>
-<pre class="{shinylive-r}"><code>#| echo: false
-#| standalone: TRUE
+<pre class="{shinylive-r}"><code>#| standalone: TRUE
 library(shiny)
 
 ui &lt;- fluidPage(
@@ -345,8 +341,7 @@ shinyApp(ui, server)</code></pre>
 <section id="tariff-savings-calculator-and-tracker" class="level2">
 <h2 class="anchored" data-anchor-id="tariff-savings-calculator-and-tracker">Tariff Savings Calculator and Tracker</h2>
 <p>Use the form below to calculate and track your tariff savings:</p>
-<pre class="{shinylive-r}"><code>#| echo: false
-#| standalone: true
+<pre class="{shinylive-r}"><code>#| standalone: true
 library(shiny)
 
 ui &lt;- fluidPage(
@@ -401,8 +396,7 @@ shinyApp(ui, server)</code></pre>
 <section id="ntb-reporting-form" class="level2">
 <h2 class="anchored" data-anchor-id="ntb-reporting-form">NTB Reporting Form</h2>
 <p>If you encounter a non-tariff barrier, please report it using the form below:</p>
-<pre class="{shinylive-r}"><code>#| echo: false
-#| standalone: true
+<pre class="{shinylive-r}"><code>#| standalone: true
 library(shiny)
 
 ui &lt;- fluidPage(
@@ -428,8 +422,7 @@ server &lt;- function(input, output, session) {
   })
 }
 
-# shinyApp(ui, server)
-ui</code></pre>
+shinyApp(ui, server)</code></pre>
 </section>
 <section id="ntb-analysis-and-resolution" class="level2">
 <h2 class="anchored" data-anchor-id="ntb-analysis-and-resolution">NTB Analysis and Resolution</h2>

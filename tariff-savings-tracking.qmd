@@ -15,7 +15,6 @@ Monitoring tariff savings is essential for: 1. Quantifying the financial benefit
 Use the form below to calculate and track your tariff savings:
 
 ```{shinylive-r}
-#| echo: false
 #| standalone: true
 library(shiny)
 

@@ -14,7 +14,6 @@ To fully leverage the benefits of free trade agreements, particularly within the
 
 ```{shinylive-r}
 #| standalone: TRUE
-#| warning: false
 library(shiny)
 
 ui <- fluidPage(
@@ -40,7 +39,6 @@ shinyApp(ui, server)
 
 ```{shinylive-r}
 #| standalone: TRUE
-#| echo: false
 
 ui <- fluidPage(
 bslib::card(
@@ -64,7 +62,6 @@ shinyApp(ui, server)
 ### 3. Non-Tariff Barrier Reporting Form
 
 ```{shinylive-r}
-#| echo: false
 #| standalone: TRUE
 
 ui <- fluidPage(

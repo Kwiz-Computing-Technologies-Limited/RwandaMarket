@@ -19,7 +19,7 @@ Use the form below to calculate and track your tariff savings:
 library(shiny)
 
 ui_tariff <- fluidPage(
-  bslib::card(
+  (
     textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
     selectInput("origin_country", "Origin Country", 

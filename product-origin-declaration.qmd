@@ -27,7 +27,7 @@ Use the form below to declare the origin of your products:
 library(shiny)
 
 ui_originform <- fluidPage(
-  bslib::card(
+  (
     textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
     selectInput("country_of_origin", "Country of Origin", 

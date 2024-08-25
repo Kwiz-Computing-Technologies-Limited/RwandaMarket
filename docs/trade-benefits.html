@@ -187,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 library(shiny)
 
 fluidPage(
-  bslib::card(
+  (
     textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
     selectInput("country_of_origin", "Country of Origin", 
@@ -203,7 +203,7 @@ fluidPage(
 <pre class="{shinylive-r}"><code>#| standalone: TRUE
 
 fluidPage(
-bslib::card(
+(
   textInput("product_name", "Product Name"),
   textInput("hs_code", "HS Code"),
   selectInput("origin_country", "Origin Country", 
@@ -221,7 +221,7 @@ bslib::card(
 <pre class="{shinylive-r}"><code>#| standalone: TRUE
 
 fluidPage(
-  bslib::card(
+  (
     selectInput("barrier_type", "Type of Non-Tariff Barrier", 
               choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
     selectInput("country", "Country Where Barrier was Encountered", 
@@ -278,7 +278,7 @@ fluidPage(
 library(shiny)
 
 ui_originform &lt;- fluidPage(
-  bslib::card(
+  (
     textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
     selectInput("country_of_origin", "Country of Origin", 
@@ -332,7 +332,7 @@ shinyApp(ui_originform, server_originform)</code></pre>
 library(shiny)
 
 ui_tariff &lt;- fluidPage(
-  bslib::card(
+  (
     textInput("product_name", "Product Name"),
     textInput("hs_code", "HS Code"),
     selectInput("origin_country", "Origin Country", 
@@ -387,7 +387,7 @@ shinyApp(ui_tariff, server_tariff)</code></pre>
 library(shiny)
 
 ui_nontariff &lt;- fluidPage(
-  bslib::card(
+  (
     selectInput("barrier_type", "Type of Non-Tariff Barrier", 
                 choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
     selectInput("country", "Country Where Barrier was Encountered", 

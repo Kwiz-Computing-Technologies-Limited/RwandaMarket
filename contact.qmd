@@ -33,7 +33,7 @@ Sunday: Closed
 ```{shinylive-r}
 #| standalone: TRUE
 ui <- fluidPage(
-  bslib::card(
+  (
     textInput("name", "Name:"),
     textInput("email", "Email:"),
     selectInput("subject", "Subject:", 

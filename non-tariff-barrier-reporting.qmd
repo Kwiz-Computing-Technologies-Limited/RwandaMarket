@@ -21,7 +21,7 @@ If you encounter a non-tariff barrier, please report it using the form below:
 library(shiny)
 
 ui_nontariff <- fluidPage(
-  bslib::card(
+  (
     selectInput("barrier_type", "Type of Non-Tariff Barrier", 
                 choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
     selectInput("country", "Country Where Barrier was Encountered", 

@@ -1,5 +1,9 @@
 ---
 title: ""
+execute: 
+  echo: false
+filters: 
+  - shinylive
 ---
 
 To fully leverage the benefits of free trade agreements, particularly within the East African Community (EAC), RwandaMarket will implement a comprehensive system for tracking, documenting, and analyzing our use of these benefits.
@@ -8,34 +12,41 @@ To fully leverage the benefits of free trade agreements, particularly within the
 
 ### 1. Product Origin Declaration Form
 
-```{r}
-#| echo: false
+```{shinylive-r}
+#| standalone: TRUE
 #| warning: false
 library(shiny)
 
-product_origin_form <- fluidPage(
+product_origin_form <- fluidRow(
   textInput("product_name", "Product Name"),
-  textInput("hs_code", "HS Code"),
-  selectInput("country_of_origin", "Country of Origin", 
-              choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
-  numericInput("local_content_percentage", "Percentage of Local Content", value = 0, min = 0, max = 100),
-  textAreaInput("manufacturing_process", "Brief Description of Manufacturing Process"),
-  checkboxInput("meets_origin_criteria", "Meets EAC Rules of Origin Criteria"),
-  fileInput("supporting_documents", "Upload Supporting Documents", multiple = TRUE)
+    textInput("hs_code", "HS Code"),
+    selectInput("country_of_origin", "Country of Origin", 
+                choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
+    numericInput("local_content_percentage", "Percentage of Local Content", value = 0, min = 0, max = 100),
+    textAreaInput("manufacturing_process", "Brief Description of Manufacturing Process"),
+    checkboxInput("meets_origin_criteria", "Meets EAC Rules of Origin Criteria"),
+    fileInput("supporting_documents", "Upload Supporting Documents", multiple = TRUE)
 )
 
-fluidPage(
+ui = fluidPage(
   h2("Product Origin Declaration Form"),
   product_origin_form
 )
+
+server = function(ui, server) {
+  
+}
+
+shinyApp(ui, server)
 ```
 
 ### 2. Tariff Savings Tracking Form
 
-```{r}
+```{shinylive-r}
+#| standalone: TRUE
 #| echo: false
 
-tariff_savings_form <- fluidPage(
+tariff_savings_form <- fluidRow(
   textInput("product_name", "Product Name"),
   textInput("hs_code", "HS Code"),
   selectInput("origin_country", "Origin Country", 
@@ -48,18 +59,23 @@ tariff_savings_form <- fluidPage(
   textInput("certificate_of_origin_number", "Certificate of Origin Number")
 )
 
-fluidPage(
+ui = fluidPage(
   h2("Tariff Savings Tracking Form"),
   tariff_savings_form
 )
+
+server = function(ui, server) {}
+
+shinyApp(ui, server)
 ```
 
 ### 3. Non-Tariff Barrier Reporting Form
 
-```{r}
+```{shinylive-r}
 #| echo: false
+#| standalone: TRUE
 
-non_tariff_barrier_form <- fluidPage(
+non_tariff_barrier_form <- fluidRow(
   selectInput("barrier_type", "Type of Non-Tariff Barrier", 
               choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
   selectInput("country", "Country Where Barrier was Encountered", 
@@ -72,10 +88,14 @@ non_tariff_barrier_form <- fluidPage(
               choices = c("Unresolved", "In Progress", "Resolved"))
 )
 
-fluidPage(
+ui = fluidPage(
   h2("Non-Tariff Barrier Reporting Form"),
   non_tariff_barrier_form
 )
+
+server = function(ui, server) {}
+
+shinyApp(ui, server)
 ```
 
 Now, let's update our MongoDB setup script to include collections for these new forms:

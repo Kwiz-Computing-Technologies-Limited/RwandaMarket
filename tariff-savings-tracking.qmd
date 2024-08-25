@@ -1,5 +1,9 @@
 ---
 title: "Tariff Savings Tracking"
+execute: 
+  echo: false
+filters: 
+  - shinylive
 ---
 
 ## Importance of Tracking Tariff Savings
@@ -10,23 +14,26 @@ Monitoring tariff savings is essential for: 1. Quantifying the financial benefit
 
 Use the form below to calculate and track your tariff savings:
 
-```{r}
+```{shinylive-r}
 #| echo: false
+#| standalone: true
 library(shiny)
 
 ui <- fluidPage(
-  textInput("product_name", "Product Name"),
-  textInput("hs_code", "HS Code"),
-  selectInput("origin_country", "Origin Country", 
-              choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
-  selectInput("destination_country", "Destination Country", 
-              choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
-  numericInput("shipment_value", "Shipment Value (USD)", value = 0),
-  numericInput("standard_tariff_rate", "Standard Tariff Rate (%)", value = 0),
-  numericInput("preferential_tariff_rate", "Preferential Tariff Rate under EAC (%)", value = 0),
-  textInput("certificate_of_origin_number", "Certificate of Origin Number"),
-  actionButton("calculate", "Calculate Savings"),
-  verbatimTextOutput("savings_output")
+  fluidRow(
+    textInput("product_name", "Product Name"),
+    textInput("hs_code", "HS Code"),
+    selectInput("origin_country", "Origin Country", 
+                choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
+    selectInput("destination_country", "Destination Country", 
+                choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
+    numericInput("shipment_value", "Shipment Value (USD)", value = 0),
+    numericInput("standard_tariff_rate", "Standard Tariff Rate (%)", value = 0),
+    numericInput("preferential_tariff_rate", "Preferential Tariff Rate under EAC (%)", value = 0),
+    textInput("certificate_of_origin_number", "Certificate of Origin Number"),
+    actionButton("calculate", "Calculate Savings"),
+    verbatimTextOutput("savings_output")
+  )
 )
 
 server <- function(input, output, session) {

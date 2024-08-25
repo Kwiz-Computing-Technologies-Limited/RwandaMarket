@@ -1,5 +1,9 @@
 ---
 title: "Product Origin Declaration"
+execute: 
+  echo: false
+filters: 
+  - shinylive
 ---
 
 ## Overview
@@ -18,21 +22,23 @@ To qualify for preferential treatment, products must meet one of the following c
 
 Use the form below to declare the origin of your products:
 
-```{r}
+```{shinylive-r}
 #| echo: false
-#| warning: false
+#| standalone: TRUE
 library(shiny)
 
 ui <- fluidPage(
-  textInput("product_name", "Product Name"),
-  textInput("hs_code", "HS Code"),
-  selectInput("country_of_origin", "Country of Origin", 
-              choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
-  numericInput("local_content_percentage", "Percentage of Local Content", value = 0, min = 0, max = 100),
-  textAreaInput("manufacturing_process", "Brief Description of Manufacturing Process"),
-  checkboxInput("meets_origin_criteria", "Meets EAC Rules of Origin Criteria"),
-  fileInput("supporting_documents", "Upload Supporting Documents", multiple = TRUE),
-  actionButton("submit", "Submit Declaration")
+  fluidRow(
+    textInput("product_name", "Product Name"),
+    textInput("hs_code", "HS Code"),
+    selectInput("country_of_origin", "Country of Origin", 
+                choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
+    numericInput("local_content_percentage", "Percentage of Local Content", value = 0, min = 0, max = 100),
+    textAreaInput("manufacturing_process", "Brief Description of Manufacturing Process"),
+    checkboxInput("meets_origin_criteria", "Meets EAC Rules of Origin Criteria"),
+    fileInput("supporting_documents", "Upload Supporting Documents", multiple = TRUE),
+    actionButton("submit", "Submit Declaration")
+  )
 )
 
 server <- function(input, output, session) {
@@ -42,8 +48,7 @@ server <- function(input, output, session) {
   })
 }
 
-# shinyApp(ui, server)
-ui
+shinyApp(ui, server)
 ```
 
 ## Important Notes

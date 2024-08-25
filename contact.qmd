@@ -30,9 +30,18 @@ Sunday: Closed
 
 ## Contact Form
 
-```{r}
-#| context: server
-library(shiny)
+```{shinylive-r}
+#| standalone: TRUE
+ui <- fluidPage(
+  fluidRow(
+    textInput("name", "Name:"),
+    textInput("email", "Email:"),
+    selectInput("subject", "Subject:", 
+                choices = c("General Inquiry", "Product Question", "B2B Opportunities", "Feedback", "Other")),
+    textAreaInput("message", "Message:"),
+    actionButton("submit", "Submit")
+    )
+)
 
 server <- function(input, output, session) {
   observeEvent(input$submit, {
@@ -53,18 +62,8 @@ server <- function(input, output, session) {
     updateTextAreaInput(session, "message", value = "")
   })
 }
-```
 
-```{shinylive-r}
-#| standalone: TRUE
-ui <- fluidPage(
-  textInput("name", "Name:"),
-  textInput("email", "Email:"),
-  selectInput("subject", "Subject:", 
-              choices = c("General Inquiry", "Product Question", "B2B Opportunities", "Feedback", "Other")),
-  textAreaInput("message", "Message:"),
-  actionButton("submit", "Submit")
-)
+shinyApp(ui, server)
 ```
 
 
@@ -98,6 +97,8 @@ server = function(ui, server, session) {
       addMarkers(lng = 36.8219, lat = -1.2921, popup = "RwandaMarket      Flagship Store")
   })
 }
+
+shinyApp(ui, server)
 ```
 
 ## Feedback

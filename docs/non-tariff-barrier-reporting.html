@@ -39,6 +39,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<meta name="shinylive:serviceworker_dir" content=".">
+<script src="site_libs/quarto-contrib/shinylive-0.5.0/shinylive/load-shinylive-sw.js" type="module"></script>
+<script src="site_libs/quarto-contrib/shinylive-0.5.0/shinylive/run-python-blocks.js" type="module"></script>
+<link href="site_libs/quarto-contrib/shinylive-0.5.0/shinylive/shinylive.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,17 +64,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/jquery-3.6.0/jquery.min.js"></script>
-<link href="site_libs/selectize-0.15.2/css/selectize.bootstrap3.css" rel="stylesheet">
-<script src="site_libs/selectize-0.15.2/js/selectize.min.js"></script>
-<script src="site_libs/selectize-0.15.2/accessibility/js/selectize-plugin-a11y.min.js"></script>
-<script src="site_libs/bootstrap-datepicker-js-1.9.0/js/bootstrap-datepicker.min.js"></script>
-<script>(function() {
-        var datepicker = $.fn.datepicker.noConflict();
-        $.fn.bsDatepicker = datepicker;
-      })();
-     </script>
-<link href="site_libs/bootstrap-datepicker-css-1.9.0/css/bootstrap-datepicker3.min.css" rel="stylesheet">
 <style>
 .toc-title {
   color: #FFF !important;
@@ -176,67 +170,41 @@ ul.task-list li input[type="checkbox"] {
 <section id="ntb-reporting-form" class="level2">
 <h2 class="anchored" data-anchor-id="ntb-reporting-form">NTB Reporting Form</h2>
 <p>If you encounter a non-tariff barrier, please report it using the form below:</p>
-<div class="cell">
-<div class="cell-output-display no-overflow-x">
-<div class="container-fluid">
-<div class="form-group shiny-input-container">
-<label class="control-label" id="barrier_type-label" for="barrier_type">Type of Non-Tariff Barrier</label>
-<div>
-<select id="barrier_type" class="shiny-input-select"><option value="Customs Procedures" selected="">Customs Procedures</option>
-<option value="Technical Regulations">Technical Regulations</option>
-<option value="Sanitary Measures">Sanitary Measures</option>
-<option value="Licensing Requirements">Licensing Requirements</option>
-<option value="Other">Other</option></select>
-<script type="application/json" data-for="barrier_type" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
-</div>
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="country-label" for="country">Country Where Barrier was Encountered</label>
-<div>
-<select id="country" class="shiny-input-select"><option value="Rwanda" selected="">Rwanda</option>
-<option value="Kenya">Kenya</option>
-<option value="Uganda">Uganda</option>
-<option value="Tanzania">Tanzania</option>
-<option value="Burundi">Burundi</option>
-<option value="South Sudan">South Sudan</option></select>
-<script type="application/json" data-for="country" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
-</div>
-</div>
-<div id="date_encountered" class="shiny-date-input form-group shiny-input-container">
-<label class="control-label" id="date_encountered-label" for="date_encountered">Date Encountered</label>
-<input type="text" class="form-control" aria-labelledby="date_encountered-label" title="Date format: yyyy-mm-dd" data-date-language="en" data-date-week-start="0" data-date-format="yyyy-mm-dd" data-date-start-view="month" data-date-autoclose="true" data-date-dates-disabled="null" data-date-days-of-week-disabled="null">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="barrier_description-label" for="barrier_description">Detailed Description of the Barrier</label>
-<textarea id="barrier_description" class="shiny-input-textarea form-control"></textarea>
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="estimated_cost-label" for="estimated_cost">Estimated Cost Impact (USD)</label>
-<input id="estimated_cost" type="number" class="shiny-input-number form-control" value="0">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="resolution_efforts-label" for="resolution_efforts">Description of Resolution Efforts</label>
-<textarea id="resolution_efforts" class="shiny-input-textarea form-control"></textarea>
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="status-label" for="status">Current Status</label>
-<div>
-<select id="status" class="shiny-input-select"><option value="Unresolved" selected="">Unresolved</option>
-<option value="In Progress">In Progress</option>
-<option value="Resolved">Resolved</option></select>
-<script type="application/json" data-for="status" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
-</div>
-</div>
-<button id="submit" type="button" class="btn btn-default action-button">Submit Report</button>
-</div>
-</div>
-</div>
+<pre class="shinylive-r" data-engine="r"><code>#| echo: false
+#| standalone: true
+library(shiny)
+
+ui &lt;- fluidPage(
+  fluidRow(
+    selectInput("barrier_type", "Type of Non-Tariff Barrier", 
+                choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
+    selectInput("country", "Country Where Barrier was Encountered", 
+              choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
+    dateInput("date_encountered", "Date Encountered"),
+    textAreaInput("barrier_description", "Detailed Description of the Barrier"),
+    numericInput("estimated_cost", "Estimated Cost Impact (USD)", value = 0),
+    textAreaInput("resolution_efforts", "Description of Resolution Efforts"),
+    selectInput("status", "Current Status", 
+                choices = c("Unresolved", "In Progress", "Resolved")),
+    actionButton("submit", "Submit Report")
+  )
+)
+
+server &lt;- function(input, output, session) {
+  observeEvent(input$submit, {
+    # In a real application, this would process and store the form data
+    showNotification("NTB report submitted successfully", type = "message")
+  })
+}
+
+# shinyApp(ui, server)
+ui</code></pre>
 </section>
 <section id="ntb-analysis-and-resolution" class="level2">
 <h2 class="anchored" data-anchor-id="ntb-analysis-and-resolution">NTB Analysis and Resolution</h2>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="non-tariff-barrier-reporting_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+<p><img src="non-tariff-barrier-reporting_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Our team regularly analyzes reported NTBs to: 1. Identify patterns and recurring issues 2. Develop strategies for overcoming common barriers 3. Engage with relevant authorities to address systemic problems 4. Provide guidance to our partners on navigating complex regulations</p>

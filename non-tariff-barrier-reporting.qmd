@@ -1,5 +1,9 @@
 ---
 title: "Non-Tariff Barrier Reporting"
+execute: 
+  echo: false
+filters: 
+  - shinylive
 ---
 
 ## Understanding Non-Tariff Barriers (NTBs)
@@ -12,23 +16,25 @@ Reporting and addressing NTBs is crucial for smooth cross-border trade operation
 
 If you encounter a non-tariff barrier, please report it using the form below:
 
-```{r}
+```{shinylive-r}
 #| echo: false
-#| warning: false
+#| standalone: true
 library(shiny)
 
 ui <- fluidPage(
-  selectInput("barrier_type", "Type of Non-Tariff Barrier", 
-              choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
-  selectInput("country", "Country Where Barrier was Encountered", 
+  fluidRow(
+    selectInput("barrier_type", "Type of Non-Tariff Barrier", 
+                choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
+    selectInput("country", "Country Where Barrier was Encountered", 
               choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
-  dateInput("date_encountered", "Date Encountered"),
-  textAreaInput("barrier_description", "Detailed Description of the Barrier"),
-  numericInput("estimated_cost", "Estimated Cost Impact (USD)", value = 0),
-  textAreaInput("resolution_efforts", "Description of Resolution Efforts"),
-  selectInput("status", "Current Status", 
-              choices = c("Unresolved", "In Progress", "Resolved")),
-  actionButton("submit", "Submit Report")
+    dateInput("date_encountered", "Date Encountered"),
+    textAreaInput("barrier_description", "Detailed Description of the Barrier"),
+    numericInput("estimated_cost", "Estimated Cost Impact (USD)", value = 0),
+    textAreaInput("resolution_efforts", "Description of Resolution Efforts"),
+    selectInput("status", "Current Status", 
+                choices = c("Unresolved", "In Progress", "Resolved")),
+    actionButton("submit", "Submit Report")
+  )
 )
 
 server <- function(input, output, session) {

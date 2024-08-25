@@ -39,6 +39,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<meta name="shinylive:serviceworker_dir" content=".">
+<script src="site_libs/quarto-contrib/shinylive-0.5.0/shinylive/load-shinylive-sw.js" type="module"></script>
+<script src="site_libs/quarto-contrib/shinylive-0.5.0/shinylive/run-python-blocks.js" type="module"></script>
+<link href="site_libs/quarto-contrib/shinylive-0.5.0/shinylive/shinylive.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,10 +64,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/jquery-3.6.0/jquery.min.js"></script>
-<link href="site_libs/selectize-0.15.2/css/selectize.bootstrap3.css" rel="stylesheet">
-<script src="site_libs/selectize-0.15.2/js/selectize.min.js"></script>
-<script src="site_libs/selectize-0.15.2/accessibility/js/selectize-plugin-a11y.min.js"></script>
 <style>
 .toc-title {
   color: #FFF !important;
@@ -178,64 +179,32 @@ ul.task-list li input[type="checkbox"] {
 <section id="declaration-form" class="level2">
 <h2 class="anchored" data-anchor-id="declaration-form">Declaration Form</h2>
 <p>Use the form below to declare the origin of your products:</p>
-<div class="cell">
-<div class="cell-output-display no-overflow-x">
-<div class="container-fluid">
-<div class="form-group shiny-input-container">
-<label class="control-label" id="product_name-label" for="product_name">Product Name</label>
-<input id="product_name" type="text" class="shiny-input-text form-control" value="">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="hs_code-label" for="hs_code">HS Code</label>
-<input id="hs_code" type="text" class="shiny-input-text form-control" value="">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="country_of_origin-label" for="country_of_origin">Country of Origin</label>
-<div>
-<select id="country_of_origin" class="shiny-input-select"><option value="Rwanda" selected="">Rwanda</option>
-<option value="Kenya">Kenya</option>
-<option value="Uganda">Uganda</option>
-<option value="Tanzania">Tanzania</option>
-<option value="Burundi">Burundi</option>
-<option value="South Sudan">South Sudan</option></select>
-<script type="application/json" data-for="country_of_origin" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
-</div>
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="local_content_percentage-label" for="local_content_percentage">Percentage of Local Content</label>
-<input id="local_content_percentage" type="number" class="shiny-input-number form-control" value="0" min="0" max="100">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="manufacturing_process-label" for="manufacturing_process">Brief Description of Manufacturing Process</label>
-<textarea id="manufacturing_process" class="shiny-input-textarea form-control"></textarea>
-</div>
-<div class="form-group shiny-input-container">
-<div class="checkbox">
-<label>
-<input id="meets_origin_criteria" type="checkbox" class="shiny-input-checkbox">
-<span>Meets EAC Rules of Origin Criteria</span>
-</label>
-</div>
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="supporting_documents-label" for="supporting_documents">Upload Supporting Documents</label>
-<div class="input-group">
-<label class="input-group-btn input-group-prepend">
-<span class="btn btn-default btn-file">
-Browse...
-<input id="supporting_documents" class="shiny-input-file" name="supporting_documents" type="file" style="position: absolute !important; top: -99999px !important; left: -99999px !important;" multiple="multiple">
-</span>
-</label>
-<input type="text" class="form-control" placeholder="No file selected" readonly="readonly">
-</div>
-<div id="supporting_documents_progress" class="progress active shiny-file-input-progress">
-<div class="progress-bar"></div>
-</div>
-</div>
-<button id="submit" type="button" class="btn btn-default action-button">Submit Declaration</button>
-</div>
-</div>
-</div>
+<pre class="shinylive-r" data-engine="r"><code>#| echo: false
+#| standalone: TRUE
+library(shiny)
+
+ui &lt;- fluidPage(
+  fluidRow(
+    textInput("product_name", "Product Name"),
+    textInput("hs_code", "HS Code"),
+    selectInput("country_of_origin", "Country of Origin", 
+                choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
+    numericInput("local_content_percentage", "Percentage of Local Content", value = 0, min = 0, max = 100),
+    textAreaInput("manufacturing_process", "Brief Description of Manufacturing Process"),
+    checkboxInput("meets_origin_criteria", "Meets EAC Rules of Origin Criteria"),
+    fileInput("supporting_documents", "Upload Supporting Documents", multiple = TRUE),
+    actionButton("submit", "Submit Declaration")
+  )
+)
+
+server &lt;- function(input, output, session) {
+  observeEvent(input$submit, {
+    # In a real application, this would process and store the form data
+    showNotification("Declaration submitted successfully", type = "message")
+  })
+}
+
+shinyApp(ui, server)</code></pre>
 </section>
 <section id="important-notes" class="level2">
 <h2 class="anchored" data-anchor-id="important-notes">Important Notes</h2>

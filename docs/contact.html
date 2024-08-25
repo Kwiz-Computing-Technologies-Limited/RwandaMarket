@@ -187,13 +187,37 @@ Sunday: Closed</p>
 <h2 class="anchored" data-anchor-id="contact-form">Contact Form</h2>
 <pre class="shinylive-r" data-engine="r"><code>#| standalone: TRUE
 ui &lt;- fluidPage(
-  textInput("name", "Name:"),
-  textInput("email", "Email:"),
-  selectInput("subject", "Subject:", 
-              choices = c("General Inquiry", "Product Question", "B2B Opportunities", "Feedback", "Other")),
-  textAreaInput("message", "Message:"),
-  actionButton("submit", "Submit")
-)</code></pre>
+  fluidRow(
+    textInput("name", "Name:"),
+    textInput("email", "Email:"),
+    selectInput("subject", "Subject:", 
+                choices = c("General Inquiry", "Product Question", "B2B Opportunities", "Feedback", "Other")),
+    textAreaInput("message", "Message:"),
+    actionButton("submit", "Submit")
+    )
+)
+
+server &lt;- function(input, output, session) {
+  observeEvent(input$submit, {
+    # Here you would typically send an email or save to a database
+    # For this example, we'll just print to the console
+    message &lt;- paste("New message from", input$name, "(", input$email, ")\n",
+                     "Subject:", input$subject, "\n",
+                     "Message:", input$message)
+    print(message)
+    
+    # Show a confirmation message to the user
+    showNotification("Your message has been sent. We'll get back to you soon!", type = "message")
+    
+    # Clear the form
+    updateTextInput(session, "name", value = "")
+    updateTextInput(session, "email", value = "")
+    updateSelectInput(session, "subject", selected = "General Inquiry")
+    updateTextAreaInput(session, "message", value = "")
+  })
+}
+
+shinyApp(ui, server)</code></pre>
 </section>
 <section id="connect-with-us" class="level2">
 <h2 class="anchored" data-anchor-id="connect-with-us">Connect With Us</h2>
@@ -222,7 +246,9 @@ server = function(ui, server, session) {
       setView(lng = 36.8219, lat = -1.2921, zoom = 13) %&gt;%
       addMarkers(lng = 36.8219, lat = -1.2921, popup = "RwandaMarket      Flagship Store")
   })
-}</code></pre>
+}
+
+shinyApp(ui, server)</code></pre>
 </section>
 <section id="feedback" class="level2">
 <h2 class="anchored" data-anchor-id="feedback">Feedback</h2>

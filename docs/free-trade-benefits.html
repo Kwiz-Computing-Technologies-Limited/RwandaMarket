@@ -39,6 +39,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<meta name="shinylive:serviceworker_dir" content=".">
+<script src="site_libs/quarto-contrib/shinylive-0.5.0/shinylive/load-shinylive-sw.js" type="module"></script>
+<script src="site_libs/quarto-contrib/shinylive-0.5.0/shinylive/run-python-blocks.js" type="module"></script>
+<link href="site_libs/quarto-contrib/shinylive-0.5.0/shinylive/shinylive.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,17 +64,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/jquery-3.6.0/jquery.min.js"></script>
-<link href="site_libs/selectize-0.15.2/css/selectize.bootstrap3.css" rel="stylesheet">
-<script src="site_libs/selectize-0.15.2/js/selectize.min.js"></script>
-<script src="site_libs/selectize-0.15.2/accessibility/js/selectize-plugin-a11y.min.js"></script>
-<script src="site_libs/bootstrap-datepicker-js-1.9.0/js/bootstrap-datepicker.min.js"></script>
-<script>(function() {
-        var datepicker = $.fn.datepicker.noConflict();
-        $.fn.bsDatepicker = datepicker;
-      })();
-     </script>
-<link href="site_libs/bootstrap-datepicker-css-1.9.0/css/bootstrap-datepicker3.min.css" rel="stylesheet">
 <style>
 .toc-title {
   color: #FFF !important;
@@ -159,187 +153,86 @@ ul.task-list li input[type="checkbox"] {
 <section id="free-trade-benefit-forms" class="level2">
 <h2 class="anchored" data-anchor-id="free-trade-benefit-forms">Free Trade Benefit Forms</h2>
 <section id="product-origin-declaration-form" class="level3">
-<h3 class="anchored">1. Product Origin Declaration Form</h3>
-<div class="cell">
-<div class="cell-output-display no-overflow-x">
-<div class="container-fluid">
-<h2 class="anchored" data-anchor-id="product-origin-declaration-form">Product Origin Declaration Form</h2>
-<div class="container-fluid">
-<div class="form-group shiny-input-container">
-<label class="control-label" id="product_name-label" for="product_name">Product Name</label>
-<input id="product_name" type="text" class="shiny-input-text form-control" value="">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="hs_code-label" for="hs_code">HS Code</label>
-<input id="hs_code" type="text" class="shiny-input-text form-control" value="">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="country_of_origin-label" for="country_of_origin">Country of Origin</label>
-<div>
-<select id="country_of_origin" class="shiny-input-select"><option value="Rwanda" selected="">Rwanda</option>
-<option value="Kenya">Kenya</option>
-<option value="Uganda">Uganda</option>
-<option value="Tanzania">Tanzania</option>
-<option value="Burundi">Burundi</option>
-<option value="South Sudan">South Sudan</option></select>
-<script type="application/json" data-for="country_of_origin" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
-</div>
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="local_content_percentage-label" for="local_content_percentage">Percentage of Local Content</label>
-<input id="local_content_percentage" type="number" class="shiny-input-number form-control" value="0" min="0" max="100">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="manufacturing_process-label" for="manufacturing_process">Brief Description of Manufacturing Process</label>
-<textarea id="manufacturing_process" class="shiny-input-textarea form-control"></textarea>
-</div>
-<div class="form-group shiny-input-container">
-<div class="checkbox">
-<label>
-<input id="meets_origin_criteria" type="checkbox" class="shiny-input-checkbox">
-<span>Meets EAC Rules of Origin Criteria</span>
-</label>
-</div>
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="supporting_documents-label" for="supporting_documents">Upload Supporting Documents</label>
-<div class="input-group">
-<label class="input-group-btn input-group-prepend">
-<span class="btn btn-default btn-file">
-Browse...
-<input id="supporting_documents" class="shiny-input-file" name="supporting_documents" type="file" style="position: absolute !important; top: -99999px !important; left: -99999px !important;" multiple="multiple">
-</span>
-</label>
-<input type="text" class="form-control" placeholder="No file selected" readonly="readonly">
-</div>
-<div id="supporting_documents_progress" class="progress active shiny-file-input-progress">
-<div class="progress-bar"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<h3 class="anchored" data-anchor-id="product-origin-declaration-form">1. Product Origin Declaration Form</h3>
+<pre class="shinylive-r" data-engine="r"><code>#| standalone: TRUE
+#| warning: false
+library(shiny)
+
+product_origin_form &lt;- fluidRow(
+  textInput("product_name", "Product Name"),
+    textInput("hs_code", "HS Code"),
+    selectInput("country_of_origin", "Country of Origin", 
+                choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
+    numericInput("local_content_percentage", "Percentage of Local Content", value = 0, min = 0, max = 100),
+    textAreaInput("manufacturing_process", "Brief Description of Manufacturing Process"),
+    checkboxInput("meets_origin_criteria", "Meets EAC Rules of Origin Criteria"),
+    fileInput("supporting_documents", "Upload Supporting Documents", multiple = TRUE)
+)
+
+ui = fluidPage(
+  h2("Product Origin Declaration Form"),
+  product_origin_form
+)
+
+server = function(ui, server) {
+  
+}
+
+shinyApp(ui, server)</code></pre>
 </section>
 <section id="tariff-savings-tracking-form" class="level3">
-<h3 class="anchored">2. Tariff Savings Tracking Form</h3>
-<div class="cell">
-<div class="cell-output-display no-overflow-x">
-<div class="container-fluid">
-<h2 class="anchored" data-anchor-id="tariff-savings-tracking-form">Tariff Savings Tracking Form</h2>
-<div class="container-fluid">
-<div class="form-group shiny-input-container">
-<label class="control-label" id="product_name-label" for="product_name">Product Name</label>
-<input id="product_name" type="text" class="shiny-input-text form-control" value="">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="hs_code-label" for="hs_code">HS Code</label>
-<input id="hs_code" type="text" class="shiny-input-text form-control" value="">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="origin_country-label" for="origin_country">Origin Country</label>
-<div>
-<select id="origin_country" class="shiny-input-select"><option value="Rwanda" selected="">Rwanda</option>
-<option value="Kenya">Kenya</option>
-<option value="Uganda">Uganda</option>
-<option value="Tanzania">Tanzania</option>
-<option value="Burundi">Burundi</option>
-<option value="South Sudan">South Sudan</option></select>
-<script type="application/json" data-for="origin_country" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
-</div>
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="destination_country-label" for="destination_country">Destination Country</label>
-<div>
-<select id="destination_country" class="shiny-input-select"><option value="Rwanda" selected="">Rwanda</option>
-<option value="Kenya">Kenya</option>
-<option value="Uganda">Uganda</option>
-<option value="Tanzania">Tanzania</option>
-<option value="Burundi">Burundi</option>
-<option value="South Sudan">South Sudan</option></select>
-<script type="application/json" data-for="destination_country" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
-</div>
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="shipment_value-label" for="shipment_value">Shipment Value (USD)</label>
-<input id="shipment_value" type="number" class="shiny-input-number form-control" value="0">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="standard_tariff_rate-label" for="standard_tariff_rate">Standard Tariff Rate (%)</label>
-<input id="standard_tariff_rate" type="number" class="shiny-input-number form-control" value="0">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="preferential_tariff_rate-label" for="preferential_tariff_rate">Preferential Tariff Rate under EAC (%)</label>
-<input id="preferential_tariff_rate" type="number" class="shiny-input-number form-control" value="0">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="certificate_of_origin_number-label" for="certificate_of_origin_number">Certificate of Origin Number</label>
-<input id="certificate_of_origin_number" type="text" class="shiny-input-text form-control" value="">
-</div>
-</div>
-</div>
-</div>
-</div>
+<h3 class="anchored" data-anchor-id="tariff-savings-tracking-form">2. Tariff Savings Tracking Form</h3>
+<pre class="shinylive-r" data-engine="r"><code>#| standalone: TRUE
+#| echo: false
+
+tariff_savings_form &lt;- fluidRow(
+  textInput("product_name", "Product Name"),
+  textInput("hs_code", "HS Code"),
+  selectInput("origin_country", "Origin Country", 
+              choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
+  selectInput("destination_country", "Destination Country", 
+              choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
+  numericInput("shipment_value", "Shipment Value (USD)", value = 0),
+  numericInput("standard_tariff_rate", "Standard Tariff Rate (%)", value = 0),
+  numericInput("preferential_tariff_rate", "Preferential Tariff Rate under EAC (%)", value = 0),
+  textInput("certificate_of_origin_number", "Certificate of Origin Number")
+)
+
+ui = fluidPage(
+  h2("Tariff Savings Tracking Form"),
+  tariff_savings_form
+)
+
+server = function(ui, server) {}
+
+shinyApp(ui, server)</code></pre>
 </section>
 <section id="non-tariff-barrier-reporting-form" class="level3">
-<h3 class="anchored">3. Non-Tariff Barrier Reporting Form</h3>
-<div class="cell">
-<div class="cell-output-display no-overflow-x">
-<div class="container-fluid">
-<h2 class="anchored" data-anchor-id="non-tariff-barrier-reporting-form">Non-Tariff Barrier Reporting Form</h2>
-<div class="container-fluid">
-<div class="form-group shiny-input-container">
-<label class="control-label" id="barrier_type-label" for="barrier_type">Type of Non-Tariff Barrier</label>
-<div>
-<select id="barrier_type" class="shiny-input-select"><option value="Customs Procedures" selected="">Customs Procedures</option>
-<option value="Technical Regulations">Technical Regulations</option>
-<option value="Sanitary Measures">Sanitary Measures</option>
-<option value="Licensing Requirements">Licensing Requirements</option>
-<option value="Other">Other</option></select>
-<script type="application/json" data-for="barrier_type" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
-</div>
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="country-label" for="country">Country Where Barrier was Encountered</label>
-<div>
-<select id="country" class="shiny-input-select"><option value="Rwanda" selected="">Rwanda</option>
-<option value="Kenya">Kenya</option>
-<option value="Uganda">Uganda</option>
-<option value="Tanzania">Tanzania</option>
-<option value="Burundi">Burundi</option>
-<option value="South Sudan">South Sudan</option></select>
-<script type="application/json" data-for="country" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
-</div>
-</div>
-<div id="date_encountered" class="shiny-date-input form-group shiny-input-container">
-<label class="control-label" id="date_encountered-label" for="date_encountered">Date Encountered</label>
-<input type="text" class="form-control" aria-labelledby="date_encountered-label" title="Date format: yyyy-mm-dd" data-date-language="en" data-date-week-start="0" data-date-format="yyyy-mm-dd" data-date-start-view="month" data-date-autoclose="true" data-date-dates-disabled="null" data-date-days-of-week-disabled="null">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="barrier_description-label" for="barrier_description">Detailed Description of the Barrier</label>
-<textarea id="barrier_description" class="shiny-input-textarea form-control"></textarea>
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="estimated_cost-label" for="estimated_cost">Estimated Cost Impact (USD)</label>
-<input id="estimated_cost" type="number" class="shiny-input-number form-control" value="0">
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="resolution_efforts-label" for="resolution_efforts">Description of Resolution Efforts</label>
-<textarea id="resolution_efforts" class="shiny-input-textarea form-control"></textarea>
-</div>
-<div class="form-group shiny-input-container">
-<label class="control-label" id="status-label" for="status">Current Status</label>
-<div>
-<select id="status" class="shiny-input-select"><option value="Unresolved" selected="">Unresolved</option>
-<option value="In Progress">In Progress</option>
-<option value="Resolved">Resolved</option></select>
-<script type="application/json" data-for="status" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<h3 class="anchored" data-anchor-id="non-tariff-barrier-reporting-form">3. Non-Tariff Barrier Reporting Form</h3>
+<pre class="shinylive-r" data-engine="r"><code>#| echo: false
+#| standalone: TRUE
+
+non_tariff_barrier_form &lt;- fluidRow(
+  selectInput("barrier_type", "Type of Non-Tariff Barrier", 
+              choices = c("Customs Procedures", "Technical Regulations", "Sanitary Measures", "Licensing Requirements", "Other")),
+  selectInput("country", "Country Where Barrier was Encountered", 
+              choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
+  dateInput("date_encountered", "Date Encountered"),
+  textAreaInput("barrier_description", "Detailed Description of the Barrier"),
+  numericInput("estimated_cost", "Estimated Cost Impact (USD)", value = 0),
+  textAreaInput("resolution_efforts", "Description of Resolution Efforts"),
+  selectInput("status", "Current Status", 
+              choices = c("Unresolved", "In Progress", "Resolved"))
+)
+
+ui = fluidPage(
+  h2("Non-Tariff Barrier Reporting Form"),
+  non_tariff_barrier_form
+)
+
+server = function(ui, server) {}
+
+shinyApp(ui, server)</code></pre>
 <p>Now, let’s update our MongoDB setup script to include collections for these new forms:</p>
 <p>Now, let’s create an R script to analyze the free trade benefits data:</p>
 <p>This system for documenting and analyzing free trade benefits will allow RwandaMarket to:</p>

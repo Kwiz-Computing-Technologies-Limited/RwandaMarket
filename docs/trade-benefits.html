@@ -39,6 +39,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<meta name="shinylive:serviceworker_dir" content=".">
+<script src="site_libs/quarto-contrib/shinylive-0.5.0/shinylive/load-shinylive-sw.js" type="module"></script>
+<script src="site_libs/quarto-contrib/shinylive-0.5.0/shinylive/run-python-blocks.js" type="module"></script>
+<link href="site_libs/quarto-contrib/shinylive-0.5.0/shinylive/shinylive.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -183,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="free-trade-benefit-forms">Free Trade Benefit Forms</h2>
 <section id="product-origin-declaration-form" class="level3">
 <h3 class="anchored" data-anchor-id="product-origin-declaration-form">1. Product Origin Declaration Form</h3>
-<pre class="{shinylive-r}"><code>#| standalone: TRUE
+<pre class="shinylive-r" data-engine="r"><code>#| standalone: TRUE
 library(shiny)
 
 fluidPage(
@@ -200,7 +205,7 @@ fluidPage(
 </section>
 <section id="tariff-savings-tracking-form" class="level3">
 <h3 class="anchored" data-anchor-id="tariff-savings-tracking-form">2. Tariff Savings Tracking Form</h3>
-<pre class="{shinylive-r}"><code>#| standalone: TRUE
+<pre class="shinylive-r" data-engine="r"><code>#| standalone: TRUE
 
 fluidPage(
 (
@@ -218,7 +223,7 @@ fluidPage(
 </section>
 <section id="non-tariff-barrier-reporting-form" class="level3">
 <h3 class="anchored" data-anchor-id="non-tariff-barrier-reporting-form">3. Non-Tariff Barrier Reporting Form</h3>
-<pre class="{shinylive-r}"><code>#| standalone: TRUE
+<pre class="shinylive-r" data-engine="r"><code>#| standalone: TRUE
 
 fluidPage(
   (
@@ -274,7 +279,7 @@ fluidPage(
 <section id="declaration-form" class="level2">
 <h2 class="anchored" data-anchor-id="declaration-form">Declaration Form</h2>
 <p>Use the form below to declare the origin of your products:</p>
-<pre class="{shinylive-r}"><code>#| standalone: TRUE
+<pre class="shinylive-r" data-engine="r"><code>#| standalone: TRUE
 library(shiny)
 
 ui_originform &lt;- fluidPage(
@@ -328,7 +333,7 @@ shinyApp(ui_originform, server_originform)</code></pre>
 <section id="tariff-savings-calculator-and-tracker" class="level2">
 <h2 class="anchored" data-anchor-id="tariff-savings-calculator-and-tracker">Tariff Savings Calculator and Tracker</h2>
 <p>Use the form below to calculate and track your tariff savings:</p>
-<pre class="{shinylive-r}"><code>#| standalone: true
+<pre class="shinylive-r" data-engine="r"><code>#| standalone: true
 library(shiny)
 
 ui_tariff &lt;- fluidPage(
@@ -383,7 +388,7 @@ shinyApp(ui_tariff, server_tariff)</code></pre>
 <section id="ntb-reporting-form" class="level2">
 <h2 class="anchored" data-anchor-id="ntb-reporting-form">NTB Reporting Form</h2>
 <p>If you encounter a non-tariff barrier, please report it using the form below:</p>
-<pre class="{shinylive-r}"><code>#| standalone: true
+<pre class="shinylive-r" data-engine="r"><code>#| standalone: true
 library(shiny)
 
 ui_nontariff &lt;- fluidPage(

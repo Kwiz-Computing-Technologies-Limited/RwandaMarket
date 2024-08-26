@@ -1,5 +1,7 @@
 ---
 title: "Trade Benefits"
+filters: 
+  - shinylive
 ---
 
 ## Free Trade Benefits {#free-trade-benefits}

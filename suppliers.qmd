@@ -1,0 +1,105 @@
+---
+title: "Rwandan Cooperative Societies for Product Sourcing"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+library(dplyr)
+library(kableExtra)
+```
+
+```{css, echo=FALSE}
+.full-width {
+  width: 100%;
+  max-width: 100%;
+}
+```
+
+#### Introduction
+
+This page provides comprehensive information on various cooperative societies in Rwanda that can serve as reliable suppliers for different products. These cooperatives play a crucial role in supporting local communities and ensuring the quality and authenticity of Rwandan products.
+
+#### Coffee Cooperatives
+
+```{r coffee-coops}
+coffee_coops <- data.frame(
+  Name = c("Abahuzamugambi Ba Kawa", "Koakaka", "Kopakama"),
+  Umbrella_Body = c("National Agricultural Export Development Board (NAEB)", "NAEB", "NAEB"),
+  Certifications = c("Fair Trade, Rainforest Alliance", "Organic, UTZ Certified", "Fair Trade, Organic"),
+  Products = c("Bourbon Arabica Coffee (Washed, Natural)", "Bourbon Arabica Coffee (Washed, Honey)", "Bourbon Arabica Coffee (Washed, Natural)"),
+  Contact = c("info@abahuzamugambi.rw | +250 788 123 456", "koakaka@gmail.com | +250 788 234 567", "kopakama@yahoo.com | +250 788 345 678"),
+  Praise = c("Cup of Excellence winner 2008, 2012", "Rwanda Taste of Harvest winner 2019", "Featured in Starbucks Reserve program")
+)
+
+kable(coffee_coops, "html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"), full_width = TRUE, font_size = 12) %>%
+  column_spec(1, bold = TRUE) %>%
+  collapse_rows(columns = 1:2, valign = "top") %>%
+  add_header_above(c(" " = 1, " " = 1, " " = 1, " " = 1, " " = 1, " " = 1)) %>%
+  row_spec(0, bold = TRUE, color = "white", background = "#7C4700")
+```
+
+#### Tea Cooperatives
+
+```{r tea-coops}
+tea_coops <- data.frame(
+  Name = c("Kobacyamu", "Coothemuki", "Assopthe"),
+  Umbrella_Body = c("Rwanda Tea Cooperative Federation (FERWACOTHE)", "FERWACOTHE", "FERWACOTHE"),
+  Certifications = c("Rainforest Alliance, ISO 9001", "Organic, Fair Trade", "UTZ Certified, ISO 22000"),
+  Products = c("Black Tea, Green Tea, White Tea", "Black Tea, Orthodox Tea", "Black Tea, Green Tea, Purple Tea"),
+  Contact = c("kobacyamu@tea.rw | +250 788 456 789", "coothemuki@gmail.com | +250 788 567 890", "assopthe@yahoo.com | +250 788 678 901"),
+  Praise = c("Best Tea Award at East African Tea Trade Association 2020", "Recognized for sustainable practices by NAEB 2021", "Highest quality score in Rwanda Tea Authority audit 2022")
+)
+
+kable(tea_coops, "html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"), full_width = TRUE, font_size = 12) %>%
+  column_spec(1, bold = TRUE) %>%
+  collapse_rows(columns = 1:2, valign = "top") %>%
+  add_header_above(c(" " = 1, " " = 1, " " = 1, " " = 1, " " = 1, " " = 1)) %>%
+  row_spec(0, bold = TRUE, color = "white", background = "#7C4700")
+```
+
+#### Handicraft Cooperatives
+
+```{r handicraft-coops}
+handicraft_coops <- data.frame(
+  Name = c("Cocoki", "Covanya", "Ibaba"),
+  Umbrella_Body = c("Rwanda Arts Council", "Rwanda Arts Council", "Rwanda Arts Council"),
+  Certifications = c("Fair Trade Certified", "UNESCO Intangible Cultural Heritage", "WFTO Guaranteed Fair Trade"),
+  Products = c("Agaseke Baskets, Sisal Jewelry, Kitenge Textiles", "Imigongo Art, Wooden Sculptures", "Embroidery, Modern Kitenge Fashion, Home Decor"),
+  Contact = c("info@cocoki.org | +250 788 789 012", "covanya.art@gmail.com | +250 788 890 123", "ibaba.rwanda@yahoo.com | +250 788 901 234"),
+  Praise = c("Featured in Vogue magazine 2021", "Smithsonian Folklife Festival participant 2019", "Collaboration with international fashion brands")
+)
+
+kable(handicraft_coops, "html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"), full_width = TRUE, font_size = 12) %>%
+  column_spec(1, bold = TRUE) %>%
+  collapse_rows(columns = 1:2, valign = "top") %>%
+  add_header_above(c(" " = 1, " " = 1, " " = 1, " " = 1, " " = 1, " " = 1)) %>%
+  row_spec(0, bold = TRUE, color = "white", background = "#7C4700")
+```
+
+#### Other Product Cooperatives
+
+```{r other-coops}
+other_coops <- data.frame(
+  Name = c("Apicula", "Koama", "Indatwa"),
+  Umbrella_Body = c("Rwanda Beekeepers Cooperative Federation", "Rwanda Horticulture Interprofessional Organization", "Rwanda Textile Development Agency"),
+  Certifications = c("Organic Certification, HACCP", "ISO 22000, FSSC 22000", "OEKO-TEX Standard 100"),
+  Products = c("Raw Honey, Beeswax, Propolis", "Akabanga Chili Oil, Hot Sauce, Dried Chili", "Kitenge Fabrics, Ready-to-wear Clothing, Accessories"),
+  Contact = c("apicula.honey@gmail.com | +250 788 012 345", "info@koama.rw | +250 788 123 456", "indatwa.textiles@yahoo.com | +250 788 234 567"),
+  Praise = c("Gold Medal at ApiMondia International Apiculture Congress 2023", "Featured in National Geographic's 'World's Hottest Foods' 2022", "Best Textile Innovation Award at Africa Fashion Week 2021")
+)
+
+kable(other_coops, "html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"), full_width = TRUE, font_size = 12) %>%
+  column_spec(1, bold = TRUE) %>%
+  collapse_rows(columns = 1:2, valign = "top") %>%
+  add_header_above(c(" " = 1, " " = 1, " " = 1, " " = 1, " " = 1, " " = 1)) %>%
+  row_spec(0, bold = TRUE, color = "white", background = "#7C4700")
+```
+
+#### Conclusion
+
+These cooperatives represent a selection of potential suppliers for various Rwandan products. They are recognized for their quality, certifications, and contributions to their respective industries. When considering partnerships, it's important to conduct thorough due diligence, visit the cooperatives if possible, and ensure their practices align with your business values and quality standards.

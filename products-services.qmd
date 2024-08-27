@@ -97,6 +97,10 @@ Our B2B services are priced using a tiered model, with basic packages for small 
 3. Random batch testing for consistency
 4. Customer feedback integration for continuous improvement
 
+### Trade partners {#trade-partners}
+{{< include suppliers.qmd >}}
+
+
 ```{r}
 #| echo: false
 library(ggplot2)

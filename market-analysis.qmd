@@ -127,7 +127,7 @@ The e-commerce market in East Africa, particularly in Kenya and Rwanda, is exper
    - 48% of Kenyan online shoppers discover products through social media platforms [9].
    - 52% of East African e-commerce consumers expect personalized shopping experiences [12].
    
-   These trends highlight the importance of a strong social media presence and personalized marketing strategies for RwandaMarket.
+These trends highlight the importance of a strong social media presence and personalized marketing strategies for RwandaMarket.
 
 ```{r}
 #| echo: false
@@ -164,22 +164,6 @@ The rapid growth in both the overall e-commerce market and the specific product 
 By leveraging these trends and focusing on high-quality, authentic Rwandan products, RwandaMarket is well-positioned to capture a significant share of the growing e-commerce market in East Africa.
 
 Data sources: [3], [4], [5], [9], [10], [11], [12], [13], [16], [17], [19], [20], [21]
-
-### Key Market Drivers
-
-- According to the International Trade Centre (ITC), the African e-commerce market was valued at $20 billion in 2020, with projections to reach $84 billion by 2030[1].
-- Kenya leads East Africa in e-commerce adoption, with 89% of its internet users shopping online[2].
-- **Cultural Exchange**: Growing interest in pan-African cultural exchange and solidarity, creating demand for authentic products from neighboring countries.
-- Rwanda's e-commerce market, while smaller, is growing rapidly, with a projected annual growth rate of 30% between 2021 and 2025[3].
-- **Increasing Internet Penetration** (proof)
-- **Smartphone Adoption** (proof)
-- **Growing Middle Class** estimated to reach 15% of the East African population by 2030 (proof)
-- **Improved Logistics** from Investments in infrastructure enhancing last-mile delivery capabilities (evidence)
-- **Government Initiatives** supportive policies promoting digital trade and cross-border e-commerce. (examples??)
-
-### Regulatory Environment {#trade-regulations}
-
-{{< include trade-regulations.qmd >}}
 
 ### Competitor Analysis
 
@@ -233,6 +217,22 @@ ggplot(competitors, aes(x = Product_Authenticity, y = E_commerce_Capability, lab
   xlim(0, 10) +
   ylim(0, 10)
 ```
+
+### Key Market Drivers
+
+- According to the International Trade Centre (ITC), the African e-commerce market was valued at $20 billion in 2020, with projections to reach $84 billion by 2030[1].
+- Kenya leads East Africa in e-commerce adoption, with 89% of its internet users shopping online[2].
+- **Cultural Exchange**: Growing interest in pan-African cultural exchange and solidarity, creating demand for authentic products from neighboring countries.
+- Rwanda's e-commerce market, while smaller, is growing rapidly, with a projected annual growth rate of 30% between 2021 and 2025[3].
+- **Increasing Internet Penetration** (proof)
+- **Smartphone Adoption** (proof)
+- **Growing Middle Class** estimated to reach 15% of the East African population by 2030 (proof)
+- **Improved Logistics** from Investments in infrastructure enhancing last-mile delivery capabilities (evidence)
+- **Government Initiatives** supportive policies promoting digital trade and cross-border e-commerce. (examples??)
+
+### Regulatory Environment {#trade-regulations}
+
+{{< include trade-regulations.qmd >}}
 
 ### Consumer Behavior Insights
 

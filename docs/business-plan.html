@@ -59,6 +59,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 <style>
 .toc-title {
   color: #FFF !important;
@@ -122,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -130,25 +133,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary">Executive Summary</a>
-  <ul class="collapse">
-  <li><a href="#key-points" id="toc-key-points" class="nav-link" data-scroll-target="#key-points">Key Points</a></li>
-  </ul></li>
-  <li><a href="#company-description" id="toc-company-description" class="nav-link" data-scroll-target="#company-description">Company Description</a>
-  <ul class="collapse">
-  <li><a href="#mission-statement" id="toc-mission-statement" class="nav-link" data-scroll-target="#mission-statement">Mission Statement</a></li>
-  <li><a href="#vision-statement" id="toc-vision-statement" class="nav-link" data-scroll-target="#vision-statement">Vision Statement</a></li>
-  <li><a href="#company-history-and-background" id="toc-company-history-and-background" class="nav-link" data-scroll-target="#company-history-and-background">Company History and Background</a></li>
-  <li><a href="#legal-structure-and-ownership" id="toc-legal-structure-and-ownership" class="nav-link" data-scroll-target="#legal-structure-and-ownership">Legal Structure and Ownership</a></li>
-  <li><a href="#location-and-facilities" id="toc-location-and-facilities" class="nav-link" data-scroll-target="#location-and-facilities">Location and Facilities</a></li>
-  <li><a href="#core-values" id="toc-core-values" class="nav-link" data-scroll-target="#core-values">Core Values</a></li>
-  </ul></li>
-  <li><a href="#market-analysis" id="toc-market-analysis" class="nav-link" data-scroll-target="#market-analysis">Market Analysis</a>
+  <li><a href="#market-analysis" id="toc-market-analysis" class="nav-link active" data-scroll-target="#market-analysis">Market Analysis</a>
   <ul class="collapse">
   <li><a href="#overview-of-the-east-african-e-commerce-market" id="toc-overview-of-the-east-african-e-commerce-market" class="nav-link" data-scroll-target="#overview-of-the-east-african-e-commerce-market">Overview of the East African E-commerce Market</a></li>
   <li><a href="#rwandan-products-in-the-global-and-regional-market" id="toc-rwandan-products-in-the-global-and-regional-market" class="nav-link" data-scroll-target="#rwandan-products-in-the-global-and-regional-market">Rwandan Products in the Global and Regional Market</a></li>
   <li><a href="#target-market-segments" id="toc-target-market-segments" class="nav-link" data-scroll-target="#target-market-segments">Target Market Segments</a></li>
   <li><a href="#market-size-growth-projections-and-trends" id="toc-market-size-growth-projections-and-trends" class="nav-link" data-scroll-target="#market-size-growth-projections-and-trends">Market Size, Growth Projections, and Trends</a></li>
+  <li><a href="#competitor-analysis" id="toc-competitor-analysis" class="nav-link" data-scroll-target="#competitor-analysis">Competitor Analysis</a></li>
   <li><a href="#key-market-drivers" id="toc-key-market-drivers" class="nav-link" data-scroll-target="#key-market-drivers">Key Market Drivers</a></li>
   <li><a href="#trade-regulations" id="toc-trade-regulations" class="nav-link" data-scroll-target="#trade-regulations">Regulatory Environment</a></li>
   <li><a href="#product-specific-regulations" id="toc-product-specific-regulations" class="nav-link" data-scroll-target="#product-specific-regulations">Product-Specific Regulations</a></li>
@@ -156,7 +147,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#standards-and-quality-requirements" id="toc-standards-and-quality-requirements" class="nav-link" data-scroll-target="#standards-and-quality-requirements">Standards and Quality Requirements</a></li>
   <li><a href="#compliance-strategies" id="toc-compliance-strategies" class="nav-link" data-scroll-target="#compliance-strategies">Compliance Strategies</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  <li><a href="#competitor-analysis" id="toc-competitor-analysis" class="nav-link" data-scroll-target="#competitor-analysis">Competitor Analysis</a></li>
   <li><a href="#consumer-behavior-insights" id="toc-consumer-behavior-insights" class="nav-link" data-scroll-target="#consumer-behavior-insights">Consumer Behavior Insights</a></li>
   <li><a href="#challenges-and-opportunities" id="toc-challenges-and-opportunities" class="nav-link" data-scroll-target="#challenges-and-opportunities">Challenges and Opportunities</a></li>
   <li><a href="#implications-for-rwandamarket" id="toc-implications-for-rwandamarket" class="nav-link" data-scroll-target="#implications-for-rwandamarket">Implications for RwandaMarket</a></li>
@@ -176,6 +166,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#b2b-services" id="toc-b2b-services" class="nav-link" data-scroll-target="#b2b-services">B2B Services</a></li>
   <li><a href="#pricing-strategy" id="toc-pricing-strategy" class="nav-link" data-scroll-target="#pricing-strategy">Pricing Strategy</a></li>
   <li><a href="#product-sourcing-and-quality-control" id="toc-product-sourcing-and-quality-control" class="nav-link" data-scroll-target="#product-sourcing-and-quality-control">Product Sourcing and Quality Control</a></li>
+  <li><a href="#trade-partners" id="toc-trade-partners" class="nav-link" data-scroll-target="#trade-partners">Trade partners</a></li>
   </ul></li>
   <li><a href="#marketing-strategy" id="toc-marketing-strategy" class="nav-link" data-scroll-target="#marketing-strategy">Marketing Strategy</a>
   <ul class="collapse">
@@ -215,92 +206,10 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 
 
-<section id="executive-summary" class="level2">
-<h2 class="anchored" data-anchor-id="executive-summary">Executive Summary</h2>
-<p>RwandaMarket is an innovative e-commerce platform and physical store network that brings premium Rwandan products to the Nairobi market while offering cutting-edge B2B solutions for cross-border trade.</p>
-<section id="key-points" class="level3">
-<h3 class="anchored" data-anchor-id="key-points">Key Points</h3>
-<ul>
-<li><strong>Target Market</strong>: Middle to upper-class Nairobi residents, expatriates, tourists, and businesses engaged in East African trade</li>
-<li><strong>Unique Value Proposition</strong>: Authentic Rwandan products combined with advanced technology for seamless shopping and trade facilitation</li>
-<li><strong>Revenue Streams</strong>: B2C product sales, B2B services including trade facilitation and market intelligence</li>
-<li><strong>Technology Focus</strong>: R-based analytics for personalization, inventory management, and market insights</li>
-<li><strong>Funding Requirement</strong>: $1.5 million for startup costs and initial operations</li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-</section>
-</section>
-<section id="company-description" class="level2">
-<h2 class="anchored" data-anchor-id="company-description">Company Description</h2>
-<section id="mission-statement" class="level3">
-<h3 class="anchored" data-anchor-id="mission-statement">Mission Statement</h3>
-<p>To bridge cultures and empower artisans by bringing the best of Rwanda to Nairobi, powered by cutting-edge data science and technology.</p>
-</section>
-<section id="vision-statement" class="level3">
-<h3 class="anchored" data-anchor-id="vision-statement">Vision Statement</h3>
-<p>To become the premier platform for cross-border trade in East Africa, known for quality products, technological innovation, and positive social impact.</p>
-</section>
-<section id="company-history-and-background" class="level3">
-<h3 class="anchored" data-anchor-id="company-history-and-background">Company History and Background</h3>
-<p>RwandaMarket was founded in 2024 by a team of entrepreneurs passionate about East African trade and technological innovation. The idea was born from recognizing the untapped potential of connecting Rwandan artisans with the growing Kenyan market, all while leveraging cutting-edge data science to optimize operations.</p>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-</section>
-<section id="legal-structure-and-ownership" class="level3">
-<h3 class="anchored" data-anchor-id="legal-structure-and-ownership">Legal Structure and Ownership</h3>
-<p>[PLACEHOLDER: Legal structure details to be finalized]</p>
-<p>RwandaMarket is structured as a [PLACEHOLDER: legal entity type] registered in Kenya. The company’s ownership is distributed as follows:</p>
-<ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ul>
-</section>
-<section id="location-and-facilities" class="level3">
-<h3 class="anchored" data-anchor-id="location-and-facilities">Location and Facilities</h3>
-<section id="headquarters" class="level4">
-<h4 class="anchored" data-anchor-id="headquarters">Headquarters</h4>
-<p>Our main office is located in the heart of Nairobi’s business district:</p>
-<p>[PLACEHOLDER: Exact address]</p>
-<p>This central location allows us to easily connect with our customers, partners, and the broader business community.</p>
-</section>
-<section id="flagship-store" class="level4">
-<h4 class="anchored" data-anchor-id="flagship-store">Flagship Store</h4>
-<p>Our physical retail presence is anchored by our flagship store:</p>
-<p>[PLACEHOLDER: Store address]</p>
-<p>This store showcases our full range of Rwandan products and serves as a cultural hub for events and workshops.</p>
-</section>
-<section id="warehouse-and-distribution-center" class="level4">
-<h4 class="anchored" data-anchor-id="warehouse-and-distribution-center">Warehouse and Distribution Center</h4>
-<p>To ensure efficient order fulfillment and inventory management, we operate a state-of-the-art warehouse:</p>
-<p>[PLACEHOLDER: Warehouse address]</p>
-<p>This facility is equipped with advanced inventory tracking systems and optimized for quick order processing and shipping.</p>
-</section>
-</section>
-<section id="core-values" class="level3">
-<h3 class="anchored" data-anchor-id="core-values">Core Values</h3>
-<ol type="1">
-<li><strong>Cultural Appreciation</strong>: We celebrate and promote Rwandan culture and craftsmanship.</li>
-<li><strong>Technological Innovation</strong>: We leverage cutting-edge technology to enhance all aspects of our business.</li>
-<li><strong>Ethical Trade</strong>: We ensure fair compensation and sustainable practices throughout our supply chain.</li>
-<li><strong>Customer-Centricity</strong>: We prioritize customer satisfaction in both our B2C and B2B operations.</li>
-<li><strong>Continuous Learning</strong>: We constantly seek to improve and adapt to changing market conditions.</li>
-</ol>
-<p>RwandaMarket stands at the intersection of tradition and innovation, bringing the best of Rwanda to Kenya while setting new standards for cross-border e-commerce in East Africa.</p>
-</section>
-</section>
 <section id="market-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="market-analysis">Market Analysis</h2>
 <section id="overview-of-the-east-african-e-commerce-market" class="level3">
@@ -398,7 +307,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -440,18 +349,69 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>48% of Kenyan online shoppers discover products through social media platforms [9].</li>
 <li>52% of East African e-commerce consumers expect personalized shopping experiences [12].</li>
-</ul>
-<p>These trends highlight the importance of a strong social media presence and personalized marketing strategies for RwandaMarket.</p></li>
+</ul></li>
 </ol>
+<p>These trends highlight the importance of a strong social media presence and personalized marketing strategies for RwandaMarket.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>This graph illustrates the projected growth of the overall African e-commerce market alongside the specific product categories that RwandaMarket focuses on. While the scale of the specialty product markets is smaller, their growth rates are significant, presenting substantial opportunities for niche e-commerce platforms like RwandaMarket.</p>
 <p>The rapid growth in both the overall e-commerce market and the specific product categories that RwandaMarket specializes in, coupled with the identified market trends, indicates a favorable environment for the company’s expansion. The increasing demand for premium, culturally significant, and sustainably produced products from Rwanda in the broader East African market, particularly in Kenya, suggests a strong potential for RwandaMarket’s unique offering.</p>
 <p>By leveraging these trends and focusing on high-quality, authentic Rwandan products, RwandaMarket is well-positioned to capture a significant share of the growing e-commerce market in East Africa.</p>
 <p>Data sources: [3], [4], [5], [9], [10], [11], [12], [13], [16], [17], [19], [20], [21]</p>
+</section>
+</section>
+<section id="competitor-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="competitor-analysis">Competitor Analysis</h3>
+<section id="direct-competitors" class="level4">
+<h4 class="anchored" data-anchor-id="direct-competitors">1. Direct Competitors</h4>
+<ol type="1">
+<li><strong>Jumia Kenya</strong>
+<ul>
+<li>Strengths: Wide reach, established brand</li>
+<li>Weaknesses: Less focus on artisanal products</li>
+</ul></li>
+<li><strong>Kilimall</strong>
+<ul>
+<li>Strengths: Strong in electronics and fashion</li>
+<li>Weaknesses: Limited offering in authentic African products</li>
+</ul></li>
+<li><strong>Masoko (by Safaricom)</strong>
+<ul>
+<li>Strengths: Backed by major telecom, integrated M-Pesa</li>
+<li>Weaknesses: Newer to the market, still building product range</li>
+</ul></li>
+</ol>
+</section>
+<section id="indirect-competitors" class="level4">
+<h4 class="anchored" data-anchor-id="indirect-competitors">2. Indirect Competitors</h4>
+<ol type="1">
+<li><strong>Traditional Markets and Souvenir Shops</strong>
+<ul>
+<li>Strengths: Physical presence, haggling experience</li>
+<li>Weaknesses: Limited reach, inconsistent quality</li>
+</ul></li>
+<li><strong>African-Focused Etsy Sellers</strong>
+<ul>
+<li>Strengths: Global reach, unique products</li>
+<li>Weaknesses: Higher shipping costs, longer delivery times</li>
+</ul></li>
+<li><strong>Local Rwandan Product Exporters</strong>
+<ul>
+<li>Strengths: Direct sourcing relationships</li>
+<li>Weaknesses: Often lack e-commerce capabilities</li>
+</ul></li>
+</ol>
+</section>
+<section id="competitive-positioning-map" class="level4">
+<h4 class="anchored" data-anchor-id="competitive-positioning-map">3. Competitive Positioning Map</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="business-plan_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
 </section>
 </section>
 <section id="key-market-drivers" class="level3">
@@ -565,7 +525,7 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="regulation-complexity-by-product-category">Regulation Complexity by Product Category</h4>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -599,57 +559,6 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
 <p>RwandaMarket is committed to full compliance with all trade regulations governing commerce between Rwanda and Kenya. By staying informed about regulatory changes, maintaining strong relationships with regulatory bodies, and implementing robust compliance processes, we aim to provide a seamless and legally compliant cross-border shopping experience for our customers.</p>
 </section>
-<section id="competitor-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="competitor-analysis">Competitor Analysis</h3>
-<section id="direct-competitors" class="level4">
-<h4 class="anchored" data-anchor-id="direct-competitors">1. Direct Competitors</h4>
-<ol type="1">
-<li><strong>Jumia Kenya</strong>
-<ul>
-<li>Strengths: Wide reach, established brand</li>
-<li>Weaknesses: Less focus on artisanal products</li>
-</ul></li>
-<li><strong>Kilimall</strong>
-<ul>
-<li>Strengths: Strong in electronics and fashion</li>
-<li>Weaknesses: Limited offering in authentic African products</li>
-</ul></li>
-<li><strong>Masoko (by Safaricom)</strong>
-<ul>
-<li>Strengths: Backed by major telecom, integrated M-Pesa</li>
-<li>Weaknesses: Newer to the market, still building product range</li>
-</ul></li>
-</ol>
-</section>
-<section id="indirect-competitors" class="level4">
-<h4 class="anchored" data-anchor-id="indirect-competitors">2. Indirect Competitors</h4>
-<ol type="1">
-<li><strong>Traditional Markets and Souvenir Shops</strong>
-<ul>
-<li>Strengths: Physical presence, haggling experience</li>
-<li>Weaknesses: Limited reach, inconsistent quality</li>
-</ul></li>
-<li><strong>African-Focused Etsy Sellers</strong>
-<ul>
-<li>Strengths: Global reach, unique products</li>
-<li>Weaknesses: Higher shipping costs, longer delivery times</li>
-</ul></li>
-<li><strong>Local Rwandan Product Exporters</strong>
-<ul>
-<li>Strengths: Direct sourcing relationships</li>
-<li>Weaknesses: Often lack e-commerce capabilities</li>
-</ul></li>
-</ol>
-</section>
-<section id="competitive-positioning-map" class="level4">
-<h4 class="anchored" data-anchor-id="competitive-positioning-map">3. Competitive Positioning Map</h4>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-</section>
-</section>
 <section id="consumer-behavior-insights" class="level3">
 <h3 class="anchored" data-anchor-id="consumer-behavior-insights">Consumer Behavior Insights</h3>
 <section id="key-purchasing-factors" class="level4">
@@ -677,7 +586,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -886,7 +795,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -918,7 +827,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -957,7 +866,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -1070,7 +979,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -1141,9 +1050,252 @@ ul.task-list li input[type="checkbox"] {
 <li>Random batch testing for consistency</li>
 <li>Customer feedback integration for continuous improvement</li>
 </ol>
+</section>
+</section>
+<section id="trade-partners" class="level3">
+<h3 class="anchored" data-anchor-id="trade-partners">Trade partners</h3>
+<div class="cell">
+<style type="text/css">
+.full-width {
+  width: 100%;
+  max-width: 100%;
+}
+</style>
+</div>
+<section id="introduction" class="level4">
+<h4 class="anchored" data-anchor-id="introduction">Introduction</h4>
+<p>This page provides comprehensive information on various cooperative societies in Rwanda that can serve as reliable suppliers for different products. These cooperatives play a crucial role in supporting local communities and ensuring the quality and authenticity of Rwandan products.</p>
+</section>
+<section id="coffee-cooperatives" class="level4">
+<h4 class="anchored" data-anchor-id="coffee-cooperatives">Coffee Cooperatives</h4>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="672"></p>
+<div class="table-responsive">
+<table class="table table-striped table-hover table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Name</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Umbrella_Body</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Certifications</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Products</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Contact</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Praise</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">Abahuzamugambi Ba Kawa</td>
+<td style="text-align: left;">National Agricultural Export Development Board (NAEB)</td>
+<td style="text-align: left;">Fair Trade, Rainforest Alliance</td>
+<td style="text-align: left;">Bourbon Arabica Coffee (Washed, Natural)</td>
+<td style="text-align: left;">info@abahuzamugambi.rw | +250 788 123 456</td>
+<td style="text-align: left;">Cup of Excellence winner 2008, 2012</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">Koakaka</td>
+<td rowspan="2" style="text-align: left; vertical-align: top !important;">NAEB</td>
+<td style="text-align: left;">Organic, UTZ Certified</td>
+<td style="text-align: left;">Bourbon Arabica Coffee (Washed, Honey)</td>
+<td style="text-align: left;">koakaka@gmail.com | +250 788 234 567</td>
+<td style="text-align: left;">Rwanda Taste of Harvest winner 2019</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">Kopakama</td>
+<td style="text-align: left;">Fair Trade, Organic</td>
+<td style="text-align: left;">Bourbon Arabica Coffee (Washed, Natural)</td>
+<td style="text-align: left;">kopakama@yahoo.com | +250 788 345 678</td>
+<td style="text-align: left;">Featured in Starbucks Reserve program</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+</div>
+</div>
+</section>
+<section id="tea-cooperatives" class="level4">
+<h4 class="anchored" data-anchor-id="tea-cooperatives">Tea Cooperatives</h4>
+<div class="cell">
+<div class="cell-output-display">
+<div class="table-responsive">
+<table class="table table-striped table-hover table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Name</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Umbrella_Body</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Certifications</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Products</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Contact</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Praise</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">Kobacyamu</td>
+<td style="text-align: left;">Rwanda Tea Cooperative Federation (FERWACOTHE)</td>
+<td style="text-align: left;">Rainforest Alliance, ISO 9001</td>
+<td style="text-align: left;">Black Tea, Green Tea, White Tea</td>
+<td style="text-align: left;">kobacyamu@tea.rw | +250 788 456 789</td>
+<td style="text-align: left;">Best Tea Award at East African Tea Trade Association 2020</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">Coothemuki</td>
+<td rowspan="2" style="text-align: left; vertical-align: top !important;">FERWACOTHE</td>
+<td style="text-align: left;">Organic, Fair Trade</td>
+<td style="text-align: left;">Black Tea, Orthodox Tea</td>
+<td style="text-align: left;">coothemuki@gmail.com | +250 788 567 890</td>
+<td style="text-align: left;">Recognized for sustainable practices by NAEB 2021</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">Assopthe</td>
+<td style="text-align: left;">UTZ Certified, ISO 22000</td>
+<td style="text-align: left;">Black Tea, Green Tea, Purple Tea</td>
+<td style="text-align: left;">assopthe@yahoo.com | +250 788 678 901</td>
+<td style="text-align: left;">Highest quality score in Rwanda Tea Authority audit 2022</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+</div>
+</div>
+</section>
+<section id="handicraft-cooperatives" class="level4">
+<h4 class="anchored" data-anchor-id="handicraft-cooperatives">Handicraft Cooperatives</h4>
+<div class="cell">
+<div class="cell-output-display">
+<div class="table-responsive">
+<table class="table table-striped table-hover table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Name</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Umbrella_Body</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Certifications</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Products</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Contact</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Praise</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">Cocoki</td>
+<td rowspan="3" style="text-align: left; vertical-align: top !important;">Rwanda Arts Council</td>
+<td style="text-align: left;">Fair Trade Certified</td>
+<td style="text-align: left;">Agaseke Baskets, Sisal Jewelry, Kitenge Textiles</td>
+<td style="text-align: left;">info@cocoki.org | +250 788 789 012</td>
+<td style="text-align: left;">Featured in Vogue magazine 2021</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">Covanya</td>
+<td style="text-align: left;">UNESCO Intangible Cultural Heritage</td>
+<td style="text-align: left;">Imigongo Art, Wooden Sculptures</td>
+<td style="text-align: left;">covanya.art@gmail.com | +250 788 890 123</td>
+<td style="text-align: left;">Smithsonian Folklife Festival participant 2019</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">Ibaba</td>
+<td style="text-align: left;">WFTO Guaranteed Fair Trade</td>
+<td style="text-align: left;">Embroidery, Modern Kitenge Fashion, Home Decor</td>
+<td style="text-align: left;">ibaba.rwanda@yahoo.com | +250 788 901 234</td>
+<td style="text-align: left;">Collaboration with international fashion brands</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+</div>
+</div>
+</section>
+<section id="other-product-cooperatives" class="level4">
+<h4 class="anchored" data-anchor-id="other-product-cooperatives">Other Product Cooperatives</h4>
+<div class="cell">
+<div class="cell-output-display">
+<div class="table-responsive">
+<table class="table table-striped table-hover table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Name</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Umbrella_Body</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Certifications</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Products</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Contact</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; font-weight: bold; color: white !important; background-color: rgba(124, 71, 0, 255) !important;">Praise</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">Apicula</td>
+<td style="text-align: left;">Rwanda Beekeepers Cooperative Federation</td>
+<td style="text-align: left;">Organic Certification, HACCP</td>
+<td style="text-align: left;">Raw Honey, Beeswax, Propolis</td>
+<td style="text-align: left;">apicula.honey@gmail.com | +250 788 012 345</td>
+<td style="text-align: left;">Gold Medal at ApiMondia International Apiculture Congress 2023</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">Koama</td>
+<td style="text-align: left;">Rwanda Horticulture Interprofessional Organization</td>
+<td style="text-align: left;">ISO 22000, FSSC 22000</td>
+<td style="text-align: left;">Akabanga Chili Oil, Hot Sauce, Dried Chili</td>
+<td style="text-align: left;">info@koama.rw | +250 788 123 456</td>
+<td style="text-align: left;">Featured in National Geographic's 'World's Hottest Foods' 2022</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">Indatwa</td>
+<td style="text-align: left;">Rwanda Textile Development Agency</td>
+<td style="text-align: left;">OEKO-TEX Standard 100</td>
+<td style="text-align: left;">Kitenge Fabrics, Ready-to-wear Clothing, Accessories</td>
+<td style="text-align: left;">indatwa.textiles@yahoo.com | +250 788 234 567</td>
+<td style="text-align: left;">Best Textile Innovation Award at Africa Fashion Week 2021</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+</div>
+</div>
+</section>
+<section id="conclusion-3" class="level4">
+<h4 class="anchored" data-anchor-id="conclusion-3">Conclusion</h4>
+<p>These cooperatives represent a selection of potential suppliers for various Rwandan products. They are recognized for their quality, certifications, and contributions to their respective industries. When considering partnerships, it’s important to conduct thorough due diligence, visit the cooperatives if possible, and ensure their practices align with your business values and quality standards.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="business-plan_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Our comprehensive range of products and services, coupled with our commitment to quality and authenticity, positions RwandaMarket as a unique player in the East African market.</p>
@@ -1208,7 +1360,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -1272,7 +1424,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>This comprehensive marketing strategy is designed to build brand awareness, drive customer acquisition, and foster long-term loyalty for both our B2C and B2B offerings. By leveraging a mix of digital and traditional marketing channels, we aim to establish RwandaMarket as the go-to platform for Rwandan products and East African trade facilitation.</p>
@@ -1308,7 +1460,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -1370,7 +1522,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>This operations plan ensures that RwandaMarket can efficiently manage its supply chain, inventory, order fulfillment, and customer service, all supported by a robust technology infrastructure.</p>
@@ -1423,7 +1575,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -1489,7 +1641,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="revenue-projections">Revenue Projections</h3>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -1538,7 +1690,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="business-plan_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid" width="672"></p>
+<p><img src="business-plan_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>This financial plan demonstrates RwandaMarket’s path to profitability and long-term financial sustainability. Our diverse revenue streams, coupled with strategic cost management and funding, position us for strong growth in the East African market.</p>

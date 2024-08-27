@@ -1,72 +1,79 @@
 ---
-title: "Company Description"
+title: ""
 ---
-
-### Mission Statement
-
-To bridge cultures and empower artisans by bringing the best of Rwanda to Nairobi, powered by cutting-edge data science and technology.
-
-### Vision Statement
-
-To become the premier platform for cross-border trade in East Africa, known for quality products, technological innovation, and positive social impact.
-
-### Company History and Background
-
-RwandaMarket was founded in 2024 by a team of entrepreneurs passionate about East African trade and technological innovation. The idea was born from recognizing the untapped potential of connecting Rwandan artisans with the growing Kenyan market, all while leveraging cutting-edge data science to optimize operations.
 
 ```{r}
 #| echo: false
 library(ggplot2)
+library(htmltools)
 
-# Company timeline data
+tags$p("
+       RwandaMarket was founded in 2024 by a team of entrepreneurs passionate about East African trade and technological innovation. The idea was born from recognizing the untapped potential of connecting Rwandan artisans with the growing Kenyan market, all while leveraging cutting-edge data science to optimize operations.")
+
+library(ggplot2)
+
 timeline_data <- data.frame(
-  Year = c(2023, 2024, 2024, 2025, 2026),
-  Event = c("Concept Development", "Company Founded", "E-commerce Launch", "Physical Store Opening", "B2B Services Expansion"),
-  Milestone = c(1, 2, 3, 4, 5)
+  Year = c(2022, 2023, 2024, 2024, 2024, 2025),
+  Event = c("Data Science \n Sole proprietorship", "Data Science \n Limited Company", "RwandaMarket \n Concept Development", "Physical Store", "E-commerce", "B2B Services"),
+  Milestone = c(1, 2, 3, 6, 7, 8)
 )
 
-# Create a timeline plot
 ggplot(timeline_data, aes(x = Year, y = Milestone, label = Event)) +
   geom_point(color = "#7C4700", size = 5) +
   geom_text(vjust = -1, hjust = 0.5, size = 3.5) +
   theme_minimal() +
   labs(title = "RwandaMarket Company Timeline", x = "Year", y = "") +
-  theme(axis.text.y = element_blank(), axis.ticks.y = element_blank())
+  theme(axis.text.y = element_blank(), axis.ticks.y = element_blank()) +
+  scale_x_continuous(limits = c(2021, 2026), breaks = 2021:2026) +
+  scale_y_continuous(limits = c(0, 11))
+
 ```
 
 ### Legal Structure and Ownership
 
-[PLACEHOLDER: Legal structure details to be finalized]
+```{r}
+#| echo: false
+library(ggplot2)
 
-RwandaMarket is structured as a [PLACEHOLDER: legal entity type] registered in Kenya. The company's ownership is distributed as follows:
+tags$p("RwandaMarket is a product of Kwiz Computing Techonologies Limited, a registered Private Company (limited by shares) in Kenya. The company's ownership is distributed as follows:")
 
-- [PLACEHOLDER: Founder/CEO Name]: XX%
-- [PLACEHOLDER: Co-founder/CTO Name]: XX%
-- [PLACEHOLDER: Parent Company Name]: XX%
-- [PLACEHOLDER: Other Investors]: XX%
+shareholders <- data.frame(
+  Name = c("Kwizera Jean Victor", "Iragena Vincent de Paul"),
+  Role = c("Active Cofounder", "Cofounder"),
+  Shares = c(2000, 1000),
+  Percentage = c("66.7%", "33.3%")
+)
+
+shareholders |> knitr::kable(caption = "Kwiz Computing Technologies Limited - Shareholding")
+```
 
 ### Location and Facilities
 
-#### Headquarters
-Our main office is located in the heart of Nairobi's business district:
 
-[PLACEHOLDER: Exact address]
+```{r}
+#| echo: false
+tags$h4("Headquarters")
+tags$p("Our main office will be located in the heart of Nairobi's business district:")
+tags$p("[PLACEHOLDER: Exact address]")
+tags$p("This central location will allow us to easily connect with our customers, partners, and the broader business community.")
+```
 
-This central location allows us to easily connect with our customers, partners, and the broader business community.
+```{r}
+#| echo: false
+tags$h4("Flagship Store")
+tags$p("Our physical retail presence will be anchored by our flagship store:")
+tags$p("[PLACEHOLDER: Exact address]")
+tags$p("This store will showcase our full range of Rwandan products and serves as a cultural hub for events and workshops.")
+```
 
-#### Flagship Store
-Our physical retail presence is anchored by our flagship store:
+```{r}
+#| echo: false
+tags$h4("Warehouse and Distribution Center")
+tags$p("To ensure efficient order fulfillment and inventory management, we will operate a state-of-the-art warehouse:")
+tags$p("[PLACEHOLDER: Exact address]")
+tags$p("This facility will be equipped with advanced inventory tracking systems and optimized for quick order processing and shipping.")
+```
 
-[PLACEHOLDER: Store address]
-
-This store showcases our full range of Rwandan products and serves as a cultural hub for events and workshops.
-
-#### Warehouse and Distribution Center
-To ensure efficient order fulfillment and inventory management, we operate a state-of-the-art warehouse:
-
-[PLACEHOLDER: Warehouse address]
-
-This facility is equipped with advanced inventory tracking systems and optimized for quick order processing and shipping.
 
 ### Core Values
 
@@ -76,4 +83,9 @@ This facility is equipped with advanced inventory tracking systems and optimized
 4. **Customer-Centricity**: We prioritize customer satisfaction in both our B2C and B2B operations.
 5. **Continuous Learning**: We constantly seek to improve and adapt to changing market conditions.
 
-RwandaMarket stands at the intersection of tradition and innovation, bringing the best of Rwanda to Kenya while setting new standards for cross-border e-commerce in East Africa.
+```{r}
+#| echo: false
+
+tags$br()
+tags$p("RwandaMarket stands at the intersection of tradition and innovation, bringing the best of Rwanda to Kenya while setting new standards for cross-border e-commerce in East Africa.")
+```

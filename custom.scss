@@ -18,3 +18,24 @@ $secondary: #00A86B !default;
 .nav-link:hover {
   color: darken(white, 10%) !important;
 }
+
+/*-- scss:defaults --*/
+$max-width: 100%;
+$navbar-width: 100%;
+
+/*-- scss:rules --*/
+.navbar-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.quarto-title-banner {
+  width: 100%;
+  max-width: 100%;
+}
+
+#quarto-content {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+}

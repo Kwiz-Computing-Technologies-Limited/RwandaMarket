@@ -22,10 +22,11 @@ website:
       - text: "Impact"
         href: our-impact.qmd
       - href: contact.qmd
-        text: Contact
+        text: "Contact"
 
 format:
   html:
+    page-layout: full
     theme: cosmo
     css: styles.css
     toc: true

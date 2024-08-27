@@ -2,14 +2,6 @@
 title: "Business Plan"
 ---
 
-## Executive Summary
-
-{{< include executive-summary.qmd >}}
-
-## Company Description
-
-{{< include company-description.qmd >}}
-
 ## Market Analysis
 
 {{< include market-analysis.qmd >}}

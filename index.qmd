@@ -2,46 +2,116 @@
 title: "RwandaMarket: Bridging Rwanda and Kenya through Innovation"
 ---
 
-Welcome to the comprehensive overview of RwandaMarket, a pioneering venture that connects the rich cultural heritage of Rwanda with the vibrant Kenyan market through innovative retail and B2B solutions.
+## Executive Summary
 
-### Our Vision
+```{r, echo=FALSE, message=FALSE}
+library(bslib)
+library(htmltools)
 
-To become the premier platform for cross-border trade in East Africa, known for quality products, technological innovation, and positive social impact.
+tags$p("Welcome to the comprehensive overview of RwandaMarket, a pioneering venture that connects the rich cultural heritage of Rwanda with the vibrant Kenyan market through innovative retail and B2B solutions. RwandaMarket is an innovative e-commerce platform and physical store network that brings premium Rwandan products to the Nairobi market while offering cutting-edge B2B solutions for cross-border trade.", style = "text-align: center;")
 
-### What We Offer
+tags$br() 
 
--   **For Consumers**: Authentic Rwandan products, from artisanal crafts to gourmet coffee
--   **For Businesses**: Cutting-edge solutions for cross-border trade and market insights
+mission_vision = list(
+  list(
+    title = "Mission Statement",
+    content = "To bridge cultures and empower artisans by bringing the best of Rwanda to Nairobi, powered by cutting-edge data science and technology."
+  ),
+  list(
+    title = "Vision Statement",
+    content = "To become the premier platform for cross-border trade in East Africa, known for quality products, technological innovation, and positive social impact."
+  )
+)
+
+layout_column_wrap(
+  width = 1/2,
+  height = "auto",
+  style = list(css(grid_gap = "1rem"), "border-color: #FFF;"),
+  !!!lapply(mission_vision, function(item) {
+    card(
+      style = "border-color: #FFF;",
+      card_header(h4(item$title, style = "color: ;"), style = "background-color: #FFF; text-align: center; border-color: #FFF;"),
+      card_body(item$content, style = "text-align: center; border-color: #FFF;"),
+      full_screen = TRUE
+    )
+  })
+)
+
+funding_req = list(
+    title = "Funding Requirement",
+    content = "$2.5 million for startup costs and initial operations"
+  )
+
+card(
+  style = "border-color: #FFF;",
+  card_header(h4(funding_req$title, style = "color: ;"), style = "background-color: #FFF; text-align: center; border-color: #FFF;"),
+  card_body(funding_req$content, style = "text-align: center; border-color: #FFF;"),
+  full_screen = TRUE
+  )
+
+```
+
 
 ```{r}
 #| echo: false
-library(ggplot2)
+#| output: asis
 
-## Data for B2C and B2B offering comparison
-offering_data <- data.frame(
-  Category = c("Products", "Services", "Technology", "Market Reach"),
-  B2C = c(40, 20, 15, 25),
-  B2B = c(20, 35, 30, 15)
+tags$h3("What We Offer")
+
+card_content <- list(
+  list(
+    title = "Target Market",
+    content = "Middle to upper-class Nairobi residents, expatriates, tourists, and businesses engaged in East African trade"
+  ),
+  list(
+    title = "Unique Value Proposition",
+    content = "Authentic Rwandan products combined with advanced technology for seamless shopping and trade facilitation. Strong partnerships with Rwandan artisans and Kenyan businesses"
+  ),
+  
+  list(
+    title = "For Consumers",
+    content = list(
+      tags$div("Authentic Rwandan products, from artisanal crafts to gourmet coffee"),
+      tags$br(),
+      tags$div("Authentic Rwandan experiences through curated Rwandan visits")
+    )
+  ),
+  list(
+    title = "For Businesses",
+    content = "Cutting-edge solutions for cross-border trade faclitation and market insights"
+  ),
+  list(
+    title = "Technology Focus",
+    content = "Data-driven approach to market analysis and business operations. Enterprise technology for 100% cross-border trade digitization"
+  ),
+  list(
+    title = "Revenue Streams",
+    content = "B2C product sales, B2B services including trade facilitation and market intelligence"
+  )
 )
 
-## Reshape data for plotting
-offering_long <- tidyr::pivot_longer(offering_data, cols = c(B2C, B2B), names_to = "Market", values_to = "Percentage")
-
-## Create a grouped bar chart
-ggplot(offering_long, aes(x = Category, y = Percentage, fill = Market)) +
-  geom_bar(stat = "identity", position = "dodge") +
-  theme_minimal() +
-  labs(title = "RwandaMarket: B2C and B2B Offerings",
-       x = "", y = "Focus Percentage") +
-  scale_fill_manual(values = c("#7C4700", "#00A86B")) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+layout_column_wrap(
+  width = 1/2,
+  height = "auto",
+  style = list(css(grid_gap = "1rem"), "border-color: #FFF;"),
+  !!!lapply(card_content, function(item) {
+    card(
+      style = "border-color: #FFF;",
+      card_header(h4(item$title, style = "color: ;"), style = "background-color: #FFF; text-align: center; border-color: #FFF;"),
+      card_body(item$content, style = "text-align: center; border-color: #FFF;"),
+      full_screen = TRUE
+    )
+  })
+)
 ```
 
-### Key Highlights
+### Company History and Background
 
--   Unique blend of cultural authenticity and technological innovation
--   Comprehensive understanding of East African trade regulations
--   Strong partnerships with Rwandan artisans and Kenyan businesses
--   Data-driven approach to market analysis and business operations
+{{< include company-description.qmd >}}
 
-Explore our detailed business plan and operational strategies through the navigation menu above.
+
+```{r, echo=FALSE}
+tags$br()
+
+tags$em("Explore our detailed business plan and operational strategies through the navigation menu above.")
+```

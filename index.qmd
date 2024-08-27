@@ -30,22 +30,22 @@ layout_column_wrap(
   !!!lapply(mission_vision, function(item) {
     card(
       style = "border-color: #FFF;",
-      card_header(h4(item$title, style = "color: ;"), style = "background-color: #FFF; text-align: center; border-color: #FFF;"),
+      card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
       card_body(item$content, style = "text-align: center; border-color: #FFF;"),
       full_screen = TRUE
     )
   })
 )
 
-funding_req = list(
+item = list(
     title = "Funding Requirement",
     content = "$2.5 million for startup costs and initial operations"
   )
 
 card(
   style = "border-color: #FFF;",
-  card_header(h4(funding_req$title, style = "color: ;"), style = "background-color: #FFF; text-align: center; border-color: #FFF;"),
-  card_body(funding_req$content, style = "text-align: center; border-color: #FFF;"),
+  card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+  card_body(item$content, style = "text-align: center; border-color: #FFF;"),
   full_screen = TRUE
   )
 
@@ -97,7 +97,7 @@ layout_column_wrap(
   !!!lapply(card_content, function(item) {
     card(
       style = "border-color: #FFF;",
-      card_header(h4(item$title, style = "color: ;"), style = "background-color: #FFF; text-align: center; border-color: #FFF;"),
+      card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
       card_body(item$content, style = "text-align: center; border-color: #FFF;"),
       full_screen = TRUE
     )

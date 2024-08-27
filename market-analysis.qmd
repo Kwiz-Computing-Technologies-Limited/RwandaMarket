@@ -2,107 +2,229 @@
 title: "Comprehensive Market Analysis"
 ---
 
-### Overview of the East African E-commerce Market
-
-The East African e-commerce market, particularly in Kenya and Rwanda, is experiencing rapid growth, driven by increasing internet penetration, smartphone adoption, and a growing middle class. This analysis focuses on the opportunities for RwandaMarket in facilitating trade of high-quality Rwandan products to the Kenyan market.
-
 ### Rwandan Products in the Global and Regional Market
 
 RwandaMarket's focus on authentic Rwandan products, combined with a tech-driven approach, positions the company to capitalize on the growing demand for unique, ethically-sourced goods in the East African market. Rwanda has gained recognition for several premium products that have strong market demand:
 
-#### 1. Rwandan Coffee
+```{r, message=FALSE}
+#| echo: false
+#| warning: false
+library(conflicted)
+library(htmltools)
+library(bslib)
+conflict_prefer("page", "bslib")
 
-- Rwandan coffee exports reached 23,000 tonnes in 2021, a 10% increase from 2020[13].
-- The country's coffee is predominantly Arabica (98%), known for its bright acidity and complex flavors[14].
-- Rwanda's coffee has gained international recognition, with some varieties scoring above 90 points on the Specialty Coffee Association scale[15].
+card_content <- list(
+  list(
+    title = "Rwandan Coffee",
+    content = list(
+      tags$li("Rwandan coffee exports reached 23,000 tonnes in 2021, a 10% increase from 2020"),
+      tags$li("The country's coffee is predominantly Arabica (98%), known for its bright acidity and complex flavors"),
+      tags$li("Rwanda's coffee has gained international recognition, with some varieties scoring above 90 points on the Specialty Coffee Association scale"))),
+  
+  list(
+    title = "Rwandan Handicrafts",
+    content = list(
+      tags$li("Agaseke peace baskets: Iconic symbols of Rwandan culture and reconciliation"),
+      tags$li("Imigongo art: Distinctive geometric designs traditionally made with cow dung"),
+      tags$li("Woodcarvings and ceramics: Showcasing Rwandan artistic traditions"))),
+  
+  list(
+    title = "Rwandan Tea",
+    content = list(
+      tags$li("Tea exports increased by 5% in 2021, reaching 33,000 tonnes"),
+      tags$li("Rwandan tea consistently fetches premium prices at international auctions, often the highest among East African countries"))),
+  
+  list(
+    title = "Other Notable Products",
+    content = list(
+      tags$li("Rwandan honey: Known for its high quality and unique flavors"),
+      tags$li("Chili oil: A growing export, particularly Akabanga chili oil"),
+      tags$li("Rwandan textiles: Including colorful kitenge fabrics")))
+)
 
-#### 2. Rwandan Tea
+card(
+  style = list("border-color: #FFF;"),
 
-- Tea exports increased by 5% in 2021, reaching 33,000 tonnes[17].
-- Rwandan tea consistently fetches premium prices at international auctions, often the highest among East African countries[18].
+  layout_column_wrap(
+    height = "auto",
+    width = 1/2,
+    style = list(css(grid_gap = "1rem"), "border-color: #FFF;"),
+    !!!lapply(card_content, function(item) {
+      card(
+        style = "background-color: #FFF; text-align: center; border-color: #7C4700, border-bottom-color: #7C4700;",
+        card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+        card_body(item$content, style = "text-align: center; border-color: #FFF;"),
+        full_screen = TRUE
+      )
+    })
+))
+```
 
-#### 3. Rwandan Handicrafts
-
-- Agaseke peace baskets: Iconic symbols of Rwandan culture and reconciliation.
-- Imigongo art: Distinctive geometric designs traditionally made with cow dung.
-- Woodcarvings and ceramics: Showcasing Rwandan artistic traditions.
-
-#### 4. Other Notable Products
-
-- Rwandan honey: Known for its high quality and unique flavors.
-- Chili oil: A growing export, particularly Akabanga chili oil.
-- Rwandan textiles: Including colorful kitenge fabrics.
 
 ### Target Market Segments
 
-RwandaMarket's target market can be segmented into two main categories: B2C and B2B.
+RwandaMarket's target market can be segmented into three main categories: B2C product sales, B2B product sales and B2B services.
 
-#### 1. B2C Segment
-
-1. **Urban Professionals (25-45 years)**
-   - High disposable income
-   - Tech-savvy and frequent online shoppers
-   - Interest in unique, high-quality products
-   
-2. **Expatriates and Tourists**
-   - Seeking authentic African products
-   - Higher willingness to pay for quality and uniqueness
-   
-3. **Conscious Consumers**
-   - Interested in ethically sourced and sustainable products
-   - Willing to pay premium for products with a story
-   
-4. **Cultural Enthusiasts**
-   - Interested in products with cultural significance
-   - Appreciation for high-quality, artisanal goods
-   - Desire to support African artisans and producers
-
-#### 2. B2B Segment
-
-1. **Retail Businesses**
-   - Small to medium-sized retailers in Kenya
-   - Looking to diversify product offerings
-   
-2. **Hospitality Industry**
-   - Hotels, resorts, and lodges
-   - Seeking unique, local products for guest experiences
-   
-3. **Corporate Gift Market**
-   - Companies looking for unique, high-quality corporate gifts
-   - Emphasis on products that reflect African culture and craftsmanship
-
-4. **Specialty Coffee Shops and Tea Houses**
-   - Seeking premium Rwandan coffee and tea
-   - Interested in the story behind the products
-   
-```{r}
+```{r, message=FALSE}
 #| echo: false
-library(ggplot2)
+#| warning: false
 
-segments <- c("Urban Professionals", "Expatriates & Tourists", "Conscious Consumers", "Retail Businesses", "Hospitality Industry", "Corporate Gift Market")
-market_share <- c(35, 20, 15, 15, 10, 5)
+card_content <- list(
+  list(
+    title = "Urban Professionals (25-45 years)",
+    content = list(
+      tags$li("High disposable income"),
+      tags$li("Tech-savvy and frequent online shoppers"),
+      tags$li("Interest in unique, high-quality products"))),
+  
+  list(
+    title = "Expatriates and Tourists",
+    content = list(
+      tags$li("Seeking authentic African products"),
+      tags$li("Higher willingness to pay for quality and uniqueness"))),
+  
+  list(
+    title = "Conscious Consumers",
+    content = list(
+      tags$li("Interested in ethically sourced and sustainable products"),
+      tags$li("Willing to pay premium for products with a story"))),
+  
+  list(
+    title = "Cultural Enthusiasts",
+    content = list(
+      tags$li("Interested in products with cultural significance"),
+      tags$li("Appreciation for high-quality, artisanal goods"),
+      tags$li("Desire to support African artisans and producers")))
+)
 
-segment_data <- data.frame(Segment = segments, Share = market_share)
+card(
+  style = "border-color: #FFF;",
+  card_header(tags$h4("B2C Product sales"), style = "background-color: #FFF; text-align: center; border-color: #FFF;"),
+  
+  layout_column_wrap(
+    width = 1/2,
+    style = list(css(grid_gap = "1rem"), "border-color: #FFF;"),
+    height = "auto",
+    style = list("border-color: #FFF;"),
+    !!!lapply(card_content, function(item) {
+      card(
+        style = "border-color: #7C4700;",
+        card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+        card_body(item$content, style = "text-align: center; border-color: #FFF;"),
+        full_screen = TRUE
+      )
+  })
+))
+```
 
-ggplot(segment_data, aes(x = "", y = Share, fill = Segment)) +
-  geom_bar(stat = "identity", width = 1) +
-  coord_polar("y", start = 0) +
-  theme_void() +
-  labs(title = "Target Market Segment Distribution") +
-  geom_text(aes(label = paste0(Share, "%")), position = position_stack(vjust = 0.5)) +
-  scale_fill_brewer(palette = "Set3")
+   
+```{r, message=FALSE}
+#| echo: false
+#| warning: false
+
+card_content <- list(
+  list(
+    title = "Retail Businesses",
+    content = list(
+      tags$li("Small to medium-sized retailers in Kenya"),
+      tags$li("Looking to diversify product offerings"))),
+  
+  list(
+    title = "Hospitality Industry",
+    content = list(
+      tags$li("Hotels, resorts, and lodges"),
+      tags$li("Seeking unique, local products for guest experiences"))),
+  
+  list(
+    title = "Corporate Gift Market",
+    content = list(
+      tags$li("Companies looking for unique, high-quality corporate gifts"),
+      tags$li("Emphasis on products that reflect African culture and craftsmanship"))),
+  
+  list(
+    title = "Specialty Coffee Shops and Tea Houses",
+    content = list(
+      tags$li("Seeking premium Rwandan coffee and tea"),
+      tags$li("Interested in the story behind the products")))
+)
+
+card(
+  style = "border-color: #FFF;",
+  card_header(tags$h3("B2B Product sales"), style = "background-color: #FFF; text-align: center; border-color: #FFF;"),
+  
+  layout_column_wrap(
+    width = 1/2,
+    height = "auto",
+    style = list(css(grid_gap = "1rem"), "border-color: #FFF;"),
+    !!!lapply(card_content, function(item) {
+      card(
+        style = "border-color: #7C4700;",
+        card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+        card_body(item$content, style = "text-align: center; border-color: #FFF;"),
+        full_screen = TRUE
+      )
+    })
+))
+```
+   
+
+```{r, message=FALSE}
+#| echo: false
+#| warning: false
+
+card_content <- list(
+  list(
+    title = "Cross-Border Trade Facilitation",
+    content = list(
+      tags$li("Customs documentation assistance"),
+      tags$li("Logistics optimization"),
+      tags$li("Regulatory compliance guidance"))),
+  
+  list(
+    title = "Market Intelligence",
+    content = list(
+      tags$li("Consumer trend analysis"),
+      tags$li("Competitive landscape mapping"),
+      tags$li("Market entry strategy consulting"))),
+  
+  list(
+    title = "Supply Chain Analytics",
+    content = list(
+      tags$li("Demand forecasting"),
+      tags$li("Inventory optimization"),
+      tags$li("Route planning and optimization"))),
+  
+  list(
+    title = "Blockchain-Enabled Product Authentication",
+    content = list(
+      tags$li("End-to-end supply chain tracking"),
+      tags$li("Counterfeit protection"),
+      tags$li("Consumer trust building")))
+)
+
+card(
+  style = "border-color: #FFF;",
+  card_header(tags$h3("B2B Services"), style = "background-color: #FFF; text-align: center; border-color: #FFF;"),
+  
+  layout_column_wrap(
+    width = 1/2,
+    height = "auto",
+    style = list(css(grid_gap = "1rem"), "border-color: #FFF;"),
+    !!!lapply(card_content, function(item) {
+      card(
+        style = "border-color: #7C4700;",
+        card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+        card_body(item$content, style = "text-align: center; border-color: #FFF;"),
+        full_screen = TRUE
+      )
+  })
+))
 ```
 
 ### Market Size, Growth Projections, and Trends
 
-The e-commerce market in East Africa, particularly in Kenya and Rwanda, is experiencing rapid growth, driven by several key trends that align well with RwandaMarket's focus on premium, culturally significant products.
-
-#### Overall E-commerce Market:
-- The African e-commerce market is projected to grow from $33.3 billion in 2022 to $56 billion by 2025, with an annual growth rate of 19.1% [4].
-- Kenya, as a leader in East African e-commerce, is expected to see its e-commerce market reach $2.5 billion by 2025, growing at 25% annually [5].
-- Rwanda's e-commerce market, while smaller, is growing rapidly at 30% annually and is projected to reach $200 million by 2025 [3].
-
-#### Specific Product Categories and Related Trends:
+##### Specific Product Categories and Related Trends:
 
 1. **Coffee and Tea Market:**
    - The global specialty coffee market is expected to reach $83.6 billion by 2025 [16].
@@ -110,7 +232,8 @@ The e-commerce market in East Africa, particularly in Kenya and Rwanda, is exper
    - The global tea market is forecasted to reach $318.7 billion by 2025 [19].
    - Rwandan tea exports are expected to grow by 5% annually, potentially reaching 40,000 tonnes by 2025 [17].
    
-   **Related Trend:** The specialty coffee and tea markets are growing, with consumers showing increased interest in single-origin, high-quality products. This trend supports the projected growth in Rwandan coffee and tea exports.
+   **Related Trend:**
+   - The specialty coffee and tea markets are growing, with consumers showing increased interest in single-origin, high-quality products. This trend supports the projected growth in Rwandan coffee and tea exports.
 
 2. **Handicrafts Market:**
    - The global handicrafts market is projected to reach $1.2 trillion by 2027 [20].
@@ -119,13 +242,32 @@ The e-commerce market in East Africa, particularly in Kenya and Rwanda, is exper
    **Related Trends:** 
    - Artisanal and Handmade Products: 36% of Kenyan online shoppers express interest in artisanal products [11].
    - Cultural Products: There's a rising demand for culturally significant products, with consumers seeking authentic, handcrafted items that tell a story.
+   
 
-3. **Sustainability and Ethical Production:**
-   41% of Kenyan consumers are willing to pay more for sustainable and ethically produced goods [10]. This trend aligns well with RwandaMarket's focus on ethically sourced, artisanal products from Rwanda.
+3. **Other Notable Products:**
+   - include text
+   
+  **Related Trends:**
+  - include text
+   
+   
+#### Overview of the East African E-commerce Market
 
-4. **Social Commerce and Personalization:**
+The East African e-commerce market, particularly in Kenya and Rwanda, is experiencing rapid growth that align well with RwandaMarket's focus on premium, culturally significant products; driven by several key trends e.g. increasing internet penetration, smartphone adoption, and a growing middle class. This analysis focuses on the opportunities for RwandaMarket in facilitating trade of high-quality Rwandan products to the Kenyan market.
+
+1. **Overall E-commerce Market:**
+   - The African e-commerce market is projected to grow from $33.3 billion in 2022 to $56 billion by 2025, with an annual growth rate of 19.1% [4].
+   - Kenya, as a leader in East African e-commerce, is expected to see its e-commerce market reach $2.5 billion by 2025, growing at 25% annually [5].
+   - Rwanda's e-commerce market, while smaller, is growing rapidly at 30% annually and is projected to reach $200 million by 2025 [3].
+
+   **Related Trends:** 
    - 48% of Kenyan online shoppers discover products through social media platforms [9].
    - 52% of East African e-commerce consumers expect personalized shopping experiences [12].
+   
+2. **Sustainability and Ethical Production:**
+   - 41% of Kenyan consumers are willing to pay more for sustainable and ethically produced goods [10]. 
+
+
    
 These trends highlight the importance of a strong social media presence and personalized marketing strategies for RwandaMarket.
 

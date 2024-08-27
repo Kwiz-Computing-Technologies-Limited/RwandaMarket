@@ -50,27 +50,7 @@ ggplot(category_data, aes(x = "", y = Percentage, fill = Category)) +
   geom_text(aes(label = paste0(Percentage, "%")), position = position_stack(vjust = 0.5))
 ```
 
-### B2B Services
 
-#### 1. Cross-Border Trade Facilitation
-- Customs documentation assistance
-- Logistics optimization
-- Regulatory compliance guidance
-
-#### 2. Market Intelligence
-- Consumer trend analysis
-- Competitive landscape mapping
-- Market entry strategy consulting
-
-#### 3. Supply Chain Analytics
-- Demand forecasting
-- Inventory optimization
-- Route planning and optimization
-
-#### 4. Blockchain-Enabled Product Authentication
-- End-to-end supply chain tracking
-- Counterfeit protection
-- Consumer trust building
 
 ### Pricing Strategy
 

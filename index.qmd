@@ -29,8 +29,8 @@ layout_column_wrap(
   style = list(css(grid_gap = "1rem"), "border-color: #FFF;"),
   !!!lapply(mission_vision, function(item) {
     card(
-      style = "border-color: #FFF;",
-      card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+      style = "border-color: #7C4700;",
+      card_header(h4(item$title, style = "color: #FFF;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
       card_body(item$content, style = "text-align: center; border-color: #FFF;"),
       full_screen = TRUE
     )
@@ -42,9 +42,11 @@ item = list(
     content = "$2.5 million for startup costs and initial operations"
   )
 
+tags$br()
+
 card(
-  style = "border-color: #FFF;",
-  card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+  style = "border-color: #7C4700;",
+  card_header(h4(item$title, style = "color: #FFF;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
   card_body(item$content, style = "text-align: center; border-color: #FFF;"),
   full_screen = TRUE
   )
@@ -96,8 +98,8 @@ layout_column_wrap(
   style = list(css(grid_gap = "1rem"), "border-color: #FFF;"),
   !!!lapply(card_content, function(item) {
     card(
-      style = "border-color: #FFF;",
-      card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+      style = "border-color: #7C4700;",
+      card_header(h4(item$title, style = "color: #FFF;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
       card_body(item$content, style = "text-align: center; border-color: #FFF;"),
       full_screen = TRUE
     )

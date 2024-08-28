@@ -6,10 +6,6 @@ title: "Business Plan"
 
 {{< include market-analysis.qmd >}}
 
-## Products and Services
-
-{{< include products-services.qmd >}}
-
 ## Marketing Strategy
 
 {{< include marketing-strategy.qmd >}}

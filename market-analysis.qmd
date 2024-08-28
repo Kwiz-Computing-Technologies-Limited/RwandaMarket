@@ -44,7 +44,7 @@ card_content <- list(
 )
 
 card(
-  style = list("border-color: #FFF;"),
+  style = "border-color: #FFF;",
 
   layout_column_wrap(
     height = "auto",
@@ -52,15 +52,14 @@ card(
     style = list(css(grid_gap = "1rem"), "border-color: #FFF;"),
     !!!lapply(card_content, function(item) {
       card(
-        style = "background-color: #FFF; text-align: center; border-color: #7C4700, border-bottom-color: #7C4700;",
-        card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
-        card_body(item$content, style = "text-align: center; border-color: #FFF;"),
+        style = "border-color: #7C4700;",
+        card_header(h4(item$title, style = "color: #FFF;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+        card_body(item$content, style = "text-align: center; border-color: #7C4700;"),
         full_screen = TRUE
       )
     })
 ))
 ```
-
 
 ### Target Market Segments
 
@@ -106,11 +105,10 @@ card(
     width = 1/2,
     style = list(css(grid_gap = "1rem"), "border-color: #FFF;"),
     height = "auto",
-    style = list("border-color: #FFF;"),
     !!!lapply(card_content, function(item) {
       card(
         style = "border-color: #7C4700;",
-        card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+        card_header(h4(item$title, style = "color: #FFF;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
         card_body(item$content, style = "text-align: center; border-color: #FFF;"),
         full_screen = TRUE
       )
@@ -160,7 +158,7 @@ card(
     !!!lapply(card_content, function(item) {
       card(
         style = "border-color: #7C4700;",
-        card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+        card_header(h4(item$title, style = "color: #FFF;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
         card_body(item$content, style = "text-align: center; border-color: #FFF;"),
         full_screen = TRUE
       )
@@ -214,13 +212,18 @@ card(
     !!!lapply(card_content, function(item) {
       card(
         style = "border-color: #7C4700;",
-        card_header(h4(item$title, style = "color: black;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+        card_header(h4(item$title, style = "color: #FFF;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
         card_body(item$content, style = "text-align: center; border-color: #FFF;"),
         full_screen = TRUE
       )
   })
 ))
 ```
+
+### Products and Services
+
+{{< include products-services.qmd >}}
+
 
 ### Market Size, Growth Projections, and Trends
 

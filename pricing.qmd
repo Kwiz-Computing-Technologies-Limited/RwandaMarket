@@ -1,0 +1,39 @@
+---
+title: "Pricing Strategy "
+---
+
+```{r, message=FALSE}
+#| echo: false
+#| warning: false
+
+card_content <- list(
+  list(
+    title = "B2C Pricing",
+    content = list(
+      card_body("Our B2C pricing strategy aims to position our products as premium, authentic Rwandan goods. Prices are set to reflect the quality and uniqueness of the items, while remaining competitive in the Nairobi market."),
+      card_body("[PLACEHOLDER: Specific pricing examples]"))),
+  
+  list(
+    title = "B2B Pricing",
+    content = list(
+      card_body("Our B2B services are priced using a tiered model, with basic packages for small businesses and more comprehensive solutions for larger enterprises. We also offer customized pricing for bespoke services."),
+      card_body("[PLACEHOLDER: Specific pricing examples]")))
+)
+
+layout_column_wrap(
+    width = 1/2,
+    height = "auto",
+    style = list(css(grid_gap = "1rem"), "border-color: #FFF;"),
+    !!!lapply(card_content, function(item) {
+      card(
+        style = "border-color: #7C4700;",
+        card_header(h4(item$title, style = "color: #FFF;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+        card_body(item$content, style = "text-align: center; border-color: #FFF;"),
+        full_screen = TRUE
+      )
+  })
+)
+```
+
+Our comprehensive range of products and services, coupled with our commitment to quality and authenticity, positions RwandaMarket as a unique player in the East African market.
+

@@ -16,9 +16,7 @@ library(kableExtra)
 }
 ```
 
-#### Introduction
-
-This page provides comprehensive information on various cooperative societies in Rwanda that can serve as reliable suppliers for different products. These cooperatives play a crucial role in supporting local communities and ensuring the quality and authenticity of Rwandan products.
+This section provides comprehensive information on various cooperative societies in Rwanda that can serve as reliable suppliers for different products. These cooperatives play a crucial role in supporting local communities and ensuring the quality and authenticity of Rwandan products.
 
 #### Coffee Cooperatives
 

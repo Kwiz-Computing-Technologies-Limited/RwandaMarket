@@ -13,4 +13,4 @@ update_github = function(message) {
   system("git push origin master:main")
 }
 
-# update_github(message = "update 1st section on market analysis")
+# update_github(message = "update products and services")

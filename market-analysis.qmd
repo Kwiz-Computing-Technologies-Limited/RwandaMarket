@@ -315,30 +315,55 @@ ggplot(qc_data, aes(x = Importance, y = reorder(Stage, Importance))) +
 
 ##### Specific Product Categories and Related Trends:
 
-1. **Coffee and Tea Market:**
-   - The global specialty coffee market is expected to reach $83.6 billion by 2025 [16].
-   - Rwandan coffee exports are projected to grow by 10% annually, reaching 28,000 tonnes by 2025 [13].
-   - The global tea market is forecasted to reach $318.7 billion by 2025 [19].
-   - Rwandan tea exports are expected to grow by 5% annually, potentially reaching 40,000 tonnes by 2025 [17].
-   
-   **Related Trend:**
-   - The specialty coffee and tea markets are growing, with consumers showing increased interest in single-origin, high-quality products. This trend supports the projected growth in Rwandan coffee and tea exports.
+```{r, message=FALSE}
+#| echo: false
+#| warning: false
 
-2. **Handicrafts Market:**
-   - The global handicrafts market is projected to reach $1.2 trillion by 2027 [20].
-   - East African handicrafts, including Rwandan products, are expected to see a 15% annual growth in online sales [21].
-   
-   **Related Trends:** 
-   - Artisanal and Handmade Products: 36% of Kenyan online shoppers express interest in artisanal products [11].
-   - Cultural Products: There's a rising demand for culturally significant products, with consumers seeking authentic, handcrafted items that tell a story.
-   
+card_content <- list(
+  list(
+    title = "Coffee and Tea Market",
+    content = list(
+      tags$li("The global specialty coffee market is expected to reach $83.6 billion by 2025 [16]"),
+      tags$li("Rwandan coffee exports are projected to grow by 10% annually, reaching 28,000 tonnes by 2025 [13]"),
+      tags$li("The global tea market is forecasted to reach $318.7 billion by 2025 [19]."),
+      tags$li("Rwandan tea exports are expected to grow by 5% annually, potentially reaching 40,000 tonnes by 2025 [17].")),
+    
+    title_2 = "Related Trend",
+    content_2 = list(
+      tags$li("The specialty coffee and tea markets are growing, with consumers showing increased interest in single-origin, high-quality products. This trend supports the projected growth in Rwandan coffee and tea exports")
+    )),
+  
+  list(
+    title = "*Handicrafts Market",
+    content = list(
+      tags$li("The global handicrafts market is projected to reach $1.2 trillion by 2027 [20]."),
+      tags$li("East African handicrafts, including Rwandan products, are expected to see a 15% annual growth in online sales [21].")),
+    
+    title_2 = "Related Trend",
+    content_2 = list(
+      tags$li("Artisanal and Handmade Products: 36% of Kenyan online shoppers express interest in artisanal products [11]."),
+      tags$li("Cultural Products: There's a rising demand for culturally significant products, with consumers seeking authentic, handcrafted items that tell a story.")
+      ))
+)
 
-3. **Other Notable Products:**
-   - include text
-   
-   **Related Trends:**
-   - include text
-   
+layout_column_wrap(
+    width = 1/2,
+    height = "auto",
+    style = list(css(grid_gap = "1rem"), "border-color: #FFF;"),
+    !!!lapply(card_content, function(item) {
+      card(
+        style = "border-color: #7C4700;",
+        card_header(h4(item$title, style = "color: #FFF;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+        card_body(item$content, style = "text-align: center; border-color: #FFF;"),
+        card_header(h4(item$title_2, style = "color: #FFF;"), style = "background-color: #7C4700; text-align: center; border-color: #FFF;"),
+        card_body(item$content_2, style = "text-align: center; border-color: #FFF;"),
+        full_screen = TRUE
+      )
+  })
+)
+```
+
+
    
 #### Overview of the East African E-commerce Market
 

@@ -5,6 +5,8 @@ title: "Pricing Strategy "
 ```{r, message=FALSE}
 #| echo: false
 #| warning: false
+library(bslib)
+library(htmltools)
 
 card_content <- list(
   list(

@@ -23,6 +23,8 @@ website:
         href: our-impact.qmd
       - href: contact.qmd
         text: "Contact"
+      - href: sample_shiny_page.qmd
+        text: "sample shiny"
 
 format:
   html:
@@ -37,4 +39,3 @@ format:
           color: #FFF !important;
         }
         </style>
-    

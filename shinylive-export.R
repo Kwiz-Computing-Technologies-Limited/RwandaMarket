@@ -2,7 +2,7 @@ library(shinylive)
 library(here)
 # system("quarto add quarto-ext/shinylive")
 # in the qmd yml add:
-# filters: 
+# filters:
 # - shinylive
 
 # use chunks {shinylive-r} to embed shiny app
@@ -13,4 +13,4 @@ update_github = function(message) {
   system("git push origin master:main")
 }
 
-# update_github(message = "update products and services")
+update_github(message = "test shinylive")

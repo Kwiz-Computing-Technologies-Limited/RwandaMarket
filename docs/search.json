@@ -1006,5 +1006,47 @@
     "title": "RwandaMarket",
     "section": "Continuous Improvement Framework",
     "text": "Continuous Improvement Framework\nImplementing a framework for ongoing optimization and adaptation to changing business needs."
+  },
+  {
+    "objectID": "sample_shiny_page.html",
+    "href": "sample_shiny_page.html",
+    "title": "Species Occurrence in the US",
+    "section": "",
+    "text": "This document showcases the distribution of various species across the United States. Use the interactive elements below to explore the data."
+  },
+  {
+    "objectID": "sample_shiny_page.html#introduction",
+    "href": "sample_shiny_page.html#introduction",
+    "title": "Species Occurrence in the US",
+    "section": "",
+    "text": "This document showcases the distribution of various species across the United States. Use the interactive elements below to explore the data."
+  },
+  {
+    "objectID": "sample_shiny_page.html#leaflet-map",
+    "href": "sample_shiny_page.html#leaflet-map",
+    "title": "Species Occurrence in the US",
+    "section": "Leaflet Map",
+    "text": "Leaflet Map\nSelect a species to view its distribution on the map:\n#| standalone: true\n#| viewerHeight: 100\nlibrary(shiny)\n\nselectInput(\"species_leaflet\", \"Select Species for Leaflet:\", \n            choices = c(\"Species A\", \"Species B\", \"Species C\"))\nThe map below will update based on your selection:\n#| standalone: true\n#| viewerHeight: 400\nlibrary(shiny)\nlibrary(leaflet)\n\n# Sample data (replace with your actual data)\nspecies_data &lt;- data.frame(\n  species = c(\"Species A\", \"Species B\", \"Species C\"),\n  lat = c(37.7749, 40.7128, 34.0522),\n  lon = c(-122.4194, -74.0060, -118.2437),\n  count = c(50, 30, 40)\n)\n\nleafletOutput(\"leaflet_map\")\n\nserver &lt;- function(input, output, session) {\n  output$leaflet_map &lt;- renderLeaflet({\n    filtered_data &lt;- species_data[species_data$species == input$species_leaflet, ]\n    \n    leaflet() %&gt;%\n      addTiles() %&gt;%\n      addMarkers(\n        data = filtered_data,\n        ~lon, ~lat,\n        popup = ~paste(species, \": \", count)\n      )\n  })\n}"
+  },
+  {
+    "objectID": "sample_shiny_page.html#plotly-map",
+    "href": "sample_shiny_page.html#plotly-map",
+    "title": "Species Occurrence in the US",
+    "section": "Plotly Map",
+    "text": "Plotly Map\nNow, let’s look at another visualization using Plotly. Select a species:\n#| standalone: true\n#| viewerHeight: 100\nlibrary(shiny)\n\nselectInput(\"species_plotly\", \"Select Species for Plotly:\", \n            choices = c(\"Species A\", \"Species B\", \"Species C\"))\nThe Plotly map will update based on your selection:\n#| standalone: true\n#| viewerHeight: 400\nlibrary(shiny)\nlibrary(plotly)\n\n# Sample data (replace with your actual data)\nspecies_data &lt;- data.frame(\n  species = c(\"Species A\", \"Species B\", \"Species C\"),\n  lat = c(37.7749, 40.7128, 34.0522),\n  lon = c(-122.4194, -74.0060, -118.2437),\n  count = c(50, 30, 40)\n)\n\nplotlyOutput(\"plotly_map\")\n\nserver &lt;- function(input, output, session) {\n  output$plotly_map &lt;- renderPlotly({\n    filtered_data &lt;- species_data[species_data$species == input$species_plotly, ]\n    \n    plot_ly(\n      data = filtered_data,\n      type = 'scattergeo',\n      lon = ~lon,\n      lat = ~lat,\n      text = ~paste(species, \": \", count),\n      marker = list(size = 10)\n    ) %&gt;%\n      layout(\n        geo = list(\n          scope = 'usa',\n          projection = list(type = 'albers usa'),\n          showland = TRUE,\n          landcolor = toRGB(\"gray95\"),\n          countrycolor = toRGB(\"gray80\")\n        )\n      )\n  })\n}"
+  },
+  {
+    "objectID": "sample_shiny_page.html#historical-data",
+    "href": "sample_shiny_page.html#historical-data",
+    "title": "Species Occurrence in the US",
+    "section": "Historical Data",
+    "text": "Historical Data\nUse the slider below to select a year and see how the data changes:\n#| standalone: true\n#| viewerHeight: 100\nlibrary(shiny)\n\nsliderInput(\"year\", \"Select Year:\", min = 2020, max = 2023, value = 2023)\nThe text below will update based on your selection:\n#| standalone: true\n#| viewerHeight: 100\nlibrary(shiny)\n\n# Sample data (replace with your actual data)\nspecies_data &lt;- data.frame(\n  species = c(\"Species A\", \"Species B\", \"Species C\"),\n  count = c(50, 30, 40)\n)\n\ntextOutput(\"dynamic_text\")\n\nserver &lt;- function(input, output, session) {\n  output$dynamic_text &lt;- renderText({\n    paste(\"You selected the year\", input$year, \". In this year, we observed\",\n          sum(species_data$count), \"occurrences across all species.\")\n  })\n}"
+  },
+  {
+    "objectID": "sample_shiny_page.html#conclusion",
+    "href": "sample_shiny_page.html#conclusion",
+    "title": "Species Occurrence in the US",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis interactive document demonstrates the power of combining Quarto with Shinylive to create engaging, browser-based data visualizations. The distributed layout allows for a more narrative-driven approach to data exploration."
   }
 ]

@@ -1,32 +1,16 @@
 library(shiny)
 
-ui_tariff <- fluidPage(
-  (
-    textInput("product_name", "Product Name"),
-    textInput("hs_code", "HS Code"),
-    selectInput("origin_country", "Origin Country", 
-                choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
-    selectInput("destination_country", "Destination Country", 
-                choices = c("Rwanda", "Kenya", "Uganda", "Tanzania", "Burundi", "South Sudan")),
-    numericInput("shipment_value", "Shipment Value (USD)", value = 0),
-    numericInput("standard_tariff_rate", "Standard Tariff Rate (%)", value = 0),
-    numericInput("preferential_tariff_rate", "Preferential Tariff Rate under EAC (%)", value = 0),
-    textInput("certificate_of_origin_number", "Certificate of Origin Number"),
-    actionButton("calculate", "Calculate Savings"),
-    verbatimTextOutput("savings_output")
-  )
+# Sample data (replace with your actual data)
+species_data <- data.frame(
+  species = c("Species A", "Species B", "Species C"),
+  count = c(50, 30, 40)
 )
 
-server_tariff <- function(input, output, session) {
-  observeEvent(input$calculate, {
-    standard_duty = input$shipment_value * (input$standard_tariff_rate / 100)
-    preferential_duty = input$shipment_value * (input$preferential_tariff_rate / 100)
-    savings = standard_duty - preferential_duty
-    
-    output$savings_output <- renderText({
-      paste("Estimated Tariff Savings: $", format(savings, big.mark = ",", digits = 2))
-    })
+textOutput("dynamic_text")
+
+server <- function(input, output, session) {
+  output$dynamic_text <- renderText({
+    paste("You selected the year", input$year, ". In this year, we observed",
+          sum(species_data$count), "occurrences across all species.")
   })
 }
-
-shinyApp(ui_tariff, server_tariff)

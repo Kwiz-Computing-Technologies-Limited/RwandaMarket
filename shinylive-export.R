@@ -18,6 +18,7 @@ library(here)
 quarto::quarto_render(as_job = FALSE)
 update_github = function(message) {
   system("git status")
+  system("git add -u .")
   system("git add -A")
   system(paste0('git commit -m "', message, '"'))
   system("git push origin dev:dev")

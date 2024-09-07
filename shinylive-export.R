@@ -12,7 +12,7 @@ library(here)
 
 # use chunks {shinylive-r} to embed shiny app
 
-quarto::quarto_render()
+quarto::quarto_render(as_job = FALSE)
 update_github = function(message) {
   system("git add -A")
   system(paste0('git commit -m "', message, '"'))

@@ -1,4 +1,5 @@
 project:
+  title: "RwandaMarket"
   type: website
   output-dir: docs
   resources:

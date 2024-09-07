@@ -2,7 +2,9 @@
 title: "Product Origin Declaration"
 execute: 
   echo: false
-filters: 
+engine: knitr
+filters:
+  - webr
   - shinylive
 ---
 

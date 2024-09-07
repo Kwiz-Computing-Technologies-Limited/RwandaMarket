@@ -2,7 +2,9 @@
 title: "Non-Tariff Barrier Reporting"
 execute: 
   echo: false
-filters: 
+engine: knitr
+filters:
+  - webr
   - shinylive
 ---
 

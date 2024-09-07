@@ -6,7 +6,9 @@ format:
     code-summary: "Show the code"
     resources: 
       - shinylive-sw.js
+engine: knitr
 filters:
+  - webr
   - shinylive
 ---
 

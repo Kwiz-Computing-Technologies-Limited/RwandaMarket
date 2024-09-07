@@ -6,12 +6,15 @@ format:
     code-summary: "Show the code"
     resources: 
       - shinylive-sw.js
+engine: knitr
 filters:
+  - webr
   - shinylive
 ---
 
 We value open communication with our customers, partners, and stakeholders. Whether you have a question about our products, want to explore B2B opportunities, or are interested in joining our team, we're here to help.
 
+:::{.callout-note}
 ## Contact Information
 
 - **General Inquiries**: info@rwandamarket.com
@@ -21,16 +24,21 @@ We value open communication with our customers, partners, and stakeholders. Whet
 - **Press and Media**: media@rwandamarket.com
 
 **Phone**: +254 20 [PLACEHOLDER: Phone number]
+:::
 
+:::{.callout-note}
 **Physical Address**:  
 RwandaMarket Ltd.  
 [PLACEHOLDER: Street Address]  
 Nairobi, Kenya
+:::
 
+:::{.callout-note}
 **Operating Hours**:  
 Monday - Friday: 9:00 AM - 6:00 PM (EAT)  
 Saturday: 10:00 AM - 4:00 PM (EAT)  
 Sunday: Closed
+:::
 
 ## Contact Form
 

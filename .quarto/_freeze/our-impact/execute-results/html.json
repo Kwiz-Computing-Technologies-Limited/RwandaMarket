@@ -1,0 +1,17 @@
+{
+  "hash": "1c5e510a7483450e0ac3bb6057106f38",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Our Impact\"\n---\n\n\n\n\nAt RwandaMarket, we believe in creating positive change through our business activities. Our impact spans social, economic, and environmental dimensions, benefiting communities in both Rwanda and Kenya.\n\n## Social Impact\n\n### Empowering Artisans\n\n-   Direct partnerships with \\[PLACEHOLDER: Number\\] Rwandan artisan cooperatives\n-   Fair compensation and sustainable income for artisans\n-   Skills development and training programs\n\n### Preserving Cultural Heritage\n\n-   Promotion of traditional Rwandan crafts and techniques\n-   Cultural exchange initiatives between Rwanda and Kenya\n\n## Economic Impact\n\n### Job Creation\n\n-   \\[PLACEHOLDER: Number\\] jobs created in Rwanda (artisans and logistics)\n-   \\[PLACEHOLDER: Number\\] jobs created in Kenya (retail and operations)\n\n### Boosting Cross-Border Trade\n\n-   Facilitating increased trade volume between Rwanda and Kenya\n-   Supporting small and medium enterprises in navigating international markets\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](our-impact_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\n\n## Environmental Impact\n\n### Sustainable Sourcing\n\n-   Promotion of eco-friendly production methods\n-   Use of renewable materials in product packaging\n\n### Carbon Footprint Reduction\n\n-   Optimization of logistics to reduce transportation emissions\n-   Investment in carbon offset projects in East Africa\n\n## Community Initiatives\n\n-   Educational scholarships for artisans' children\n-   Health and wellness programs in partner communities\n\n## Future Impact Goals\n\n1.  Expand artisan network to \\[PLACEHOLDER: Number\\] cooperatives by 2028\n2.  Achieve carbon neutrality in our operations by 2030\n3.  Establish a vocational training center for traditional crafts in Rwanda\n\nRwandaMarket is committed to growing our business responsibly, ensuring that our success translates into positive outcomes for the communities we serve.\n",
+    "supporting": [
+      "our-impact_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "hash": "242115fe7162d0d9426b688d8695ef4c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Non-Tariff Barrier Reporting\"\nexecute: \n  echo: false\nengine: knitr\nfilters:\n  - webr\n  - shinylive\n---\n\n\n\n## Understanding Non-Tariff Barriers (NTBs)\n\nNon-Tariff Barriers are obstacles to trade that are not in the form of a tariff. They can include: - Complex customs procedures - Technical regulations and standards - Sanitary and phytosanitary measures - Licensing requirements - Quotas\n\nReporting and addressing NTBs is crucial for smooth cross-border trade operations.\n\n## NTB Reporting Form\n\nIf you encounter a non-tariff barrier, please report it using the form below:\n\n```{shinylive-r}\n#| standalone: true\nlibrary(shiny)\n\nui_nontariff <- fluidPage(\n  (\n    selectInput(\"barrier_type\", \"Type of Non-Tariff Barrier\", \n                choices = c(\"Customs Procedures\", \"Technical Regulations\", \"Sanitary Measures\", \"Licensing Requirements\", \"Other\")),\n    selectInput(\"country\", \"Country Where Barrier was Encountered\", \n              choices = c(\"Rwanda\", \"Kenya\", \"Uganda\", \"Tanzania\", \"Burundi\", \"South Sudan\")),\n    dateInput(\"date_encountered\", \"Date Encountered\"),\n    textAreaInput(\"barrier_description\", \"Detailed Description of the Barrier\"),\n    numericInput(\"estimated_cost\", \"Estimated Cost Impact (USD)\", value = 0),\n    textAreaInput(\"resolution_efforts\", \"Description of Resolution Efforts\"),\n    selectInput(\"status\", \"Current Status\", \n                choices = c(\"Unresolved\", \"In Progress\", \"Resolved\")),\n    actionButton(\"submit\", \"Submit Report\")\n  )\n)\n\nserver_nontariff <- function(input, output, session) {\n  observeEvent(input$submit, {\n    # In a real application, this would process and store the form data\n    showNotification(\"NTB report submitted successfully\", type = \"message\")\n  })\n}\n\nshinyApp(ui_nontariff, server_nontariff)\n```\n\n## NTB Analysis and Resolution\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](non-tariff-barrier-reporting_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\nOur team regularly analyzes reported NTBs to: 1. Identify patterns and recurring issues 2. Develop strategies for overcoming common barriers 3. Engage with relevant authorities to address systemic problems 4. Provide guidance to our partners on navigating complex regulations\n\n## Resources for Addressing NTBs\n\n-   [EAC Trade Helpdesk](https://www.eac.int/trade)\n-   [World Trade Organization - Trade Facilitation Agreement Facility](https://www.tfafacility.org/)\n-   RwandaMarket's Guide to Navigating EAC Trade Regulations (download link)\n\nFor assistance with specific NTBs, please contact our trade facilitation team at trade.support\\@rwandamarket.com.\n",
+    "supporting": [
+      "non-tariff-barrier-reporting_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

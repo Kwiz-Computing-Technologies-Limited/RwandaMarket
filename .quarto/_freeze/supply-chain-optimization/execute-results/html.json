@@ -1,0 +1,17 @@
+{
+  "hash": "1107132f39fcebdc8f4035861347a2b9",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"\"\n---\n\n\n\nRwandaMarket's supply chain spans from artisan workshops in Rwanda to customers in Kenya, involving multiple touchpoints and stakeholders.\n\n## Key Optimization Areas\n\n1. Sourcing and Procurement\n2. Inventory Management\n3. Warehousing\n4. Transportation and Logistics\n5. Last-Mile Delivery\n\n## Data-Driven Optimization Strategies\n\n### Demand Forecasting\n\nUsing historical sales data and machine learning algorithms to predict future demand.\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](supply-chain-optimization_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\n### Inventory Optimization\n\nImplementing a Just-in-Time (JIT) inventory system to reduce holding costs while ensuring product availability.\n\n### Route Optimization\n\nUsing algorithms to determine the most efficient delivery routes, reducing transportation costs and delivery times.\n\n## Performance Metrics\n\n- Order Fulfillment Rate\n- Inventory Turnover Ratio\n- On-Time Delivery Rate\n- Supply Chain Cycle Time\n\n## Technology Integration\n\n- IoT devices for real-time tracking\n- Blockchain for supply chain transparency\n- AI for predictive analytics\n",
+    "supporting": [
+      "supply-chain-optimization_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

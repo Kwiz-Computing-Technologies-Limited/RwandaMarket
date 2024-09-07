@@ -1,0 +1,107 @@
+{
+  "index.qmd": {
+    "index.html": "1d1cdf02"
+  },
+  "market-analysis.qmd": {
+    "market-analysis.html": "cf27fc0f"
+  },
+  "b2c-offerings.qmd": {
+    "b2c-offerings.html": "78c029c5"
+  },
+  "contact.qmd": {
+    "contact.html": "c7244563"
+  },
+  "optimization-documentation.qmd": {
+    "optimization-documentation.html": "293050a6"
+  },
+  "financial-plan.qmd": {
+    "financial-plan.html": "5075561c"
+  },
+  "operations-plan.qmd": {
+    "operations-plan.html": "c5de7bee"
+  },
+  "marketing-strategy.qmd": {
+    "marketing-strategy.html": "c93c6068"
+  },
+  "free-trade-benefits.qmd": {
+    "free-trade-benefits.html": "3ce7ce64"
+  },
+  "trade-regulations.qmd": {
+    "trade-regulations.html": "90e718a6"
+  },
+  "non-tariff-barrier-reporting.qmd": {
+    "non-tariff-barrier-reporting.html": "80d3bc10"
+  },
+  "executive-summary.qmd": {
+    "executive-summary.html": "769cc81f"
+  },
+  "customer-experience-optimization.qmd": {
+    "customer-experience-optimization.html": "b95c6129"
+  },
+  "management-team.qmd": {
+    "management-team.html": "9c3b8c24"
+  },
+  "documentation-requirements.qmd": {
+    "documentation-requirements.html": "e1cf9d46"
+  },
+  "product-origin-declaration.qmd": {
+    "product-origin-declaration.html": "ac5d6058"
+  },
+  "rapid-rollout.qmd": {
+    "rapid-rollout.html": "8156cfd1"
+  },
+  "supply-chain-optimization.qmd": {
+    "supply-chain-optimization.html": "96fcf171"
+  },
+  "products-services.qmd": {
+    "products-services.html": "2fe5945a"
+  },
+  "tariff-savings-tracking.qmd": {
+    "tariff-savings-tracking.html": "8ea5384e"
+  },
+  "future-growth.qmd": {
+    "future-growth.html": "e38f8881"
+  },
+  "b2b-solutions.qmd": {
+    "b2b-solutions.html": "7a8d1e69"
+  },
+  "consular-services.qmd": {
+    "consular-services.html": "b619ad47"
+  },
+  "company-description.qmd": {
+    "company-description.html": "0eaf6f8b"
+  },
+  "business-operations-optimization.qmd": {
+    "business-operations-optimization.html": "4f3411e6"
+  },
+  "our-impact.qmd": {
+    "our-impact.html": "1f7c5974"
+  },
+  "business-plan.qmd": {
+    "business-plan.html": "8d0fe130"
+  },
+  "trade-benefits.qmd": {
+    "trade-benefits.html": "30ac6186"
+  },
+  "operations.qmd": {
+    "operations.html": "f1f98c35"
+  },
+  "optimization.qmd": {
+    "optimization.html": "051b62a7"
+  },
+  "growth-and-impact.qmd": {
+    "growth-and-impact.html": "b41347df"
+  },
+  "impact.qmd": {
+    "impact.html": "248c7c60"
+  },
+  "suppliers.qmd": {
+    "suppliers.html": "707e988d"
+  },
+  "sample_shiny_page.qmd": {
+    "sample_shiny_page.html": "ef94ec3f"
+  },
+  "pricing.qmd": {
+    "pricing.html": "7f2f932a"
+  }
+}

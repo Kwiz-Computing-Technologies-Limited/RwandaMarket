@@ -1,0 +1,17 @@
+{
+  "hash": "1c562c64a0d4c38672e786db66f1e87b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Tariff Savings Tracking\"\nexecute: \n  echo: false\nengine: knitr\nfilters:\n  - webr\n  - shinylive\n---\n\n\n\n## Importance of Tracking Tariff Savings\n\nMonitoring tariff savings is essential for: 1. Quantifying the financial benefits of free trade agreements 2. Informing pricing strategies 3. Identifying the most profitable trade routes and product categories 4. Supporting decision-making in sourcing and market expansion\n\n## Tariff Savings Calculator and Tracker\n\nUse the form below to calculate and track your tariff savings:\n\n```{shinylive-r}\n#| standalone: true\nlibrary(shiny)\n\nui_tariff <- fluidPage(\n  (\n    textInput(\"product_name\", \"Product Name\"),\n    textInput(\"hs_code\", \"HS Code\"),\n    selectInput(\"origin_country\", \"Origin Country\", \n                choices = c(\"Rwanda\", \"Kenya\", \"Uganda\", \"Tanzania\", \"Burundi\", \"South Sudan\")),\n    selectInput(\"destination_country\", \"Destination Country\", \n                choices = c(\"Rwanda\", \"Kenya\", \"Uganda\", \"Tanzania\", \"Burundi\", \"South Sudan\")),\n    numericInput(\"shipment_value\", \"Shipment Value (USD)\", value = 0),\n    numericInput(\"standard_tariff_rate\", \"Standard Tariff Rate (%)\", value = 0),\n    numericInput(\"preferential_tariff_rate\", \"Preferential Tariff Rate under EAC (%)\", value = 0),\n    textInput(\"certificate_of_origin_number\", \"Certificate of Origin Number\"),\n    actionButton(\"calculate\", \"Calculate Savings\"),\n    verbatimTextOutput(\"savings_output\")\n  )\n)\n\nserver_tariff <- function(input, output, session) {\n  observeEvent(input$calculate, {\n    standard_duty = input$shipment_value * (input$standard_tariff_rate / 100)\n    preferential_duty = input$shipment_value * (input$preferential_tariff_rate / 100)\n    savings = standard_duty - preferential_duty\n    \n    output$savings_output <- renderText({\n      paste(\"Estimated Tariff Savings: $\", format(savings, big.mark = \",\", digits = 2))\n    })\n  })\n}\n\nshinyApp(ui_tariff, server_tariff)\n```\n\n## Analyzing Your Tariff Savings\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](tariff-savings-tracking_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\nRegular analysis of your tariff savings can reveal: - Most beneficial product categories for cross-border trade - Opportunities for expanding into new markets within the EAC - Potential for price adjustments to increase competitiveness\n\nFor detailed reports and analysis of your tariff savings, please contact our finance team at finance\\@rwandamarket.com.\n",
+    "supporting": [
+      "tariff-savings-tracking_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

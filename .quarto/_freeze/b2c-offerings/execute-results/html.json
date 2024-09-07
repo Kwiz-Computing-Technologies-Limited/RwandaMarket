@@ -1,0 +1,17 @@
+{
+  "hash": "952f98e67dac30f89188ad7fb02c37a2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"B2C Offerings\"\n---\n\n\n\nDiscover the rich cultural heritage of Rwanda through our carefully curated selection of authentic products. Each item in our collection tells a unique story of Rwandan craftsmanship and tradition.\n\n## Product Categories\n\n### 1. Coffee and Tea\n\nExperience the rich flavors of Rwanda's highlands with our premium coffee and tea selection.\n\n- Single-origin coffee beans from renowned Rwandan cooperatives\n- Specialty tea blends, including black, green, and herbal varieties\n- Handcrafted coffee and tea accessories\n\n### 2. Handicrafts\n\nAdd a touch of Rwandan artistry to your home with our exquisite handicrafts.\n\n- Traditional Agaseke peace baskets\n- Intricately carved wooden sculptures\n- Hand-woven textiles and tapestries\n\n### 3. Jewelry\n\nAdorn yourself with unique pieces that showcase Rwandan design and craftsmanship.\n\n- Handcrafted necklaces, bracelets, and earrings\n- Pieces featuring local materials like cow horn and volcanic stone\n- Modern interpretations of traditional Rwandan jewelry designs\n\n### 4. Home Decor\n\nTransform your living space with authentic Rwandan decor items.\n\n- Imigongo art pieces (traditional cow dung paintings)\n- Handmade ceramics and pottery\n- Woven grass mats and wall hangings\n\n### 5. Fashion and Textiles\n\nEmbrace Rwandan style with our collection of clothing and textiles.\n\n- Modern clothing featuring traditional Rwandan patterns\n- Hand-dyed fabrics and scarves\n- Bespoke tailoring services using authentic Rwandan textiles\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](b2c-offerings_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\n## Featured Artisans\n\nWe work directly with talented Rwandan artisans to bring you authentic, high-quality products. Meet some of our featured artisans:\n\n1. [PLACEHOLDER: Artisan Name] - Master Weaver\n2. [PLACEHOLDER: Artisan Name] - Coffee Roaster\n3. [PLACEHOLDER: Artisan Name] - Jewelry Designer\n\n## Customer Testimonials\n\n\"The quality of the Rwandan coffee I purchased is outstanding. It's now a staple in my morning routine!\" - [PLACEHOLDER: Customer Name]\n\n\"I love the unique Agaseke basket I bought. It's a beautiful piece of art and a great conversation starter.\" - [PLACEHOLDER: Customer Name]\n\nExplore our collection and bring a piece of Rwanda into your home today!\n",
+    "supporting": [
+      "b2c-offerings_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

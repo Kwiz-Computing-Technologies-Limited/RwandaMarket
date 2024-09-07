@@ -4,4 +4,4 @@
 .Ruserdata
 shinylive-export.R
 
-/.quarto/
+*.deb

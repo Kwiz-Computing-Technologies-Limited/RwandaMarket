@@ -3,4 +3,5 @@
 .RData
 .Ruserdata
 shinylive-export.R
-*.qmd
+
+/.quarto/

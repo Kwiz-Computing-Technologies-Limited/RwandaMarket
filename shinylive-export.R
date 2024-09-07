@@ -24,6 +24,5 @@ update_github = function(message) {
   system("git push origin dev:dev")
 }
 
-update_github(message = "webr and shinyliver update")
-
+update_github(message = "webr and  update")
 

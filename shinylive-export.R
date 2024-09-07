@@ -5,6 +5,7 @@ library(here)
 # system("sudo dpkg -i quarto-1.5.57-linux-amd64.deb")
 # system("quarto add coatless/quarto-webr")
 # system("quarto add quarto-ext/shinylive")
+# file.remove("quarto-1.5.57-linux-amd64.deb")
 
 # in the qmd yml add:
 # filters:

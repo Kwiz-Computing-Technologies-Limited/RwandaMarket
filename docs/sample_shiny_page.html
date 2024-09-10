@@ -196,12 +196,14 @@ library(shiny)
 library(leaflet)
 
 # Sample data (replace with your actual data)
-species_data &lt;- data.frame(
+data.frame(
   species = c("Species A", "Species B", "Species C"),
   lat = c(37.7749, 40.7128, 34.0522),
   lon = c(-122.4194, -74.0060, -118.2437),
   count = c(50, 30, 40)
-)
+) |&gt; write.csv(file = "my_test.csv")
+
+species_data &lt;- read.csv(file = "my_test.csv")
 
 leafletOutput("leaflet_map")
 

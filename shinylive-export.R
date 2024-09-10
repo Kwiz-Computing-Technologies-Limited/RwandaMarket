@@ -24,4 +24,4 @@ update_github = function(message) {
   system("git push origin dev:dev")
 }
 
-update_github(message = "sample shiny page?")
+update_github(message = "sample shiny page? data file resource in yml header")
